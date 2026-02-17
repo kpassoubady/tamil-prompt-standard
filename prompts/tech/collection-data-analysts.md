@@ -35,7 +35,7 @@ When using these prompts, adapt them to the standard format:
 
 ---
 
-## 📑 உள்ளடக்க அட்டவணை (Table of Contents) — AI-யின் உதவியுடன் தரவை பகுப்பாய்வு செய்ய, காட்சிப்படுத்த, அறிக்கை உருவாக்க மற்றும் நுண்ணறிவுகளை வழங்க உதவும் 20 தயாரான கட்டளை மாதிரிகள்.
+## 📑 உள்ளடக்க அட்டவணை (Table of Contents) — AI-யின் உதவியுடன் தரவை பகுப்பாய்வு செய்ய, காட்சிப்படுத்த, அறிக்கை உருவாக்க மற்றும் நுண்ணறிவுகளை வழங்க உதவும் 20 தயாரான கட்டளை மாதிரிகள்
 
 ---
 
@@ -50,6 +50,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவு:** {தரவு விளக்கம் / நெடுவரிசைகள் / மாதிரி வரிகள்}
 >
 > **பகுப்பாய்வு படிகள்:**
+>
 > 1. **தரவுத் தொகுப்புச் சுருக்கம் (Summary):** வரிகள், நெடுவரிசைகள், வகைகள்
 > 2. **விவரணை புள்ளியியல் (Descriptive Stats):** சராசரி, இடையான், நிலை, திட்ட விலக்கம்
 > 3. **விடுபடும் மதிப்புகள் (Missing Values):** எத்தனை? எந்த நெடுவரிசை?
@@ -74,6 +75,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவுத்தளம் (DB):** {MySQL / PostgreSQL / SQL Server / BigQuery}
 >
 > **வழங்க வேண்டியவை:**
+>
 > 1. **SQL வினா:** முழுமையான, இயக்கக்கூடிய (Runnable)
 > 2. **வினா விளக்கம்:** ஒவ்வொரு பகுதியும் (SELECT, JOIN, WHERE, GROUP BY) — தமிழில்
 > 3. **செயல்திறன் குறிப்பு (Performance):** INDEX பரிந்துரை
@@ -92,6 +94,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவு:** {தரவு விளக்கம் / மாதிரி}
 >
 > **சிக்கல்கள் & தீர்வுகள்:**
+>
 > | # | சிக்கல் | உதாரணம் | தீர்வு | குறியீடு |
 > |---|--------|---------|-------|---------|
 > | 1 | விடுபடும் மதிப்புகள் (Missing) | ... | நிரப்புதல் / நீக்குதல் | ... |
@@ -116,6 +119,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவு:** {விளக்கம் / மாதிரி}
 >
 > **படிமுறை:**
+>
 > 1. **கருதுகோள் (Hypothesis):**
 >    - H₀ (Null): ...
 >    - H₁ (Alternative): ...
@@ -140,6 +144,7 @@ When using these prompts, adapt them to the standard format:
 > **நோக்கம் (Purpose):** {ஒப்பீடு / போக்கு / விநியோகம் / உறவு / கலவை}
 >
 > **பரிந்துரைக்கப்படும் வரைபடம்:**
+>
 > | நோக்கம் | வரைபடம் | ஏன்? |
 > |---------|---------|------|
 > | ஒப்பீடு | Bar Chart | ... |
@@ -149,6 +154,7 @@ When using these prompts, adapt them to the standard format:
 > | கலவை | Pie / Stacked Bar | ... |
 >
 > **குறியீட்டு தேவைகள்:**
+>
 > - தலைப்பு + அச்சுப் பெயர்கள் — தமிழில்
 > - வண்ணத் திட்டம் (Color Palette): தொழில்முறையானது
 > - உரை அளவு: படிக்கக்கூடியது
@@ -166,6 +172,7 @@ When using these prompts, adapt them to the standard format:
 > **கருவி (Tool):** {Power BI / Tableau / Google Data Studio / Streamlit}
 >
 > **Dashboard அமைப்பு:**
+>
 > 1. **KPI அட்டைகள் (KPI Cards):** 4-6 முக்கிய அளவீடுகள் (Metrics)
 > 2. **வரைபடங்கள் (Charts):** 4-6 வரைபடங்கள் — வகை + தரவு
 > 3. **வடிகட்டிகள் (Filters):** தேதி, பிரிவு, பகுதி
@@ -188,6 +195,7 @@ When using these prompts, adapt them to the standard format:
 > **கண்டுபிடிப்புகள் (Findings):** {புள்ளிவிவர தரவு}
 >
 > **கதை அமைப்பு (Narrative Structure):**
+>
 > 1. **Hook — கவனம் ஈர்ப்பு:** ஒரு ஆச்சரியமான புள்ளிவிவரம் — 1 வாக்கியம்
 > 2. **சூழல் (Context):** ஏன் இது முக்கியம்? — 2-3 வாக்கியங்கள்
 > 3. **கண்டுபிடிப்பு (Insight):** தரவு என்ன சொல்கிறது? — முக்கிய புள்ளிகள்
@@ -211,6 +219,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவு:** {தரவு விளக்கம்}
 >
 > **அறிக்கை அமைப்பு:**
+>
 > 1. **நிர்வாகச் சுருக்கம் (Executive Summary):** 5 வரிகள் — முக்கிய கண்டுபிடிப்புகள்
 > 2. **நோக்கம் (Objective):** ஏன் இந்தப் பகுப்பாய்வு?
 > 3. **முறையியல் (Methodology):** என்ன செய்தோம்?
@@ -232,10 +241,12 @@ When using these prompts, adapt them to the standard format:
 > "'{துறை / வணிகம் — எ.கா., SaaS / மின்வணிகம் / உற்பத்தி / கல்வி}' க்கான 10 முக்கிய செயல்திறன் குறிகாட்டிகளை (KPIs) வரையறுக்கவும்:
 >
 > **ஒவ்வொன்றுக்கும்:**
+>
 > | # | KPI | தமிழ் பெயர் | சூத்திரம் (Formula) | இலக்கு (Target) | தரவு மூலம் | அளவீட்டு வேளை |
 > |---|-----|-----------|-------------------|--------------|----------|-------------|
 >
 > **கூடுதல்:**
+>
 > - ஒவ்வொன்றும் ஏன் முக்கியம் (Why It Matters) — 1 வாக்கியம்
 > - எப்போது எச்சரிக்கை (Alert Threshold) — சிவப்பு / மஞ்சள் / பச்சை
 > - Dashboard-ல் காட்சிப்படுத்தும் முறை (Visualization Type)"
@@ -255,6 +266,7 @@ When using these prompts, adapt them to the standard format:
 > **இலக்கு (Destination):** {Data Warehouse / Dashboard / Report}
 >
 > **Pipeline:**
+>
 > 1. **Extract:** என்ன தரவு, எப்படி எடுப்பது?
 >    - இணைப்பு (Connection) விவரம்
 >    - வேளை (Schedule): Cron expression
@@ -280,10 +292,12 @@ When using these prompts, adapt them to the standard format:
 > **தேவை:** '{என்ன செய்ய வேண்டும் — எ.கா., பல நிபந்தனை வடிகட்டல், தானியக்க அறிக்கை, Pivot தரவு}'
 >
 > **ஒவ்வொரு சூத்திரத்திற்கும்:**
+>
 > | # | செயல் | சூத்திரம் | விளக்கம் (தமிழ்) | உதாரணம் |
 > |---|------|---------|----------------|---------|
 >
 > **சூத்திர வகைகள்:**
+>
 > - VLOOKUP / XLOOKUP / INDEX-MATCH
 > - SUMIFS / COUNTIFS — பல நிபந்தனை
 > - IF / IFS — நிபந்தனை
@@ -304,10 +318,13 @@ When using these prompts, adapt them to the standard format:
 > **தரவு:** {விளக்கம் / அம்சங்கள் (Features) / இலக்கு மாறி (Target)}
 >
 > **படிமுறை:**
+>
 > 1. **தரவு முன்செயலாக்கம் (Preprocessing):** Encoding, Scaling, Splitting
 > 2. **மாதிரி தேர்வு (Model Selection):**
+>
 >    | மாதிரி | நன்மை | தீமை | பொருத்தம் |
 >    |--------|------|------|---------|
+>
 > 3. **பயிற்சி + மதிப்பீடு (Training + Evaluation):**
 >    - Accuracy, Precision, Recall, F1, AUC-ROC
 >    - Confusion Matrix
@@ -350,6 +367,7 @@ When using these prompts, adapt them to the standard format:
 > "'{வணிகம்}' க்கான வாடிக்கையாளர் பகுப்பாய்வை செய்யும் கட்டமைப்பை உருவாக்குக:
 >
 > **பகுப்பாய்வு வகைகள்:**
+>
 > 1. **RFM பகுப்பாய்வு (Recency-Frequency-Monetary):**
 >    - எப்படி மதிப்பெண் அளிப்பது? — விரிவான விளக்கம்
 >    - Python குறியீடு — pandas பயன்படுத்தி
@@ -375,6 +393,7 @@ When using these prompts, adapt them to the standard format:
 > **காலம்:** {மாத / காலாண்டு / வருட}
 >
 > **பகுப்பாய்வு:**
+>
 > 1. **போக்கு பகுப்பாய்வு (Trend Analysis):** முந்தைய காலம் comparison
 > 2. **விகிதங்கள் (Ratios):** Gross Margin, Net Margin, ROI, EBITDA
 > 3. **வேறுபாடு பகுப்பாய்வு (Variance Analysis):** பட்ஜெட் vs. உண்மை — விளக்கம்
@@ -394,6 +413,7 @@ When using these prompts, adapt them to the standard format:
 > "'{தரவுத்தொகுப்பு / அமைப்பு}' க்கான தரவுத் தர மதிப்பீட்டு அறிக்கையை (Data Quality Assessment) உருவாக்குக:
 >
 > **தரப் பரிமாணங்கள் (Quality Dimensions):**
+>
 > | பரிமாணம் | மதிப்பெண் (%) | சிக்கல் | விளக்கம் |
 > |----------|-------------|-------|---------|
 > | முழுமை (Completeness) | | | Missing values |
@@ -404,6 +424,7 @@ When using these prompts, adapt them to the standard format:
 > | செல்லுபடி (Validity) | | | Format violations |
 >
 > **ஒவ்வொன்றுக்கும்:**
+>
 > - கண்டறிதல் SQL / Python குறியீடு
 > - சரிசெய்தல் (Remediation) திட்டம்
 > - தடுப்பு (Prevention) நடவடிக்கைகள்
@@ -420,10 +441,12 @@ When using these prompts, adapt them to the standard format:
 > "'{தரவுத்தளம் / அட்டவணை}' க்கான விரிவான தரவு அகராதியை (Data Dictionary) உருவாக்குக:
 >
 > **ஒவ்வொரு நெடுவரிசைக்கும்:**
+>
 > | # | நெடுவரிசை | தமிழ் பெயர் | வகை | விளக்கம் | மாதிரி | கட்டுப்பாடு | மூலம் |
 > |---|----------|----------|-----|---------|-------|----------|------|
 >
 > **கூடுதல்:**
+>
 > - வணிக விதிகள் (Business Rules): 5
 > - உறவுகள் (Relationships): FK விளக்கம்
 > - தரவு வரிசை (Data Lineage): எங்கிருந்து வருகிறது?
@@ -482,8 +505,10 @@ When using these prompts, adapt them to the standard format:
 >
 > 1. **நோக்கம் (Objective):** 3 புள்ளிகள்
 > 2. **நிலைகள் (Phases):**
+>
 >    | # | நிலை | காலம் | பணிகள் | வளங்கள் | வெளியீடு (Deliverable) |
 >    |---|------|------|-------|---------|---------------------|
+>
 > 3. **தொழில்நுட்ப அடுக்கு (Tech Stack):** கருவிகள் + விளக்கம் + தேர்வுக் காரணம்
 > 4. **அபாயங்கள் (Risks):** 5 அபாயங்கள் + தணிப்பு நடவடிக்கைகள் (Mitigation)
 > 5. **வெற்றி அளவீடுகள் (Success Metrics):** 5 KPIs
@@ -507,6 +532,7 @@ When using these prompts, adapt them to the standard format:
 ---
 
 > **தொடர்புடைய ஆவணங்கள்:**
+>
 > - [prompts-developers.md](prompts-developers.md) — டெவலப்பர்களுக்கான கட்டளைகள்
 > - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
 > - [tamil-prompt-engineering-cheatsheet.md](../tamil-prompt-engineering-cheatsheet.md) — விரைவு குறிப்புத் தாள்

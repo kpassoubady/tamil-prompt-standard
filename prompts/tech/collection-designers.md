@@ -47,6 +47,7 @@ When using these prompts, adapt them to the standard format:
 > "'{தயாரிப்பு / செயலி / வலைத்தளம்}' க்கான 3 பயனர் Persona-க்களை (User Personas) உருவாக்குக:
 >
 > **ஒவ்வொன்றுக்கும்:**
+>
 > 1. **பெயர் + புகைப்பட விளக்கம்**
 > 2. **வயது, தொழில், ஊர்** — தமிழ்நாடு சூழல்
 > 3. **குறிக்கோள்கள் (Goals):** 3
@@ -89,6 +90,7 @@ When using these prompts, adapt them to the standard format:
 > **சாதனம்:** {Desktop / Mobile / Both}
 >
 > **பக்க அமைப்பு (Layout):**
+>
 > ```
 > ┌────────────────────────────────────────┐
 > │              Header / Nav              │
@@ -102,6 +104,7 @@ When using these prompts, adapt them to the standard format:
 > ```
 >
 > **ஒவ்வொரு பிரிவுக்கும்:**
+>
 > | பிரிவு | கூறுகள் (Elements) | நடத்தை (Behavior) | முன்னுரிமை |
 > |--------|------------------|------------------|----------|
 >
@@ -118,6 +121,7 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட வலைத்தளம் / செயலியின் {திரைப்பிடிப்பு விளக்கம் / URL} அடிப்படையில் பயன்பாட்டுத் தன்மை மதிப்பாய்வு (Usability Heuristic Review) செய்க:
 >
 > **Nielsen's 10 Heuristics அடிப்படையில்:**
+>
 > | # | Heuristic | தமிழ் பெயர் | மதிப்பெண் (1-5) | சிக்கல் | பரிந்துரை |
 > |---|-----------|-----------|-------------|-------|----------|
 > | 1 | System Status Visibility | நிலை காட்சி | | | |
@@ -154,6 +158,7 @@ When using these prompts, adapt them to the standard format:
 > | 5 | 📱 Mobile | Touch Target 48px | ✅/❌ | ... |
 >
 > **தமிழ் மொழிக்கான சிறப்பு கவனிப்பு:**
+>
 > - தமிழ் எழுத்துரு (Font) அளவும் வாசிப்புத் தன்மையும்
 > - இருமொழி (Bilingual) உள்ளடக்கத்தின் வரிசை
 > - உரை-திசை (Text Direction) — LTR"
@@ -170,6 +175,7 @@ When using these prompts, adapt them to the standard format:
 > "'{பிராண்ட் / தயாரிப்பு}' க்கான ஒரு வடிவமைப்பு அமைப்பை (Design System) வரையறுக்கவும்:
 >
 > 1. **வண்ணப் பட்டை (Color Palette):**
+>
 >    | பெயர் | Hex | பயன்பாடு |
 >    |-------|-----|---------|
 >    | Primary | #... | CTA, Links |
@@ -178,6 +184,7 @@ When using these prompts, adapt them to the standard format:
 >    | + Neutral, Error, Success, Warning
 >
 > 2. **எழுத்துரு (Typography):**
+>
 >    | பயன்பாடு | Font | Size | Weight | Line Height |
 >    |---------|------|------|--------|-------------|
 >    | தமிழ் தலைப்பு | ... | ... | ... | ... |
@@ -205,6 +212,7 @@ When using these prompts, adapt them to the standard format:
 > 3. **பிராண்ட் ஆளுமை:** 5 பண்புகள்
 > 4. **வண்ண விருப்பங்கள்:** 3 வண்ணங்கள் + ஏன்?
 > 5. **லோகோ வகை பரிந்துரை:**
+>
 >    | வகை | உதாரணம் | பொருத்தம் |
 >    |-----|---------|---------|
 >    | Wordmark | Google | ⭐⭐⭐ |
@@ -228,6 +236,7 @@ When using these prompts, adapt them to the standard format:
 > "'{பிராண்ட்}' க்கான சமூக ஊடக வடிவமைப்பு (Social Media Design) வழிகாட்டியை உருவாக்குக:
 >
 > **அளவுகள் (Dimensions):**
+>
 > | தளம் | வகை | அளவு (px) |
 > |------|-----|----------|
 > | Instagram | Post | 1080 x 1080 |
@@ -237,12 +246,14 @@ When using these prompts, adapt them to the standard format:
 > | YouTube | Thumbnail | 1280 x 720 |
 >
 > **வடிவமைப்பு விதிகள் (Design Rules):**
+>
 > - வண்ணம்: Primary — {Hex}, Secondary — {Hex}
 > - எழுத்துரு: தமிழ் — {Font}, ஆங்கிலம் — {Font}
 > - லோகோ இடம்: {மேல் வலது / கீழ் இடது}
 > - உரை இடம்: Safe Zone — நடுவில் 80%
 >
 > **5 போஸ்ட் வகைகளுக்கு மாதிரி அமைப்பு (Template Layout):**
+>
 > - 📸 படம் + மேற்கோள்
 > - 📊 infographic
 > - 💰 offer / விற்பனை
@@ -261,6 +272,7 @@ When using these prompts, adapt them to the standard format:
 > "'{செயலி / வலைத்தளம்}' க்கான UI Microcopy-யை தமிழில் எழுதுக:
 >
 > **பிரிவுகள்:**
+>
 > | # | இடம் | ஆங்கிலம் | தமிழ் | குறிப்பு |
 > |---|------|---------|------|--------|
 > | 1 | Empty State | No items yet | ... | நம்பிக்கையான நடை |
@@ -273,6 +285,7 @@ When using these prompts, adapt them to the standard format:
 > | 8 | Confirmation | Are you sure? | ... | தெளிவான |
 >
 > **UX Writing கொள்கைகள்:**
+>
 > - தெளிவு (Clarity) > புத்தாக்கம் (Cleverness)
 > - குறுகிய (Concise) — 5 சொற்களுக்குள்
 > - பயனருக்கு உதவிகரமான (Helpful)"
@@ -287,6 +300,7 @@ When using these prompts, adapt them to the standard format:
 > "'{செயலி}' க்கான 5-படி Onboarding ஓட்டத்தை (Flow) வடிவமைக்கவும்:
 >
 > **ஒவ்வொரு திரைக்கும்:**
+>
 > | படி | தலைப்பு (தமிழ்) | விளக்கம் (தமிழ்) | காட்சிப் பரிந்துரை | பொத்தான் |
 > |-----|-------------|-------------|---------------|--------|
 > | 1 | வரவேற்பு | ... | ... | அடுத்து |
@@ -296,6 +310,7 @@ When using these prompts, adapt them to the standard format:
 > | 5 | தொடங்கு! | ... | ... | தொடங்குக |
 >
 > **ஒவ்வொரு படியிலும்:**
+>
 > - Skip விருப்பம்: {ஆம் / இல்லை}
 > - Progress Indicator: {Dots / Bar / Steps}
 > - அனிமேஷன் பரிந்துரை"
@@ -312,6 +327,7 @@ When using these prompts, adapt them to the standard format:
 > "'{உணர்வு / தொழில் / பருவம்}' க்கு ஏற்ற 3 வேறுபட்ட வண்ணப் பட்டைகளை (Color Palettes) உருவாக்குக:
 >
 > **ஒவ்வொன்றுக்கும் 5 வண்ணங்கள்:**
+>
 > | வண்ணம் | Hex | RGB | பயன்பாடு | பெயர் (தமிழ்) |
 > |--------|-----|-----|---------|-------------|
 >
@@ -320,6 +336,7 @@ When using these prompts, adapt them to the standard format:
 > **பட்டை 3:** {துணிச்சலான / Bold}
 >
 > **ஒவ்வொன்றுக்கும்:**
+>
 > - வண்ண உளவியல் (Color Psychology) — தமிழ் விளக்கம்
 > - Accessible Contrast Check: AA / AAA
 > - இருள் / ஒளி நிலை (Dark / Light Mode) பொருத்தம்
@@ -335,10 +352,12 @@ When using these prompts, adapt them to the standard format:
 > "2024-2025 வடிவமைப்பு போக்குகளை (Design Trends) தமிழில் சுருக்கவும்:
 >
 > **10 முக்கிய போக்குகள்:**
+>
 > | # | போக்கு (Trend) | தமிழ் விளக்கம் | உதாரண தளம் | {Web / Mobile / Graphic} | பயன்படுத்த ஆலோசனை |
 > |---|--------------|-------------|----------|---------------------|---------------|
 >
 > **ஒவ்வொன்றுக்கும்:**
+>
 > - என்ன? — 2 வரி விளக்கம்
 > - ஏன் பிரபலம்? — 1 வரி
 > - எப்படி பயன்படுத்துவது? — நடைமுறை குறிப்பு
@@ -358,6 +377,7 @@ When using these prompts, adapt them to the standard format:
 > **நோக்கம்:** '{என்ன படம் — எ.கா., தமிழ் பண்டிகை விளக்கம், தொழில்நுட்ப நிறுவன வலைத்தளம், உணவு மெனு}'
 >
 > **5 மாற்று Prompts — ஒவ்வொன்றுக்கும்:**
+>
 > 1. **Prompt (ஆங்கிலம்):** ...
 > 2. **நடை (Style):** Photorealistic / Illustration / Flat / 3D / Watercolor
 > 3. **விளக்கம் (தமிழ்):** என்ன எதிர்பார்க்கலாம்?
@@ -379,6 +399,7 @@ When using these prompts, adapt them to the standard format:
 > "'{வடிவமைப்பு திட்டம்}' க்கான வாடிக்கையாளர் / நிர்வாக சமர்ப்பிப்பு (Design Presentation) ஸ்லைடுகளின் உள்ளடக்கத்தை உருவாக்குக:
 >
 > **8 ஸ்லைடுகள்:**
+>
 > | # | ஸ்லைடு | உள்ளடக்கம் | Speaker Notes (தமிழ்) |
 > |---|--------|----------|---------------------|
 > | 1 | தலைப்பு | திட்டப் பெயர் + லோகோ | ... |
@@ -401,6 +422,7 @@ When using these prompts, adapt them to the standard format:
 > "'{திரை / கூறு}' க்கான Design-to-Development Handoff ஆவணத்தை உருவாக்குக:
 >
 > **வடிவம்:**
+>
 > 1. **கூறு பெயர் (Component Name):** ...
 > 2. **விளக்கம்:** என்ன செய்கிறது?
 > 3. **அளவீடுகள் (Measurements):**
@@ -409,6 +431,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **வண்ணங்கள்:** Hex + CSS Variable Name
 > 5. **எழுத்துரு:** Font, Size, Weight, Line Height, Color
 > 6. **நிலைகள் (States):**
+>
 >    | நிலை | மாற்றம் |
 >    |------|--------|
 >    | Default | ... |
@@ -416,6 +439,7 @@ When using these prompts, adapt them to the standard format:
 >    | Active / Pressed | ... |
 >    | Disabled | ... |
 >    | Error | ... |
+>
 > 7. **அனிமேஷன்:** Duration, Easing, Property
 > 8. **CSS / Tailwind Code:** பூர்த்தி செய்யப்பட்ட குறியீடு"
 
@@ -433,8 +457,10 @@ When using these prompts, adapt them to the standard format:
 > 1. **இலக்கு (Objective):** 3 ஆய்வுக் கேள்விகள்
 > 2. **பங்கேற்பாளர் (Participants):** 5 — தேர்வு அளவுகோல்
 > 3. **பணிகள் (Tasks):** 5 — ஒவ்வொன்றுக்கும்:
+>
 >    | # | பணி | வெற்றி அளவுகோல் | நேர வரம்பு | தீவிரம் |
 >    |---|-----|-------------|---------|--------|
+>
 > 4. **கேள்விகள் (Questions):**
 >    - முன் சோதனை (Pre-test): 3
 >    - பின் சோதனை (Post-test): 5 — SUS Scale
@@ -459,6 +485,7 @@ When using these prompts, adapt them to the standard format:
 > | {மாற்றும் அம்சம்} | ... | ... |
 >
 > **சோதனை விவரங்கள்:**
+>
 > - முதன்மை அளவீடு (Primary Metric): ...
 > - துணை அளவீடு (Secondary): ...
 > - மாதிரி அளவு (Sample Size): ... (நிரூபண சக்தி 80%)
@@ -479,6 +506,7 @@ When using these prompts, adapt them to the standard format:
 > "'{பக்கம் / கூறு}' க்கான Responsive வடிவமைப்பு விவரத்தை உருவாக்குக:
 >
 > **Breakpoints:**
+>
 > | Breakpoint | Width | Layout | Grid | Font Scale |
 > |-----------|-------|--------|------|-----------|
 > | Mobile | < 768px | Stack | 1 col | 14px base |
@@ -486,6 +514,7 @@ When using these prompts, adapt them to the standard format:
 > | Desktop | > 1024px | ... | 3-4 col | 16px base |
 >
 > **ஒவ்வொரு கூறுக்கும் (Component):**
+>
 > | கூறு | Mobile | Tablet | Desktop |
 > |------|--------|--------|---------|
 > | Nav | Hamburger | ... | Full |
@@ -504,6 +533,7 @@ When using these prompts, adapt them to the standard format:
 > "'{பிராண்ட்}' க்கான Design System ஆவணத்தை (Living Document) உருவாக்குக:
 >
 > **பிரிவுகள்:**
+>
 > 1. **கொள்கைகள் (Principles):** 5 வடிவமைப்பு கொள்கைகள் — தமிழ் + ஆங்கிலம்
 > 2. **Tokens:**
 >    - Colors: Semantic (primary, success, error, etc.)
@@ -526,6 +556,7 @@ When using these prompts, adapt them to the standard format:
 > "'{திட்டம்}' க்கான வடிவமைப்பு போர்ட்ஃபோலியோ வழக்கு ஆய்வை (Case Study) எழுதுக:
 >
 > **அமைப்பு:**
+>
 > 1. **தலைப்பு + முக்கிய புகைப்பட விளக்கம்**
 > 2. **சுருக்கம் (Overview):** 3 வாக்கியங்கள் — என்ன, யாருக்கு, எப்போது
 > 3. **சிக்கல் (Problem):** 3 புள்ளிகள் — ஆதாரங்களுடன்
@@ -552,6 +583,7 @@ When using these prompts, adapt them to the standard format:
 ---
 
 > **தொடர்புடைய ஆவணங்கள்:**
+>
 > - [prompts-marketers.md](prompts-marketers.md) — சந்தையாளர்களுக்கான கட்டளைகள்
 > - [prompts-developers.md](prompts-developers.md) — டெவலப்பர்களுக்கான கட்டளைகள்
 > - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
