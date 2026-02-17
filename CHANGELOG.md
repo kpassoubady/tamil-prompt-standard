@@ -23,6 +23,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-02-17
+
+### Added
+
+- **New Domains**: Added comprehensive prompt collections for:
+  - Agriculture & Rural Development (`/prompts/agriculture/`)
+  - Daily Life (`/prompts/daily/`)
+  - Education & Learning (`/prompts/edu/`)
+  - Employment & Career (`/prompts/employment/`)
+  - Health & Wellness (`/prompts/health/`)
+  - Law & Governance (`/prompts/law/`)
+- **Documentation**: 
+  - Updated root `README.md` with detailed sections for all 9 domains.
+  - Added individual `README.md` files for each new domain subdirectory.
+- **CI/CD**: Fixed GitHub Actions workflow permissions for automated linting fixes.
+
+### Changed
+
+- Expanded `README.md` "Quick Stats" to reflect 38+ files and 700+ prompts.
+- Reorganized `README.md` structure to better categorize prompt collections.
+
+---
+
 ## [1.0.0] - 2026-02-17
 
 ### Added

@@ -123,3 +123,4 @@ Before saving a prompt file, verify:
 - [ ] Tone matches target audience
 - [ ] Example input/output provided
 - [ ] Bilingual (Tamil + English) where appropriate
+- [ ] Score against quality rubric: [.agent/rules/quality-rubric.md](../../.agent/rules/quality-rubric.md) — all 5 mandatory categories must pass
