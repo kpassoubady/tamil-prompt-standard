@@ -21,6 +21,7 @@ When reporting a vulnerability, please include:
 ### Response Timeline
 
 We will:
+
 - Acknowledge receipt within **48 hours**
 - Provide initial assessment within **7 days**
 - Work with you on a resolution timeline
@@ -71,6 +72,7 @@ We will:
 ## Vulnerability Disclosure
 
 Once a vulnerability is fixed:
+
 1. A new release will be issued
 2. The fix will be documented in CHANGELOG.md
 3. Security advisories will be published on GitHub (if applicable)
@@ -92,12 +94,14 @@ We use the following practices to ensure supply chain security:
 ## Scope of This Policy
 
 This security policy applies to:
+
 - ✅ GitHub repository code and documentation
 - ✅ Prompt files and collections
 - ✅ Build and deployment workflows
 - ✅ Community contributions
 
 **Out of Scope:**
+
 - ❌ Security of downstream consumers using our prompts
 - ❌ AI model security (responsibility of model providers like OpenAI, Claude, etc.)
 - ❌ Third-party integrations
