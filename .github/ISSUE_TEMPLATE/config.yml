@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Project Documentation
+    url: https://github.com/kpassoubady/tamil-prompt-standard
+    about: "Learn more about the Tamil Prompt Standard framework"
+  - name: 💬 Community Discussions
+    url: https://github.com/kpassoubady/tamil-prompt-standard/discussions
+    about: "Join discussions with the community"
+  - name: 🛡️ Report Security Issue
+    url: mailto:security@tamil-prompt-standard.dev
+    about: "Found a security vulnerability? Email us privately"
