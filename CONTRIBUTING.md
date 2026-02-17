@@ -42,6 +42,28 @@ We welcome contributions from the community! Whether you are a prompt engineer, 
 
 ---
 
+## Prompt Review Process
+
+Every prompt PR is reviewed against the project's quality rubric before merging.
+
+### How it works
+
+1. A reviewer follows the [Prompt Review Checklist](.agent/workflows/review-prompt.md) — a 6-step process covering taxonomy, safety, Tamil language quality, content, and testing.
+2. The prompt is scored using the [Quality Rubric](.agent/rules/quality-rubric.md) — 8 categories total.
+3. **All 5 mandatory categories must pass** for the prompt to be accepted:
+   - Taxonomy Completeness
+   - Safety Compliance
+   - Tamil Language Quality
+   - Prompt Clarity
+   - Cultural Appropriateness
+4. The 3 recommended categories (Examples & Testability, Structure & Naming, Reusability) are encouraged but not blocking.
+
+### Safety is non-negotiable
+
+A failure in Safety Compliance (Category 2) results in **automatic rejection**. Healthcare, legal, and finance prompts must include the appropriate Tamil disclaimer.
+
+---
+
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).

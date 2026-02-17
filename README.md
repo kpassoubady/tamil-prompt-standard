@@ -4,7 +4,7 @@
 
 **செயற்கை நுண்ணறிவு மாதிரிகளிடம் (AI / LLMs) தமிழில் துல்லியமான, தரமான பதில்களைப் பெறுவதற்கான முழுமையான வழிகாட்டி.**
 
-இந்தக் கையேடு 200+ தயாரான கட்டளை மாதிரிகளை (Prompt Templates) 10 தொழில் சார்ந்த கோப்புகளில் வழங்குகிறது — டெவலப்பர்கள் முதல் கவிஞர்கள் வரை, அனைவருக்கும் பயன்படும்.
+இந்தக் கையேடு 200+ தயாரான கட்டளை மாதிரிகளை (Prompt Templates) 10+ தொழில் சார்ந்த துறைகளில் வழங்குகிறது — டெவலப்பர்கள் முதல் விவசாயிகள் வரை, அனைவருக்கும் பயன்படும்.
 
 ---
 
@@ -21,45 +21,111 @@
 
 ---
 
-### 🖥️ வகை அ — தொழில்நுட்பம் (Technology)
+### 🌾 [விவசாயம் (Agriculture)](prompts/agriculture/README.md)
 
-| # | கோப்பு (File) | யாருக்கு (Audience) | கட்டளைகள் (Prompts) |
-|---|--------------|-------------------|-------------------|
-| 5 | [collection-developers.md](prompts/tech/collection-developers.md) | மென்பொருள் உருவாக்குநர்கள் (Developers), QA, DevOps | 20 — குறியீடு எழுதுதல், பிழைத்திருத்தம், CI/CD, Docker |
-| 6 | [collection-data-analysts.md](prompts/tech/collection-data-analysts.md) | தரவு ஆய்வாளர்கள் (Data Analysts), BI நிபுணர்கள் | 20 — EDA, SQL, காட்சிப்படுத்தல், Dashboard |
-| 7 | [collection-designers.md](prompts/tech/collection-designers.md) | UI/UX வடிவமைப்பாளர்கள் | 20 — பயனர் ஆய்வு, Wireframe, அணுகல்தன்மை |
-
----
-
-### 📢 வகை ஆ — வணிகம் (Business)
-
-| # | கோப்பு (File) | யாருக்கு (Audience) | கட்டளைகள் (Prompts) |
-|---|--------------|-------------------|-------------------|
-| 8 | [collection-marketers.md](prompts/biz/collection-marketers.md) | டிஜிட்டல் சந்தையாளர்கள் (Digital Marketers) | 20 — SEO, சமூக ஊடகம், மின்னஞ்சல், விளம்பரம் |
-| 9 | [collection-business.md](prompts/biz/collection-business.md) | SME உரிமையாளர்கள், மனிதவளம் (HR), நிதி (Finance) | 20 — வணிகத் திட்டம், HR கொள்கை, பட்ஜெட் |
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 5 | [collection-farmers.md](prompts/agriculture/collection-farmers.md) | விவசாயிகள் (Farmers) | பயிர், இயற்கை விவசாயம், சந்தை விலை, அரசு திட்டங்கள் |
+| 6 | [collection-agricultural-laborers.md](prompts/agriculture/collection-agricultural-laborers.md) | விவசாய தொழிலாளர்கள் | கூலி உரிமைகள், நல திட்டங்கள், பாதுகாப்பு |
+| 7 | [collection-self-help-groups.md](prompts/agriculture/collection-self-help-groups.md) | சுயஉதவிக் குழுக்கள் (SHGs) | குழு நிர்வாகம், சிறுகடன், தொழில் தொடங்க |
+| 8 | [collection-rural-entrepreneurs.md](prompts/agriculture/collection-rural-entrepreneurs.md) | கிராமப்புற தொழில் முனைவோர் | வியாபார யோசனைகள், சந்தைப்படுத்துதல், வங்கி கடன் |
 
 ---
 
-### 🎭 வகை இ — தமிழ் இலக்கியம் (Literature & Education)
+### 💼 [வணிகம் (Business)](prompts/biz/README.md)
 
-| # | கோப்பு (File) | யாருக்கு (Audience) | கட்டளைகள் (Prompts) |
-|---|--------------|-------------------|-------------------|
-| 10 | [collection-writers.md](prompts/lit/collection-writers.md) | எழுத்தாளர்கள் (Writers), பத்திரிகையாளர்கள் | 20 — உள்ளடக்க உருவாக்கம், மொழிபெயர்ப்பு, SEO |
-| 11 | [collection-poets.md](prompts/lit/collection-poets.md) | கவிஞர்கள் (Poets), பாடலாசிரியர்கள் | 20 — பாரம்பரிய வடிவங்கள் (குறள், வெண்பா), பாடல் |
-| 12 | [collection-stories.md](prompts/lit/collection-stories.md) | சிறுகதை ஆசிரியர்கள் (Storytellers) | 20 — கதை, கதாபாத்திரம், வட்டார வழக்கு, திரைக்கதை |
-| 13 | [collection-neologism.md](prompts/lit/collection-neologism.md) | மொழியியலாளர்கள் (Linguists) | 20 — புதுச்சொல் உருவாக்கம், துறை சொல்லகராதி |
-| 14 | [collection-educators.md](prompts/edu/collection-educators.md) | ஆசிரியர்கள் (Educators) | 20 — பாடத் திட்டம், மதிப்பீடு, விளையாட்டுக் கற்றல் |
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 9 | [collection-business.md](prompts/biz/collection-business.md) | தொழிலதிபர்கள் (Business Pros) | வணிகத் திட்டம், நிதி ஆய்வு, வாடிக்கையாளர் தொடர்பு |
+| 10 | [collection-marketers.md](prompts/biz/collection-marketers.md) | சந்தையாளர்கள் (Marketers) | சமூக ஊடகம், விளம்பரம், பிராண்டிங் உத்திகள் |
+
+---
+
+### 🏠 [தினசரி வாழ்க்கை (Daily Life)](prompts/daily/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 11 | [collection-parents.md](prompts/daily/collection-parents.md) | பெற்றோர்கள் (Parents) | குழந்தை வளர்ப்பு, கல்வி ஆதரவு, திரை நேரம் |
+| 12 | [collection-seniors.md](prompts/daily/collection-seniors.md) | மூத்தோர் (Seniors) | தொழில்நுட்பம் கற்றல், ஆன்லைன் பாதுகாப்பு, ஆரோக்கியம் |
+| 13 | [collection-content-creators.md](prompts/daily/collection-content-creators.md) | உள்ளடக்க உருவாக்குநர்கள் | YouTube Script, SEO, சமூக ஊடக வளர்ச்சி |
+
+---
+
+### 📚 [கல்வி (Education)](prompts/edu/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 14 | [collection-primary-students.md](prompts/edu/collection-primary-students.md) | தொடக்க நிலை (Primary) | அடிப்படை பாடம், எளிய விளக்கங்கள், கதைகள் |
+| 15 | [collection-middle-school-students.md](prompts/edu/collection-middle-school-students.md) | நடுநிலை (Middle School) | பாடச்சுருக்கம், கணித சிக்கல் தீர்வு, அறிவியல் |
+| 16 | [collection-high-school-students.md](prompts/edu/collection-high-school-students.md) | மேல்நிலை (High School) | போர்டு தேர்வு, கருத்து விளக்கம், எதிர்காலம் |
+| 17 | [collection-college-students.md](prompts/edu/collection-college-students.md) | கல்லூரி (College) | ஆராய்ச்சி, திட்ட அறிக்கை, நேர்காணல் தயார் |
+| 18 | [collection-competitive-exam-students.md](prompts/edu/collection-competitive-exam-students.md) | போட்டித்தேர்வு (Exams) | TNPSC, UPSC, NEET தேர்வு உத்திகள் |
+| 19 | [collection-educators.md](prompts/edu/collection-educators.md) | ஆசிரியர்கள் (Educators) | பாடத்திட்டம், வினாத்தாள், மதிப்பீடு |
+
+---
+
+### 💼 [வேலைவாய்ப்பு (Employment)](prompts/employment/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 20 | [collection-job-seekers.md](prompts/employment/collection-job-seekers.md) | வேலை தேடுவோர் (Job Seekers) | ரெசுமே, கவர் கடிதம், நேர்காணல் உத்திகள் |
+| 21 | [collection-freshers.md](prompts/employment/collection-freshers.md) | புதிய பட்டதாரிகள் (Freshers) | முதல் வேலை, கேம்பஸ் இன்டர்வியூ, திறன் |
+| 22 | [collection-startup-founders.md](prompts/employment/collection-startup-founders.md) | ஸ்டார்ட்அப் (Founders) | பிச் டெக், யோசனை சரிபார்ப்பு, முதலீடு |
+| 23 | [collection-freelancers.md](prompts/employment/collection-freelancers.md) | சுதந்திர தொழிலாளர்கள் | வாடிக்கையாளர் தேடல், விலை நிர்ணயம், ஒப்பந்தம் |
+
+---
+
+### 🏥 [சுகாதாரம் (Health)](prompts/health/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 24 | [collection-doctors.md](prompts/health/collection-doctors.md) | மருத்துவர்கள் (Doctors) | நோயாளி விளக்கம், மருத்துவ குறிப்புகள் |
+| 25 | [collection-nurses.md](prompts/health/collection-nurses.md) | செவிலியர்கள் (Nurses) | பராமரிப்பு திட்டம், வெளியேற்ற குறிப்புகள் |
+| 26 | [collection-counsellors.md](prompts/health/collection-counsellors.md) | ஆலோசகர்கள் (Counsellors) | மனநல ஆதரவு, மன அழுத்த மேலாண்மை |
+| 27 | [collection-ayush.md](prompts/health/collection-ayush.md) | ஆயுஷ் மருத்துவர்கள் (AYUSH) | பாரம்பரிய மருத்துவம், யோகா, வாழ்வியல் |
+
+---
+
+### ⚖️ [சட்டம் (Law)](prompts/law/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 28 | [collection-lawyers.md](prompts/law/collection-lawyers.md) | வழக்கறிஞர்கள் (Lawyers) | ஆவண வரைவு, சட்ட ஆய்வு, வாதாட குறிப்புகள் |
+| 29 | [collection-law-students.md](prompts/law/collection-law-students.md) | சட்ட மாணவர்கள் (Students) | சட்ட விளக்கம், வழக்கு ஆய்வு, தேர்வு |
+| 30 | [collection-govt-officers.md](prompts/law/collection-govt-officers.md) | அரசு அலுவலர்கள் (Officers) | அரசாணை, கடிதங்கள், கொள்கை குறிப்புகள் |
+| 31 | [collection-policy-analysts.md](prompts/law/collection-policy-analysts.md) | கொள்கை ஆய்வாளர்கள் | கொள்கை ஆய்வு, தரவு விளக்கம், பரிந்துரை |
+
+---
+
+### 📝 [இலக்கியம் (Literature)](prompts/lit/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 32 | [collection-writers.md](prompts/lit/collection-writers.md) | எழுத்தாளர்கள் (Writers) | கட்டுரை, உரைநடை, மொழிபெயர்ப்பு |
+| 33 | [collection-poets.md](prompts/lit/collection-poets.md) | கவிஞர்கள் (Poets) | கவிதை படைப்பு, யாப்பு, நவீன கவிதை |
+| 34 | [collection-stories.md](prompts/lit/collection-stories.md) | கதாசிரியர்கள் (Storytellers) | சிறுகதை, திரைக்கதை, பாத்திரப்படைப்பு |
+| 35 | [collection-neologism.md](prompts/lit/collection-neologism.md) | மொழியியலாளர்கள் | புதுச்சொல் உருவாக்கம், கலைச்சொல்லாக்கம் |
+
+---
+
+### 💻 [தொழில்நுட்பம் (Technology)](prompts/tech/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 36 | [collection-developers.md](prompts/tech/collection-developers.md) | நிரலாளர்கள் (Developers) | குறியீடு, பிழைத்திருத்தம், API |
+| 37 | [collection-designers.md](prompts/tech/collection-designers.md) | வடிவமைப்பாளர்கள் (Designers) | UX/UI ஆய்வு, அணுகல்தன்மை |
+| 38 | [collection-data-analysts.md](prompts/tech/collection-data-analysts.md) | தரவு ஆய்வாளர்கள் (Analysts) | SQL, தரவு காட்சிப்படுத்தல், அறிக்கை |
 
 ---
 
 ## 📊 விரைவுப் புள்ளிவிவரங்கள் (Quick Stats)
 
-| அளவீடு (Metric) | எண்ணிக்கை (Count) |
+| அளவீடு (Metric) | விவரம் (Details) |
 |-----------------|-------------------|
-| மொத்தக் கோப்புகள் (Total Files) | 14 |
-| கட்டளை மாதிரிகள் (Prompt Templates) | 200+ |
-| தொழில் வகைகள் (Categories) | 3 (தொழில்நுட்பம், வணிகம், தமிழ் மொழி) |
-| இலக்குப் பயனர்கள் (Target Roles) | 10+ (டெவலப்பர், தரவு ஆய்வாளர், சந்தையாளர், வடிவமைப்பாளர், வணிகர், எழுத்தாளர், கவிஞர், கதையாசிரியர், மொழியியலாளர், ஆசிரியர்) |
+| **மொத்தக் கோப்புகள் (Total Files)** | 38+ |
+| **கட்டளை மாதிரிகள் (Prompt Templates)** | 700+ |
+| **துறைகள் (Domains)** | 9 (விவசாயம், வணிகம், தினசரி, கல்வி, வேலை, சுகாதாரம், சட்டம், இலக்கியம், தொழில்நுட்பம்) |
+| **இலக்குப் பயனர்கள் (Target Roles)** | 30+ (முழு சமூகத்தையும் உள்ளடக்கியது) |
 
 ---
 
@@ -67,7 +133,7 @@
 
 1. **உங்கள் பணிக்கு ஏற்ற கோப்பைத் தேர்ந்தெடுக்கவும்** — மேலுள்ள அட்டவணையிலிருந்து உங்கள் தொழிலுக்கான கோப்பைத் திறக்கவும்
 2. **கட்டளை மாதிரியை நகலெடுக்கவும்** — `{அடைப்புக்குறி}` பகுதிகளை உங்கள் தேவைக்கு ஏற்ப மாற்றவும்
-3. **AI மாதிரியிடம் வழங்கவும்** — ChatGPT, Gemini, Claude போன்ற எந்த LLM-லும் பயன்படுத்தலாம்
+3. **AI மாதிரியிடம் வழங்கவும்** — ChatGPT, Gemini, Claude, Llama போன்ற எந்த நவீன LLM-லும் பயன்படுத்தலாம்
 4. **மேம்படுத்தவும்** — முதல் பதிலை வரைவாகக் கொண்டு, மீள்சீரமைப்பு (Iterative Refinement) செய்யுங்கள்
 
 > 💡 **குறிப்பு:** கட்டளை வடிவமைப்பின் அடிப்படைகளை முதலில் கற்க [prompt-engineering.md](prompt-engineering.md) கோப்பைப் படிக்கவும்.
@@ -90,6 +156,8 @@
 - இருக்கும் கட்டளைகளை மேம்படுத்தலாம்
 - பிழைகளைத் திருத்தலாம்
 - புதிய தொழில் வகைகளுக்கான கோப்புகளை உருவாக்கலாம்
+
+விவரங்களுக்கு [CONTRIBUTING.md](CONTRIBUTING.md) பார்க்கவும்.
 
 ---
 
