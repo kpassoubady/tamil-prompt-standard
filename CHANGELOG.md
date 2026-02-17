@@ -8,17 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-
 - Initial setup of `.github/workflows/` for automated markdown linting
 - Project documentation structure with `.agent/` folder for rules and workflows
 
 ### Changed
-
 - Organized taxonomy framework in `.agent/rules/taxonomy.md`
 - Established file naming conventions in `.agent/rules/file-naming.md`
 
 ### Security
-
 - Added safety guidelines for healthcare, legal, and financial domains in `.agent/rules/safety.md`
 
 ---
@@ -26,7 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-02-17
 
 ### Added
-
 - **Initial Release** of Tamil Prompt Standard framework
 - 8-layer taxonomy for prompt engineering (Role, Domain, Skill Level, Intent, Tone, Format, Constraints, Safety)
 - Comprehensive prompt collection organized by domain:
@@ -43,7 +39,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - License (specify which license you're using)
 
 ### Documentation
-
 - Tamil Prompt Engineering Framework complete
 - Contribution workflow guidelines for new prompts
 - Safety and ethics guidelines for domain-sensitive content
