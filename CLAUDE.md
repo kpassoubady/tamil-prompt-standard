@@ -106,6 +106,21 @@ Follow the workflow in [.agent/workflows/create-new-prompt.md](.agent/workflows/
 
 ---
 
+## When Reviewing Prompts
+
+Follow the workflow in [.agent/workflows/review-prompt.md](.agent/workflows/review-prompt.md)
+
+Before approving any prompt (new or updated), verify:
+
+1. ✅ All 8 taxonomy layers are present and valid
+2. ✅ Safety disclaimers are included for healthcare/legal/finance
+3. ✅ Tamil language quality — grammar, spelling, tone consistency
+4. ✅ File naming and structure follow conventions
+5. ✅ Content is clear, complete, and not duplicated
+6. ✅ Tested with at least one LLM
+
+---
+
 ## Instructions for Claude Code
 
 ### When helping with this project
@@ -118,6 +133,7 @@ Follow the workflow in [.agent/workflows/create-new-prompt.md](.agent/workflows/
    - Pure Tamil (தனித்தமிழ்) vs Tanglish (தமிங்கிலம்) choice affects audience
 5. **Bilingual approach** - Most documentation is bilingual (Tamil + English) for accessibility
 6. **Cultural sensitivity** - Avoid caste, religious, or political bias; respect Tamil culture
+7. **Score prompts using the rubric** - Apply the quality rubric from [.agent/rules/quality-rubric.md](.agent/rules/quality-rubric.md) when reviewing prompts
 
 ### When asked to create/edit prompts
 
