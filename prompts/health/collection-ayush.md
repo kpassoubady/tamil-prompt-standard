@@ -1808,9 +1808,9 @@
 > **AYUSH மருத்துவர்களுக்கான வழிகாட்டுதல்:**
 > ✓ சமீபத்திய ஆராய்ச்சியை படியுங்கள் (Read Latest Research)
 > ✓ நம்பகமான ஆதாரங்கள் (Credible Sources):
->   - PubMed, Cochrane Library
->   - Journal of Ethnopharmacology
->   - Journal of Ayurveda and Integrative Medicine
+> - PubMed, Cochrane Library
+> - Journal of Ethnopharmacology
+> - Journal of Ayurveda and Integrative Medicine
 > ✓ ஆராய்ச்சி கலந்துரையாடல் (Research Discussion) — சக மருத்துவர்களுடன்
 > ✓ நோயாளிகளுக்கு ஆதார அளவை விளக்குங்கள்
 >
