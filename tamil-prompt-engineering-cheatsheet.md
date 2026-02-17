@@ -381,6 +381,7 @@ AI-யின் பதிலை எந்த வடிவத்தில் வ�
 ---
 
 > **📖 ஆதாரங்கள் (References):**
+>
 > - Prompt Framework Infographic — "How to Master ChatGPT-4o Prompt Framework"
 > - Ekin, S. (2023). "Prompt Engineering for ChatGPT: A Quick Guide to Techniques, Tips, and Best Practices." *Texas Tech University.*
 > - AI Insights by Thannob — "Prompt Engineering Cheat Sheet v.01"

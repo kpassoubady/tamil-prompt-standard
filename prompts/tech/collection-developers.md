@@ -52,6 +52,7 @@ When using these prompts, adapt them to the standard format:
 > **வெளியீடு (Output):** {வகை + விளக்கம்}
 >
 > **கட்டுப்பாடுகள்:**
+>
 > - SOLID கொள்கைகள் பின்பற்றுக
 > - பிழை கையாளுதல் (Error Handling) கட்டாயம்
 > - வகை குறிப்புகள் (Type Hints / Annotations) சேர்க்கவும்
@@ -68,10 +69,12 @@ When using these prompts, adapt them to the standard format:
 > "'{வணிகத் தேவை — எ.கா., பயனர் பதிவு / பொருள் தேடல் / கட்டணம் செலுத்துதல்}' க்கான ஒரு RESTful API-யை வடிவமைக்கவும்:
 >
 > **ஒவ்வொரு இறுதிப்புள்ளிக்கும் (Endpoint):**
+>
 > | HTTP Method | Path | விளக்கம் | Request Body | Response | Status Codes |
 > |-------------|------|---------|-------------|----------|-------------|
 >
 > **கூடுதல் தேவைகள்:**
+>
 > - அங்கீகாரம் (Authentication): {JWT / OAuth / API Key}
 > - வரம்பு கட்டுப்பாடு (Rate Limiting): ✅ / ❌
 > - பதிப்பு (Versioning): /api/v1/...
@@ -92,6 +95,7 @@ When using these prompts, adapt them to the standard format:
 > **தரவுத்தள வகை (DB Type):** {MySQL / PostgreSQL / MongoDB}
 >
 > **ஒவ்வொரு அட்டவணைக்கும் (Table):**
+>
 > - அட்டவணைப் பெயர் (Table Name)
 > - நெடுவரிசைகள் (Columns): பெயர், வகை, கட்டுப்பாடுகள் (Constraints)
 > - முதன்மை விசை (Primary Key)
@@ -99,6 +103,7 @@ When using these prompts, adapt them to the standard format:
 > - குறியீடுகள் (Indexes)
 >
 > **மேலும்:**
+>
 > - ER வரைபடம் (ER Diagram) — Mermaid வடிவத்தில்
 > - 5 முக்கிய SQL வினாக்கள் (Queries) — JOIN உதாரணங்கள் உட்பட
 > - இயல்பாக்கம் (Normalization) நிலை: 3NF"
@@ -115,6 +120,7 @@ When using these prompts, adapt them to the standard format:
 > **சூழல் (Context):** {ஏன் இந்த Pattern தேவை — நிஜ உலக உதாரணம்}
 >
 > **வழங்க வேண்டியவை:**
+>
 > 1. **UML வரைபடம்** — Mermaid வடிவத்தில்
 > 2. **குறியீடு** — முழுமையான, இயக்கக்கூடிய (Runnable) குறியீடு
 > 3. **தமிழ் விளக்கம்** — ஒவ்வொரு பகுதிக்கும் \(Component\) விளக்கம்
@@ -133,6 +139,7 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட குறியீட்டில் உள்ள பிழைகளை (Bugs) கண்டறிந்து சரி செய்:
 >
 > **குறியீடு:**
+>
 > ```{மொழி}
 > {பிழையுள்ள குறியீடு}
 > ```
@@ -142,6 +149,7 @@ When using these prompts, adapt them to the standard format:
 > **பிழைச் செய்தி (Error Message):** {இருந்தால்}
 >
 > **பகுப்பாய்வு:**
+>
 > 1. **அடிப்படைக் காரணம் (Root Cause):** ஏன் இந்தப் பிழை?
 > 2. **திருத்தம் (Fix):** சரி செய்யப்பட்ட குறியீடு
 > 3. **விளக்கம்:** என்ன மாற்றினோம், ஏன் — தமிழில்
@@ -158,11 +166,13 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட குறியீட்டை, Clean Code கொள்கைகளின்படி மறுசீரமைக்கவும் (Refactor):
 >
 > **மூலக் குறியீடு:**
+>
 > ```{மொழி}
 > {மறுசீரமைக்க வேண்டிய குறியீடு}
 > ```
 >
 > **மறுசீரமைப்பு வகை:** {கீழ்க்கண்டவற்றில் ஒன்று அல்லது பல}
+>
 > - 🔧 நெடிய செயல்பாடு பிரித்தல் (Extract Method)
 > - 📦 தொகுப்பாக்கம் (Encapsulation)
 > - 🏷️ பெயர் மாற்றம் (Rename for Clarity)
@@ -170,6 +180,7 @@ When using these prompts, adapt them to the standard format:
 > - 📊 சிக்கலளவு குறைப்பு (Reduce Complexity)
 >
 > **வழங்க வேண்டியவை:**
+>
 > - மறுசீரமைக்கப்பட்ட குறியீடு
 > - ஒவ்வொரு மாற்றத்தின் காரணம் (தமிழில் விளக்கம்)
 > - முன்-பின் ஒப்பீடு (Before vs. After)"
@@ -184,11 +195,13 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட குறியீட்டின் செயல்திறனை (Performance) பகுப்பாய்வு செய்து மேம்படுத்துக:
 >
 > **குறியீடு:**
+>
 > ```{மொழி}
 > {குறியீடு}
 > ```
 >
 > **பகுப்பாய்வு:**
+>
 > | அம்சம் | தற்போதைய | மேம்பாடு | விளக்கம் |
 > |--------|---------|---------|---------|
 > | நேர சிக்கலளவு (Time) | O(?) | O(?) | ... |
@@ -212,12 +225,14 @@ When using these prompts, adapt them to the standard format:
 > **அம்ச விளக்கம்:** {என்ன செய்கிறது}
 >
 > **சோதனை வழக்கு அட்டவணை:**
+>
 > | # | வழக்கு ID | விளக்கம் | முன் நிபந்தனை | படிகள் | எதிர்பார்ப்பு | முன்னுரிமை | வகை |
 > |---|----------|---------|-------------|-------|-----------|----------|-----|
 > | 1 | TC_001 | ... | ... | 1. ... 2. ... | ... | உயர் | ✅ நேர்மறை |
 > | 2 | TC_002 | ... | ... | ... | ... | நடு | ❌ எதிர்மறை |
 >
 > **வகைகள்:**
+>
 > - ✅ நேர்மறை (Positive) — 5 வழக்குகள்
 > - ❌ எதிர்மறை (Negative) — 5 வழக்குகள்
 > - 🔲 எல்லை (Boundary) — 3 வழக்குகள்
@@ -233,6 +248,7 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட {செயல்பாடு / கிளாஸ்} க்கான Unit Tests எழுதுக:
 >
 > **குறியீடு:**
+>
 > ```{மொழி}
 > {சோதிக்க வேண்டிய குறியீடு}
 > ```
@@ -240,12 +256,14 @@ When using these prompts, adapt them to the standard format:
 > **சோதனை கட்டமைப்பு (Framework):** {pytest / JUnit / Jest / Mocha}
 >
 > **எழுத வேண்டிய சோதனைகள்:**
+>
 > 1. **சாதாரண செயல்பாடு (Happy Path):** 3 சோதனைகள்
 > 2. **பிழை நிலைகள் (Error Cases):** 3 சோதனைகள्
 > 3. **எல்லை மதிப்புகள் (Boundary Values):** 2 சோதனைகள்
 > 4. **Null / Empty இனிலைகள்:** 2 சோதனைகள்
 >
 > **கட்டுப்பாடுகள்:**
+>
 > - AAA முறை: Arrange → Act → Assert
 > - Mock / Stub தேவைப்பட்டால் சேர்க்கவும்
 > - தமிழ் குறிப்புகள் (Tamil Comments) ஒவ்வொரு சோதனைக்கும்
@@ -266,6 +284,7 @@ When using these prompts, adapt them to the standard format:
 > **சோதனைக் காட்சி (Test Scenario):** {விரிவான விளக்கம் — எ.கா., பயனர் உள்நுழைவு → தேடல் → பொருள் கூடை → செலுத்தல்}
 >
 > **உள்ளிட வேண்டியவை:**
+>
 > - Page Object Model (POM) கட்டமைப்பில்
 > - காத்திருப்பு (Waits): Explicit Waits பயன்படுத்துக
 > - சோதனைத் தரவு (Test Data): JSON / CSV கோப்பிலிருந்து
@@ -288,6 +307,7 @@ When using these prompts, adapt them to the standard format:
 > **கருவி:** {GitHub Actions / GitLab CI / Jenkins / Azure DevOps}
 >
 > **Pipeline படிகள் (Stages):**
+>
 > 1. **Build** — சார்புகள் நிறுவுதல் + கட்டமைத்தல்
 > 2. **Test** — Unit + Integration Tests
 > 3. **Lint** — Code Quality சோதனை
@@ -307,6 +327,7 @@ When using these prompts, adapt them to the standard format:
 > "'{பயன்பாடு — விளக்கம்}' க்கான Docker + Kubernetes கட்டமைப்பை உருவாக்குக:
 >
 > **வழங்க வேண்டியவை:**
+>
 > 1. **Dockerfile** — Multi-stage build, optimized அளவு
 > 2. **docker-compose.yml** — உள்ளூர் சூழலுக்கு (Local Development)
 > 3. **Kubernetes Manifests:**
@@ -317,6 +338,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **.dockerignore** — தேவையில்லாத கோப்புகள் தவிர்க்க
 >
 > **சிறந்த நடைமுறைகள் (Best Practices):**
+>
 > - non-root பயனராக இயக்குக
 > - Health Checks சேர்க்கவும்
 > - Resource Limits குறிப்பிடுக
@@ -338,6 +360,7 @@ When using these prompts, adapt them to the standard format:
 > **மொழி:** ஆங்கிலம் (Technical) + தமிழ் (Description)
 >
 > **பிரிவுகள்:**
+>
 > 1. 🏷️ திட்டப் பெயர் + Logo + Badges
 > 2. 📝 திட்ட விளக்கம் (ஆங்கிலம் + தமிழ்)
 > 3. ✨ அம்சங்கள் (Features)
@@ -361,6 +384,7 @@ When using these prompts, adapt them to the standard format:
 > **விளக்கம்:** {என்ன செய்கிறது}
 >
 > **ஆவண வடிவம்:**
+>
 > 1. **விளக்கம் (Description):** தமிழ் + ஆங்கிலம்
 > 2. **Headers:** Authorization, Content-Type
 > 3. **Path Parameters:** அட்டவணை
@@ -384,11 +408,13 @@ When using these prompts, adapt them to the standard format:
 > "கீழ்க்கண்ட குறியீட்டை பாதுகாப்புக் கோணத்தில் (Security Perspective) மதிப்பாய்வு செய்:
 >
 > **குறியீடு:**
+>
 > ```{மொழி}
 > {குறியீடு}
 > ```
 >
 > **சோதிக்க வேண்டிய பாதிப்புகள் (Vulnerabilities):**
+>
 > - 🔴 SQL Injection
 > - 🔴 XSS (Cross-Site Scripting)
 > - 🟡 CSRF (Cross-Site Request Forgery)
@@ -397,6 +423,7 @@ When using these prompts, adapt them to the standard format:
 > - 🟢 OWASP Top 10 — அனைத்தும்
 >
 > **ஒவ்வொரு கண்டுபிடிப்புக்கும்:**
+>
 > | # | தீவிரம் | பாதிப்பு | வரி எண் | விளக்கம் (தமிழ்) | திருத்தம் (Fix) |
 > |---|---------|---------|---------|----------------|------------|
 >
@@ -412,7 +439,9 @@ When using these prompts, adapt them to the standard format:
 > "'{திட்டம் / பயன்பாடு}' க்கான ரகசிய மேலாண்மை (Secrets Management) திட்டத்தை வடிவமைக்கவும்:
 >
 > **பகுப்பாய்வு:**
+>
 > 1. **ரகசியங்கள் பட்டியல் (Secrets Inventory):**
+>
 >    | # | ரகசியம் | வகை | எங்கே பயன்படுகிறது | தற்போதைய நிலை |
 >    |---|--------|-----|-------------------|-------------|
 >
@@ -445,6 +474,7 @@ When using these prompts, adapt them to the standard format:
 > 2. **கட்டமைப்பு வரைபடம் (Architecture Diagram):** Mermaid வடிவத்தில்
 >
 > 3. **கூறுகள் (Components):**
+>
 >    | கூறு | தொழில்நுட்பம் | பொறுப்பு | அளவிடுதல் (Scaling) |
 >    |------|------------|---------|-------------------|
 >
@@ -462,6 +492,7 @@ When using these prompts, adapt them to the standard format:
 > "'{நிரலாக்க மொழி}' திட்டத்திற்கான ஒரு விரிவான குறியீடு மதிப்பாய்வு சரிபார்ப்புப் பட்டியலை (Code Review Checklist) தமிழில் உருவாக்குக:
 >
 > **பிரிவுகள்:**
+>
 > | # | பிரிவு | சரிபார்ப்பு | ✅ / ❌ | குறிப்பு |
 > |---|--------|-----------|--------|--------|
 >
@@ -486,6 +517,7 @@ When using these prompts, adapt them to the standard format:
 > "'{தொழில்நுட்பக் கருத்து — எ.கா., Microservices / Docker / REST vs GraphQL / Git Branching / Async-Await}' என்ற கருத்தை தமிழில் விளக்குக:
 >
 > **வடிவம்:**
+>
 > 1. **ஒரு வரி விளக்கம் (One-liner):** ...
 > 2. **எளிய உவமை (Simple Analogy):** அன்றாட வாழ்க்கை உதாரணம் — தமிழ்ச் சூழலில்
 > 3. **விரிவான விளக்கம் (Detailed):** 2-3 பத்திகள்
@@ -529,6 +561,7 @@ When using these prompts, adapt them to the standard format:
 ---
 
 > **தொடர்புடைய ஆவணங்கள்:**
+>
 > - [prompts-data-analysts.md](prompts-data-analysts.md) — தரவு ஆய்வாளர்களுக்கான கட்டளைகள்
 > - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
 > - [tamil-prompt-engineering-cheatsheet.md](../tamil-prompt-engineering-cheatsheet.md) — விரைவு குறிப்புத் தாள்
