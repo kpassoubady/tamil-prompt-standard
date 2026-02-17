@@ -38,6 +38,7 @@ The following behaviors are considered unacceptable and will not be tolerated:
 ## Enforcement Responsibilities
 
 Project maintainers are responsible for:
+
 - Clarifying and enforcing these standards
 - Taking fair action in response to violations
 - Removing inappropriate content
@@ -79,6 +80,7 @@ Appeals can be submitted with new context to maintainers.
 ## Scope
 
 This Code of Conduct applies to all spaces related to this project, including:
+
 - GitHub repository (issues, discussions, PRs)
 - Pull request reviews and comments
 - Commit messages and documentation
@@ -91,6 +93,7 @@ This Code of Conduct applies to all spaces related to this project, including:
 ## Attribution
 
 This Code of Conduct is adapted from:
+
 - [Contributor Covenant](https://www.contributor-covenant.org/) (v2.1)
 - [Python Community Code of Conduct](https://www.python.org/psf/conduct/)
 - Best practices for open-source communities
