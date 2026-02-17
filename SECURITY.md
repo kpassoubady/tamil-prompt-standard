@@ -110,9 +110,7 @@ This security policy applies to:
 
 ## Additional Resources
 
-- [GitHub Security Documentation](https://docs.github.com/en/security)
 - [OWASP Security Guidelines](https://owasp.org/)
-- [Responsible Disclosure](https://www.eff.org/deeplinks/2016/03/why-good-hackers-disclose-vulnerabilities-responsibly)
 
 ---
 
