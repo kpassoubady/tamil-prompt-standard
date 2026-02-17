@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # Internal reference resources (not for public distribution)
 resources/
+
+# Mac
+.DS_Store

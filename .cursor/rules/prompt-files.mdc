@@ -1,0 +1,125 @@
+---
+description: Rules for creating and editing Tamil prompt files
+globs: prompts/**/*.md
+alwaysApply: false
+---
+
+# Tamil Prompt File Standards
+
+# தமிழ் கட்டளை கோப்பு தரநிலைகள்
+
+Rules that apply when working with prompt files in the `/prompts/` directory.
+
+---
+
+## File Naming Validation
+
+All prompt files **MUST** follow this pattern:
+
+```
+ROLE-DOMAIN-SKILL-INTENT-TONE.md
+```
+
+### Components Breakdown
+
+- **ROLE**: `student`, `doctor`, `teacher`, `farmer`, `developer`, etc.
+- **DOMAIN**: `edu`, `health`, `agri`, `tech`, `law`, `biz`, etc.
+- **SKILL**: `beg`, `int`, `adv`, `exp`, `g1-g5`, `g6-g12`, etc.
+- **INTENT**: `expl`, `summ`, `draf`, `anal`, `trns`, `crea`, `plan`
+- **TONE**: `formal`, `casual`, `academic`, `poetic`, `simple`, `pure`, `tanglish`
+
+### Examples
+
+✅ **CORRECT:**
+- `student-edu-g6-expl-simple.md`
+- `doctor-health-exp-draf-formal.md`
+- `farmer-agri-beg-expl-casual.md`
+
+❌ **INCORRECT:**
+- `student-education-grade6-explanation.md` (too verbose, wrong format)
+- `prompt-1.md` (missing taxonomy structure)
+- `doctor-health.md` (missing skill, intent, tone)
+
+---
+
+## Prompt File Structure
+
+Every prompt file must include:
+
+```markdown
+### Prompt ID: {DEPT}-{ROLE}-{INTENT}-{NUM}
+
+**Role:** {Role Name}
+**Domain:** {Domain Name}
+**Skill Level:** {Target Audience}
+**Intent:** {Intent Code} ({Intent Name})
+**Tone:** {Tone Style}
+**Format:** {Output Format}
+
+**Context/Instruction:**
+{Detailed instruction in Tamil/English}
+
+**Constraints:**
+- {Constraint 1}
+- {Constraint 2}
+
+**Safety/Disclaimer:**
+{Safety Note}
+
+**Example Input:**
+"{User Question}"
+
+**Example Output:**
+"{AI Response}"
+```
+
+---
+
+## Safety Layer (L8) - Required
+
+**Never skip the safety layer!** Every prompt must include appropriate disclaimers:
+
+### Healthcare Domain
+```
+⚠️ **Safety/Disclaimer:**
+இவை தகவல் மற்றும் கல்வி நோக்கிற்கானவை மட்டுமே.
+மருத்துவ சிகிச்சைக்காக தகுதிவாய்ந்த மருத்துவரை அணுகவும்.
+```
+
+### Legal Domain
+```
+⚠️ **Safety/Disclaimer:**
+இது சட்ட ஆலோசனை அல்ல. சட்டங்கள் இடத்திற்கு இடம் மாறுபடும்.
+சட்ட ரீதியான நடவடிக்கைகளுக்கு வழக்கறிஞரை அணுகவும்.
+```
+
+### Finance Domain
+```
+⚠️ **Safety/Disclaimer:**
+இது நிதி ஆலோசனை அல்ல. உங்கள் சொந்த ஆராய்ச்சியின்
+அடிப்படையில் முடிவெடுக்கவும்.
+```
+
+---
+
+## Tamil Tone Guidelines
+
+When editing prompts, ensure the Tone (L5) matches the target audience:
+
+- **Formal** (மரியாதை நடை): Use "நீங்கள்", formal verb forms
+- **Casual** (நட்பு நடை): Use "நீ", friendly verb forms
+- **Pure Tamil** (தனித்தமிழ்): Avoid Sanskrit/English loan words
+- **Tanglish** (தமிங்கிலம்): Allow colloquial mix (e.g., "Romba thanks")
+
+---
+
+## Validation Checklist
+
+Before saving a prompt file, verify:
+
+- [ ] File name follows `ROLE-DOMAIN-SKILL-INTENT-TONE.md` pattern
+- [ ] All 8 taxonomy layers are addressed
+- [ ] Safety/Disclaimer (L8) is included
+- [ ] Tone matches target audience
+- [ ] Example input/output provided
+- [ ] Bilingual (Tamil + English) where appropriate

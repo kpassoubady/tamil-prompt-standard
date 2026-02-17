@@ -1,0 +1,164 @@
+# Tamil Prompt Standard - Claude Code Instructions
+
+# தமிழ் AI கட்டளை தரநிலை - Claude வழிகாட்டுதல்கள்
+
+This repository maintains a standardized framework for creating high-quality Tamil prompts for AI systems.
+இந்த களஞ்சியம் AI அமைப்புகளுக்கான உயர்தர தமிழ் கட்டளைகளை உருவாக்க ஒரு தரப்படுத்தப்பட்ட கட்டமைப்பை பராமரிக்கிறது.
+
+---
+
+## Project Overview
+
+**Purpose:** Create a community-driven standard for Tamil prompt engineering that ensures:
+
+- Consistency across all Tamil prompts
+- Cultural and linguistic appropriateness
+- Safety and ethical guidelines
+- Accessibility for various skill levels
+
+**Key Documents:**
+
+- [TAXONOMY.md](TAXONOMY.md) - 8-layer taxonomy framework specification
+- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
+- [README.md](README.md) - Project introduction
+
+---
+
+## Core Framework (Must Follow)
+
+All prompts in this repository **MUST** follow the **8-Layer Taxonomy**:
+
+### The 8 Layers
+
+1. **L1 - Role** (பாத்திரம்): Doctor, Teacher, Student, Farmer, Developer
+2. **L2 - Domain** (துறை): Healthcare, Education, Agriculture, Technology, Law
+3. **L3 - Skill Level** (திறன் நிலை): Beginner, Intermediate, Advanced, Expert, Grade levels
+4. **L4 - Intent** (நோக்கம்): EXPL, SUMM, DRAF, ANAL, TRNS, CREA, PLAN
+5. **L5 - Tone** (தொனி): Formal, Casual, Academic, Poetic, Pure Tamil, Tanglish
+6. **L6 - Format** (வடிவம்): Essay, Table, Bullet Points, Step-by-Step, Code
+7. **L7 - Constraints** (கட்டுப்பாடுகள்): Word limits, language restrictions, style requirements
+8. **L8 - Safety** (பாதுகாப்பு): Disclaimers, ethical guidelines, bias prevention
+
+**Detailed specifications:** See [.agent/rules/taxonomy.md](.agent/rules/taxonomy.md)
+
+---
+
+## File Naming Convention
+
+All prompt files must follow this strict naming pattern:
+
+```
+ROLE-DOMAIN-SKILL-INTENT-TONE.md
+```
+
+**Examples:**
+
+- `student-edu-g6-expl-simple.md` - Grade 6 student explanation in simple Tamil
+- `doctor-health-exp-draf-formal.md` - Doctor drafting patient notes formally
+- `farmer-agri-beg-expl-casual.md` - Beginner farmer getting crop advice casually
+
+**Full specification:** See [.agent/rules/file-naming.md](.agent/rules/file-naming.md)
+
+---
+
+## Safety Requirements (Non-Negotiable)
+
+Every prompt **MUST** include appropriate safety disclaimers:
+
+### Healthcare Prompts
+
+```
+"இவை தகவல் மற்றும் கல்வி நோக்கிற்கானவை மட்டுமே.
+மருத்துவ சிகிச்சைக்காக தகுதிவாய்ந்த மருத்துவரை அணுகவும்."
+```
+
+### Legal Prompts
+
+```
+"இது சட்ட ஆலோசனை அல்ல. சட்டங்கள் இடத்திற்கு இடம் மாறுபடும்.
+சட்ட ரீதியான நடவடிக்கைகளுக்கு வழக்கறிஞரை அணுகவும்."
+```
+
+### Finance Prompts
+
+```
+"இது நிதி ஆலோசனை அல்ல. உங்கள் சொந்த ஆராய்ச்சியின்
+அடிப்படையில் முடிவெடுக்கவும்."
+```
+
+**Full safety guidelines:** See [.agent/rules/safety.md](.agent/rules/safety.md)
+
+---
+
+## When Creating New Prompts
+
+Follow the workflow in [.agent/workflows/create-new-prompt.md](.agent/workflows/create-new-prompt.md)
+
+### Quick Checklist
+
+1. ✅ Define Role, Domain, Skill Level, Intent
+2. ✅ Choose appropriate Tone (critical for Tamil!)
+3. ✅ Add necessary Constraints
+4. ✅ Include Safety layer (L8)
+5. ✅ Name file correctly: `ROLE-DOMAIN-SKILL-INTENT-TONE.md`
+6. ✅ Save in appropriate folder under `/prompts/`
+7. ✅ Test with actual LLM before committing
+
+---
+
+## Instructions for Claude Code
+
+### When helping with this project
+
+1. **Always reference the taxonomy** - Ensure all prompts follow the 8-layer structure
+2. **Validate file names** - Check against the naming convention in `.agent/rules/file-naming.md`
+3. **Safety first** - Never skip the L8 safety layer, especially for healthcare/legal/finance
+4. **Respect Tamil linguistic nuances** - Pay special attention to Tone (L5):
+   - Formal vs Casual register matters significantly in Tamil
+   - Pure Tamil (தனித்தமிழ்) vs Tanglish (தமிங்கிலம்) choice affects audience
+5. **Bilingual approach** - Most documentation is bilingual (Tamil + English) for accessibility
+6. **Cultural sensitivity** - Avoid caste, religious, or political bias; respect Tamil culture
+
+### When asked to create/edit prompts
+
+- Read existing examples in `/prompts/` first to understand patterns
+- Use the template structure from `.agent/rules/taxonomy.md` (lines 120-145)
+- Validate against safety guidelines in `.agent/rules/safety.md`
+- Follow the workflow checklist in `.agent/workflows/create-new-prompt.md`
+
+### Current project structure
+
+```
+/prompts/           - All prompt files (organized by domain)
+/resources/         - Supporting materials
+/docs/              - Additional documentation
+.agent/rules/       - Core framework rules
+.agent/workflows/   - Process guidelines
+```
+
+---
+
+## Important Context
+
+- **Language:** Bilingual (Tamil + English) for accessibility
+- **Target Users:** Tamil speakers of all skill levels (beginners to experts)
+- **Scope:** Education, Healthcare, Agriculture, Technology, Law, Business, and more
+- **Community:** Open-source, community-driven standard
+- **Quality Focus:** Consistency, safety, cultural appropriateness
+
+---
+
+## Git Workflow Notes
+
+- Main branch: `master`
+- Always review changes before committing
+- Commit messages should be descriptive and follow conventional commits style
+- Test prompts with actual LLMs before submitting PRs
+
+---
+
+**For questions or clarifications, refer to:**
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) for contribution process
+- [TAXONOMY.md](TAXONOMY.md) for framework specifications
+- `.agent/rules/` for detailed rule sets
