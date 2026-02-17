@@ -6,9 +6,11 @@ Use those files as the source of truth when creating or editing prompts.
 ## Source of truth
 
 - Workflow: `.agent/workflows/create-new-prompt.md`
+- Review checklist: `.agent/workflows/review-prompt.md`
 - Taxonomy rules: `.agent/rules/taxonomy.md`
 - File naming rules: `.agent/rules/file-naming.md`
 - Safety rules: `.agent/rules/safety.md`
+- Quality rubric: `.agent/rules/quality-rubric.md`
 
 ## Required behavior
 
@@ -18,6 +20,7 @@ When asked to create or revise prompt files:
 2. Enforce taxonomy layers and intent codes from `.agent/rules/taxonomy.md`.
 3. Enforce filename format from `.agent/rules/file-naming.md`.
 4. Apply mandatory safety disclaimers from `.agent/rules/safety.md`.
+5. When reviewing prompts, follow `.agent/workflows/review-prompt.md` and score using `.agent/rules/quality-rubric.md`.
 
 ## Validation before finishing
 

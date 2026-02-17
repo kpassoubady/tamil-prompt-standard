@@ -49,6 +49,25 @@ Or: Relates to #(issue number)
 - [ ] The output meets expectations
 - [ ] No linting errors (markdown correct)
 
+## Quality Rubric Scorecard
+
+> **For prompt PRs:** Reviewers should fill in this scorecard. See the full rubric at [.agent/rules/quality-rubric.md](../.agent/rules/quality-rubric.md).
+
+| # | Category | Status | Notes |
+| :--- | :--- | :--- | :--- |
+| 1 | Taxonomy Completeness | ✅ / ❌ | |
+| 2 | Safety Compliance | ✅ / ❌ | |
+| 3 | Tamil Language Quality | ✅ / ❌ | |
+| 4 | Prompt Clarity | ✅ / ❌ | |
+| 5 | Cultural Appropriateness | ✅ / ❌ | |
+| 6 | Examples & Testability | ✅ / ❌ | |
+| 7 | Structure & Naming | ✅ / ❌ | |
+| 8 | Reusability | ✅ / ❌ | |
+
+**Verdict:** Accepted / Accepted with suggestions / Rejected
+**Reviewer:** {Name}
+**Date:** {YYYY-MM-DD}
+
 ## Checklist
 
 - [ ] I have read the [CONTRIBUTING.md](../CONTRIBUTING.md) guidelines
