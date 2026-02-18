@@ -1,5 +1,5 @@
 {
-  "bookTitle": "கட்டளைத் தமிழ் — The Art of Commanding AI in Tamil",
+  "bookTitle": "The Art of Commanding AI in Tamil",
   "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
   "author": "Kangeyan Passoubady",
   "pageSettings": {
@@ -33,7 +33,7 @@
   "tocSettings": {
     "titleFontSize": 24,
     "subtitleFontSize": 14,
-    "subtitleText": "Table of Contents — உள்ளடக்கம்",
+    "subtitleText": "Table of Contents",
     "entryFontSize": 11,
     "footerFontSize": 9,
     "lineColor": "#CC3300",
@@ -71,20 +71,20 @@
       "staticFormats": ["pdf", "epub"],
       "staticReplacement": {
         "showSummary": true,
-        "summaryText": "விடைகள் (Answers):",
+        "summaryText": "Answers:",
         "addHorizontalRule": true
       }
     }
   },
   "chapters": [
     {
-      "section": "Introduction — அறிமுகம்",
+      "section": "Introduction",
       "files": [
         "README.md"
       ]
     },
     {
-      "section": "Part I: Framework Foundations — கட்டமைப்பு அடிப்படைகள்",
+      "section": "Part I: Framework Foundations",
       "files": [
         "TAXONOMY.md",
         "prompt-engineering.md",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "section": "Part II: Healthcare Prompts — சுகாதார கட்டளைகள்",
+      "section": "Part II: Healthcare Prompts",
       "files": [
         "prompts/health/README.md",
         "prompts/health/collection-doctors.md",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "section": "Part III: Education Prompts — கல்வி கட்டளைகள்",
+      "section": "Part III: Education Prompts",
       "files": [
         "prompts/edu/README.md",
         "prompts/edu/collection-primary-students.md",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "section": "Part IV: Agriculture Prompts — விவசாய கட்டளைகள்",
+      "section": "Part IV: Agriculture Prompts",
       "files": [
         "prompts/agriculture/README.md",
         "prompts/agriculture/collection-farmers.md",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "section": "Part V: Employment Prompts — வேலைவாய்ப்பு கட்டளைகள்",
+      "section": "Part V: Employment Prompts",
       "files": [
         "prompts/employment/README.md",
         "prompts/employment/collection-job-seekers.md",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "section": "Part VI: Law & Governance Prompts — சட்ட & அரசு கட்டளைகள்",
+      "section": "Part VI: Law & Governance Prompts",
       "files": [
         "prompts/law/README.md",
         "prompts/law/collection-lawyers.md",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "section": "Part VII: Daily Life Prompts — தினசரி வாழ்க்கை கட்டளைகள்",
+      "section": "Part VII: Daily Life Prompts",
       "files": [
         "prompts/daily/README.md",
         "prompts/daily/collection-parents.md",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "section": "Part VIII: Technology Prompts — தொழில்நுட்ப கட்டளைகள்",
+      "section": "Part VIII: Technology Prompts",
       "files": [
         "prompts/tech/README.md",
         "prompts/tech/collection-developers.md",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "section": "Part IX: Business Prompts — வணிக கட்டளைகள்",
+      "section": "Part IX: Business Prompts",
       "files": [
         "prompts/biz/README.md",
         "prompts/biz/collection-business.md",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "section": "Part X: Literature & Language Prompts — இலக்கிய & மொழி கட்டளைகள்",
+      "section": "Part X: Literature & Language Prompts",
       "files": [
         "prompts/lit/README.md",
         "prompts/lit/collection-writers.md",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "section": "Appendix A: Framework Rules — கட்டமைப்பு விதிகள்",
+      "section": "Appendix A: Framework Rules",
       "files": [
         ".agent/rules/taxonomy.md",
         ".agent/rules/safety.md",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "section": "Appendix B: Workflows — செயல்முறை வழிகாட்டல்",
+      "section": "Appendix B: Workflows",
       "files": [
         ".agent/workflows/create-new-prompt.md",
         ".agent/workflows/review-prompt.md"
