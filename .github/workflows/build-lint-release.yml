@@ -2,7 +2,7 @@ name: Lint and Release Book
 
 on:
   push:
-    branches: [master, main]
+    branches: [master]
     tags: ['v*'] # Building only occurs when pushing a version tag
 
 jobs:
