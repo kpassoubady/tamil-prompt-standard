@@ -12,7 +12,7 @@ Prevent accidental removal or corruption of critical content blocks during editi
 
 ```markdown
 > [!PROMPT]
-> Prompt content here...
+> Prompt content here---
 ```
 
 **Rules:**
@@ -25,7 +25,7 @@ Prevent accidental removal or corruption of critical content blocks during editi
 
 ````markdown
 ```prompt
-Plain text prompt content here...
+Plain text prompt content here---
 ```
 ````
 
@@ -57,9 +57,9 @@ Each collection file starts with:
 
 ```markdown
 > [!NOTE]
-> **துறை (Domain):** ...
-> **தரநிலை (Standard):** ...
-> **பாதுகாப்பு (Safety):** ...
+> **துறை (Domain):** ---
+> **தரநிலை (Standard):** ---
+> **பாதுகாப்பு (Safety):** ---
 ```
 
 **Rules:**

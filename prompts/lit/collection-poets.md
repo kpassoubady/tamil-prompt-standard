@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** Venba / Haiku / Modern Poetry
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - Rhyme scheme (Edhugai/Monai)
@@ -348,7 +348,7 @@ When using these prompts, adapt them to the standard format:
 >
 > | மூலச் சொல் | மாற்று 1 | மாற்று 2 | மாற்று 3 | பரிந்துரை |
 > |------------|---------|---------|---------|----------|
-> | [சொல்] | ... | ... | ... | சிறந்தது: ... (காரணம்) |
+> | [சொல்] | --- | --- | --- | சிறந்தது: --- (காரணம்) |
 >
 > **மாற்றுச் சொற்கள் ஓசை நயத்தைக் (Sound Quality) கெடுக்கக்கூடாது.**
 

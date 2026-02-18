@@ -64,7 +64,7 @@ Update **both** config files when:
 
 1. **README.md always first** — every domain section starts with its `README.md`
 2. **Relative paths from repo root** — e.g. `prompts/health/collection-doctors.md`
-3. **No absolute paths** — never use `/Users/...` or `~/...`
+3. **No absolute paths** — never use `/Users/---` or `~/---`
 4. **Both configs must be updated** — never update only one
 5. **2-chaps config** — only update its `chapters` array if the change affects the Introduction or Part I/II sections it covers; leave other sections unchanged
 6. **Verify files exist** — confirm the file path exists on disk before adding to config

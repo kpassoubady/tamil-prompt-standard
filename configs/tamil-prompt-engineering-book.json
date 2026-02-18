@@ -110,14 +110,15 @@
     {
       "section": "Introduction",
       "files": [
-        "README.md"
+        "book/book-introduction.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "tamil-handbook-prompt-engineering.md",
-        "tamil-cheatsheet-prompt-engineering.md",
+        "prompt-engineering-basics.md",
+        "prompt-engineering-frameworks.md",
+        "prompt-engineering-techniques.md",
         "tamil-framework-prompt-engineering.md"
       ]
     },
@@ -226,12 +227,27 @@
       ]
     },
     {
+      "section": "Appendix C: Quick Reference Cheatsheet",
+      "files": [
+        "tamil-cheatsheet-prompt-engineering.md"
+      ]
+    },
+    {
       "section": "Appendix D: Prompt Engineering Resources",
       "files": [
-        "prompt-engineering-basics.md",
-        "prompt-engineering-frameworks.md",
-        "prompt-engineering-techniques.md",
         "TAXONOMY.md"
+      ]
+    },
+    {
+      "section": "Appendix E: Prompt Engineering Handbook",
+      "files": [
+        "tamil-handbook-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "files": [
+        "book/AboutAuthors.md"
       ]
     }
   ]

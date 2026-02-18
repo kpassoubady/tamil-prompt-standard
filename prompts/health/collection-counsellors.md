@@ -27,7 +27,7 @@
 **Format:** {வழிகாட்டி / உரையாடல் / பயிற்சி}
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - தீர்ப்பிடாத மொழி (Non-judgmental Language)
@@ -515,7 +515,7 @@
 > **தவிர்க்க வேண்டிய வாக்கியங்கள் (Avoid Saying):**
 >
 > - "நேரம் அனைத்தையும் குணமாக்கும்" (Time heals all)
-> - "குறைந்தபட்சம்..." (At least...)
+> - "குறைந்தபட்சம்---" (At least---)
 > - "இது கடவுளின் திட்டம்" (It's God's plan) — தவிர நபர் நம்பிக்கை கொண்டவராக இருந்தால்
 > - "நீ வலுவாக இருக்க வேண்டும்" (You need to be strong)
 > - "அவர்கள் சிறந்த இடத்தில் உள்ளனர்" (They're in a better place) — உணர்வுகளை செல்லுபடியாக்காது
@@ -530,7 +530,7 @@
 
 ---
 
-**[Continuing with remaining 11 prompts covering: Self-Care & Burnout Prevention, Relationship Counseling, Workplace Mental Health, Crisis Intervention, Mindfulness & Meditation, Positive Psychology, Digital Wellbeing, Sleep Hygiene, Anger Management, Building Self-Esteem, and Mental Health Awareness Campaigns...]**
+**[Continuing with remaining 11 prompts covering: Self-Care & Burnout Prevention, Relationship Counseling, Workplace Mental Health, Crisis Intervention, Mindfulness & Meditation, Positive Psychology, Digital Wellbeing, Sleep Hygiene, Anger Management, Building Self-Esteem, and Mental Health Awareness Campaigns---]**
 
 ---
 

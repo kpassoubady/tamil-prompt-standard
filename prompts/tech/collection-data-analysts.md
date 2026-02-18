@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** SQL / Python / Dashboard Plan
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - No PII (Personally Identifiable Information)
@@ -97,11 +97,11 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | சிக்கல் | உதாரணம் | தீர்வு | குறியீடு |
 > |---|--------|---------|-------|---------|
-> | 1 | விடுபடும் மதிப்புகள் (Missing) | ... | நிரப்புதல் / நீக்குதல் | ... |
-> | 2 | நகல் வரிகள் (Duplicates) | ... | நீக்குதல் | ... |
-> | 3 | தவறான வகை (Type Mismatch) | ... | மாற்றுதல் | ... |
-> | 4 | விலகல்கள் (Outliers) | ... | Cap / நீக்குதல் | ... |
-> | 5 | தரப்படுத்தாமை (Inconsistent) | ... | தரப்படுத்தல் | ... |
+> | 1 | விடுபடும் மதிப்புகள் (Missing) | --- | நிரப்புதல் / நீக்குதல் | --- |
+> | 2 | நகல் வரிகள் (Duplicates) | --- | நீக்குதல் | --- |
+> | 3 | தவறான வகை (Type Mismatch) | --- | மாற்றுதல் | --- |
+> | 4 | விலகல்கள் (Outliers) | --- | Cap / நீக்குதல் | --- |
+> | 5 | தரப்படுத்தாமை (Inconsistent) | --- | தரப்படுத்தல் | --- |
 >
 > **முழு Pipeline குறியீடு** — pandas / dplyr — தமிழ் குறிப்புகளுடன்.
 > **முன்-பின் ஒப்பீடு:** தூய்மைக்கு முன் vs. பின் — தரவு தர (data quality) அளவீடுகள்.
@@ -121,8 +121,8 @@ When using these prompts, adapt them to the standard format:
 > **படிமுறை:**
 >
 > 1. **கருதுகோள் (Hypothesis):**
->    - H₀ (Null): ...
->    - H₁ (Alternative): ...
+>    - H₀ (Null): ---
+>    - H₁ (Alternative): ---
 > 2. **சோதனை தேர்வு (Test Selection):** {t-test / chi-square / ANOVA / regression} — ஏன்?
 > 3. **முன்நிபந்தனைகள் (Assumptions):** சோதிக்கவும்
 > 4. **{Python / R} குறியீடு:** முழுமை — scipy / statsmodels பயன்படுத்தி
@@ -147,11 +147,11 @@ When using these prompts, adapt them to the standard format:
 >
 > | நோக்கம் | வரைபடம் | ஏன்? |
 > |---------|---------|------|
-> | ஒப்பீடு | Bar Chart | ... |
-> | போக்கு | Line Chart | ... |
-> | விநியோகம் | Histogram / Box Plot | ... |
-> | உறவு | Scatter Plot | ... |
-> | கலவை | Pie / Stacked Bar | ... |
+> | ஒப்பீடு | Bar Chart | --- |
+> | போக்கு | Line Chart | --- |
+> | விநியோகம் | Histogram / Box Plot | --- |
+> | உறவு | Scatter Plot | --- |
+> | கலவை | Pie / Stacked Bar | --- |
 >
 > **குறியீட்டு தேவைகள்:**
 >
@@ -377,6 +377,7 @@ When using these prompts, adapt them to the standard format:
 > 3. **CLV (Customer Lifetime Value):** சூத்திரம் + கணக்கீடு
 > 4. **Churn கணிப்பு:** எந்த வாடிக்கையாளர்கள் விலகலாம்?
 > 5. **செயல் திட்டம் (Action Plan):**
+>
 >    | பிரிவு | உத்தி | வேகம் |
 >    |--------|------|------|
 
@@ -463,7 +464,7 @@ When using these prompts, adapt them to the standard format:
 > [!PROMPT]
 > '{தரவு ஆய்வு கருத்து — எ.கா., p-value / A/B Testing / Bayes' Theorem / Correlation vs Causation / Normal Distribution}' கருத்தை தமிழில் விளக்குக:
 >
-> 1. **ஒரு வரி (One-liner):** ...
+> 1. **ஒரு வரி (One-liner):** ---
 > 2. **உவமை (Analogy):** தமிழ் அன்றாட வாழ்க்கை உதாரணம்
 > 3. **கணித விளக்கம் (Mathematical):** சூத்திரம் + எடுத்துக்காட்டு
 > 4. **Python / R உதாரணம்:** குறியீடு + முடிவு

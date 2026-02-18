@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** Wireframe Description / User Flow / Checklist
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - Accessibility standards (WCAG)
@@ -69,11 +69,11 @@ When using these prompts, adapt them to the standard format:
 >
 > | நிலை (Stage) | செயல் (Action) | சிந்தனை (Thinking) | உணர்வு (Emotion) | தொடு புள்ளி (Touchpoint) | வாய்ப்பு (Opportunity) |
 > |-------------|-------------|-----------------|----------------|---------------------|---------------------|
-> | 1. விழிப்புணர்வு | ... | ... | 😊 / 😐 / 😟 | ... | ... |
-> | 2. ஆராய்ச்சி | ... | ... | ... | ... | ... |
-> | 3. முடிவு | ... | ... | ... | ... | ... |
-> | 4. செயல் | ... | ... | ... | ... | ... |
-> | 5. பின் அனுபவம் | ... | ... | ... | ... | ... |
+> | 1. விழிப்புணர்வு | --- | --- | 😊 / 😐 / 😟 | --- | --- |
+> | 2. ஆராய்ச்சி | --- | --- | --- | --- | --- |
+> | 3. முடிவு | --- | --- | --- | --- | --- |
+> | 4. செயல் | --- | --- | --- | --- | --- |
+> | 5. பின் அனுபவம் | --- | --- | --- | --- | --- |
 >
 > **வலி புள்ளிகள் (Pain Points):** 5 — வரிசையில்
 > **வடிவமைப்பு வாய்ப்புகள் (Design Opportunities):** 5
@@ -151,11 +151,11 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | வகை | தேவை | நிலை | சரி செய்ய |
 > |---|-----|------|------|---------|
-> | 1 | 👁️ காட்சி (Visual) | வண்ண மாறுபாடு 4.5:1 | ✅/❌ | ... |
-> | 2 | 👁️ காட்சி | படங்களுக்கு Alt Text | ✅/❌ | ... |
-> | 3 | ⌨️ விசைப்பலகை (Keyboard) | Tab வழிசெலுத்தல் | ✅/❌ | ... |
-> | 4 | 👂 திரை வாசிப்பான் (Screen Reader) | ARIA Labels | ✅/❌ | ... |
-> | 5 | 📱 Mobile | Touch Target 48px | ✅/❌ | ... |
+> | 1 | 👁️ காட்சி (Visual) | வண்ண மாறுபாடு 4.5:1 | ✅/❌ | --- |
+> | 2 | 👁️ காட்சி | படங்களுக்கு Alt Text | ✅/❌ | --- |
+> | 3 | ⌨️ விசைப்பலகை (Keyboard) | Tab வழிசெலுத்தல் | ✅/❌ | --- |
+> | 4 | 👂 திரை வாசிப்பான் (Screen Reader) | ARIA Labels | ✅/❌ | --- |
+> | 5 | 📱 Mobile | Touch Target 48px | ✅/❌ | --- |
 >
 > **தமிழ் மொழிக்கான சிறப்பு கவனிப்பு:**
 >
@@ -178,18 +178,18 @@ When using these prompts, adapt them to the standard format:
 >
 >    | பெயர் | Hex | பயன்பாடு |
 >    |-------|-----|---------|
->    | Primary | #... | CTA, Links |
->    | Secondary | #... | Backgrounds |
->    | Accent | #... | Highlights |
+>    | Primary | #--- | CTA, Links |
+>    | Secondary | #--- | Backgrounds |
+>    | Accent | #--- | Highlights |
 >    | + Neutral, Error, Success, Warning
 >
 > 2. **எழுத்துரு (Typography):**
 >
 >    | பயன்பாடு | Font | Size | Weight | Line Height |
 >    |---------|------|------|--------|-------------|
->    | தமிழ் தலைப்பு | ... | ... | ... | ... |
->    | தமிழ் உரை | ... | ... | ... | ... |
->    | ஆங்கில உரை | ... | ... | ... | ... |
+>    | தமிழ் தலைப்பு | --- | --- | --- | --- |
+>    | தமிழ் உரை | --- | --- | --- | --- |
+>    | ஆங்கில உரை | --- | --- | --- | --- |
 >
 > 3. **இடைவெளி (Spacing):** 4px, 8px, 16px, 24px, 32px, 48px, 64px
 > 4. **பொத்தான்கள் (Buttons):** Primary, Secondary, Ghost, Disabled — நிலைகள்
@@ -275,14 +275,14 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | இடம் | ஆங்கிலம் | தமிழ் | குறிப்பு |
 > |---|------|---------|------|--------|
-> | 1 | Empty State | No items yet | ... | நம்பிக்கையான நடை |
-> | 2 | Error | Something went wrong | ... | உதவிகரமான |
-> | 3 | Success | Done! | ... | உற்சாகமான |
-> | 4 | Loading | Loading... | ... | பொறுமையான |
-> | 5 | 404 Page | Page not found | ... | நகைச்சுவையான |
-> | 6 | Onboarding | Welcome! | ... | வரவேற்பான |
-> | 7 | Permission | Allow access? | ... | நம்பிக்கையான |
-> | 8 | Confirmation | Are you sure? | ... | தெளிவான |
+> | 1 | Empty State | No items yet | --- | நம்பிக்கையான நடை |
+> | 2 | Error | Something went wrong | --- | உதவிகரமான |
+> | 3 | Success | Done! | --- | உற்சாகமான |
+> | 4 | Loading | Loading--- | --- | பொறுமையான |
+> | 5 | 404 Page | Page not found | --- | நகைச்சுவையான |
+> | 6 | Onboarding | Welcome! | --- | வரவேற்பான |
+> | 7 | Permission | Allow access? | --- | நம்பிக்கையான |
+> | 8 | Confirmation | Are you sure? | --- | தெளிவான |
 >
 > **UX Writing கொள்கைகள்:**
 >
@@ -303,11 +303,11 @@ When using these prompts, adapt them to the standard format:
 >
 > | படி | தலைப்பு (தமிழ்) | விளக்கம் (தமிழ்) | காட்சிப் பரிந்துரை | பொத்தான் |
 > |-----|-------------|-------------|---------------|--------|
-> | 1 | வரவேற்பு | ... | ... | அடுத்து |
-> | 2 | முக்கிய அம்சம் 1 | ... | ... | அடுத்து |
-> | 3 | முக்கிய அம்சம் 2 | ... | ... | அடுத்து |
-> | 4 | தனிப்பயனாக்கம் | ... | ... | அடுத்து |
-> | 5 | தொடங்கு! | ... | ... | தொடங்குக |
+> | 1 | வரவேற்பு | --- | --- | அடுத்து |
+> | 2 | முக்கிய அம்சம் 1 | --- | --- | அடுத்து |
+> | 3 | முக்கிய அம்சம் 2 | --- | --- | அடுத்து |
+> | 4 | தனிப்பயனாக்கம் | --- | --- | அடுத்து |
+> | 5 | தொடங்கு! | --- | --- | தொடங்குக |
 >
 > **ஒவ்வொரு படியிலும்:**
 >
@@ -378,12 +378,13 @@ When using these prompts, adapt them to the standard format:
 >
 > **5 மாற்று Prompts — ஒவ்வொன்றுக்கும்:**
 >
-> 1. **Prompt (ஆங்கிலம்):** ...
+> 1. **Prompt (ஆங்கிலம்):** ---
 > 2. **நடை (Style):** Photorealistic / Illustration / Flat / 3D / Watercolor
 > 3. **விளக்கம் (தமிழ்):** என்ன எதிர்பார்க்கலாம்?
 > 4. **தொழில்நுட்பக் குறிப்புகள்:** Aspect Ratio, Lighting, Camera Angle
 >
 > **அட்டவணை:**
+>
 > | # | Prompt | Style | Aspect | Mood | சிறப்பு |
 > |---|--------|-------|--------|------|--------|
 
@@ -402,13 +403,13 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | ஸ்லைடு | உள்ளடக்கம் | Speaker Notes (தமிழ்) |
 > |---|--------|----------|---------------------|
-> | 1 | தலைப்பு | திட்டப் பெயர் + லோகோ | ... |
-> | 2 | சிக்கல் (Problem) | பயனர் வலி புள்ளிகள் | ... |
-> | 3 | ஆய்வு (Research) | Persona + Data | ... |
-> | 4 | தீர்வு (Solution) | Design Direction | ... |
-> | 5-6 | வடிவமைப்பு (Design) | UI Screenshots | ... |
-> | 7 | Prototype | Interactive Demo | ... |
-> | 8 | அடுத்த படிகள் | Timeline + Budget | ... |
+> | 1 | தலைப்பு | திட்டப் பெயர் + லோகோ | --- |
+> | 2 | சிக்கல் (Problem) | பயனர் வலி புள்ளிகள் | --- |
+> | 3 | ஆய்வு (Research) | Persona + Data | --- |
+> | 4 | தீர்வு (Solution) | Design Direction | --- |
+> | 5-6 | வடிவமைப்பு (Design) | UI Screenshots | --- |
+> | 7 | Prototype | Interactive Demo | --- |
+> | 8 | அடுத்த படிகள் | Timeline + Budget | --- |
 >
 > **ஒவ்வொரு ஸ்லைடிலும்:** 20 சொற்களுக்கு மிகாமல் + Speaker Notes 50 சொற்கள்
 
@@ -423,7 +424,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **வடிவம்:**
 >
-> 1. **கூறு பெயர் (Component Name):** ...
+> 1. **கூறு பெயர் (Component Name):** ---
 > 2. **விளக்கம்:** என்ன செய்கிறது?
 > 3. **அளவீடுகள் (Measurements):**
 >    - Width, Height, Padding, Margin — px
@@ -434,11 +435,11 @@ When using these prompts, adapt them to the standard format:
 >
 >    | நிலை | மாற்றம் |
 >    |------|--------|
->    | Default | ... |
->    | Hover | ... |
->    | Active / Pressed | ... |
->    | Disabled | ... |
->    | Error | ... |
+>    | Default | --- |
+>    | Hover | --- |
+>    | Active / Pressed | --- |
+>    | Disabled | --- |
+>    | Error | --- |
 >
 > 7. **அனிமேஷன்:** Duration, Easing, Property
 > 8. **CSS / Tailwind Code:** பூர்த்தி செய்யப்பட்ட குறியீடு
@@ -482,14 +483,14 @@ When using these prompts, adapt them to the standard format:
 >
 > | அம்சம் | Version A (Control) | Version B (Variant) |
 > |--------|--------------------|--------------------|
-> | {மாற்றும் அம்சம்} | ... | ... |
+> | {மாற்றும் அம்சம்} | --- | --- |
 >
 > **சோதனை விவரங்கள்:**
 >
-> - முதன்மை அளவீடு (Primary Metric): ...
-> - துணை அளவீடு (Secondary): ...
-> - மாதிரி அளவு (Sample Size): ... (நிரூபண சக்தி 80%)
-> - சோதனை காலம்: ... வாரங்கள்
+> - முதன்மை அளவீடு (Primary Metric): ---
+> - துணை அளவீடு (Secondary): ---
+> - மாதிரி அளவு (Sample Size): --- (நிரூபண சக்தி 80%)
+> - சோதனை காலம்: --- வாரங்கள்
 > - வெற்றி தீர்மானம் (Success Criteria): p < 0.05
 >
 > **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணமும்.
@@ -510,15 +511,15 @@ When using these prompts, adapt them to the standard format:
 > | Breakpoint | Width | Layout | Grid | Font Scale |
 > |-----------|-------|--------|------|-----------|
 > | Mobile | < 768px | Stack | 1 col | 14px base |
-> | Tablet | 768-1024px | ... | 2 col | 15px base |
-> | Desktop | > 1024px | ... | 3-4 col | 16px base |
+> | Tablet | 768-1024px | --- | 2 col | 15px base |
+> | Desktop | > 1024px | --- | 3-4 col | 16px base |
 >
 > **ஒவ்வொரு கூறுக்கும் (Component):**
 >
 > | கூறு | Mobile | Tablet | Desktop |
 > |------|--------|--------|---------|
-> | Nav | Hamburger | ... | Full |
-> | Hero | ... | ... | ... |
+> | Nav | Hamburger | --- | Full |
+> | Hero | --- | --- | --- |
 > | Cards | 1 per row | 2 per row | 3 per row |
 >
 > **CSS Media Query உதாரணங்கள்:** 3

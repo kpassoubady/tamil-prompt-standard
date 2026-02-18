@@ -30,10 +30,10 @@ Use GitHub Flavored Markdown (GFM) admonition syntax. The bookbuilder handles th
 
 ```markdown
 > [!PROMPT]
-> நீ ஒரு மருத்துவர். {patient_context}க்கு...
+> நீ ஒரு மருத்துவர். {patient_context}க்கு---
 >
-> 1. **முதல் கட்டம்:** ...
-> 2. **இரண்டாம் கட்டம்:** ...
+> 1. **முதல் கட்டம்:** ---
+> 2. **இரண்டாம் கட்டம்:** ---
 ```
 
 Use `[!PROMPT]` when the prompt contains **formatted markdown** (bold, numbered lists, tables).
@@ -189,9 +189,9 @@ Use `---` to separate major sections within a file:
 ### 3. Topic Name
 
 > [!PROMPT]
-> Content...
+> Content---
 
-**பயன்பாடு:** ...
+**பயன்பாடு:** ---
 
 ---
 

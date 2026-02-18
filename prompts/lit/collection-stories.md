@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** Scene / Chapter / Dialogue
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - Character consistency
@@ -315,7 +315,7 @@ When using these prompts, adapt them to the standard format:
 > **வடிவம்:**
 >
 > - 400-600 சொற்கள்
-> - கதையின் தொடக்கம்: 'ஒரு ஊரிலே...' / 'முன்னொரு காலத்திலே...'
+> - கதையின் தொடக்கம்: 'ஒரு ஊரிலே---' / 'முன்னொரு காலத்திலே---'
 > - விலங்குகள் பேசும் உரையாடல்கள் — எளிய, நகைச்சுவையான
 > - கடைசி வரி: நீதி — பழமொழி (Proverb) வடிவில்
 >
@@ -359,7 +359,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **வடிவம்:**
 >
-> - மேடை அமைப்பு விவரணை (Stage Directions): [...]
+> - மேடை அமைப்பு விவரணை (Stage Directions): [---]
 > - கதாபாத்திரம்: உரையாடல்
 > - (குறிப்பு: நடிகர் செய்ய வேண்டிய உடல் மொழி / குரல் மாற்றம்)
 >

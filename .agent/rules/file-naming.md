@@ -110,11 +110,11 @@ All prompts are organized by **Domain** under the `/prompts/` directory.
   │     ├── README.md
   │     ├── collection-doctors.md
   │     ├── collection-nurses.md
-  │     └── ...
+  │     └── ---
   ├── edu/
   │     ├── README.md
   │     ├── collection-primary-students.md
-  │     └── ...
+  │     └── ---
   ├── law/
   ├── tech/
   ├── biz/

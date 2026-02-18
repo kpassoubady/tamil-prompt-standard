@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** Code Block + Explanation
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - Use standard coding limitations
@@ -77,7 +77,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - அங்கீகாரம் (Authentication): {JWT / OAuth / API Key}
 > - வரம்பு கட்டுப்பாடு (Rate Limiting): ✅ / ❌
-> - பதிப்பு (Versioning): /api/v1/...
+> - பதிப்பு (Versioning): /api/v1/---
 > - பிழை பதில் வடிவம் (Error Response Format): JSON உதாரணம்
 > - **OpenAPI / Swagger குறிப்பு** (Specification) சேர்க்கவும்
 >
@@ -204,9 +204,9 @@ When using these prompts, adapt them to the standard format:
 >
 > | அம்சம் | தற்போதைய | மேம்பாடு | விளக்கம் |
 > |--------|---------|---------|---------|
-> | நேர சிக்கலளவு (Time) | O(?) | O(?) | ... |
-> | இட சிக்கலளவு (Space) | O(?) | O(?) | ... |
-> | நினைவக பயன்பாடு (Memory) | ... | ... | ... |
+> | நேர சிக்கலளவு (Time) | O(?) | O(?) | --- |
+> | இட சிக்கலளவு (Space) | O(?) | O(?) | --- |
+> | நினைவக பயன்பாடு (Memory) | --- | --- | --- |
 >
 > **மேம்படுத்தப்பட்ட குறியீடு** + Benchmark ஒப்பீடு
 > **தமிழ் விளக்கம்:** ஒவ்வொரு மேம்பாட்டின் தாக்கம்
@@ -228,8 +228,8 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | வழக்கு ID | விளக்கம் | முன் நிபந்தனை | படிகள் | எதிர்பார்ப்பு | முன்னுரிமை | வகை |
 > |---|----------|---------|-------------|-------|-----------|----------|-----|
-> | 1 | TC_001 | ... | ... | 1. ... 2. ... | ... | உயர் | ✅ நேர்மறை |
-> | 2 | TC_002 | ... | ... | ... | ... | நடு | ❌ எதிர்மறை |
+> | 1 | TC_001 | --- | --- | 1. --- 2. --- | --- | உயர் | ✅ நேர்மறை |
+> | 2 | TC_002 | --- | --- | --- | --- | நடு | ❌ எதிர்மறை |
 >
 > **வகைகள்:**
 >
@@ -518,7 +518,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **வடிவம்:**
 >
-> 1. **ஒரு வரி விளக்கம் (One-liner):** ...
+> 1. **ஒரு வரி விளக்கம் (One-liner):** ---
 > 2. **எளிய உவமை (Simple Analogy):** அன்றாட வாழ்க்கை உதாரணம் — தமிழ்ச் சூழலில்
 > 3. **விரிவான விளக்கம் (Detailed):** 2-3 பத்திகள்
 > 4. **வரைபடம் (Diagram):** Mermaid / ASCII Art

@@ -27,7 +27,7 @@
 **Format:** {குறிப்பு / பட்டியல் / அறிக்கை}
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - தெளிவான, சுருக்கமான ஆவணப்படுத்தல்
@@ -937,7 +937,7 @@
 
 ---
 
-**[தொடர்ந்து பகுதி 2-ல் மீதமுள்ள 10 கட்டளைகள்...]**
+**[தொடர்ந்து பகுதி 2-ல் மீதமுள்ள 10 கட்டளைகள்---]**
 
 _[File continued with prompts 11-20 covering: Patient Safety Protocols, Pre/Post-Operative Nursing Care, Emergency Nursing, Pediatric Nursing, Geriatric Nursing, ICU Nursing, OPD Nursing, Community Nursing, Professional Development, and AI in Nursing Practice]_
 

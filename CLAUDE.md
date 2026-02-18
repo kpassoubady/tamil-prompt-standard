@@ -39,7 +39,7 @@ Full rules: see [.agent/rules/safety.md](.agent/rules/safety.md)
 The bookbuilder renders markdown to PDF and epub. Use the correct constructs:
 
 - Admonitions: `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`, `> [!PROMPT]`
-- Collapsible answers: `<details><summary>...</summary>...</details>`
+- Collapsible answers: `<details><summary>---</summary>---</details>`
 - Plain fences with a language tag (never bare ` ``` ` — use `` ```prompt ``, `` ```bash ``, `` ```markdown ``, etc.)
 
 Full rules: see [.agent/rules/markdown-formatting.md](.agent/rules/markdown-formatting.md)

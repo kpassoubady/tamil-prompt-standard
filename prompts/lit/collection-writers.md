@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** Article / Story / Script
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - Variety in vocabulary
@@ -251,7 +251,7 @@ When using these prompts, adapt them to the standard format:
 > 3. **கால முத்திரைகள் (Timestamps):**
 >    - 00:00 — அறிமுகம்
 >    - {நேரம்} — {தலைப்பு}
->    - ...
+>    - {நேரம்} — {தலைப்பு}
 > 4. **3 சமூக ஊடக மேற்கோள்கள் (Quotable Moments)**
 >
 > **நடை:** தகவல்பூர்வமான ஆனால் ஈர்க்கும் நடையில்.
@@ -292,7 +292,7 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | பிழை வகை | தவறான வடிவம் | சரியான வடிவம் | விளக்கம் |
 > |---|----------|-------------|-------------|---------|
-> | 1 | எ.கா., எழுத்துப் பிழை | ... | ... | ... |
+> | 1 | எ.கா., எழுத்துப் பிழை | --- | --- | --- |
 >
 > **ஆராய வேண்டிய பிழை வகைகள்:**
 >
@@ -384,7 +384,7 @@ When using these prompts, adapt them to the standard format:
 >
 > | வாரம் | தேதி | தலைப்பு | வகை | தளம் | நிலை |
 > |-------|------|---------|-----|------|------|
-> | 1 | ... | ... | கட்டுரை/வீடியோ/இடுகை | Blog/YouTube/Instagram | திட்டமிடப்பட்டது |
+> | 1 | --- | --- | கட்டுரை/வீடியோ/இடுகை | Blog/YouTube/Instagram | திட்டமிடப்பட்டது |
 >
 > **கட்டுப்பாடுகள்:**
 >
