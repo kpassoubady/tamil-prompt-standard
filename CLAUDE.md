@@ -205,7 +205,7 @@ Changes to visual style or handlers should be made in **both**.
 > [!PROMPT]
 > {prompt content with {placeholders}}
 
-**பயன்பாடு (Usage):** {brief description of when/how to use this prompt}
+**பயன்பாடு:** {brief description of when/how to use this prompt}
 
 ---
 
@@ -275,7 +275,15 @@ Apply the scoring rubric from [.agent/rules/quality-rubric.md](.agent/rules/qual
 4. **Respect Tamil linguistic nuances:**
    - Formal vs Casual register differs significantly
    - Pure Tamil (தனித்தமிழ்) vs Tanglish (தமிங்கிலம்) affects audience reach
-5. **Bilingual labels** — use `{Tamil} ({English})` pattern for headings and metadata
+5. **Bilingual labels — use selectively, not by default:**
+   - **Common Tamil words** that any Tamil reader understands need NO English translation in parentheses. Examples of words that stand alone:
+     - Section headings: கட்டுரை சுருக்கம், நீங்களும் முயற்சிக்கவும், குழு விவாதம், உள்ளடக்க அட்டவணை, அறிவு சோதனை, கற்றல் நோக்கங்கள், பொதுவான தவறுகள், காட்சி, வெற்றி அளவுகோல்
+     - Body labels: பயன்பாடு, நேரம், விடை, கேள்வி, நினைவில் கொள்ளவும், முக்கிய கருத்துகள்
+   - **Domain-specific technical terms** that Tamil readers may not recognise DO need English in parentheses:
+     - Medical: SOAP வடிவம் (Subjective, Objective, Assessment, Plan), SBAR, CBT
+     - Tech/AI: இயந்திரக் கற்றல் (Machine Learning), பெரிய மொழி மாதிரி (LLM), Temperature
+     - Legal / Finance jargon, clinical acronyms, scientific terminology
+   - **Structured metadata fields** inside `[!NOTE]` blocks keep `{Tamil} ({English})` as they are template keys shared across languages: `**துறை (Domain):**`, `**பாதுகாப்பு (Safety):**`
 6. **Cultural sensitivity** — avoid caste, religious, or political bias
 7. **Score prompts** using [.agent/rules/quality-rubric.md](.agent/rules/quality-rubric.md)
 
