@@ -15,16 +15,16 @@
 | # | கோப்பு (File) | விளக்கம் (Description) |
 |---|--------------|----------------------|
 | 1 | [prompt-engineering.md](prompt-engineering.md) | கட்டளை வடிவமைப்பு அடிப்படைகள் — CLEAR, CRAFT, AUTOMAT, CATS போன்ற 6+ கட்டமைப்புகள் (Frameworks) |
-| 2 | [tamil-prompt-engineering-cheatsheet.md](tamil-prompt-engineering-cheatsheet.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
-| 3 | [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
-| 4 | [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) | TNC21 ஆய்வு உரைச் சுருக்கம் (Research Abstract) — தமிழ் AI கட்டளை வடிவமைப்புக் கட்டமைப்பின் அடிப்படைத் தத்துவம் |
+| 2 | [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
+| 3 | [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
+| 4 | [tamil-framework-prompt-engineering.md](tamil-framework-prompt-engineering.md) | TNC21 ஆய்வு உரைச் சுருக்கம் (Research Abstract) — தமிழ் AI கட்டளை வடிவமைப்புக் கட்டமைப்பின் அடிப்படைத் தத்துவம் |
 
 > **எந்த வழிகாட்டியைப் படிக்க வேண்டும்? (Which guide should I read?)**
 >
-> - **புதியவர் (Beginner):** Start with [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) — 5 நிமிட அறிமுகம்
-> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-prompt-engineering-cheatsheet.md](tamil-prompt-engineering-cheatsheet.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
+> - **புதியவர் (Beginner):** Start with [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) — 5 நிமிட அறிமுகம்
+> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
 > - **முழுமையான கற்றல் (Deep Dive):** Read [prompt-engineering.md](prompt-engineering.md) — 6+ கட்டமைப்புகள், விரிவான விளக்கங்கள்
-> - **ஆய்வு (Research):** See [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) — TNC21 ஆய்வுக் கட்டமைப்பு
+> - **ஆய்வு (Research):** See [tamil-framework-prompt-engineering.md](tamil-framework-prompt-engineering.md) — TNC21 ஆய்வுக் கட்டமைப்பு
 
 ---
 
@@ -151,7 +151,7 @@
 
 இந்தக் கையேடு **TNC21 / Tamil Research Chair on Artificial Intelligence** ஆய்வின் அடிப்படையில் உருவாக்கப்பட்டது. 27 ஆண்டுகால தகவல் தொழில்நுட்ப அனுபவத்தின் அடிப்படையில், தமிழ் மொழியின் இலக்கண, மரபு, மரியாதை மற்றும் பொருள் நுணுக்கங்களை AI மாதிரிகள் எவ்வாறு உணர்கின்றன என்பதையும், அவற்றைச் செயல்திறனுடன் வழிநடத்துவது எப்படி என்பதையும் ஆராய்கிறது.
 
-முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md)
+முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-framework-prompt-engineering.md](tamil-framework-prompt-engineering.md)
 
 ---
 
