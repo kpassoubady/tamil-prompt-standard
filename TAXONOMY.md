@@ -32,13 +32,15 @@ The standard uses a hierarchical model to ensure consistency:
 
 * **Definition:** What is the topic?
 * **Standard Values:**
-  * `tech` (Technology)
-  * `health` (Healthcare)
-  * `edu` (Education)
-  * `agri` (Agriculture)
-  * `law` (Legal)
-  * `lit` (Literature)
-  * `biz` (Business)
+  * `health` (Healthcare — சுகாதாரம்)
+  * `edu` (Education — கல்வி)
+  * `agriculture` (Agriculture — விவசாயம்)
+  * `tech` (Technology — தொழில்நுட்பம்)
+  * `law` (Legal — சட்டம்)
+  * `biz` (Business — வணிகம்)
+  * `lit` (Literature — இலக்கியம்)
+  * `daily` (Daily Life — தினசரி வாழ்க்கை)
+  * `employment` (Employment & Career — வேலைவாய்ப்பு)
 
 ### L3: Skill Level (திறன் நிலை)
 
@@ -70,6 +72,29 @@ The standard uses a hierarchical model to ensure consistency:
   * `Poetic` (கவித்துவ நடை)
   * `Pure` (தனித்தமிழ்)
 
+### L6: Format (வடிவம்)
+
+* **Definition:** What shape does the output take?
+* **Standard Values:**
+  * `Essay` (கட்டுரை)
+  * `Table` (அட்டவணை)
+  * `Bullet Points` (புள்ளிகள்)
+  * `Step-by-Step` (படிப்படியாக)
+  * `Dialogue` (உரையாடல்)
+  * `Code` (நிரல்)
+  * `JSON` / `Markdown`
+
+### L7: Constraints (கட்டுப்பாடுகள்)
+
+* **Definition:** What limits or fences apply?
+* **Standard Values:**
+  * Word limit (e.g., 200 words max)
+  * No English words (தனித்தமிழ் only)
+  * Include examples
+  * Use simple vocabulary
+  * Grade-specific vocabulary
+  * Tamil Nadu context only
+
 ### L8: Safety (பாதுகாப்பு)
 
 * **Definition:** Mandatory Disclaimers.
@@ -80,6 +105,22 @@ The standard uses a hierarchical model to ensure consistency:
 
 ---
 
-## 3. Implementation Guide
+## 3. Dropped / Deferred Features
 
-For implementation details, seeing the [.agent/rules/taxonomy.md](.agent/rules/taxonomy.md) rule file.
+The following were considered during v0.1 drafting but intentionally excluded from the standard:
+
+| Feature | Layer | Reason |
+| :--- | :--- | :--- |
+| `COMP` (Compare) | L4 - Intent | Subsumed by `ANAL` (Analyze) |
+| `STRU` (Structure) | L4 - Intent | Covered by L6 (Format) layer |
+| `EVAL` (Evaluate) | L4 - Intent | Subsumed by `ANAL` (Analyze) |
+| `Persuasive` | L5 - Tone | Risk of misuse; `Formal` covers most cases |
+| `Government` | L5 - Tone | Merged into `Formal` tone with domain context |
+
+These may be revisited in future versions based on community feedback.
+
+---
+
+## 4. Implementation Guide
+
+For implementation details, see the [.agent/rules/taxonomy.md](.agent/rules/taxonomy.md) rule file.

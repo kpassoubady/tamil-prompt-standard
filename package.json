@@ -1,0 +1,18 @@
+{
+  "name": "tamil-prompt-standard",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Standardized framework for creating high-quality Tamil prompts for AI systems",
+  "license": "CC-BY-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpassoubady/tamil-prompt-standard.git"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.43.0"
+  },
+  "scripts": {
+    "lint": "markdownlint '**/*.md'",
+    "lint:fix": "markdownlint --fix '**/*.md'"
+  }
+}

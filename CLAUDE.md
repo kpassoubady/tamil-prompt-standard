@@ -147,7 +147,6 @@ Before approving any prompt (new or updated), verify:
 ```
 /prompts/           - All prompt files (organized by domain)
 /resources/         - Supporting materials
-/docs/              - Additional documentation
 .agent/rules/       - Core framework rules
 .agent/workflows/   - Process guidelines
 ```

@@ -85,9 +85,9 @@ Add any other context, links, or references that might be helpful.
 ---
 
 **Resources:**
-- 📖 [Taxonomy Rules](./.agent/rules/taxonomy.md)
-- 📝 [File Naming Rules](./.agent/rules/file-naming.md)
-- 🛡️ [Safety Guidelines](./.agent/rules/safety.md)
-- ✍️ [Contributing Guide](./CONTRIBUTING.md)
+- 📖 [Taxonomy Rules](../../.agent/rules/taxonomy.md)
+- 📝 [File Naming Rules](../../.agent/rules/file-naming.md)
+- 🛡️ [Safety Guidelines](../../.agent/rules/safety.md)
+- ✍️ [Contributing Guide](../../CONTRIBUTING.md)
 
 Thank you for contributing! 🙏

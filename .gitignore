@@ -141,5 +141,8 @@ vite.config.ts.timestamp-*
 # Internal reference resources (not for public distribution)
 resources/
 
+# Node.js
+node_modules/
+
 # Mac
 .DS_Store
