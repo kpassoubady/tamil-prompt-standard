@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** டெவலப்பர்கள், தரவு ஆய்வாளர்கள், வடிவமைப்பாளர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/tech/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/tech/README.md)
+> [tech/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/tech/README.md)
 
 ---
 

@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** விவசாயிகள், தொழிலாளர்கள், SHG உறுப்பினர்கள், கிராம தொழில் முனைவோருக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/agriculture/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/agriculture/README.md)
+> [agriculture/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/agriculture/README.md)
 
 ---
 
