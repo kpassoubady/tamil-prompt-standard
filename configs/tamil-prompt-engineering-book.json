@@ -116,8 +116,6 @@
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "TAXONOMY.md",
-        "prompt-engineering.md",
         "tamil-handbook-prompt-engineering.md",
         "tamil-cheatsheet-prompt-engineering.md",
         "tamil-framework-prompt-engineering.md"
@@ -225,6 +223,15 @@
       "files": [
         ".agent/workflows/create-new-prompt.md",
         ".agent/workflows/review-prompt.md"
+      ]
+    },
+    {
+      "section": "Appendix D: Prompt Engineering Resources",
+      "files": [
+        "prompt-engineering-basics.md",
+        "prompt-engineering-frameworks.md",
+        "prompt-engineering-techniques.md",
+        "TAXONOMY.md"
       ]
     }
   ]
