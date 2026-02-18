@@ -1,6 +1,19 @@
 # 📋 கட்டளை வடிவமைப்பு — விரைவு குறிப்புத் தாள் (Prompt Engineering Cheatsheet)
 
-**நோக்கம்:** AI-யிடம் சிறந்த பதில்களைப் பெறுவதற்கான அனைத்து முக்கிய கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks) மற்றும் நுட்பங்களின் (Techniques) ஒரு பக்கக் குறிப்புத் தாள்.
+> [!NOTE]
+> **வகை (Type):** Framework Reference — Prompt Frameworks & Techniques Cheatsheet
+> **தரநிலை (Standard):** [தமிழ் AI கட்டளை தரநிலை](.agent/rules/taxonomy.md)
+> **பயனர்கள் (Audience):** All Tamil AI users — Beginner to Advanced
+
+AI-யிடம் சிறந்த பதில்களைப் பெறுவதற்கான அனைத்து முக்கிய கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks) மற்றும் நுட்பங்களின் (Techniques) ஒரு பக்கக் குறிப்புத் தாள்.
+
+---
+
+> **🎯 கற்றல் நோக்கங்கள் (Learning Objectives)**
+> - APE, RACE, TRACE உள்பட 9 கட்டளைக் கட்டமைப்புகளை (Prompt Frameworks) புரிந்துகொண்டு பயன்படுத்த
+> - செயல் வினைச்சொற்கள், பாத்திரங்கள், தொனிகள், வடிவங்கள் ஆகியவற்றை சரியாகத் தேர்வு செய்ய
+> - மீள்சீரமைப்பு (Iterative Refinement) மற்றும் கட்டளைச் சங்கிலி (Prompt Chaining) நுட்பங்களை திறமையாகப் பயன்படுத்த
+> - பொதுவான கட்டளை தவறுகளை அடையாளம் கண்டு தவிர்க்க
 
 ---
 
@@ -376,7 +389,7 @@ AI-யின் பதிலை எந்த வடிவத்தில் வ�
 | ஆவணம் | விளக்கம் |
 | --- | --- |
 | [prompt-engineering.md](prompt-engineering.md) | கட்டளை வடிவமைப்பின் அடிப்படைகள், CLEAR/CRAFT/CREATE/AUTOMAT/CATS/PROMPT கட்டமைப்புகள், CoT/ToT/DSP/Zero-Shot/PoT நுட்பங்கள் |
-| [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) | நடைமுறை உதாரணங்களுடன் கூடிய தமிழ் AI கட்டளை வழிகாட்டி |
+| [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) | நடைமுறை உதாரணங்களுடன் கூடிய தமிழ் AI கட்டளை வழிகாட்டி |
 
 ---
 
@@ -385,3 +398,43 @@ AI-யின் பதிலை எந்த வடிவத்தில் வ�
 > - Prompt Framework Infographic — "How to Master ChatGPT-4o Prompt Framework"
 > - Ekin, S. (2023). "Prompt Engineering for ChatGPT: A Quick Guide to Techniques, Tips, and Best Practices." *Texas Tech University.*
 > - AI Insights by Thannob — "Prompt Engineering Cheat Sheet v.01"
+
+---
+
+## 📌 அறிவு சோதனை (Knowledge Check)
+
+**கேள்வி 1:** RACE கட்டமைப்பின் நான்கு கூறுகள் யாவை? ஒரு தமிழ் உதாரணம் தருக.
+
+<details>
+<summary>விடை பார்க்க (See Answer)</summary>
+
+RACE = **பாத்திரம் (Role)** → **செயல் (Action)** → **சூழல் (Context)** → **எதிர்பார்ப்பு (Expectation)**.
+
+உதாரணம்: "நீ ஒரு டிஜிட்டல் மார்க்கெட்டிங் நிபுணர். சமூக ஊடகக் கருவிகளின் பட்டியல் தயாரி. பயனர் ஒரு தொடக்கநிலை மார்க்கெட்டர். ஒவ்வொரு கருவியின் விளக்கத்துடன் வழங்குக."
+
+</details>
+
+---
+
+**கேள்வி 2:** Iterative Refinement (மீள்சீரமைப்பு) என்றால் என்ன? எப்போது பயன்படுத்த வேண்டும்?
+
+<details>
+<summary>விடை பார்க்க (See Answer)</summary>
+
+முதல் AI பதிலை இறுதி விடையாக ஏற்காமல், தொடர்ந்து "இன்னும் சுருக்கமாக", "இன்னும் விரிவாக", "எளிய தமிழில்" என்று மேம்படுத்திக் கேட்பதே Iterative Refinement. சிக்கலான கட்டுரைகள், அறிக்கைகள், குறியீடுகள் போன்றவற்றை உருவாக்கும்போது மிகவும் பயனுள்ளது.
+
+</details>
+
+---
+
+**கேள்வி 3:** AI API-யில் Temperature அமைப்பு எதை கட்டுப்படுத்துகிறது? குறைந்த மதிப்புக்கும் அதிக மதிப்புக்கும் என்ன வித்தியாசம்?
+
+<details>
+<summary>விடை பார்க்க (See Answer)</summary>
+
+Temperature என்பது AI பதிலின் படைப்பாற்றல் அளவைக் கட்டுப்படுத்துகிறது.
+
+- **குறைந்த மதிப்பு (0.2):** உறுதியான, ஒரே மாதிரியான, கவனமான பதில் — தொழில்நுட்பம், தகவல் பதில்களுக்கு ஏற்றது.
+- **அதிக மதிப்பு (1.0):** படைப்பாற்றல் மிக்க, மாறுபட்ட, புதுமையான பதில் — கவிதை, கதை, யோசனை உருவாக்கத்திற்கு ஏற்றது.
+
+</details>
