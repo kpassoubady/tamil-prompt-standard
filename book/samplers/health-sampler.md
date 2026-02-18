@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** மருத்துவர்கள், செவிலியர்கள், ஆலோசகர்கள், AYUSH நிபுணர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/health/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/health/README.md)
+> [health/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/health/README.md)
 
 ---
 

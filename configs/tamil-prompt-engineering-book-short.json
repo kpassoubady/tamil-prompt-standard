@@ -1,5 +1,5 @@
 {
-  "bookTitle": "The Art of Commanding AI in Tamil — Showcase Edition",
+  "bookTitle": "The Art of Commanding AI in Tamil",
   "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
   "author": "Kangeyan Passoubady",
   "pageSettings": {
@@ -107,6 +107,14 @@
     }
   },
   "chapters": [
+        {
+      "section": "Front Cover",
+      "files": [
+        "book/FrontCover.md",
+        "book/images/FrontCoverPage.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
     {
       "section": "Introduction",
       "files": [
@@ -214,6 +222,13 @@
       "section": "About the Author",
       "files": [
         "book/AboutAuthors.md"
+      ]
+    },
+    {
+      "section": "Back Cover",
+      "files": [
+        "book/BackCover.md",
+        "book/images/back-cover.png"
       ]
     }
   ]

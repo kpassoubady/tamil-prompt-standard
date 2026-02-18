@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** கவிஞர்கள், எழுத்தாளர்கள், கதாசிரியர்கள், புதுச்சொல் படைப்பாளிகளுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/lit/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/lit/README.md)
+> [lit/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/lit/README.md)
 
 ---
 
