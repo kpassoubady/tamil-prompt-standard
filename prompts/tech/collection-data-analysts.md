@@ -529,10 +529,3 @@ When using these prompts, adapt them to the standard format:
 4. **AI SQL-ஐ சரிபார்க்கவும்** — AI உருவாக்கிய SQL-ஐ எப்போதும் சிறிய தரவுத்தொகுப்பில் (Sample Data) முதலில் சோதிக்கவும்.
 5. **கருத்தை தமிழில் விளக்கச் சொல்லுங்கள்** — "p-value-ஐ தமிழில் விளக்கு" — தமிழ் வழிக் கல்வியில் பயன்படுத்த சிறந்தது.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-developers.md](prompts-developers.md) — டெவலப்பர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
-> - [tamil-prompt-engineering-cheatsheet.md](../tamil-prompt-engineering-cheatsheet.md) — விரைவு குறிப்புத் தாள்

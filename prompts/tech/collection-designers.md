@@ -580,10 +580,3 @@ When using these prompts, adapt them to the standard format:
 4. **படம் விளக்கம் கொடுக்கவும்** — AI-க்கு நிஜ திரைப்பிடிப்பு காட்ட முடியாவிட்டால், "என்ன இருக்கிறது" என விரிவாக எழுதுக.
 5. **Accessibility மறவாதீர்கள்** — "WCAG 2.1 AA நிலையில் சரிபார்" எனக் கேளுங்கள் — அனைவருக்கும் ஏற்ற வடிவமைப்பு.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-marketers.md](prompts-marketers.md) — சந்தையாளர்களுக்கான கட்டளைகள்
-> - [prompts-developers.md](prompts-developers.md) — டெவலப்பர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்

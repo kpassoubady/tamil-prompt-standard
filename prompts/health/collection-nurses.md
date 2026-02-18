@@ -967,15 +967,3 @@ _[File continued with prompts 11-20 covering: Patient Safety Protocols, Pre/Post
 > - ✅ நெறிமுறை நடத்தை பின்பற்றவும் (Follow Ethical Conduct)
 >
 > **இந்திய செவிலியர் கவுன்சில் (Indian Nursing Council) நெறிமுறைகளை கடைப்பிடிக்கவும்.**
-
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [collection-doctors.md](collection-doctors.md) — மருத்துவர்களுக்கான கட்டளைகள்
-> - [collection-counsellors.md](collection-counsellors.md) — ஆலோசகர்களுக்கான கட்டளைகள்
-> - [collection-ayush.md](collection-ayush.md) — சித்தா & ஆயுர்வேத மருத்துவர்களுக்கான கட்டளைகள்
-> - [../../.agent/rules/safety.md](../../.agent/rules/safety.md) — பாதுகாப்பு விதிகள்
-
-**உருவாக்கப்பட்டது:** தமிழ் AI கட்டளை தரநிலை v0.1
-**கடைசி புதுப்பிப்பு:** 2026-02-17

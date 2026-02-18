@@ -527,10 +527,3 @@ When using these prompts, adapt them to the standard format:
 4. **AI-யின் பதிலைச் சரிபார்க்கவும்** — குறிப்பாக தகவல்கள் (Facts), தேதிகள், புள்ளிவிவரங்களை நீங்களே சரிபார்க்க வேண்டும்.
 5. **மாணவர் பின்னூட்டம் (Student Feedback)** — AI உருவாக்கிய பொருள்களை மாணவர்களிடம் முதலில் சோதித்து, பின் மேம்படுத்துக.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-tamil-writers.md](prompts-tamil-writers.md) — தமிழ் எழுத்தாளர்களுக்கான கட்டளைகள்
-> - [prompts-tamil-neologism.md](prompts-tamil-neologism.md) — தமிழ் புதுச்சொல் உருவாக்கத்திற்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்

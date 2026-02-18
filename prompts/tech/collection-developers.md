@@ -558,10 +558,3 @@ When using these prompts, adapt them to the standard format:
 4. **AI குறியீட்டைச் சோதியுங்கள்** — AI எழுதிய குறியீட்டை எப்போதும் உங்களே சோதித்து (Test), பின் பயன்படுத்துங்கள்.
 5. **பாதுகாப்பு மதிப்பாய்வு கேளுங்கள்** — "இந்தக் குறியீட்டில் பாதுகாப்பு பாதிப்பு உள்ளதா?" எனக் கேட்பது நல்ல நடைமுறை.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-data-analysts.md](prompts-data-analysts.md) — தரவு ஆய்வாளர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
-> - [tamil-prompt-engineering-cheatsheet.md](../tamil-prompt-engineering-cheatsheet.md) — விரைவு குறிப்புத் தாள்
