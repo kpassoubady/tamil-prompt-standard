@@ -4,7 +4,35 @@
 To keep the repository organized, all prompt files must follow this strict naming standard.
 களஞ்சியத்தை சீராக பராமரிக்க, அனைத்து கட்டளை கோப்புகளும் இந்த பெயரிடும் முறையை கண்டிப்பாக பின்பற்ற வேண்டும்.
 
-## Standard Format (பொதுவான வடிவம்)
+## File Types (கோப்பு வகைகள்)
+
+This repository uses two naming patterns depending on the file type:
+
+### 1. Collection Files (தொகுப்புக் கோப்புகள்) — Primary pattern
+
+Most prompt files in this repository are **collections** that group ~20 prompts for a single role. These follow:
+
+```
+collection-{role}.md
+```
+
+**Examples:**
+
+| File | Description |
+| :--- | :--- |
+| `collection-doctors.md` | 20 prompts for doctors |
+| `collection-farmers.md` | 20 prompts for farmers |
+| `collection-primary-students.md` | 20 prompts for primary school students |
+| `collection-poets.md` | 20 prompts for poets |
+
+**Rules:**
+- Prefix is always `collection-`
+- Role name is in **kebab-case** (lowercase with hyphens)
+- Placed inside the appropriate `prompts/{domain}/` folder
+
+### 2. Individual Prompt Files (தனிப்பட்ட கட்டளைக் கோப்புகள்)
+
+For standalone single-prompt files, use the full taxonomy-based pattern:
 
 ```
 ROLE-DOMAIN-SKILL-INTENT-TONE.md
@@ -15,7 +43,7 @@ All elements should be in **kebab-case** (lowercase with hyphens).
 
 ---
 
-## Component Breakdown (கூறு விளக்கம்)
+## Component Breakdown — Individual Files (கூறு விளக்கம்)
 
 ### 1. ROLE (பாத்திரம்)
 *   `doctor`
@@ -27,10 +55,13 @@ All elements should be in **kebab-case** (lowercase with hyphens).
 ### 2. DOMAIN (துறை)
 *   `health` (Healthcare)
 *   `edu` (Education)
-*   `agri` (Agriculture)
+*   `agriculture` (Agriculture)
 *   `tech` (Technology)
 *   `law`
 *   `biz` (Business)
+*   `lit` (Literature)
+*   `daily` (Daily Life)
+*   `employment` (Employment & Career)
 
 ### 3. SKILL (திறன் நிலை)
 *   `beg` (Beginner)
@@ -70,14 +101,25 @@ Use the 4-letter standard codes from [taxonomy.md](taxonomy.md):
 
 ## Folder Structure (கோப்புறை அமைப்பு)
 
-Currently, all prompts are located in standard directories. In the future, they may be grouped by **Domain**.
-தற்போது, அனைத்தும் பொதுவான கோப்புறைகளில் உள்ளன. எதிர்காலத்தில் அவை **துறை (Domain)** வாரியாக பிரிக்கப்படலாம்.
+All prompts are organized by **Domain** under the `/prompts/` directory.
+அனைத்து கட்டளைகளும் `/prompts/` கோப்புறையில் **துறை (Domain)** வாரியாக பிரிக்கப்பட்டுள்ளன.
 
 ```
 /prompts/
   ├── health/
-  │     └── doctor-health-exp-draf-formal.md
+  │     ├── README.md
+  │     ├── collection-doctors.md
+  │     ├── collection-nurses.md
+  │     └── ...
   ├── edu/
-  │     └── student-edu-g6-expl-simple.md
-  └── ...
+  │     ├── README.md
+  │     ├── collection-primary-students.md
+  │     └── ...
+  ├── law/
+  ├── tech/
+  ├── biz/
+  ├── lit/
+  ├── agriculture/
+  ├── employment/
+  └── daily/
 ```

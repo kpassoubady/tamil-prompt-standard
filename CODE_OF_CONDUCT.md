@@ -51,7 +51,7 @@ Project maintainers are responsible for:
 If you experience or witness unacceptable behavior:
 
 1. **Document** the incident with dates, times, and details
-2. **Report** to: **[conduct@tamil-prompt-standard.dev]** *(update with actual contact)*
+2. **Report** to: **[kangs@kavinschool.com](mailto:kangs@kavinschool.com)**
 3. **Provide** context and any relevant links or conversations
 4. **Confidentiality** - Reports will be handled confidentially
 

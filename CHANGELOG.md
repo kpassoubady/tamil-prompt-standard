@@ -30,10 +30,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **New Domains**: Added comprehensive prompt collections for:
   - Agriculture & Rural Development (`/prompts/agriculture/`)
   - Daily Life (`/prompts/daily/`)
-  - Education & Learning (`/prompts/edu/`)
   - Employment & Career (`/prompts/employment/`)
-  - Health & Wellness (`/prompts/health/`)
   - Law & Governance (`/prompts/law/`)
+- **Expanded Domains**: Added additional role collections to existing domains:
+  - Health & Wellness (`/prompts/health/`) — nurses, counsellors, AYUSH
+  - Education & Learning (`/prompts/edu/`) — middle/high school, competitive exams, educators
 - **Documentation**: 
   - Updated root `README.md` with detailed sections for all 9 domains.
   - Added individual `README.md` files for each new domain subdirectory.
@@ -55,6 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive prompt collection organized by domain:
   - Business (`/prompts/biz/`)
   - Education (`/prompts/edu/`)
+  - Health (`/prompts/health/`)
   - Literature (`/prompts/lit/`)
   - Technology (`/prompts/tech/`)
 - Detailed documentation:
@@ -63,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - CONTRIBUTING.md with contribution guidelines
   - Multiple guidebooks (cheatsheet, handbook, engineering framework)
 - Community resources and internal drafts
-- License (specify which license you're using)
+- License: CC-BY-SA-4.0 International
 
 ### Documentation
 

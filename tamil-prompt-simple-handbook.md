@@ -4,7 +4,7 @@
 
 ---
 
-### 1. கட்டளைக் கலை (The Anatomy of a Perfect Tamil Prompt)
+## 1. கட்டளைக் கலை (The Anatomy of a Perfect Tamil Prompt)
 
 ஒரு சிறந்த கட்டளை என்பது நான்கு கூறுகளைக் கொண்டிருக்க வேண்டும்:
 
