@@ -19,6 +19,13 @@
 | 3 | [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
 | 4 | [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) | TNC21 ஆய்வு உரைச் சுருக்கம் (Research Abstract) — தமிழ் AI கட்டளை வடிவமைப்புக் கட்டமைப்பின் அடிப்படைத் தத்துவம் |
 
+> **எந்த வழிகாட்டியைப் படிக்க வேண்டும்? (Which guide should I read?)**
+>
+> - **புதியவர் (Beginner):** Start with [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) — 5 நிமிட அறிமுகம்
+> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-prompt-engineering-cheatsheet.md](tamil-prompt-engineering-cheatsheet.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
+> - **முழுமையான கற்றல் (Deep Dive):** Read [prompt-engineering.md](prompt-engineering.md) — 6+ கட்டமைப்புகள், விரிவான விளக்கங்கள்
+> - **ஆய்வு (Research):** See [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) — TNC21 ஆய்வுக் கட்டமைப்பு
+
 ---
 
 ### 🌾 [விவசாயம் (Agriculture)](prompts/agriculture/README.md)

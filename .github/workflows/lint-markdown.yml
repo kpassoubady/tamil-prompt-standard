@@ -24,11 +24,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install markdownlint
-        run: npm install markdownlint-cli
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run markdownlint with fixes
-        run: npx markdownlint-cli --fix "**/*.md"
+        run: npx markdownlint --fix "**/*.md"
 
       - name: Check for changes
         id: verify-changed-files
@@ -44,6 +44,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add "**/*.md"
+          git add "prompts/**/*.md" "*.md" ".agent/**/*.md" ".github/**/*.md" "resources/**/*.md" ".cursor/**/*.md" ".windsurf/**/*.md"
           git commit -m "fix: auto-fix markdown linting issues (MD022, MD026, etc.)"
           git push

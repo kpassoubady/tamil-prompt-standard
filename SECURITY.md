@@ -5,7 +5,7 @@
 We take security seriously. If you discover a security vulnerability in the Tamil Prompt Standard project, please **DO NOT** open a public GitHub issue.
 
 Instead, please report it responsibly by emailing the project maintainers directly at:
-**[security@tamil-prompt-standard.dev]** *(update with actual contact)*
+**[kangs@kavinschool.com](mailto:kangs@kavinschool.com)**
 
 ### What to Include
 
@@ -82,12 +82,12 @@ Once a vulnerability is fixed:
 
 ## Dependencies & Supply Chain Security
 
-We use the following practices to ensure supply chain security:
+This project is primarily a documentation repository with minimal dependencies:
 
-- **Dependency Audits**: Regularly run `npm audit` to check for known vulnerabilities
-- **Automated Updates**: GitHub Dependabot monitors dependencies
-- **Pinned Versions**: Use specific versions in package.json (no wildcards)
-- **Minimal Dependencies**: Keep dependencies minimal to reduce attack surface
+- **Minimal Dependencies**: Only `markdownlint-cli` (dev dependency) for CI linting
+- **Pinned Versions**: Versions are locked via `package-lock.json`
+- **Dependency Audits**: Run `npm audit` before updating dependencies
+- **No Runtime Dependencies**: This project has no runtime code — only markdown content and CI tooling
 
 ---
 
