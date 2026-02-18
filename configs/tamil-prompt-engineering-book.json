@@ -3,11 +3,12 @@
   "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
   "author": "Kangeyan Passoubady",
   "pageSettings": {
-    "headerLeft": "{title}",
-    "headerRight": "{page} of {pages}",
+    "header": "{title}",
     "headerFallback": "{bookTitle}",
+    "headerRight": "{page} of {pages}",
     "footerLeft": "{date}",
-    "footerCenter": "Page {page} of {pages}",
+    "footerCenter": "",
+    "footerRight": "Kangs | Kavin School",
     "dateFormat": "%B %d, %Y"
   },
   "styleSettings": {
@@ -15,25 +16,23 @@
     "margins": "0.75in 0.6in 0.75in 0.8in",
     "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
     "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
-    "bodyFontSize": "10.5pt",
+    "bodyFontSize": "9.5pt",
     "bodyLineHeight": "1.5",
     "bodyColor": "#333333",
     "headingColor": "#222222",
-    "h1FontSize": "16pt",
-    "h2FontSize": "14pt",
-    "h3FontSize": "12pt",
-    "h4FontSize": "11pt",
-    "codeFontSize": "9pt",
-    "tableFontSize": "9pt",
+    "h1FontSize": "13pt",
+    "h2FontSize": "11.5pt",
+    "h3FontSize": "10.5pt",
+    "h4FontSize": "10pt",
+    "codeFontSize": "8.5pt",
+    "tableFontSize": "8.5pt",
     "codeBackground": "#f5f5f5",
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
-    "footerFontSize": "9px",
-    "leftPageBorderImage": "left-page-border.svg",
-    "rightPageBorderImage": "right-page-border.svg"
+    "footerFontSize": "9px"
   },
   "tocSettings": {
-    "titleFontSize": 20,
+    "titleFontSize": 18,
     "subtitleFontSize": 12,
     "subtitleText": "Table of Contents",
     "entryFontSize": 10,
@@ -57,10 +56,36 @@
     }
   },
   "contentProcessing": {
+    "promptHandling": {
+      "enabled": true,
+      "label": "▶ PROMPT",
+      "backgroundColor": "#EBF5FF",
+      "borderColor": null,
+      "borderWidth": "3px",
+      "outlineColor": "#CCE0F5",
+      "borderRadius": "4px",
+      "padding": "10px 14px",
+      "labelFontSize": "7.5pt",
+      "labelColor": null
+    },
     "admonitionHandling": {
       "enabled": true,
       "style": "boxed",
-      "includeIcons": true
+      "includeIcons": true,
+      "customTypes": {
+        "PROMPT": {
+          "label": "▶ PROMPT",
+          "backgroundColor": "#EBF5FF",
+          "borderColor": "#0066CC",
+          "borderWidth": "3px",
+          "outlineColor": "#CCE0F5",
+          "borderRadius": "4px",
+          "labelColor": "#0066CC",
+          "labelFontSize": "7.5pt",
+          "useBodyFont": true,
+          "labelSeparator": true
+        }
+      }
     },
     "blockquoteListHandling": {
       "enabled": true

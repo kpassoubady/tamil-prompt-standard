@@ -7,7 +7,7 @@
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
     "footerLeft": "{date}",
-    "footerCenter": "Page {page} of {pages}",
+    "footerCenter": "",
     "footerRight": "Kangs | Kavin School",
     "dateFormat": "%B %d, %Y"
   },
@@ -29,9 +29,7 @@
     "codeBackground": "#f5f5f5",
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
-    "footerFontSize": "9px",
-    "leftPageBorderImage": "left-page-border.svg",
-    "rightPageBorderImage": "right-page-border.svg"
+    "footerFontSize": "9px"
   },
   "tocSettings": {
     "titleFontSize": 18,
@@ -58,10 +56,36 @@
     }
   },
   "contentProcessing": {
+    "promptHandling": {
+      "enabled": true,
+      "label": "▶ PROMPT",
+      "backgroundColor": "#EBF5FF",
+      "borderColor": null,
+      "borderWidth": "3px",
+      "outlineColor": "#CCE0F5",
+      "borderRadius": "4px",
+      "padding": "10px 14px",
+      "labelFontSize": "7.5pt",
+      "labelColor": null
+    },
     "admonitionHandling": {
       "enabled": true,
       "style": "boxed",
-      "includeIcons": true
+      "includeIcons": true,
+      "customTypes": {
+        "PROMPT": {
+          "label": "▶ PROMPT",
+          "backgroundColor": "#EBF5FF",
+          "borderColor": "#0066CC",
+          "borderWidth": "3px",
+          "outlineColor": "#CCE0F5",
+          "borderRadius": "4px",
+          "labelColor": "#0066CC",
+          "labelFontSize": "7.5pt",
+          "useBodyFont": true,
+          "labelSeparator": true
+        }
+      }
     },
     "blockquoteListHandling": {
       "enabled": true
