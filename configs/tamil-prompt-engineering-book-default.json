@@ -1,0 +1,208 @@
+{
+  "bookTitle": "The Art of Commanding AI in Tamil",
+  "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
+  "author": "Kangeyan Passoubady",
+  "pageSettings": {
+    "header": "{title}",
+    "headerFallback": "{bookTitle}",
+    "footerLeft": "{date}",
+    "footerCenter": "Page {page} of {pages}",
+    "footerRight": "Tamil Prompt Standard",
+    "dateFormat": "%B %d, %Y"
+  },
+  "styleSettings": {
+    "pageSize": "A4",
+    "margins": "1in 0.8in 1in 0.8in",
+    "fontFamily": "Noto Sans, Helvetica Neue, Arial, sans-serif",
+    "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
+    "bodyFontSize": "11pt",
+    "bodyLineHeight": "1.6",
+    "bodyColor": "#333333",
+    "headingColor": "#222222",
+    "h1FontSize": "18pt",
+    "h2FontSize": "16pt",
+    "h3FontSize": "14pt",
+    "h4FontSize": "12pt",
+    "codeFontSize": "10pt",
+    "tableFontSize": "10pt",
+    "codeBackground": "#f5f5f5",
+    "linkColor": "#0066cc",
+    "headerFontSize": "12px",
+    "footerFontSize": "10px",
+    "leftPageBorderImage": "left-page-border.svg",
+    "rightPageBorderImage": "right-page-border.svg"
+  },
+  "tocSettings": {
+    "titleFontSize": 24,
+    "subtitleFontSize": 14,
+    "subtitleText": "Table of Contents",
+    "entryFontSize": 11,
+    "footerFontSize": 9,
+    "lineColor": "#CC3300",
+    "entryColor": "#CC3300",
+    "footerColor": "#666666"
+  },
+  "imageOptimization": {
+    "default": {
+      "maxWidth": 800,
+      "maxHeight": 1000,
+      "jpegQuality": 75,
+      "convertToJpeg": true
+    },
+    "covers": {
+      "maxWidth": 2400,
+      "maxHeight": 3200,
+      "jpegQuality": 95,
+      "convertToJpeg": false
+    }
+  },
+  "contentProcessing": {
+    "admonitionHandling": {
+      "enabled": true,
+      "style": "boxed",
+      "includeIcons": true
+    },
+    "blockquoteListHandling": {
+      "enabled": true
+    },
+    "titledListHandling": {
+      "enabled": true
+    },
+    "detailsTagHandling": {
+      "enabled": true,
+      "staticFormats": [
+        "pdf",
+        "epub"
+      ],
+      "staticReplacement": {
+        "showSummary": true,
+        "summaryText": "Answers:",
+        "addHorizontalRule": true
+      }
+    }
+  },
+  "chapters": [
+    {
+      "section": "Introduction",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "section": "Part I: Framework Foundations",
+      "files": [
+        "TAXONOMY.md",
+        "prompt-engineering-basics.md",
+        "prompt-engineering-frameworks.md",
+        "prompt-engineering-techniques.md",
+        "tamil-handbook-prompt-engineering.md",
+        "tamil-cheatsheet-prompt-engineering.md",
+        "tamil-framework-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "Part II: Healthcare Prompts",
+      "files": [
+        "prompts/health/README.md",
+        "prompts/health/collection-doctors.md",
+        "prompts/health/collection-nurses.md",
+        "prompts/health/collection-counsellors.md",
+        "prompts/health/collection-ayush.md"
+      ]
+    },
+    {
+      "section": "Part III: Education Prompts",
+      "files": [
+        "prompts/edu/README.md",
+        "prompts/edu/collection-primary-students.md",
+        "prompts/edu/collection-middle-school-students.md",
+        "prompts/edu/collection-high-school-students.md",
+        "prompts/edu/collection-college-students.md",
+        "prompts/edu/collection-competitive-exam-students.md",
+        "prompts/edu/collection-educators.md"
+      ]
+    },
+    {
+      "section": "Part IV: Agriculture Prompts",
+      "files": [
+        "prompts/agriculture/README.md",
+        "prompts/agriculture/collection-farmers.md",
+        "prompts/agriculture/collection-agricultural-laborers.md",
+        "prompts/agriculture/collection-self-help-groups.md",
+        "prompts/agriculture/collection-rural-entrepreneurs.md"
+      ]
+    },
+    {
+      "section": "Part V: Employment Prompts",
+      "files": [
+        "prompts/employment/README.md",
+        "prompts/employment/collection-job-seekers.md",
+        "prompts/employment/collection-freshers.md",
+        "prompts/employment/collection-startup-founders.md",
+        "prompts/employment/collection-freelancers.md"
+      ]
+    },
+    {
+      "section": "Part VI: Law & Governance Prompts",
+      "files": [
+        "prompts/law/README.md",
+        "prompts/law/collection-lawyers.md",
+        "prompts/law/collection-law-students.md",
+        "prompts/law/collection-govt-officers.md",
+        "prompts/law/collection-policy-analysts.md"
+      ]
+    },
+    {
+      "section": "Part VII: Daily Life Prompts",
+      "files": [
+        "prompts/daily/README.md",
+        "prompts/daily/collection-parents.md",
+        "prompts/daily/collection-seniors.md",
+        "prompts/daily/collection-content-creators.md"
+      ]
+    },
+    {
+      "section": "Part VIII: Technology Prompts",
+      "files": [
+        "prompts/tech/README.md",
+        "prompts/tech/collection-developers.md",
+        "prompts/tech/collection-data-analysts.md",
+        "prompts/tech/collection-designers.md"
+      ]
+    },
+    {
+      "section": "Part IX: Business Prompts",
+      "files": [
+        "prompts/biz/README.md",
+        "prompts/biz/collection-business.md",
+        "prompts/biz/collection-marketers.md"
+      ]
+    },
+    {
+      "section": "Part X: Literature & Language Prompts",
+      "files": [
+        "prompts/lit/README.md",
+        "prompts/lit/collection-writers.md",
+        "prompts/lit/collection-poets.md",
+        "prompts/lit/collection-stories.md",
+        "prompts/lit/collection-neologism.md"
+      ]
+    },
+    {
+      "section": "Appendix A: Framework Rules",
+      "files": [
+        ".agent/rules/taxonomy.md",
+        ".agent/rules/safety.md",
+        ".agent/rules/file-naming.md",
+        ".agent/rules/quality-rubric.md"
+      ]
+    },
+    {
+      "section": "Appendix B: Workflows",
+      "files": [
+        ".agent/workflows/create-new-prompt.md",
+        ".agent/workflows/review-prompt.md"
+      ]
+    }
+  ]
+}

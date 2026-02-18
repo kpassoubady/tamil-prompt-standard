@@ -29,9 +29,9 @@ Use the blank template:
 ```markdown
 ### Prompt ID: {AUTO-GENERATED}
 
-**Role:** ...
-**Domain:** ...
-**Intent:** ...
+**Role:** ---
+**Domain:** ---
+**Intent:** ---
 
 **Instruction:**
 [Write clear instructions in Tamil/English]

@@ -42,8 +42,8 @@ jobs:
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add "prompts/**/*.md" "*.md" ".agent/**/*.md" ".github/**/*.md" "resources/**/*.md" ".cursor/**/*.md" ".windsurf/**/*.md"
+          git config --local user.email "kangs2000@gmail.com"
+          git config --local user.name "Kangeyan Passoubady"
+          git add "prompts/**/*.md" "*.md" ".agent/**/*.md" ".github/**/*.md" ".cursor/**/*.md" ".windsurf/**/*.md"
           git commit -m "fix: auto-fix markdown linting issues (MD022, MD026, etc.)"
           git push
