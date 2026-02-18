@@ -43,8 +43,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 1. சொல்திறவு ஆய்வு (Keyword Research)
 
-> **கட்டளை:**
-> "நீ ஒரு தமிழ் SEO நிபுணர் (Tamil SEO Expert).
+> [!PROMPT]
+> நீ ஒரு தமிழ் SEO நிபுணர் (Tamil SEO Expert).
 > '{தொழில் / தலைப்பு}' தொடர்பான 30 தமிழ் + ஆங்கில சொல்திறவுகளை (Keywords) கண்டறிக:
 >
 > **அட்டவணை:**
@@ -62,7 +62,7 @@ When using these prompts, adapt them to the standard format:
 > **மேலும்:**
 >
 > - ஒவ்வொன்றுக்கும் மாதாந்திர தேடல் அளவு மதிப்பீடு (Volume Estimate)
-> - தலைப்பு (Title Tag) பரிந்துரை — 3 மாற்றுகள்"
+> - தலைப்பு (Title Tag) பரிந்துரை — 3 மாற்றுகள்
 
 **பயன்பாடு:** தமிழ் உள்ளடக்கத்திற்கான SEO சொல்திறவு திட்டமிடல்.
 
@@ -70,8 +70,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 2. SEO மெட்டா விளக்கம் (Meta Description)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட பக்கங்களுக்கான SEO-மேம்படுத்தப்பட்ட தலைப்பு (Title Tag) மற்றும் மெட்டா விளக்கத்தை (Meta Description) எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட பக்கங்களுக்கான SEO-மேம்படுத்தப்பட்ட தலைப்பு (Title Tag) மற்றும் மெட்டா விளக்கத்தை (Meta Description) எழுதுக:
 >
 > **பக்கங்கள்:**
 >
@@ -91,7 +91,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - முதன்மை சொல்திறவு (Primary Keyword) இயல்பாகச் சேர்க்கவும்
 > - CTA (Call to Action) உள்ளிடுக
-> - கிளிக் விகிதத்தை (CTR) அதிகரிக்கும் உணர்வுச் சொற்கள் சேர்க்கவும்"
+> - கிளிக் விகிதத்தை (CTR) அதிகரிக்கும் உணர்வுச் சொற்கள் சேர்க்கவும்
 
 **பயன்பாடு:** வலைப்பக்கங்களின் தேடுபொறி வரிசையை மேம்படுத்த.
 
@@ -99,8 +99,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 3. SEO கட்டுரை வரைவு (SEO Blog Post)
 
-> **கட்டளை:**
-> "'{சொல்திறவு (Keyword)}' என்ற முதன்மை சொல்திறவுக்கான SEO-மேம்படுத்தப்பட்ட தமிழ் கட்டுரையை எழுதுக:
+> [!PROMPT]
+> '{சொல்திறவு (Keyword)}' என்ற முதன்மை சொல்திறவுக்கான SEO-மேம்படுத்தப்பட்ட தமிழ் கட்டுரையை எழுதுக:
 >
 > **வடிவம்:**
 >
@@ -117,7 +117,7 @@ When using these prompts, adapt them to the standard format:
 > - சொல்திறவு அடர்த்தி (Density): 1-2%
 > - Internal Link: 3 பரிந்துரைகள்
 > - External Link: 2 பரிந்துரைகள்
-> - Image Alt Text: 3 பரிந்துரைகள்"
+> - Image Alt Text: 3 பரிந்துரைகள்
 
 **பயன்பாடு:** Google-ல் முதல் பக்கத்தில் இடம்பிடிக்க வல்ல கட்டுரை.
 
@@ -127,8 +127,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 4. சமூக ஊடக உள்ளடக்கத் திட்டம் (Social Media Content Calendar)
 
-> **கட்டளை:**
-> "'{வணிகம் / பிராண்ட்}' க்கான 1 மாத சமூக ஊடக உள்ளடக்கத் திட்டத்தை (Content Calendar) உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம் / பிராண்ட்}' க்கான 1 மாத சமூக ஊடக உள்ளடக்கத் திட்டத்தை (Content Calendar) உருவாக்குக:
 >
 > **தளங்கள்:** {Instagram / Facebook / X (Twitter) / LinkedIn / YouTube}
 >
@@ -144,7 +144,7 @@ When using these prompts, adapt them to the standard format:
 > - 👥 ஈடுபாடு (Engagement): 1 போஸ்ட்
 > - 📖 கதை (Story): 3 கதைகள்
 >
-> **மொழி:** தமிழ் (80%) + ஆங்கிலம் (20%) கலப்பு"
+> **மொழி:** தமிழ் (80%) + ஆங்கிலம் (20%) கலப்பு
 
 **பயன்பாடு:** ஒரு மாத போஸ்ட்களை முன்கூட்டியே திட்டமிட.
 
@@ -152,8 +152,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 5. Instagram / Facebook போஸ்ட் (Social Post Copy)
 
-> **கட்டளை:**
-> "'{தயாரிப்பு / சேவை / நிகழ்வு}' பற்றிய 5 {Instagram / Facebook / LinkedIn} போஸ்ட்களை தமிழில் எழுதுக:
+> [!PROMPT]
+> '{தயாரிப்பு / சேவை / நிகழ்வு}' பற்றிய 5 {Instagram / Facebook / LinkedIn} போஸ்ட்களை தமிழில் எழுதுக:
 >
 > **ஒவ்வொன்றுக்கும்:**
 >
@@ -169,7 +169,7 @@ When using these prompts, adapt them to the standard format:
 > - ஈடுபாடு (Engagement — கேள்வி / வாக்கெடுப்பு)
 > - விற்பனை (Sales / Offer)
 > - சான்றுரை (Testimonial)
-> - கல்வி (Educational / Tips)"
+> - கல்வி (Educational / Tips)
 
 **பயன்பாடு:** ஈடுபாட்டை அதிகரிக்கும் தமிழ் சமூக ஊடக உள்ளடக்கம்.
 
@@ -177,8 +177,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 6. வீடியோ ஸ்கிரிப்ட் — Reels / Shorts (Short Video Script)
 
-> **கட்டளை:**
-> "'{தலைப்பு}' பற்றிய 60-90 வினாடி {Instagram Reels / YouTube Shorts / TikTok} வீடியோ ஸ்கிரிப்ட் எழுதுக:
+> [!PROMPT]
+> '{தலைப்பு}' பற்றிய 60-90 வினாடி {Instagram Reels / YouTube Shorts / TikTok} வீடியோ ஸ்கிரிப்ட் எழுதுக:
 >
 > **வடிவம்:**
 >
@@ -192,7 +192,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **Hook வகை:** {ஆச்சரிய புள்ளிவிவரம் / கேள்வி / சர்ச்சை கருத்து / கதை}
 > **இசை (BGM) பரிந்துரை:** Trending audio
-> **5 மாற்று Hook-கள்** தமிழில்."
+> **5 மாற்று Hook-கள்** தமிழில்.
 
 **பயன்பாடு:** Viral ஆகக்கூடிய குறுவீடியோ உள்ளடக்கம்.
 
@@ -202,8 +202,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 7. மின்னஞ்சல் வரிசை (Email Sequence)
 
-> **கட்டளை:**
-> "'{தயாரிப்பு / சேவை விற்பனை}' க்கான 5-நாள் மின்னஞ்சல் வரிசையை (Email Sequence) தமிழில் எழுதுக:
+> [!PROMPT]
+> '{தயாரிப்பு / சேவை விற்பனை}' க்கான 5-நாள் மின்னஞ்சல் வரிசையை (Email Sequence) தமிழில் எழுதுக:
 >
 > **ஒவ்வொரு மின்னஞ்சலுக்கும்:**
 >
@@ -219,7 +219,7 @@ When using these prompts, adapt them to the standard format:
 > - நாள் 5: அவசரம் (Urgency / Last Call)
 >
 > **ஒவ்வொன்றும்:** 150-200 சொற்கள் — தனிப்பயன் (Personalized) + emoji
-> **திறப்பு விகிதம் (Open Rate) அதிகரிக்க:** 3 மாற்று Subject Lines ஒவ்வொன்றுக்கும்."
+> **திறப்பு விகிதம் (Open Rate) அதிகரிக்க:** 3 மாற்று Subject Lines ஒவ்வொன்றுக்கும்.
 
 **பயன்பாடு:** தமிழ் வாடிக்கையாளர்களுக்கான தானியக்க மின்னஞ்சல் பயணம்.
 
@@ -227,8 +227,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 8. செய்தி மடல் (Newsletter)
 
-> **கட்டளை:**
-> "'{வணிகம் / துறை}' க்கான வாராந்திர செய்தி மடலை (Newsletter) தமிழில் எழுதுக:
+> [!PROMPT]
+> '{வணிகம் / துறை}' க்கான வாராந்திர செய்தி மடலை (Newsletter) தமிழில் எழுதுக:
 >
 > **பிரிவுகள்:**
 >
@@ -240,7 +240,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **வாசகர் சான்றுரை (Reader Testimonial):** 2 வரிகள்
 > 7. **CTA பொத்தான் (CTA Button Text):** 3 மாற்றுகள்
 >
-> **நடை:** நட்பான, உரையாடல் நடையில் (Conversational Tone)"
+> **நடை:** நட்பான, உரையாடல் நடையில் (Conversational Tone)
 
 **பயன்பாடு:** வாடிக்கையாளர் தொடர்பை பராமரிக்கும் வாராந்திர மின்னஞ்சல்.
 
@@ -250,8 +250,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 9. Google Ads நகல் (Google Ads Copy)
 
-> **கட்டளை:**
-> "'{வணிகம் / சேவை}' க்கான Google Ads நகலை (Ad Copy) எழுதுக:
+> [!PROMPT]
+> '{வணிகம் / சேவை}' க்கான Google Ads நகலை (Ad Copy) எழுதுக:
 >
 > **5 மாற்று விளம்பரங்கள்:**
 >
@@ -267,7 +267,7 @@ When using these prompts, adapt them to the standard format:
 > - Callout Extensions: 4
 > - Structured Snippets: 1 வகை + 5 மதிப்புகள்
 >
-> **மொழி:** தமிழ் + ஆங்கிலம் — தமிழ்நாடு சந்தைக்கு"
+> **மொழி:** தமிழ் + ஆங்கிலம் — தமிழ்நாடு சந்தைக்கு
 
 **பயன்பாடு:** Google Ads பயனை அதிகரிக்கும் விளம்பர நகல்.
 
@@ -275,8 +275,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 10. Facebook / Instagram விளம்பரம் (Social Media Ad)
 
-> **கட்டளை:**
-> "'{தயாரிப்பு / சேவை}' க்கான Facebook / Instagram விளம்பரத்தை உருவாக்குக:
+> [!PROMPT]
+> '{தயாரிப்பு / சேவை}' க்கான Facebook / Instagram விளம்பரத்தை உருவாக்குக:
 >
 > **5 மாற்று விளம்பரங்கள் — ஒவ்வொன்றுக்கும்:**
 >
@@ -294,7 +294,7 @@ When using these prompts, adapt them to the standard format:
 > | ஆர்வம் (Interest) | Middle | ... | ... |
 > | மாற்றம் (Conversion) | Bottom | ... | ... |
 >
-> **இலக்கு பார்வையாளர் (Audience):** வயது, இடம், ஆர்வங்கள்"
+> **இலக்கு பார்வையாளர் (Audience):** வயது, இடம், ஆர்வங்கள்
 
 **பயன்பாடு:** சமூக ஊடக விளம்பரப் போக்கம் (Ad Campaign) திட்டமிட.
 
@@ -304,8 +304,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 11. உள்ளடக்க உத்தி (Content Strategy)
 
-> **கட்டளை:**
-> "'{வணிகம் / பிராண்ட்}' க்கான 3 மாத உள்ளடக்கச் சந்தைப்படுத்தல் உத்தியை (Content Strategy) உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம் / பிராண்ட்}' க்கான 3 மாத உள்ளடக்கச் சந்தைப்படுத்தல் உத்தியை (Content Strategy) உருவாக்குக:
 >
 > 1. **இலக்கு பார்வையாளர் (Target Audience):** 3 Buyer Personas — தமிழ்நாடு சார்ந்த
 > 2. **உள்ளடக்கத் தூண்கள் (Content Pillars):** 4-5 முக்கிய தலைப்புகள்
@@ -317,7 +317,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **கட்டுரைத் தலைப்புகள் (Blog Topics):** 12 — ஒவ்வொரு மாதமும் 4
 > 5. **வீடியோ / Reels தலைப்புகள்:** 12
 > 6. **KPI-கள்:** செயல்திறன் அளவீடுகள்
-> 7. **போட்டியாளர் ஒப்பீடு:** 3 போட்டியாளர்கள் + என்ன செய்கிறார்கள்?"
+> 7. **போட்டியாளர் ஒப்பீடு:** 3 போட்டியாளர்கள் + என்ன செய்கிறார்கள்?
 
 **பயன்பாடு:** நீண்ட கால உள்ளடக்க திட்டமிடல்.
 
@@ -325,8 +325,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 12. Landing Page நகல் (Landing Page Copy)
 
-> **கட்டளை:**
-> "'{தயாரிப்பு / சேவை}' க்கான Landing Page-ன் முழு உரையை (Copy) எழுதுக:
+> [!PROMPT]
+> '{தயாரிப்பு / சேவை}' க்கான Landing Page-ன் முழு உரையை (Copy) எழுதுக:
 >
 > **பிரிவுகள்:**
 >
@@ -339,7 +339,7 @@ When using these prompts, adapt them to the standard format:
 > 7. **FAQ:** 5 கேள்விகள்
 > 8. **CTA Section:** இறுதி அழைப்பு — அவசரம் (Urgency) + நம்பிக்கை (Trust)
 >
-> **மொழி:** தமிழ் — நம்பிக்கையான நடை"
+> **மொழி:** தமிழ் — நம்பிக்கையான நடை
 
 **பயன்பாடு:** உயர் மாற்ற விகிதம் (High Conversion Rate) Landing Page.
 
@@ -347,8 +347,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 13. வாடிக்கையாளர் சான்றுரை (Testimonial Request)
 
-> **கட்டளை:**
-> "வாடிக்கையாளர்களிடம் சான்றுரை (Testimonial) பெற ஒரு தமிழ் செயல்முறையை உருவாக்குக:
+> [!PROMPT]
+> வாடிக்கையாளர்களிடம் சான்றுரை (Testimonial) பெற ஒரு தமிழ் செயல்முறையை உருவாக்குக:
 >
 > 1. **கோரிக்கை மின்னஞ்சல் (Request Email):** 100 சொற்கள் — பணிவான
 > 2. **கேள்விகள் (Guided Questions):** 5 — நல்ல சான்றுரை பெற
@@ -361,7 +361,7 @@ When using these prompts, adapt them to the standard format:
 >    |-------------|-------------|---------------|
 >    | ... | 'நல்ல பொருள்' | 'இந்த {பொருள்} எங்கள் {சிக்கலை} 30% குறைத்தது...' |
 >
-> 4. **வீடியோ சான்றுரை ஸ்கிரிப்ட்:** 60 வினாடி — கேள்விகள் + எடிட்டிங் குறிப்புகள்"
+> 4. **வீடியோ சான்றுரை ஸ்கிரிப்ட்:** 60 வினாடி — கேள்விகள் + எடிட்டிங் குறிப்புகள்
 
 **பயன்பாடு:** நம்பகமான சான்றுரைகளை முறையாகச் சேகரிக்க.
 
@@ -371,8 +371,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 14. போட்டியாளர் பகுப்பாய்வு (Competitor Analysis)
 
-> **கட்டளை:**
-> "'{எங்கள் வணிகம்}' க்கான டிஜிட்டல் சந்தைப்படுத்தல் போட்டியாளர் பகுப்பாய்வை செய்:
+> [!PROMPT]
+> '{எங்கள் வணிகம்}' க்கான டிஜிட்டல் சந்தைப்படுத்தல் போட்டியாளர் பகுப்பாய்வை செய்:
 >
 > **போட்டியாளர்கள்:** {3 போட்டியாளர்கள்}
 >
@@ -387,7 +387,7 @@ When using these prompts, adapt them to the standard format:
 > | USP | | | | |
 >
 > **வாய்ப்புகள் (Opportunities):** 5 — நாம் எங்கே சிறப்பாகச் செய்யலாம்?
-> **செயல் திட்டம் (Action Plan):** 5 உடனடி நடவடிக்கைகள்"
+> **செயல் திட்டம் (Action Plan):** 5 உடனடி நடவடிக்கைகள்
 
 **பயன்பாடு:** டிஜிட்டல் சந்தையில் போட்டி நிலையை மதிப்பிட.
 
@@ -395,8 +395,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 15. சந்தைப்படுத்தல் ROI கணக்கீடு (Marketing ROI)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட சந்தைப்படுத்தல் தரவை பகுப்பாய்வு செய்து ROI கணக்கிடுக:
+> [!PROMPT]
+> கீழ்க்கண்ட சந்தைப்படுத்தல் தரவை பகுப்பாய்வு செய்து ROI கணக்கிடுக:
 >
 > **தரவு:** {செலவு / வருமானம் / தளவிவரங்கள்}
 >
@@ -411,7 +411,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **நுண்ணறிவுகள் (Insights):** 5 முக்கிய கண்டுபிடிப்புகள்
 > **பட்ஜெட் மறு ஒதுக்கீடு (Budget Reallocation):** எந்த சேனலுக்கு அதிகம்? ஏன்?
-> **அடுத்த காலாண்டு இலக்குகள் (Q+1 Targets):** 5 KPIs"
+> **அடுத்த காலாண்டு இலக்குகள் (Q+1 Targets):** 5 KPIs
 
 **பயன்பாடு:** சந்தைப்படுத்தல் செலவின் வருவாயை அளவிட.
 
@@ -421,8 +421,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 16. பிராண்ட் குரல் வழிகாட்டி (Brand Voice Guide)
 
-> **கட்டளை:**
-> "'{வணிகம் / பிராண்ட்}' க்கான தமிழ் பிராண்ட் குரல் வழிகாட்டியை (Brand Voice Guide) உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம் / பிராண்ட்}' க்கான தமிழ் பிராண்ட் குரல் வழிகாட்டியை (Brand Voice Guide) உருவாக்குக:
 >
 > 1. **பிராண்ட் ஆளுமை (Personality):** 5 பண்புகள் — எ.கா., நட்பான, நிபுணத்துவம்
 > 2. **குரல் பண்புகள் (Voice Attributes):**
@@ -439,7 +439,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **உதாரண வாக்கியங்கள்:** 5 — சரி vs. தவறு
 > 5. **தளம் வாரியான குரல் மாற்றம்:**
 >    | தளம் | நடை | உதாரணம் |
->    |------|-----|---------|"
+>    |------|-----|---------|
 
 **பயன்பாடு:** நிலையான பிராண்ட் தொடர்பு — அனைத்து சேனல்களிலும்.
 
@@ -447,8 +447,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 17. Tagline / Slogan உருவாக்கம் (Tagline Creation)
 
-> **கட்டளை:**
-> "'{வணிகம் / தயாரிப்பு}' க்கான 10 தமிழ் Tagline / Slogan-களை உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம் / தயாரிப்பு}' க்கான 10 தமிழ் Tagline / Slogan-களை உருவாக்குக:
 >
 > **வணிக விளக்கம்:** {என்ன செய்கிறது + USP}
 > **இலக்கு பார்வையாளர்:** {யாருக்கு}
@@ -466,7 +466,7 @@ When using these prompts, adapt them to the standard format:
 > - 🏆 அதிகாரம் (Authority)
 > - 🤝 நம்பிக்கை (Trust)
 >
-> **சிறந்த 3 தேர்வுகளை ⭐ குறியிடுக — ஏன் என்று விளக்குக.**"
+> **சிறந்த 3 தேர்வுகளை ⭐ குறியிடுக — ஏன் என்று விளக்குக.**
 
 **பயன்பாடு:** மறக்க முடியாத தமிழ் Tagline உருவாக்க.
 
@@ -476,8 +476,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 18. WhatsApp வணிக செய்திகள் (WhatsApp Business Messages)
 
-> **கட்டளை:**
-> "'{வணிகம்}' க்கான WhatsApp Business செய்தி மாதிரிகளை (Message Templates) தமிழில் எழுதுக:
+> [!PROMPT]
+> '{வணிகம்}' க்கான WhatsApp Business செய்தி மாதிரிகளை (Message Templates) தமிழில் எழுதுக:
 >
 > **10 மாதிரிகள்:**
 >
@@ -493,7 +493,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - ஒவ்வொன்றும் 160 எழுத்துகளுக்குள்
 > - Emoji அளவான பயன்பாடு
-> - {பெயர்} / {ஆர்டர் எண்} — தனிப்பயன் (Personalization)"
+> - {பெயர்} / {ஆர்டர் எண்} — தனிப்பயன் (Personalization)
 
 **பயன்பாடு:** WhatsApp வணிகத் தொடர்புக்கான தானியக்க செய்திகள்.
 
@@ -501,8 +501,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 19. இணைய மதிப்பாய்வு மேலாண்மை (Online Review Management)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட வகையான Google / Zomato / Justdial மதிப்பாய்வுகளுக்கு (Reviews) தமிழில் பதில்களை எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட வகையான Google / Zomato / Justdial மதிப்பாய்வுகளுக்கு (Reviews) தமிழில் பதில்களை எழுதுக:
 >
 > **5 காட்சிகள்:**
 >
@@ -516,7 +516,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - மதிப்பாய்வு: {மாதிரி உரை}
 > - பதில்: 50-100 சொற்கள் — தொழில்முறையான + அனுதாபமான
-> - செய்ய வேண்டியது / செய்யக் கூடாதது (Do / Don't)"
+> - செய்ய வேண்டியது / செய்யக் கூடாதது (Do / Don't)
 
 **பயன்பாடு:** இணைய நற்பெயர் மேலாண்மை (Online Reputation Management).
 
@@ -524,8 +524,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 20. நிகழ்வு விளம்பரம் (Event Promotion)
 
-> **கட்டளை:**
-> "'{நிகழ்வு — எ.கா., கருத்தரங்கு / தொழில்நுட்ப மாநாடு / பண்டிகை விற்பனை / வெபினார்}' க்கான முழு டிஜிட்டல் விளம்பரத் திட்டத்தை தமிழில் உருவாக்குக:
+> [!PROMPT]
+> '{நிகழ்வு — எ.கா., கருத்தரங்கு / தொழில்நுட்ப மாநாடு / பண்டிகை விற்பனை / வெபினார்}' க்கான முழு டிஜிட்டல் விளம்பரத் திட்டத்தை தமிழில் உருவாக்குக:
 >
 > **நிகழ்வு விவரம்:** {என்ன, எப்போது, எங்கே, யாருக்கு}
 >
@@ -540,7 +540,7 @@ When using these prompts, adapt them to the standard format:
 > | நிகழ்வு நாள் | நேரடி | Social | ... |
 > | நிகழ்வு பின் | நன்றி + பகிர்வு | All | ... |
 >
-> **ஒவ்வொரு கட்டத்திற்கும்:** உரை (Copy) + காட்சிப் பரிந்துரை (Visual)"
+> **ஒவ்வொரு கட்டத்திற்கும்:** உரை (Copy) + காட்சிப் பரிந்துரை (Visual)
 
 **பயன்பாடு:** நிகழ்வின் பார்வையாளர்களை அதிகரிக்க முழு திட்டம்.
 

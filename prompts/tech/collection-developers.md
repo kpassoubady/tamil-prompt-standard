@@ -43,8 +43,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 1. செயல்பாடு / கிளாஸ் உருவாக்கம் (Function / Class Generation)
 
-> **கட்டளை:**
-> "நீ ஒரு மூத்த {நிரலாக்க மொழி — Python / Java / JavaScript / TypeScript} டெவலப்பர் (Senior Developer).
+> [!PROMPT]
+> நீ ஒரு மூத்த {நிரலாக்க மொழி — Python / Java / JavaScript / TypeScript} டெவலப்பர் (Senior Developer).
 > கீழ்க்கண்ட தேவைக்கு ஏற்ப ஒரு {செயல்பாடு (Function) / கிளாஸ் (Class)} எழுதுக:
 >
 > **தேவை:** {என்ன செய்ய வேண்டும் — விரிவாக}
@@ -57,7 +57,7 @@ When using these prompts, adapt them to the standard format:
 > - பிழை கையாளுதல் (Error Handling) கட்டாயம்
 > - வகை குறிப்புகள் (Type Hints / Annotations) சேர்க்கவும்
 > - தமிழில் குறிப்புகள் (Comments in Tamil) + ஆங்கிலத்தில் docstring
-> - நேர சிக்கலளவு (Time Complexity) குறிப்பிடுக"
+> - நேர சிக்கலளவு (Time Complexity) குறிப்பிடுக
 
 **பயன்பாடு (Usage):** தர உயர்ந்த, ஆவணப்படுத்தப்பட்ட குறியீடு விரைவாக எழுத.
 
@@ -65,8 +65,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 2. API இறுதிப்புள்ளி வடிவமைப்பு (API Endpoint Design)
 
-> **கட்டளை:**
-> "'{வணிகத் தேவை — எ.கா., பயனர் பதிவு / பொருள் தேடல் / கட்டணம் செலுத்துதல்}' க்கான ஒரு RESTful API-யை வடிவமைக்கவும்:
+> [!PROMPT]
+> '{வணிகத் தேவை — எ.கா., பயனர் பதிவு / பொருள் தேடல் / கட்டணம் செலுத்துதல்}' க்கான ஒரு RESTful API-யை வடிவமைக்கவும்:
 >
 > **ஒவ்வொரு இறுதிப்புள்ளிக்கும் (Endpoint):**
 >
@@ -81,7 +81,7 @@ When using these prompts, adapt them to the standard format:
 > - பிழை பதில் வடிவம் (Error Response Format): JSON உதாரணம்
 > - **OpenAPI / Swagger குறிப்பு** (Specification) சேர்க்கவும்
 >
-> **குறியீட்டு மொழி (Language):** {Python Flask / Node.js Express / Java Spring Boot}"
+> **குறியீட்டு மொழி (Language):** {Python Flask / Node.js Express / Java Spring Boot}
 
 **பயன்பாடு:** RESTful API-களை முறையாக வடிவமைத்து ஆவணப்படுத்த.
 
@@ -89,8 +89,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 3. தரவுத்தள வடிவமைப்பு (Database Schema Design)
 
-> **கட்டளை:**
-> "'{பயன்பாடு — எ.கா., மின்வணிக தளம் / நூலகம் / மருத்துவமனை}' க்கான தரவுத்தள அமைப்பை (Database Schema) வடிவமைக்கவும்:
+> [!PROMPT]
+> '{பயன்பாடு — எ.கா., மின்வணிக தளம் / நூலகம் / மருத்துவமனை}' க்கான தரவுத்தள அமைப்பை (Database Schema) வடிவமைக்கவும்:
 >
 > **தரவுத்தள வகை (DB Type):** {MySQL / PostgreSQL / MongoDB}
 >
@@ -106,7 +106,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - ER வரைபடம் (ER Diagram) — Mermaid வடிவத்தில்
 > - 5 முக்கிய SQL வினாக்கள் (Queries) — JOIN உதாரணங்கள் உட்பட
-> - இயல்பாக்கம் (Normalization) நிலை: 3NF"
+> - இயல்பாக்கம் (Normalization) நிலை: 3NF
 
 **பயன்பாடு:** தரவுத்தள கட்டமைப்பை திட்டமிட.
 
@@ -114,8 +114,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 4. வடிவமைப்பு முறை செயலாக்கம் (Design Pattern Implementation)
 
-> **கட்டளை:**
-> "'{வடிவமைப்பு முறை (Design Pattern) — எ.கா., Singleton / Factory / Observer / Strategy / Repository}' வடிவமைப்பு முறையை {நிரலாக்க மொழி} மொழியில் செயலாக்குக (Implement):
+> [!PROMPT]
+> '{வடிவமைப்பு முறை (Design Pattern) — எ.கா., Singleton / Factory / Observer / Strategy / Repository}' வடிவமைப்பு முறையை {நிரலாக்க மொழி} மொழியில் செயலாக்குக (Implement):
 >
 > **சூழல் (Context):** {ஏன் இந்த Pattern தேவை — நிஜ உலக உதாரணம்}
 >
@@ -125,7 +125,7 @@ When using these prompts, adapt them to the standard format:
 > 2. **குறியீடு** — முழுமையான, இயக்கக்கூடிய (Runnable) குறியீடு
 > 3. **தமிழ் விளக்கம்** — ஒவ்வொரு பகுதிக்கும் \(Component\) விளக்கம்
 > 4. **நன்மை / தீமை** — அட்டவணை வடிவத்தில்
-> 5. **பயன்படுத்தக் கூடாத நேரம்** — (Anti-pattern Warnings)"
+> 5. **பயன்படுத்தக் கூடாத நேரம்** — (Anti-pattern Warnings)
 
 **பயன்பாடு:** Design Patterns-ஐ தமிழில் கற்றுக்கொள்ள / கற்பிக்க.
 
@@ -135,8 +135,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 5. பிழை கண்டறிதல் (Bug Diagnosis)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட குறியீட்டில் உள்ள பிழைகளை (Bugs) கண்டறிந்து சரி செய்:
+> [!PROMPT]
+> கீழ்க்கண்ட குறியீட்டில் உள்ள பிழைகளை (Bugs) கண்டறிந்து சரி செய்:
 >
 > **குறியீடு:**
 >
@@ -154,7 +154,7 @@ When using these prompts, adapt them to the standard format:
 > 2. **திருத்தம் (Fix):** சரி செய்யப்பட்ட குறியீடு
 > 3. **விளக்கம்:** என்ன மாற்றினோம், ஏன் — தமிழில்
 > 4. **தடுப்பு (Prevention):** இனி இந்தப் பிழை வராமல் என்ன செய்யலாம்?
-> 5. **சோதனை (Test Case):** இந்தப் பிழையைச் சோதிக்கும் Unit Test"
+> 5. **சோதனை (Test Case):** இந்தப் பிழையைச் சோதிக்கும் Unit Test
 
 **பயன்பாடு:** பிழைத் திருத்தத்தை முறையாகச் செய்ய.
 
@@ -162,8 +162,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 6. குறியீடு மறுசீரமைப்பு (Code Refactoring)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட குறியீட்டை, Clean Code கொள்கைகளின்படி மறுசீரமைக்கவும் (Refactor):
+> [!PROMPT]
+> கீழ்க்கண்ட குறியீட்டை, Clean Code கொள்கைகளின்படி மறுசீரமைக்கவும் (Refactor):
 >
 > **மூலக் குறியீடு:**
 >
@@ -183,7 +183,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - மறுசீரமைக்கப்பட்ட குறியீடு
 > - ஒவ்வொரு மாற்றத்தின் காரணம் (தமிழில் விளக்கம்)
-> - முன்-பின் ஒப்பீடு (Before vs. After)"
+> - முன்-பின் ஒப்பீடு (Before vs. After)
 
 **பயன்பாடு:** ஏற்கெனவே உள்ள குறியீட்டை மேம்படுத்த.
 
@@ -191,8 +191,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 7. செயல்திறன் மேம்பாடு (Performance Optimization)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட குறியீட்டின் செயல்திறனை (Performance) பகுப்பாய்வு செய்து மேம்படுத்துக:
+> [!PROMPT]
+> கீழ்க்கண்ட குறியீட்டின் செயல்திறனை (Performance) பகுப்பாய்வு செய்து மேம்படுத்துக:
 >
 > **குறியீடு:**
 >
@@ -209,7 +209,7 @@ When using these prompts, adapt them to the standard format:
 > | நினைவக பயன்பாடு (Memory) | ... | ... | ... |
 >
 > **மேம்படுத்தப்பட்ட குறியீடு** + Benchmark ஒப்பீடு
-> **தமிழ் விளக்கம்:** ஒவ்வொரு மேம்பாட்டின் தாக்கம்"
+> **தமிழ் விளக்கம்:** ஒவ்வொரு மேம்பாட்டின் தாக்கம்
 
 **பயன்பாடு:** வேகம் / நினைவக சிக்கல்களைத் தீர்க்க.
 
@@ -219,8 +219,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 8. சோதனை வழக்குகள் (Test Cases)
 
-> **கட்டளை:**
-> "'{செயல்பாடு / அம்சம் (Feature)}' க்கான விரிவான சோதனை வழக்குகளை (Test Cases) எழுதுக:
+> [!PROMPT]
+> '{செயல்பாடு / அம்சம் (Feature)}' க்கான விரிவான சோதனை வழக்குகளை (Test Cases) எழுதுக:
 >
 > **அம்ச விளக்கம்:** {என்ன செய்கிறது}
 >
@@ -236,7 +236,7 @@ When using these prompts, adapt them to the standard format:
 > - ✅ நேர்மறை (Positive) — 5 வழக்குகள்
 > - ❌ எதிர்மறை (Negative) — 5 வழக்குகள்
 > - 🔲 எல்லை (Boundary) — 3 வழக்குகள்
-> - 🔀 ஓரச் சூழல் (Edge Case) — 2 வழக்குகள்"
+> - 🔀 ஓரச் சூழல் (Edge Case) — 2 வழக்குகள்
 
 **பயன்பாடு:** முழுமையான சோதனை மூலம் தரத்தை உறுதிப்படுத்த.
 
@@ -244,8 +244,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 9. Unit Test எழுதுதல் (Unit Test Writing)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட {செயல்பாடு / கிளாஸ்} க்கான Unit Tests எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட {செயல்பாடு / கிளாஸ்} க்கான Unit Tests எழுதுக:
 >
 > **குறியீடு:**
 >
@@ -267,7 +267,7 @@ When using these prompts, adapt them to the standard format:
 > - AAA முறை: Arrange → Act → Assert
 > - Mock / Stub தேவைப்பட்டால் சேர்க்கவும்
 > - தமிழ் குறிப்புகள் (Tamil Comments) ஒவ்வொரு சோதனைக்கும்
-> - Code Coverage இலக்கு: 90%+"
+> - Code Coverage இலக்கு: 90%+
 
 **பயன்பாடு:** குறியீட்டின் நம்பகத்தன்மையை Unit Test மூலம் உறுதிப்படுத்த.
 
@@ -275,8 +275,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 10. Automation Script — சோதனை தானியக்கம் (Test Automation)
 
-> **கட்டளை:**
-> "'{வலைத்தளம் / செயலி}' க்கான E2E (End-to-End) தானியக்கச் சோதனை (Automation Test) ஸ்கிரிப்ட் எழுதுக:
+> [!PROMPT]
+> '{வலைத்தளம் / செயலி}' க்கான E2E (End-to-End) தானியக்கச் சோதனை (Automation Test) ஸ்கிரிப்ட் எழுதுக:
 >
 > **கருவி (Tool):** {Selenium / Cypress / Playwright / Appium}
 > **மொழி:** {Python / JavaScript / Java}
@@ -291,7 +291,7 @@ When using these prompts, adapt them to the standard format:
 > - திரைப்பிடிப்பு (Screenshot): தோல்வியின் போது
 > - அறிக்கை (Report): Allure / HTML Report
 >
-> **தமிழ் விளக்கம்:** ஒவ்வொரு படிக்கும்."
+> **தமிழ் விளக்கம்:** ஒவ்வொரு படிக்கும்.
 
 **பயன்பாடு:** QA Automation பொறியாளர்களுக்கு.
 
@@ -301,8 +301,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 11. CI/CD Pipeline உருவாக்கம் (CI/CD Pipeline)
 
-> **கட்டளை:**
-> "'{திட்டம் — எ.கா., Node.js வலைத்தளம் / Python API / Java Microservice}' க்கான CI/CD Pipeline-ஐ வடிவமைக்கவும்:
+> [!PROMPT]
+> '{திட்டம் — எ.கா., Node.js வலைத்தளம் / Python API / Java Microservice}' க்கான CI/CD Pipeline-ஐ வடிவமைக்கவும்:
 >
 > **கருவி:** {GitHub Actions / GitLab CI / Jenkins / Azure DevOps}
 >
@@ -315,7 +315,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **Deploy (Staging)** — சோதனை சூழலுக்கு
 > 6. **Deploy (Production)** — உற்பத்தி சூழலுக்கு (Manual Approval)
 >
-> **YAML கோப்பு** முழுமையாக எழுதுக + தமிழ் விளக்கக் குறிப்புகள்."
+> **YAML கோப்பு** முழுமையாக எழுதுக + தமிழ் விளக்கக் குறிப்புகள்.
 
 **பயன்பாடு:** தானியக்க வரிசைப்படுத்தல் (Automated Deployment) அமைக்க.
 
@@ -323,8 +323,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 12. Docker & Kubernetes கட்டமைப்பு (Containerization)
 
-> **கட்டளை:**
-> "'{பயன்பாடு — விளக்கம்}' க்கான Docker + Kubernetes கட்டமைப்பை உருவாக்குக:
+> [!PROMPT]
+> '{பயன்பாடு — விளக்கம்}' க்கான Docker + Kubernetes கட்டமைப்பை உருவாக்குக:
 >
 > **வழங்க வேண்டியவை:**
 >
@@ -342,7 +342,7 @@ When using these prompts, adapt them to the standard format:
 > - non-root பயனராக இயக்குக
 > - Health Checks சேர்க்கவும்
 > - Resource Limits குறிப்பிடுக
-> - தமிழ் குறிப்புகள் (Tamil Comments) ஒவ்வொரு கட்டமைப்புக்கும்"
+> - தமிழ் குறிப்புகள் (Tamil Comments) ஒவ்வொரு கட்டமைப்புக்கும்
 
 **பயன்பாடு:** கொள்கலன் வரிசைப்படுத்தல் (Containerized Deployment) திட்டமிட.
 
@@ -352,8 +352,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 13. README உருவாக்கம் (README Generation)
 
-> **கட்டளை:**
-> "'{திட்டப் பெயர்}' என்ற மென்பொருள் திட்டத்திற்கான ஒரு தொழில்முறை README.md கோப்பை உருவாக்குக:
+> [!PROMPT]
+> '{திட்டப் பெயர்}' என்ற மென்பொருள் திட்டத்திற்கான ஒரு தொழில்முறை README.md கோப்பை உருவாக்குக:
 >
 > **திட்ட விளக்கம்:** {சுருக்கம்}
 > **நிரலாக்க மொழி:** {மொழி}
@@ -369,7 +369,7 @@ When using these prompts, adapt them to the standard format:
 > 6. 📁 கோப்பு அமைப்பு (Project Structure) — Tree View
 > 7. 🤝 பங்களிப்பு (Contributing) வழிகாட்டுதல்
 > 8. 📜 உரிமம் (License)
-> 9. 📞 தொடர்பு (Contact)"
+> 9. 📞 தொடர்பு (Contact)
 
 **பயன்பாடு:** GitHub / GitLab திட்டங்களுக்கான README.
 
@@ -377,8 +377,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 14. API ஆவணப்படுத்தல் (API Documentation)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட API இறுதிப்புள்ளிக்கான (Endpoint) விரிவான ஆவணத்தை எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட API இறுதிப்புள்ளிக்கான (Endpoint) விரிவான ஆவணத்தை எழுதுக:
 >
 > **Endpoint:** {HTTP Method} {Path}
 > **விளக்கம்:** {என்ன செய்கிறது}
@@ -394,7 +394,7 @@ When using these prompts, adapt them to the standard format:
 > 7. **Response — Error:** பல்வேறு பிழை நிலைகள்
 > 8. **cURL உதாரணம்**
 > 9. **{மொழி} குறியீடு உதாரணம்**
-> 10. **வரம்பு (Rate Limit) தகவல்**"
+> 10. **வரம்பு (Rate Limit) தகவல்**
 
 **பயன்பாடு:** API பயனர்களுக்கான தெளிவான ஆவணம்.
 
@@ -404,8 +404,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 15. பாதுகாப்பு மதிப்பாய்வு (Security Code Review)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட குறியீட்டை பாதுகாப்புக் கோணத்தில் (Security Perspective) மதிப்பாய்வு செய்:
+> [!PROMPT]
+> கீழ்க்கண்ட குறியீட்டை பாதுகாப்புக் கோணத்தில் (Security Perspective) மதிப்பாய்வு செய்:
 >
 > **குறியீடு:**
 >
@@ -427,7 +427,7 @@ When using these prompts, adapt them to the standard format:
 > | # | தீவிரம் | பாதிப்பு | வரி எண் | விளக்கம் (தமிழ்) | திருத்தம் (Fix) |
 > |---|---------|---------|---------|----------------|------------|
 >
-> **திருத்தப்பட்ட முழு குறியீடு** வழங்கவும்."
+> **திருத்தப்பட்ட முழு குறியீடு** வழங்கவும்.
 
 **பயன்பாடு:** பாதுகாப்பான குறியீடு எழுத — OWASP வழிகாட்டுதல்கள் பின்பற்ற.
 
@@ -435,8 +435,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 16. .env / Secrets மேலாண்மை (Secrets Management)
 
-> **கட்டளை:**
-> "'{திட்டம் / பயன்பாடு}' க்கான ரகசிய மேலாண்மை (Secrets Management) திட்டத்தை வடிவமைக்கவும்:
+> [!PROMPT]
+> '{திட்டம் / பயன்பாடு}' க்கான ரகசிய மேலாண்மை (Secrets Management) திட்டத்தை வடிவமைக்கவும்:
 >
 > **பகுப்பாய்வு:**
 >
@@ -454,7 +454,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **.gitignore** — ரகசியக் கோப்புகள் தவிர்க்க
 > 5. **சுழற்சி (Rotation) கொள்கை:** எத்தனை நாட்களுக்கு ஒருமுறை?
 >
-> **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணம்."
+> **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணம்.
 
 **பயன்பாடு:** ரகசியத் தகவல்களை பாதுகாப்பாக மேலாண்மை செய்ய.
 
@@ -464,8 +464,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 17. கணினி வடிவமைப்பு (System Design)
 
-> **கட்டளை:**
-> "'{அமைப்பு — எ.கா., URL குறுக்கி / அரட்டைப் பயன்பாடு / உணவு விநியோகம்}' க்கான உயர்நிலை கணினி வடிவமைப்பை (High-Level System Design) உருவாக்குக:
+> [!PROMPT]
+> '{அமைப்பு — எ.கா., URL குறுக்கி / அரட்டைப் பயன்பாடு / உணவு விநியோகம்}' க்கான உயர்நிலை கணினி வடிவமைப்பை (High-Level System Design) உருவாக்குக:
 >
 > 1. **தேவைகள் (Requirements):**
 >    - செயல்பாட்டு (Functional): 5 புள்ளிகள்
@@ -480,7 +480,7 @@ When using these prompts, adapt them to the standard format:
 >
 > 4. **தரவு ஓட்டம் (Data Flow):** முக்கிய காட்சி — படிப்படியாக
 > 5. **மதிப்பீடு (Estimations):** QPS, சேமிப்பு, அலைவரிசை
-> 6. **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணம்"
+> 6. **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணம்
 
 **பயன்பாடு:** நேர்முகத் தேர்வு (Interview) தயாரிப்பு / நிஜ திட்ட வடிவமைப்பு.
 
@@ -488,8 +488,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 18. குறியீடு மதிப்பாய்வு (Code Review Checklist)
 
-> **கட்டளை:**
-> "'{நிரலாக்க மொழி}' திட்டத்திற்கான ஒரு விரிவான குறியீடு மதிப்பாய்வு சரிபார்ப்புப் பட்டியலை (Code Review Checklist) தமிழில் உருவாக்குக:
+> [!PROMPT]
+> '{நிரலாக்க மொழி}' திட்டத்திற்கான ஒரு விரிவான குறியீடு மதிப்பாய்வு சரிபார்ப்புப் பட்டியலை (Code Review Checklist) தமிழில் உருவாக்குக:
 >
 > **பிரிவுகள்:**
 >
@@ -503,7 +503,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **சோதனைத் தன்மை (Testability):** 3 புள்ளிகள்
 > 6. **ஆவணப்படுத்தல் (Documentation):** 3 புள்ளிகள்
 >
-> **ஒவ்வொரு புள்ளிக்கும்:** சரி / தவறு உதாரணம்."
+> **ஒவ்வொரு புள்ளிக்கும்:** சரி / தவறு உதாரணம்.
 
 **பயன்பாடு:** குழு குறியீடு மதிப்பாய்வு செயல்முறையை தரப்படுத்த.
 
@@ -513,8 +513,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 19. கருத்து விளக்கம் — தமிழில் (Concept Explanation in Tamil)
 
-> **கட்டளை:**
-> "'{தொழில்நுட்பக் கருத்து — எ.கா., Microservices / Docker / REST vs GraphQL / Git Branching / Async-Await}' என்ற கருத்தை தமிழில் விளக்குக:
+> [!PROMPT]
+> '{தொழில்நுட்பக் கருத்து — எ.கா., Microservices / Docker / REST vs GraphQL / Git Branching / Async-Await}' என்ற கருத்தை தமிழில் விளக்குக:
 >
 > **வடிவம்:**
 >
@@ -524,7 +524,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **வரைபடம் (Diagram):** Mermaid / ASCII Art
 > 5. **நிஜ உலக உதாரணம் (Real-world):** {தமிழ்நாடு சார்ந்த/ இந்திய சார்ந்த}
 > 6. **ஒப்பீடு (Comparison):** தொடர்புடைய கருத்துடன் — அட்டவணை
-> 7. **நேர்முகக் கேள்வி (Interview Q):** 3 சாத்தியமான கேள்விகள் + விடைகள்"
+> 7. **நேர்முகக் கேள்வி (Interview Q):** 3 சாத்தியமான கேள்விகள் + விடைகள்
 
 **பயன்பாடு:** தொழில்நுட்பக் கருத்துகளை தமிழில் கற்றுக்கொள்ள / கற்பிக்க.
 
@@ -532,8 +532,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 20. நேர்முகத் தேர்வு தயாரிப்பு (Interview Preparation)
 
-> **கட்டளை:**
-> "'{பதவி — எ.கா., Junior Developer / Senior Developer / DevOps Engineer / QA Lead}' பதவிக்கான தொழில்நுட்ப நேர்முகத் தேர்வு (Technical Interview) தயாரிப்புத் திட்டம் உருவாக்குக:
+> [!PROMPT]
+> '{பதவி — எ.கா., Junior Developer / Senior Developer / DevOps Engineer / QA Lead}' பதவிக்கான தொழில்நுட்ப நேர்முகத் தேர்வு (Technical Interview) தயாரிப்புத் திட்டம் உருவாக்குக:
 >
 > 1. **தலைப்புகள் (Topics):** 10 முக்கிய தலைப்புகள் — முன்னுரிமை வரிசையில்
 > 2. **ஒவ்வொன்றுக்கும் 3 கேள்விகள்:**
@@ -544,7 +544,7 @@ When using these prompts, adapt them to the standard format:
 > 4. **நடத்தை கேள்விகள் (Behavioral):** 5 STAR வடிவ எடுத்துக்காட்டுகள்
 > 5. **நிறுவனத்திற்குக் கேட்க வேண்டிய கேள்விகள் (Questions to Ask):** 5
 >
-> **நேரம்:** {:N:} வார தயாரிப்புத் திட்டம் — நாள் வாரியாக."
+> **நேரம்:** {:N:} வார தயாரிப்புத் திட்டம் — நாள் வாரியாக.
 
 **பயன்பாடு:** தொழில்நுட்ப நேர்முகத் தேர்வுக்குத் தயாராக.
 

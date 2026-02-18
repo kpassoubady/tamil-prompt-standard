@@ -43,8 +43,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 1. பயனர் ஆய்வு — Persona உருவாக்கம் (User Persona)
 
-> **கட்டளை:**
-> "'{தயாரிப்பு / செயலி / வலைத்தளம்}' க்கான 3 பயனர் Persona-க்களை (User Personas) உருவாக்குக:
+> [!PROMPT]
+> '{தயாரிப்பு / செயலி / வலைத்தளம்}' க்கான 3 பயனர் Persona-க்களை (User Personas) உருவாக்குக:
 >
 > **ஒவ்வொன்றுக்கும்:**
 >
@@ -56,7 +56,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **மேற்கோள் (Quote):** தமிழில் — இந்த பயனர் சொல்வது
 > 7. **காட்சி பயணம் (Scenario):** 3-4 வாக்கிய கதை — எப்படி தயாரிப்பை பயன்படுத்துகிறார்?
 >
-> **கட்டுப்பாடு:** ஒவ்வொரு Persona-வும் மிகவும் வேறுபட்ட பின்னணி."
+> **கட்டுப்பாடு:** ஒவ்வொரு Persona-வும் மிகவும் வேறுபட்ட பின்னணி.
 
 **பயன்பாடு:** பயனர்-மையமான வடிவமைப்பின் (User-Centered Design) அடிப்படை.
 
@@ -64,8 +64,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 2. பயனர் பயணம் (User Journey Map)
 
-> **கட்டளை:**
-> "'{செயல் — எ.கா., உணவு ஆர்டர் / பயண முன்பதிவு / வங்கிக் கணக்கு திறப்பு}' க்கான பயனர் பயண வரைபடத்தை (User Journey Map) உருவாக்குக:
+> [!PROMPT]
+> '{செயல் — எ.கா., உணவு ஆர்டர் / பயண முன்பதிவு / வங்கிக் கணக்கு திறப்பு}' க்கான பயனர் பயண வரைபடத்தை (User Journey Map) உருவாக்குக:
 >
 > | நிலை (Stage) | செயல் (Action) | சிந்தனை (Thinking) | உணர்வு (Emotion) | தொடு புள்ளி (Touchpoint) | வாய்ப்பு (Opportunity) |
 > |-------------|-------------|-----------------|----------------|---------------------|---------------------|
@@ -76,7 +76,7 @@ When using these prompts, adapt them to the standard format:
 > | 5. பின் அனுபவம் | ... | ... | ... | ... | ... |
 >
 > **வலி புள்ளிகள் (Pain Points):** 5 — வரிசையில்
-> **வடிவமைப்பு வாய்ப்புகள் (Design Opportunities):** 5"
+> **வடிவமைப்பு வாய்ப்புகள் (Design Opportunities):** 5
 
 **பயன்பாடு:** பயனர் அனுபவத்தின் ஒவ்வொரு படியையும் புரிந்துகொள்ள.
 
@@ -84,8 +84,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 3. Wireframe விளக்க ஆவணம் (Wireframe Specification)
 
-> **கட்டளை:**
-> "'{பக்கம் — எ.கா., முகப்பு / பதிவு / தயாரிப்பு / செக்-அவுட்}' பக்கத்தின் Wireframe-க்கான விளக்க ஆவணத்தை உருவாக்குக:
+> [!PROMPT]
+> '{பக்கம் — எ.கா., முகப்பு / பதிவு / தயாரிப்பு / செக்-அவுட்}' பக்கத்தின் Wireframe-க்கான விளக்க ஆவணத்தை உருவாக்குக:
 >
 > **சாதனம்:** {Desktop / Mobile / Both}
 >
@@ -109,7 +109,7 @@ When using these prompts, adapt them to the standard format:
 > |--------|------------------|------------------|----------|
 >
 > **ஊடாடும் நிலைகள் (Interactive States):** Default, Hover, Active, Error, Success
-> **Responsive Breakpoints:** Mobile, Tablet, Desktop"
+> **Responsive Breakpoints:** Mobile, Tablet, Desktop
 
 **பயன்பாடு:** Wireframe-ஐ டெவலப்பருக்கு தெளிவாக விளக்க.
 
@@ -117,8 +117,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 4. பயன்பாட்டுத் தன்மை மதிப்பாய்வு (Usability Review)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட வலைத்தளம் / செயலியின் {திரைப்பிடிப்பு விளக்கம் / URL} அடிப்படையில் பயன்பாட்டுத் தன்மை மதிப்பாய்வு (Usability Heuristic Review) செய்க:
+> [!PROMPT]
+> கீழ்க்கண்ட வலைத்தளம் / செயலியின் {திரைப்பிடிப்பு விளக்கம் / URL} அடிப்படையில் பயன்பாட்டுத் தன்மை மதிப்பாய்வு (Usability Heuristic Review) செய்க:
 >
 > **Nielsen's 10 Heuristics அடிப்படையில்:**
 >
@@ -136,7 +136,7 @@ When using these prompts, adapt them to the standard format:
 > | 10 | Help | உதவி | | | |
 >
 > **ஒட்டுமொத்த மதிப்பெண்:** /50
-> **முதல் 5 மேம்பாடுகள் (Top 5 Improvements):** முன்னுரிமை வரிசையில்"
+> **முதல் 5 மேம்பாடுகள் (Top 5 Improvements):** முன்னுரிமை வரிசையில்
 
 **பயன்பாடு:** இருக்கும் UI-யை முறையாக மதிப்பிடு.
 
@@ -144,8 +144,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 5. Accessibility சரிபார்ப்பு (Accessibility Checklist)
 
-> **கட்டளை:**
-> "'{வலைத்தளம் / செயலி}' க்கான WCAG 2.1 அணுகல்தன்மை (Accessibility) சரிபார்ப்புப் பட்டியலை தமிழில் உருவாக்குக:
+> [!PROMPT]
+> '{வலைத்தளம் / செயலி}' க்கான WCAG 2.1 அணுகல்தன்மை (Accessibility) சரிபார்ப்புப் பட்டியலை தமிழில் உருவாக்குக:
 >
 > **நிலை:** {A / AA / AAA}
 >
@@ -161,7 +161,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - தமிழ் எழுத்துரு (Font) அளவும் வாசிப்புத் தன்மையும்
 > - இருமொழி (Bilingual) உள்ளடக்கத்தின் வரிசை
-> - உரை-திசை (Text Direction) — LTR"
+> - உரை-திசை (Text Direction) — LTR
 
 **பயன்பாடு:** அனைவருக்கும் அணுகக்கூடிய வடிவமைப்பு உறுதிசெய்ய.
 
@@ -171,8 +171,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 6. வடிவமைப்பு அமைப்பு — Design System (Design System)
 
-> **கட்டளை:**
-> "'{பிராண்ட் / தயாரிப்பு}' க்கான ஒரு வடிவமைப்பு அமைப்பை (Design System) வரையறுக்கவும்:
+> [!PROMPT]
+> '{பிராண்ட் / தயாரிப்பு}' க்கான ஒரு வடிவமைப்பு அமைப்பை (Design System) வரையறுக்கவும்:
 >
 > 1. **வண்ணப் பட்டை (Color Palette):**
 >
@@ -196,7 +196,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **படிவக் கூறுகள் (Form Elements):** Input, Select, Checkbox, Radio
 > 6. **Icons:** 10 முக்கிய icons — நடை (Outlined / Filled / Duotone)
 >
-> **தமிழ் எழுத்துருக்கான குறிப்பு:** Google Fonts / Noto Sans Tamil பரிந்துரை."
+> **தமிழ் எழுத்துருக்கான குறிப்பு:** Google Fonts / Noto Sans Tamil பரிந்துரை.
 
 **பயன்பாடு:** நிலையான வடிவமைப்பு மொழி உருவாக்க.
 
@@ -204,8 +204,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 7. லோகோ வடிவமைப்பு Brief (Logo Design Brief)
 
-> **கட்டளை:**
-> "'{வணிகம் / பிராண்ட்}' க்கான லோகோ வடிவமைப்பு brief-ஐ உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம் / பிராண்ட்}' க்கான லோகோ வடிவமைப்பு brief-ஐ உருவாக்குக:
 >
 > 1. **வணிக விளக்கம்:** என்ன செய்கிறது?
 > 2. **இலக்கு பார்வையாளர்:** யாருக்கு?
@@ -224,7 +224,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **போட்டியாளர் லோகோக்கள்:** 3 — என்ன செய்கிறார்கள்?
 > 7. **தவிர்க்க வேண்டியவை (What to Avoid):** 5
 > 8. **தமிழ் / ஆங்கிலம்:** {தமிழ் பெயர் / ஆங்கிலம் / இருமொழி}
-> 9. **சொல்ல வேண்டிய உணர்வு (Emotion):** நம்பிக்கை / புதுமை / மரபு"
+> 9. **சொல்ல வேண்டிய உணர்வு (Emotion):** நம்பிக்கை / புதுமை / மரபு
 
 **பயன்பாடு:** வடிவமைப்பாளருக்கு தெளிவான லோகோ brief.
 
@@ -232,8 +232,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 8. சமூக ஊடக வடிவமைப்பு Brief (Social Media Design Brief)
 
-> **கட்டளை:**
-> "'{பிராண்ட்}' க்கான சமூக ஊடக வடிவமைப்பு (Social Media Design) வழிகாட்டியை உருவாக்குக:
+> [!PROMPT]
+> '{பிராண்ட்}' க்கான சமூக ஊடக வடிவமைப்பு (Social Media Design) வழிகாட்டியை உருவாக்குக:
 >
 > **அளவுகள் (Dimensions):**
 >
@@ -258,7 +258,7 @@ When using these prompts, adapt them to the standard format:
 > - 📊 infographic
 > - 💰 offer / விற்பனை
 > - 🎓 குறிப்பு / கல்வி
-> - 📣 அறிவிப்பு"
+> - 📣 அறிவிப்பு
 
 **பயன்பாடு:** நிலையான சமூக ஊடக வடிவமைப்பு — brand consistency.
 
@@ -268,8 +268,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 9. UI Microcopy — தமிழ் (Tamil UI Microcopy)
 
-> **கட்டளை:**
-> "'{செயலி / வலைத்தளம்}' க்கான UI Microcopy-யை தமிழில் எழுதுக:
+> [!PROMPT]
+> '{செயலி / வலைத்தளம்}' க்கான UI Microcopy-யை தமிழில் எழுதுக:
 >
 > **பிரிவுகள்:**
 >
@@ -288,7 +288,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - தெளிவு (Clarity) > புத்தாக்கம் (Cleverness)
 > - குறுகிய (Concise) — 5 சொற்களுக்குள்
-> - பயனருக்கு உதவிகரமான (Helpful)"
+> - பயனருக்கு உதவிகரமான (Helpful)
 
 **பயன்பாடு:** தமிழ் UI-யின் பயனர் அனுபவத்தை மேம்படுத்த.
 
@@ -296,8 +296,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 10. Onboarding ஓட்டம் (Onboarding Flow)
 
-> **கட்டளை:**
-> "'{செயலி}' க்கான 5-படி Onboarding ஓட்டத்தை (Flow) வடிவமைக்கவும்:
+> [!PROMPT]
+> '{செயலி}' க்கான 5-படி Onboarding ஓட்டத்தை (Flow) வடிவமைக்கவும்:
 >
 > **ஒவ்வொரு திரைக்கும்:**
 >
@@ -313,7 +313,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - Skip விருப்பம்: {ஆம் / இல்லை}
 > - Progress Indicator: {Dots / Bar / Steps}
-> - அனிமேஷன் பரிந்துரை"
+> - அனிமேஷன் பரிந்துரை
 
 **பயன்பாடு:** புதிய பயனர்களுக்கான இனிய முதல் அனுபவம்.
 
@@ -323,8 +323,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 11. வண்ணப் பட்டை உருவாக்கம் (Color Palette Generation)
 
-> **கட்டளை:**
-> "'{உணர்வு / தொழில் / பருவம்}' க்கு ஏற்ற 3 வேறுபட்ட வண்ணப் பட்டைகளை (Color Palettes) உருவாக்குக:
+> [!PROMPT]
+> '{உணர்வு / தொழில் / பருவம்}' க்கு ஏற்ற 3 வேறுபட்ட வண்ணப் பட்டைகளை (Color Palettes) உருவாக்குக:
 >
 > **ஒவ்வொன்றுக்கும் 5 வண்ணங்கள்:**
 >
@@ -340,7 +340,7 @@ When using these prompts, adapt them to the standard format:
 > - வண்ண உளவியல் (Color Psychology) — தமிழ் விளக்கம்
 > - Accessible Contrast Check: AA / AAA
 > - இருள் / ஒளி நிலை (Dark / Light Mode) பொருத்தம்
-> - எந்தத் தொழிலுக்கு சிறந்தது?"
+> - எந்தத் தொழிலுக்கு சிறந்தது?
 
 **பயன்பாடு:** சரியான வண்ணத்தைத் தேர்ந்தெடுக்க.
 
@@ -348,8 +348,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 12. வடிவமைப்பு போக்குகள் (Design Trends)
 
-> **கட்டளை:**
-> "2024-2025 வடிவமைப்பு போக்குகளை (Design Trends) தமிழில் சுருக்கவும்:
+> [!PROMPT]
+> 2024-2025 வடிவமைப்பு போக்குகளை (Design Trends) தமிழில் சுருக்கவும்:
 >
 > **10 முக்கிய போக்குகள்:**
 >
@@ -363,7 +363,7 @@ When using these prompts, adapt them to the standard format:
 > - எப்படி பயன்படுத்துவது? — நடைமுறை குறிப்பு
 > - தமிழ்நாடு வணிகங்களுக்கு பொருத்தம்?: ⭐ 1-5
 >
-> **எச்சரிக்கை:** எந்த போக்குகளை தவிர்க்க வேண்டும்? 3 + ஏன்?"
+> **எச்சரிக்கை:** எந்த போக்குகளை தவிர்க்க வேண்டும்? 3 + ஏன்?
 
 **பயன்பாடு:** வடிவமைப்பு அறிவைப் புதுப்பிக்க.
 
@@ -371,8 +371,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 13. AI படம் — Prompt எழுதுதல் (AI Image Prompt)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட நோக்கத்திற்கு {Midjourney / DALL-E / Stable Diffusion} AI படம் உருவாக்க கட்டளைகளை (Prompts) எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட நோக்கத்திற்கு {Midjourney / DALL-E / Stable Diffusion} AI படம் உருவாக்க கட்டளைகளை (Prompts) எழுதுக:
 >
 > **நோக்கம்:** '{என்ன படம் — எ.கா., தமிழ் பண்டிகை விளக்கம், தொழில்நுட்ப நிறுவன வலைத்தளம், உணவு மெனு}'
 >
@@ -385,7 +385,7 @@ When using these prompts, adapt them to the standard format:
 >
 > **அட்டவணை:**
 > | # | Prompt | Style | Aspect | Mood | சிறப்பு |
-> |---|--------|-------|--------|------|--------|"
+> |---|--------|-------|--------|------|--------|
 
 **பயன்பாடு:** AI படம் உருவாக்க கருவிகளை திறம்பட பயன்படுத்த.
 
@@ -395,8 +395,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 14. வடிவமைப்பு சமர்ப்பிப்பு (Design Presentation)
 
-> **கட்டளை:**
-> "'{வடிவமைப்பு திட்டம்}' க்கான வாடிக்கையாளர் / நிர்வாக சமர்ப்பிப்பு (Design Presentation) ஸ்லைடுகளின் உள்ளடக்கத்தை உருவாக்குக:
+> [!PROMPT]
+> '{வடிவமைப்பு திட்டம்}' க்கான வாடிக்கையாளர் / நிர்வாக சமர்ப்பிப்பு (Design Presentation) ஸ்லைடுகளின் உள்ளடக்கத்தை உருவாக்குக:
 >
 > **8 ஸ்லைடுகள்:**
 >
@@ -410,7 +410,7 @@ When using these prompts, adapt them to the standard format:
 > | 7 | Prototype | Interactive Demo | ... |
 > | 8 | அடுத்த படிகள் | Timeline + Budget | ... |
 >
-> **ஒவ்வொரு ஸ்லைடிலும்:** 20 சொற்களுக்கு மிகாமல் + Speaker Notes 50 சொற்கள்"
+> **ஒவ்வொரு ஸ்லைடிலும்:** 20 சொற்களுக்கு மிகாமல் + Speaker Notes 50 சொற்கள்
 
 **பயன்பாடு:** வடிவமைப்பு முடிவுகளை தொழில்முறையாக சமர்ப்பிக்க.
 
@@ -418,8 +418,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 15. வடிவமைப்பு Handoff ஆவணம் (Design-to-Dev Handoff)
 
-> **கட்டளை:**
-> "'{திரை / கூறு}' க்கான Design-to-Development Handoff ஆவணத்தை உருவாக்குக:
+> [!PROMPT]
+> '{திரை / கூறு}' க்கான Design-to-Development Handoff ஆவணத்தை உருவாக்குக:
 >
 > **வடிவம்:**
 >
@@ -441,7 +441,7 @@ When using these prompts, adapt them to the standard format:
 >    | Error | ... |
 >
 > 7. **அனிமேஷன்:** Duration, Easing, Property
-> 8. **CSS / Tailwind Code:** பூர்த்தி செய்யப்பட்ட குறியீடு"
+> 8. **CSS / Tailwind Code:** பூர்த்தி செய்யப்பட்ட குறியீடு
 
 **பயன்பாடு:** வடிவமைப்பாளர் → டெவலப்பர் இடையிலான தெளிவான தொடர்பு.
 
@@ -451,8 +451,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 16. பயன்பாட்டுச் சோதனை திட்டம் (Usability Testing Plan)
 
-> **கட்டளை:**
-> "'{செயலி / வலைத்தளம்}' க்கான பயன்பாட்டுச் சோதனை (Usability Testing) திட்டத்தை உருவாக்குக:
+> [!PROMPT]
+> '{செயலி / வலைத்தளம்}' க்கான பயன்பாட்டுச் சோதனை (Usability Testing) திட்டத்தை உருவாக்குக:
 >
 > 1. **இலக்கு (Objective):** 3 ஆய்வுக் கேள்விகள்
 > 2. **பங்கேற்பாளர் (Participants):** 5 — தேர்வு அளவுகோல்
@@ -467,7 +467,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **கவனிக்க வேண்டிய அம்சங்கள் (Observation Notes):** என்ன பதிவு செய்ய?
 > 6. **அறிக்கை (Report) வடிவம்:** கண்டுபிடிப்பு + பரிந்துரை
 >
-> **மொழி:** தமிழ் பேசும் பயனர்களுக்கான சோதனை — தமிழில்."
+> **மொழி:** தமிழ் பேசும் பயனர்களுக்கான சோதனை — தமிழில்.
 
 **பயன்பாடு:** பயனர் கருத்தை (User Feedback) முறையாகச் சேகரிக்க.
 
@@ -475,8 +475,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 17. A/B சோதனை திட்டம் (A/B Test Plan)
 
-> **கட்டளை:**
-> "'{கூறு / பக்கம்}' க்கான A/B சோதனை (A/B Test) திட்டத்தை உருவாக்குக:
+> [!PROMPT]
+> '{கூறு / பக்கம்}' க்கான A/B சோதனை (A/B Test) திட்டத்தை உருவாக்குக:
 >
 > **கருதுகோள் (Hypothesis):** {வடிவம் B} {அளவீடு}-ஐ {சதவீதம்}% மேம்படுத்தும்
 >
@@ -492,7 +492,7 @@ When using these prompts, adapt them to the standard format:
 > - சோதனை காலம்: ... வாரங்கள்
 > - வெற்றி தீர்மானம் (Success Criteria): p < 0.05
 >
-> **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணமும்."
+> **தமிழ் விளக்கம்:** ஒவ்வொரு முடிவின் காரணமும்.
 
 **பயன்பாடு:** தரவு-அடிப்படையில் வடிவமைப்பு முடிவுகள் எடுக்க.
 
@@ -502,8 +502,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 18. Responsive வடிவமைப்பு விவரம் (Responsive Design Spec)
 
-> **கட்டளை:**
-> "'{பக்கம் / கூறு}' க்கான Responsive வடிவமைப்பு விவரத்தை உருவாக்குக:
+> [!PROMPT]
+> '{பக்கம் / கூறு}' க்கான Responsive வடிவமைப்பு விவரத்தை உருவாக்குக:
 >
 > **Breakpoints:**
 >
@@ -521,7 +521,7 @@ When using these prompts, adapt them to the standard format:
 > | Hero | ... | ... | ... |
 > | Cards | 1 per row | 2 per row | 3 per row |
 >
-> **CSS Media Query உதாரணங்கள்:** 3"
+> **CSS Media Query உதாரணங்கள்:** 3
 
 **பயன்பாடு:** அனைத்து சாதனங்களிலும் சிறப்பான UI.
 
@@ -529,8 +529,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 19. Design System ஆவணம் (Design System Documentation)
 
-> **கட்டளை:**
-> "'{பிராண்ட்}' க்கான Design System ஆவணத்தை (Living Document) உருவாக்குக:
+> [!PROMPT]
+> '{பிராண்ட்}' க்கான Design System ஆவணத்தை (Living Document) உருவாக்குக:
 >
 > **பிரிவுகள்:**
 >
@@ -544,7 +544,7 @@ When using these prompts, adapt them to the standard format:
 > 3. **கூறுகள் (Components):** 10 முக்கிய கூறுகள்
 >    - ஒவ்வொன்றுக்கும்: Anatomy, Variants, States, Usage Do/Don't
 > 4. **Patterns:** 5 — Form, Navigation, Cards, Tables, Modals
-> 5. **அணுகல்தன்மை (Accessibility):** ஒவ்வொரு கூறுக்கும் ARIA குறிப்பு"
+> 5. **அணுகல்தன்மை (Accessibility):** ஒவ்வொரு கூறுக்கும் ARIA குறிப்பு
 
 **பயன்பாடு:** வடிவமைப்புக் குழுவின் நிலையான குறிப்பு ஆவணம்.
 
@@ -552,8 +552,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 20. போர்ட்ஃபோலியோ வழக்கு ஆய்வு (Portfolio Case Study)
 
-> **கட்டளை:**
-> "'{திட்டம்}' க்கான வடிவமைப்பு போர்ட்ஃபோலியோ வழக்கு ஆய்வை (Case Study) எழுதுக:
+> [!PROMPT]
+> '{திட்டம்}' க்கான வடிவமைப்பு போர்ட்ஃபோலியோ வழக்கு ஆய்வை (Case Study) எழுதுக:
 >
 > **அமைப்பு:**
 >
@@ -566,7 +566,7 @@ When using these prompts, adapt them to the standard format:
 > 7. **தாக்கம் (Impact):** அளவீடுகள் — % மேம்பாடு
 > 8. **பாடம் (Lessons Learned):** 3
 >
-> **நடை:** தொழில்முறையான, சுருக்கமான — Behance / Dribbble தரத்தில்"
+> **நடை:** தொழில்முறையான, சுருக்கமான — Behance / Dribbble தரத்தில்
 
 **பயன்பாடு:** வேலைவாய்ப்புக்கான வடிவமைப்பு போர்ட்ஃபோலியோ.
 
