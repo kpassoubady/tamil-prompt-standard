@@ -14,17 +14,19 @@
 
 | # | கோப்பு (File) | விளக்கம் (Description) |
 |---|--------------|----------------------|
-| 1 | [prompt-engineering.md](prompt-engineering.md) | கட்டளை வடிவமைப்பு அடிப்படைகள் — CLEAR, CRAFT, AUTOMAT, CATS போன்ற 6+ கட்டமைப்புகள் (Frameworks) |
-| 2 | [tamil-prompt-engineering-cheatsheet.md](tamil-prompt-engineering-cheatsheet.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
-| 3 | [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
-| 4 | [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) | TNC21 ஆய்வு உரைச் சுருக்கம் (Research Abstract) — தமிழ் AI கட்டளை வடிவமைப்புக் கட்டமைப்பின் அடிப்படைத் தத்துவம் |
+| 1 | [prompt-engineering-basics.md](prompt-engineering-basics.md) | கட்டளை வடிவமைப்பு அடிப்படைகள் — வரையறை, கொள்கைகள், தமிழ் மொழி சிறப்பு குறிப்புகள் |
+| 2 | [prompt-engineering-frameworks.md](prompt-engineering-frameworks.md) | கட்டளைக் கட்டமைப்புகள் — CLEAR, CRAFT, CREATE, AUTOMAT, CATS, PROMPT மற்றும் தேர்வு வழிகாட்டி |
+| 3 | [prompt-engineering-techniques.md](prompt-engineering-techniques.md) | தொழில்நுட்ப நுட்பங்கள் — CoT, ToT, DSP, Zero-Shot, Zero-Shot CoT, PoT |
+| 4 | [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
+| 5 | [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
 
 > **எந்த வழிகாட்டியைப் படிக்க வேண்டும்? (Which guide should I read?)**
 >
-> - **புதியவர் (Beginner):** Start with [tamil-prompt-simple-handbook.md](tamil-prompt-simple-handbook.md) — 5 நிமிட அறிமுகம்
-> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-prompt-engineering-cheatsheet.md](tamil-prompt-engineering-cheatsheet.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
-> - **முழுமையான கற்றல் (Deep Dive):** Read [prompt-engineering.md](prompt-engineering.md) — 6+ கட்டமைப்புகள், விரிவான விளக்கங்கள்
-> - **ஆய்வு (Research):** See [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md) — TNC21 ஆய்வுக் கட்டமைப்பு
+> - **புதியவர் (Beginner):** Start with [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) — 5 நிமிட அறிமுகம்
+> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
+> - **அடிப்படைகள் (Basics):** Read [prompt-engineering-basics.md](prompt-engineering-basics.md) — வரையறை, கொள்கைகள், தமிழ் குறிப்புகள்
+> - **கட்டமைப்புகள் (Frameworks):** Read [prompt-engineering-frameworks.md](prompt-engineering-frameworks.md) — 6 கட்டமைப்புகள் + தேர்வு வழிகாட்டி
+> - **மேம்பட்ட நுட்பங்கள் (Advanced):** Read [prompt-engineering-techniques.md](prompt-engineering-techniques.md) — CoT, ToT, DSP, PoT நுட்பங்கள்
 
 ---
 
@@ -32,10 +34,10 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 5 | [collection-farmers.md](prompts/agriculture/collection-farmers.md) | விவசாயிகள் (Farmers) | பயிர், இயற்கை விவசாயம், சந்தை விலை, அரசு திட்டங்கள் |
-| 6 | [collection-agricultural-laborers.md](prompts/agriculture/collection-agricultural-laborers.md) | விவசாய தொழிலாளர்கள் | கூலி உரிமைகள், நல திட்டங்கள், பாதுகாப்பு |
-| 7 | [collection-self-help-groups.md](prompts/agriculture/collection-self-help-groups.md) | சுயஉதவிக் குழுக்கள் (SHGs) | குழு நிர்வாகம், சிறுகடன், தொழில் தொடங்க |
-| 8 | [collection-rural-entrepreneurs.md](prompts/agriculture/collection-rural-entrepreneurs.md) | கிராமப்புற தொழில் முனைவோர் | வியாபார யோசனைகள், சந்தைப்படுத்துதல், வங்கி கடன் |
+| 6 | [collection-farmers.md](prompts/agriculture/collection-farmers.md) | விவசாயிகள் (Farmers) | பயிர், இயற்கை விவசாயம், சந்தை விலை, அரசு திட்டங்கள் |
+| 7 | [collection-agricultural-laborers.md](prompts/agriculture/collection-agricultural-laborers.md) | விவசாய தொழிலாளர்கள் | கூலி உரிமைகள், நல திட்டங்கள், பாதுகாப்பு |
+| 8 | [collection-self-help-groups.md](prompts/agriculture/collection-self-help-groups.md) | சுயஉதவிக் குழுக்கள் (SHGs) | குழு நிர்வாகம், சிறுகடன், தொழில் தொடங்க |
+| 9 | [collection-rural-entrepreneurs.md](prompts/agriculture/collection-rural-entrepreneurs.md) | கிராமப்புற தொழில் முனைவோர் | வியாபார யோசனைகள், சந்தைப்படுத்துதல், வங்கி கடன் |
 
 ---
 
@@ -43,8 +45,8 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 9 | [collection-business.md](prompts/biz/collection-business.md) | தொழிலதிபர்கள் (Business Pros) | வணிகத் திட்டம், நிதி ஆய்வு, வாடிக்கையாளர் தொடர்பு |
-| 10 | [collection-marketers.md](prompts/biz/collection-marketers.md) | சந்தையாளர்கள் (Marketers) | சமூக ஊடகம், விளம்பரம், பிராண்டிங் உத்திகள் |
+| 10 | [collection-business.md](prompts/biz/collection-business.md) | தொழிலதிபர்கள் (Business Pros) | வணிகத் திட்டம், நிதி ஆய்வு, வாடிக்கையாளர் தொடர்பு |
+| 11 | [collection-marketers.md](prompts/biz/collection-marketers.md) | சந்தையாளர்கள் (Marketers) | சமூக ஊடகம், விளம்பரம், பிராண்டிங் உத்திகள் |
 
 ---
 
@@ -52,9 +54,9 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 11 | [collection-parents.md](prompts/daily/collection-parents.md) | பெற்றோர்கள் (Parents) | குழந்தை வளர்ப்பு, கல்வி ஆதரவு, திரை நேரம் |
-| 12 | [collection-seniors.md](prompts/daily/collection-seniors.md) | மூத்தோர் (Seniors) | தொழில்நுட்பம் கற்றல், ஆன்லைன் பாதுகாப்பு, ஆரோக்கியம் |
-| 13 | [collection-content-creators.md](prompts/daily/collection-content-creators.md) | உள்ளடக்க உருவாக்குநர்கள் | YouTube Script, SEO, சமூக ஊடக வளர்ச்சி |
+| 12 | [collection-parents.md](prompts/daily/collection-parents.md) | பெற்றோர்கள் (Parents) | குழந்தை வளர்ப்பு, கல்வி ஆதரவு, திரை நேரம் |
+| 13 | [collection-seniors.md](prompts/daily/collection-seniors.md) | மூத்தோர் (Seniors) | தொழில்நுட்பம் கற்றல், ஆன்லைன் பாதுகாப்பு, ஆரோக்கியம் |
+| 14 | [collection-content-creators.md](prompts/daily/collection-content-creators.md) | உள்ளடக்க உருவாக்குநர்கள் | YouTube Script, SEO, சமூக ஊடக வளர்ச்சி |
 
 ---
 
@@ -62,12 +64,12 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 14 | [collection-primary-students.md](prompts/edu/collection-primary-students.md) | தொடக்க நிலை (Primary) | அடிப்படை பாடம், எளிய விளக்கங்கள், கதைகள் |
-| 15 | [collection-middle-school-students.md](prompts/edu/collection-middle-school-students.md) | நடுநிலை (Middle School) | பாடச்சுருக்கம், கணித சிக்கல் தீர்வு, அறிவியல் |
-| 16 | [collection-high-school-students.md](prompts/edu/collection-high-school-students.md) | மேல்நிலை (High School) | போர்டு தேர்வு, கருத்து விளக்கம், எதிர்காலம் |
-| 17 | [collection-college-students.md](prompts/edu/collection-college-students.md) | கல்லூரி (College) | ஆராய்ச்சி, திட்ட அறிக்கை, நேர்காணல் தயார் |
-| 18 | [collection-competitive-exam-students.md](prompts/edu/collection-competitive-exam-students.md) | போட்டித்தேர்வு (Exams) | TNPSC, UPSC, NEET தேர்வு உத்திகள் |
-| 19 | [collection-educators.md](prompts/edu/collection-educators.md) | ஆசிரியர்கள் (Educators) | பாடத்திட்டம், வினாத்தாள், மதிப்பீடு |
+| 15 | [collection-primary-students.md](prompts/edu/collection-primary-students.md) | தொடக்க நிலை (Primary) | அடிப்படை பாடம், எளிய விளக்கங்கள், கதைகள் |
+| 16 | [collection-middle-school-students.md](prompts/edu/collection-middle-school-students.md) | நடுநிலை (Middle School) | பாடச்சுருக்கம், கணித சிக்கல் தீர்வு, அறிவியல் |
+| 17 | [collection-high-school-students.md](prompts/edu/collection-high-school-students.md) | மேல்நிலை (High School) | போர்டு தேர்வு, கருத்து விளக்கம், எதிர்காலம் |
+| 18 | [collection-college-students.md](prompts/edu/collection-college-students.md) | கல்லூரி (College) | ஆராய்ச்சி, திட்ட அறிக்கை, நேர்காணல் தயார் |
+| 19 | [collection-competitive-exam-students.md](prompts/edu/collection-competitive-exam-students.md) | போட்டித்தேர்வு (Exams) | TNPSC, UPSC, NEET தேர்வு உத்திகள் |
+| 20 | [collection-educators.md](prompts/edu/collection-educators.md) | ஆசிரியர்கள் (Educators) | பாடத்திட்டம், வினாத்தாள், மதிப்பீடு |
 
 ---
 
@@ -75,10 +77,10 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 20 | [collection-job-seekers.md](prompts/employment/collection-job-seekers.md) | வேலை தேடுவோர் (Job Seekers) | ரெசுமே, கவர் கடிதம், நேர்காணல் உத்திகள் |
-| 21 | [collection-freshers.md](prompts/employment/collection-freshers.md) | புதிய பட்டதாரிகள் (Freshers) | முதல் வேலை, கேம்பஸ் இன்டர்வியூ, திறன் |
-| 22 | [collection-startup-founders.md](prompts/employment/collection-startup-founders.md) | ஸ்டார்ட்அப் (Founders) | பிச் டெக், யோசனை சரிபார்ப்பு, முதலீடு |
-| 23 | [collection-freelancers.md](prompts/employment/collection-freelancers.md) | சுதந்திர தொழிலாளர்கள் | வாடிக்கையாளர் தேடல், விலை நிர்ணயம், ஒப்பந்தம் |
+| 21 | [collection-job-seekers.md](prompts/employment/collection-job-seekers.md) | வேலை தேடுவோர் (Job Seekers) | ரெசுமே, கவர் கடிதம், நேர்காணல் உத்திகள் |
+| 22 | [collection-freshers.md](prompts/employment/collection-freshers.md) | புதிய பட்டதாரிகள் (Freshers) | முதல் வேலை, கேம்பஸ் இன்டர்வியூ, திறன் |
+| 23 | [collection-startup-founders.md](prompts/employment/collection-startup-founders.md) | ஸ்டார்ட்அப் (Founders) | பிச் டெக், யோசனை சரிபார்ப்பு, முதலீடு |
+| 24 | [collection-freelancers.md](prompts/employment/collection-freelancers.md) | சுதந்திர தொழிலாளர்கள் | வாடிக்கையாளர் தேடல், விலை நிர்ணயம், ஒப்பந்தம் |
 
 ---
 
@@ -86,10 +88,10 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 24 | [collection-doctors.md](prompts/health/collection-doctors.md) | மருத்துவர்கள் (Doctors) | நோயாளி விளக்கம், மருத்துவ குறிப்புகள் |
-| 25 | [collection-nurses.md](prompts/health/collection-nurses.md) | செவிலியர்கள் (Nurses) | பராமரிப்பு திட்டம், வெளியேற்ற குறிப்புகள் |
-| 26 | [collection-counsellors.md](prompts/health/collection-counsellors.md) | ஆலோசகர்கள் (Counsellors) | மனநல ஆதரவு, மன அழுத்த மேலாண்மை |
-| 27 | [collection-ayush.md](prompts/health/collection-ayush.md) | ஆயுஷ் மருத்துவர்கள் (AYUSH) | பாரம்பரிய மருத்துவம், யோகா, வாழ்வியல் |
+| 25 | [collection-doctors.md](prompts/health/collection-doctors.md) | மருத்துவர்கள் (Doctors) | நோயாளி விளக்கம், மருத்துவ குறிப்புகள் |
+| 26 | [collection-nurses.md](prompts/health/collection-nurses.md) | செவிலியர்கள் (Nurses) | பராமரிப்பு திட்டம், வெளியேற்ட குறிப்புகள் |
+| 27 | [collection-counsellors.md](prompts/health/collection-counsellors.md) | ஆலோசகர்கள் (Counsellors) | மனநல ஆதரவு, மன அழுத்த மேலாண்மை |
+| 28 | [collection-ayush.md](prompts/health/collection-ayush.md) | ஆயுஷ் மருத்துவர்கள் (AYUSH) | பாரம்பரிய மருத்துவம், யோகா, வாழ்வியல் |
 
 ---
 
@@ -97,10 +99,10 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 28 | [collection-lawyers.md](prompts/law/collection-lawyers.md) | வழக்கறிஞர்கள் (Lawyers) | ஆவண வரைவு, சட்ட ஆய்வு, வாதாட குறிப்புகள் |
-| 29 | [collection-law-students.md](prompts/law/collection-law-students.md) | சட்ட மாணவர்கள் (Students) | சட்ட விளக்கம், வழக்கு ஆய்வு, தேர்வு |
-| 30 | [collection-govt-officers.md](prompts/law/collection-govt-officers.md) | அரசு அலுவலர்கள் (Officers) | அரசாணை, கடிதங்கள், கொள்கை குறிப்புகள் |
-| 31 | [collection-policy-analysts.md](prompts/law/collection-policy-analysts.md) | கொள்கை ஆய்வாளர்கள் | கொள்கை ஆய்வு, தரவு விளக்கம், பரிந்துரை |
+| 29 | [collection-lawyers.md](prompts/law/collection-lawyers.md) | வழக்கறிஞர்கள் (Lawyers) | ஆவண வரைவு, சட்ட ஆய்வு, வாதாட குறிப்புகள் |
+| 30 | [collection-law-students.md](prompts/law/collection-law-students.md) | சட்ட மாணவர்கள் (Students) | சட்ட விளக்கம், வழக்கு ஆய்வு, தேர்வு |
+| 31 | [collection-govt-officers.md](prompts/law/collection-govt-officers.md) | அரசு அலுவலர்கள் (Officers) | அரசாணை, கடிதங்கள், கொள்கை குறிப்புகள் |
+| 32 | [collection-policy-analysts.md](prompts/law/collection-policy-analysts.md) | கொள்கை ஆய்வாளர்கள் | கொள்கை ஆய்வு, தரவு விளக்கம், பரிந்துரை |
 
 ---
 
@@ -108,10 +110,10 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 32 | [collection-writers.md](prompts/lit/collection-writers.md) | எழுத்தாளர்கள் (Writers) | கட்டுரை, உரைநடை, மொழிபெயர்ப்பு |
-| 33 | [collection-poets.md](prompts/lit/collection-poets.md) | கவிஞர்கள் (Poets) | கவிதை படைப்பு, யாப்பு, நவீன கவிதை |
-| 34 | [collection-stories.md](prompts/lit/collection-stories.md) | கதாசிரியர்கள் (Storytellers) | சிறுகதை, திரைக்கதை, பாத்திரப்படைப்பு |
-| 35 | [collection-neologism.md](prompts/lit/collection-neologism.md) | மொழியியலாளர்கள் | புதுச்சொல் உருவாக்கம், கலைச்சொல்லாக்கம் |
+| 33 | [collection-writers.md](prompts/lit/collection-writers.md) | எழுத்தாளர்கள் (Writers) | கட்டுரை, உரைநடை, மொழிபெயர்ப்பு |
+| 34 | [collection-poets.md](prompts/lit/collection-poets.md) | கவிஞர்கள் (Poets) | கவிதை படைப்பு, யாப்பு, நவீன கவிதை |
+| 35 | [collection-stories.md](prompts/lit/collection-stories.md) | கதாசிரியர்கள் (Storytellers) | சிறுகதை, திரைக்கதை, பாத்திரப்படைப்பு |
+| 36 | [collection-neologism.md](prompts/lit/collection-neologism.md) | மொழியியலாளர்கள் | புதுச்சொல் உருவாக்கம், கலைச்சொல்லாக்கம் |
 
 ---
 
@@ -119,9 +121,17 @@
 
 | # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
 |---|--------------|-------------------|----------------------|
-| 36 | [collection-developers.md](prompts/tech/collection-developers.md) | நிரலாளர்கள் (Developers) | குறியீடு, பிழைத்திருத்தம், API |
-| 37 | [collection-designers.md](prompts/tech/collection-designers.md) | வடிவமைப்பாளர்கள் (Designers) | UX/UI ஆய்வு, அணுகல்தன்மை |
-| 38 | [collection-data-analysts.md](prompts/tech/collection-data-analysts.md) | தரவு ஆய்வாளர்கள் (Analysts) | SQL, தரவு காட்சிப்படுத்தல், அறிக்கை |
+| 37 | [collection-developers.md](prompts/tech/collection-developers.md) | நிரலாளர்கள் (Developers) | குறியீடு, பிழைத்திருத்தம், API |
+| 38 | [collection-designers.md](prompts/tech/collection-designers.md) | வடிவமைப்பாளர்கள் (Designers) | UX/UI ஆய்வு, அணுகல்தன்மை |
+| 39 | [collection-data-analysts.md](prompts/tech/collection-data-analysts.md) | தரவு ஆய்வாளர்கள் (Analysts) | SQL, தரவு காட்சிப்படுத்தல், அறிக்கை |
+
+---
+
+### 📐 [கட்டளை தரநிலை கட்டமைப்பு (Taxonomy)](TAXONOMY.md)
+
+| # | கோப்பு (File) | விளக்கம் (Description) |
+|---|--------------|----------------------|
+| 40 | [TAXONOMY.md](TAXONOMY.md) | 8-அடுக்கு தரநிலை கட்டமைப்பு — பாத்திரம், துறை, திறன் நிலை, நோக்கம், தொனி, வடிவம், கட்டுப்பாடு, பாதுகாப்பு |
 
 ---
 
@@ -129,7 +139,7 @@
 
 | அளவீடு (Metric) | விவரம் (Details) |
 |-----------------|-------------------|
-| **மொத்தக் கோப்புகள் (Total Files)** | 38+ |
+| **மொத்தக் கோப்புகள் (Total Files)** | 40+ |
 | **கட்டளை மாதிரிகள் (Prompt Templates)** | 700+ |
 | **துறைகள் (Domains)** | 9 (விவசாயம், வணிகம், தினசரி, கல்வி, வேலை, சுகாதாரம், சட்டம், இலக்கியம், தொழில்நுட்பம்) |
 | **இலக்குப் பயனர்கள் (Target Roles)** | 30+ (முழு சமூகத்தையும் உள்ளடக்கியது) |
@@ -143,7 +153,7 @@
 3. **AI மாதிரியிடம் வழங்கவும்** — ChatGPT, Gemini, Claude, Llama போன்ற எந்த நவீன LLM-லும் பயன்படுத்தலாம்
 4. **மேம்படுத்தவும்** — முதல் பதிலை வரைவாகக் கொண்டு, மீள்சீரமைப்பு (Iterative Refinement) செய்யுங்கள்
 
-> 💡 **குறிப்பு:** கட்டளை வடிவமைப்பின் அடிப்படைகளை முதலில் கற்க [prompt-engineering.md](prompt-engineering.md) கோப்பைப் படிக்கவும்.
+> 💡 **குறிப்பு:** கட்டளை வடிவமைப்பின் அடிப்படைகளை முதலில் கற்க [prompt-engineering-basics.md](prompt-engineering-basics.md) கோப்பைப் படிக்கவும்.
 
 ---
 
@@ -151,7 +161,7 @@
 
 இந்தக் கையேடு **TNC21 / Tamil Research Chair on Artificial Intelligence** ஆய்வின் அடிப்படையில் உருவாக்கப்பட்டது. 27 ஆண்டுகால தகவல் தொழில்நுட்ப அனுபவத்தின் அடிப்படையில், தமிழ் மொழியின் இலக்கண, மரபு, மரியாதை மற்றும் பொருள் நுணுக்கங்களை AI மாதிரிகள் எவ்வாறு உணர்கின்றன என்பதையும், அவற்றைச் செயல்திறனுடன் வழிநடத்துவது எப்படி என்பதையும் ஆராய்கிறது.
 
-முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-prompt-engineering-framework.md](tamil-prompt-engineering-framework.md)
+முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-framework-prompt-engineering.md](tamil-framework-prompt-engineering.md)
 
 ---
 

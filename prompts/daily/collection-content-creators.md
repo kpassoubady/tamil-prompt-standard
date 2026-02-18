@@ -57,14 +57,14 @@
 📌 INTRO (0:30 - 1:00)
 ━━━━━━━━━━━━━━━━━━━━
 [ON CAMERA]
-"வணக்கம் {சேனல் பெயர்}க்கு வருக..."
+"வணக்கம் {சேனல் பெயர்}க்கு வருக---"
 
 [TEXT ON SCREEN: {முக்கிய புள்ளி}]
 
 ━━━━━━━━━━━━━━━━━━━━
 📚 SECTION 1: {தலைப்பு}
 ━━━━━━━━━━━━━━━━━━━━
-...
+---
 ```
 
 **L8 பாதுகாப்பு:**
@@ -292,7 +292,7 @@ engage செய்ய Community Posts எழுது.
 
 ```prompt
 📢 Disclosure கட்டாயம்:
-✓ "This video is sponsored by..." சொல்லுங்கள்
+✓ "This video is sponsored by---" சொல்லுங்கள்
 ✓ Description-ல் #sponsored அல்லது #ad சேர்க்கவும்
 ✓ FTC / ASCI guidelines follow செய்யவும்
 ✓ தவறான claims வேண்டாம்

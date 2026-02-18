@@ -28,7 +28,7 @@ We welcome contributions from the community! Whether you are a prompt engineer, 
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b prompt/new-prompt-name`).
-3. Commit your changes (`git commit -m "feat: Add new prompt for..."`).
+3. Commit your changes (`git commit -m "feat: Add new prompt for---"`).
 4. Push to the branch (`git push origin prompt/new-prompt-name`).
 5. Open a Pull Request.
 

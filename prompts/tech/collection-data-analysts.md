@@ -22,7 +22,7 @@ When using these prompts, adapt them to the standard format:
 **Format:** SQL / Python / Dashboard Plan
 
 **Instruction:**
-...
+---
 
 **Constraints:**
 - No PII (Personally Identifiable Information)
@@ -43,8 +43,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 1. ஆய்வுத் தரவு பகுப்பாய்வு (Exploratory Data Analysis — EDA)
 
-> **கட்டளை:**
-> "நீ ஒரு மூத்த தரவு ஆய்வாளர் (Senior Data Analyst).
+> [!PROMPT]
+> நீ ஒரு மூத்த தரவு ஆய்வாளர் (Senior Data Analyst).
 > கீழ்க்கண்ட தரவுத்தொகுப்பின் (Dataset) தொடக்க ஆய்வை (EDA) செய்:
 >
 > **தரவு:** {தரவு விளக்கம் / நெடுவரிசைகள் / மாதிரி வரிகள்}
@@ -59,7 +59,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **கண்டுபிடிப்புகள் (Key Findings):** 5 முக்கிய நுண்ணறிவுகள்
 > 7. **பரிந்துரை (Recommendations):** அடுத்த படிகள்
 >
-> **{Python pandas / R / SQL} குறியீடு வழங்குக — தமிழ் குறிப்புகளுடன்.**"
+> **{Python pandas / R / SQL} குறியீடு வழங்குக — தமிழ் குறிப்புகளுடன்.**
 
 **பயன்பாடு:** எந்தத் தரவுத்தொகுப்பையும் முறையாக ஆராய.
 
@@ -67,8 +67,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 2. SQL வினா உருவாக்கம் (SQL Query Generation)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட வணிக கேள்விக்கு (Business Question) SQL வினாவை எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட வணிக கேள்விக்கு (Business Question) SQL வினாவை எழுதுக:
 >
 > **கேள்வி (தமிழ்):** '{வணிகக் கேள்வி — எ.கா., கடந்த மாதம் அதிக விற்பனையான 10 பொருள்கள் என்ன?}'
 > **தரவுத்தள அமைப்பு (Schema):** {அட்டவணைகள் + நெடுவரிசைகள்}
@@ -80,7 +80,7 @@ When using these prompts, adapt them to the standard format:
 > 2. **வினா விளக்கம்:** ஒவ்வொரு பகுதியும் (SELECT, JOIN, WHERE, GROUP BY) — தமிழில்
 > 3. **செயல்திறன் குறிப்பு (Performance):** INDEX பரிந்துரை
 > 4. **மாற்று வினா (Alternative):** வேறு அணுகுமுறை + ஒப்பீடு
-> 5. **எதிர்பார்க்கப்படும் முடிவு (Expected Result):** மாதிரி அட்டவணை"
+> 5. **எதிர்பார்க்கப்படும் முடிவு (Expected Result):** மாதிரி அட்டவணை
 
 **பயன்பாடு:** SQL வினாக்களை விரைவாக எழுத — எந்த சிக்கலான கேள்விக்கும்.
 
@@ -88,8 +88,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 3. தரவுத் தூய்மைப்படுத்தல் (Data Cleaning Script)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட தரவுத் தரச் சிக்கல்களை (Data Quality Issues) சரிசெய்யும் {Python / R} ஸ்கிரிப்ட் எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட தரவுத் தரச் சிக்கல்களை (Data Quality Issues) சரிசெய்யும் {Python / R} ஸ்கிரிப்ட் எழுதுக:
 >
 > **தரவு:** {தரவு விளக்கம் / மாதிரி}
 >
@@ -97,14 +97,14 @@ When using these prompts, adapt them to the standard format:
 >
 > | # | சிக்கல் | உதாரணம் | தீர்வு | குறியீடு |
 > |---|--------|---------|-------|---------|
-> | 1 | விடுபடும் மதிப்புகள் (Missing) | ... | நிரப்புதல் / நீக்குதல் | ... |
-> | 2 | நகல் வரிகள் (Duplicates) | ... | நீக்குதல் | ... |
-> | 3 | தவறான வகை (Type Mismatch) | ... | மாற்றுதல் | ... |
-> | 4 | விலகல்கள் (Outliers) | ... | Cap / நீக்குதல் | ... |
-> | 5 | தரப்படுத்தாமை (Inconsistent) | ... | தரப்படுத்தல் | ... |
+> | 1 | விடுபடும் மதிப்புகள் (Missing) | --- | நிரப்புதல் / நீக்குதல் | --- |
+> | 2 | நகல் வரிகள் (Duplicates) | --- | நீக்குதல் | --- |
+> | 3 | தவறான வகை (Type Mismatch) | --- | மாற்றுதல் | --- |
+> | 4 | விலகல்கள் (Outliers) | --- | Cap / நீக்குதல் | --- |
+> | 5 | தரப்படுத்தாமை (Inconsistent) | --- | தரப்படுத்தல் | --- |
 >
 > **முழு Pipeline குறியீடு** — pandas / dplyr — தமிழ் குறிப்புகளுடன்.
-> **முன்-பின் ஒப்பீடு:** தூய்மைக்கு முன் vs. பின் — தரவு தர (data quality) அளவீடுகள்."
+> **முன்-பின் ஒப்பீடு:** தூய்மைக்கு முன் vs. பின் — தரவு தர (data quality) அளவீடுகள்.
 
 **பயன்பாடு:** அழுக்கான தரவை முறையாகத் தூய்மைப்படுத்த.
 
@@ -112,8 +112,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 4. புள்ளியியல் பகுப்பாய்வு (Statistical Analysis)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட தரவுக்கு பொருத்தமான புள்ளியியல் சோதனையை (Statistical Test) தேர்ந்தெடுத்து நிறைவேற்றுக:
+> [!PROMPT]
+> கீழ்க்கண்ட தரவுக்கு பொருத்தமான புள்ளியியல் சோதனையை (Statistical Test) தேர்ந்தெடுத்து நிறைவேற்றுக:
 >
 > **ஆய்வுக் கேள்வி:** '{கேள்வி — எ.கா., இரு குழுக்களிடையே விற்பனையில் குறிப்பிடத்தக்க வேறுபாடு உள்ளதா?}'
 > **தரவு:** {விளக்கம் / மாதிரி}
@@ -121,13 +121,13 @@ When using these prompts, adapt them to the standard format:
 > **படிமுறை:**
 >
 > 1. **கருதுகோள் (Hypothesis):**
->    - H₀ (Null): ...
->    - H₁ (Alternative): ...
+>    - H₀ (Null): ---
+>    - H₁ (Alternative): ---
 > 2. **சோதனை தேர்வு (Test Selection):** {t-test / chi-square / ANOVA / regression} — ஏன்?
 > 3. **முன்நிபந்தனைகள் (Assumptions):** சோதிக்கவும்
 > 4. **{Python / R} குறியீடு:** முழுமை — scipy / statsmodels பயன்படுத்தி
 > 5. **முடிவு விளக்கம் (Interpretation):** p-value, confidence interval — தமிழில்
-> 6. **வணிகப் பொருள் (Business Implication):** என்ன செய்ய வேண்டும்?"
+> 6. **வணிகப் பொருள் (Business Implication):** என்ன செய்ய வேண்டும்?
 
 **பயன்பாடு:** தரவு அடிப்படையில் வணிக முடிவுகளை நிரூபிக்க.
 
@@ -137,8 +137,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 5. வரைபடம் உருவாக்கம் (Chart Generation)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட தரவுக்கு ஏற்ற வரைபடத்தை (Chart) {matplotlib / seaborn / plotly / ggplot2} பயன்படுத்தி உருவாக்குக:
+> [!PROMPT]
+> கீழ்க்கண்ட தரவுக்கு ஏற்ற வரைபடத்தை (Chart) {matplotlib / seaborn / plotly / ggplot2} பயன்படுத்தி உருவாக்குக:
 >
 > **தரவு:** {தரவு / நெடுவரிசைகள்}
 > **நோக்கம் (Purpose):** {ஒப்பீடு / போக்கு / விநியோகம் / உறவு / கலவை}
@@ -147,18 +147,18 @@ When using these prompts, adapt them to the standard format:
 >
 > | நோக்கம் | வரைபடம் | ஏன்? |
 > |---------|---------|------|
-> | ஒப்பீடு | Bar Chart | ... |
-> | போக்கு | Line Chart | ... |
-> | விநியோகம் | Histogram / Box Plot | ... |
-> | உறவு | Scatter Plot | ... |
-> | கலவை | Pie / Stacked Bar | ... |
+> | ஒப்பீடு | Bar Chart | --- |
+> | போக்கு | Line Chart | --- |
+> | விநியோகம் | Histogram / Box Plot | --- |
+> | உறவு | Scatter Plot | --- |
+> | கலவை | Pie / Stacked Bar | --- |
 >
 > **குறியீட்டு தேவைகள்:**
 >
 > - தலைப்பு + அச்சுப் பெயர்கள் — தமிழில்
 > - வண்ணத் திட்டம் (Color Palette): தொழில்முறையானது
 > - உரை அளவு: படிக்கக்கூடியது
-> - தமிழ் குறிப்புகள் கட்டாயம்"
+> - தமிழ் குறிப்புகள் கட்டாயம்
 
 **பயன்பாடு:** தரவை அர்த்தமுள்ள வரைபடங்களாக மாற்ற.
 
@@ -166,8 +166,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 6. Dashboard வடிவமைப்பு (Dashboard Design)
 
-> **கட்டளை:**
-> "'{வணிகத் துறை — எ.கா., விற்பனை / HR / நிதி / செயல்பாடுகள்}' க்கான ஒரு Dashboard-ஐ வடிவமைக்கவும்:
+> [!PROMPT]
+> '{வணிகத் துறை — எ.கா., விற்பனை / HR / நிதி / செயல்பாடுகள்}' க்கான ஒரு Dashboard-ஐ வடிவமைக்கவும்:
 >
 > **கருவி (Tool):** {Power BI / Tableau / Google Data Studio / Streamlit}
 >
@@ -181,7 +181,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **புதுப்பிப்பு (Refresh):** நிஜ நேரம் / தினசரி / வாராந்திர
 >
 > **DAX / Calculated Fields சூத்திரங்கள்** (Power BI-க்கு) சேர்க்கவும்.
-> **தமிழ் + ஆங்கிலம்:** KPI பெயர்கள் இரு மொழிகளிலும்."
+> **தமிழ் + ஆங்கிலம்:** KPI பெயர்கள் இரு மொழிகளிலும்.
 
 **பயன்பாடு:** நிர்வாகத்திற்கான BI Dashboard திட்டமிட.
 
@@ -189,8 +189,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 7. தரவுக் கதை சொல்லல் (Data Storytelling)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட தரவு கண்டுபிடிப்புகளை (Data Findings) நிர்வாகத்திற்கு சமர்ப்பிக்கத்தக்க ஒரு 'தரவுக் கதை' (Data Story) ஆக மாற்றுக:
+> [!PROMPT]
+> கீழ்க்கண்ட தரவு கண்டுபிடிப்புகளை (Data Findings) நிர்வாகத்திற்கு சமர்ப்பிக்கத்தக்க ஒரு 'தரவுக் கதை' (Data Story) ஆக மாற்றுக:
 >
 > **கண்டுபிடிப்புகள் (Findings):** {புள்ளிவிவர தரவு}
 >
@@ -203,7 +203,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **தாக்கம் (Impact):** வணிகத்தில் என்ன விளைவு? — ₹ / % வடிவில்
 > 6. **செயல் (Action):** என்ன செய்ய வேண்டும்? — 3 குறிப்பிட்ட நடவடிக்கைகள்
 >
-> **நடை:** நிர்வாகத்திற்கு ஏற்ற — தொழில்நுட்பச் சொற்கள் குறைவாக."
+> **நடை:** நிர்வாகத்திற்கு ஏற்ற — தொழில்நுட்பச் சொற்கள் குறைவாக.
 
 **பயன்பாடு:** தரவை வணிக முடிவுகளாக மாற்ற — நிர்வாக சமர்ப்பிப்புகளுக்கு.
 
@@ -213,8 +213,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 8. பகுப்பாய்வு அறிக்கை (Analysis Report)
 
-> **கட்டளை:**
-> "'{ஆய்வு தலைப்பு — எ.கா., விற்பனைப் போக்கு / வாடிக்கையாளர் பிரிவாக்கம் / செலவு பகுப்பாய்வு}' க்கான ஒரு தொழில்முறை பகுப்பாய்வு அறிக்கையை உருவாக்குக:
+> [!PROMPT]
+> '{ஆய்வு தலைப்பு — எ.கா., விற்பனைப் போக்கு / வாடிக்கையாளர் பிரிவாக்கம் / செலவு பகுப்பாய்வு}' க்கான ஒரு தொழில்முறை பகுப்பாய்வு அறிக்கையை உருவாக்குக:
 >
 > **தரவு:** {தரவு விளக்கம்}
 >
@@ -229,7 +229,7 @@ When using these prompts, adapt them to the standard format:
 > 7. **அடுத்த படிகள் (Next Steps)**
 > 8. **இணைப்பு (Appendix):** விரிவான தரவு + SQL வினாக்கள்
 >
-> **மொழி:** தமிழ் (முக்கிய உரை) + ஆங்கிலம் (தொழில்நுட்ப சொற்கள் அடைப்புக்குறியில்)"
+> **மொழி:** தமிழ் (முக்கிய உரை) + ஆங்கிலம் (தொழில்நுட்ப சொற்கள் அடைப்புக்குறியில்)
 
 **பயன்பாடு:** நிர்வாகத்திற்கான மாத / காலாண்டு அறிக்கை.
 
@@ -237,8 +237,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 9. KPI வரையறை (KPI Definition)
 
-> **கட்டளை:**
-> "'{துறை / வணிகம் — எ.கா., SaaS / மின்வணிகம் / உற்பத்தி / கல்வி}' க்கான 10 முக்கிய செயல்திறன் குறிகாட்டிகளை (KPIs) வரையறுக்கவும்:
+> [!PROMPT]
+> '{துறை / வணிகம் — எ.கா., SaaS / மின்வணிகம் / உற்பத்தி / கல்வி}' க்கான 10 முக்கிய செயல்திறன் குறிகாட்டிகளை (KPIs) வரையறுக்கவும்:
 >
 > **ஒவ்வொன்றுக்கும்:**
 >
@@ -249,7 +249,7 @@ When using these prompts, adapt them to the standard format:
 >
 > - ஒவ்வொன்றும் ஏன் முக்கியம் (Why It Matters) — 1 வாக்கியம்
 > - எப்போது எச்சரிக்கை (Alert Threshold) — சிவப்பு / மஞ்சள் / பச்சை
-> - Dashboard-ல் காட்சிப்படுத்தும் முறை (Visualization Type)"
+> - Dashboard-ல் காட்சிப்படுத்தும் முறை (Visualization Type)
 
 **பயன்பாடு:** வணிக அளவீடுகளை முறையாக வரையறுக்க.
 
@@ -259,8 +259,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 10. ETL Pipeline வடிவமைப்பு (ETL Pipeline)
 
-> **கட்டளை:**
-> "'{தரவு மூலம் → இலக்கு}' க்கான ETL (Extract-Transform-Load) Pipeline-ஐ வடிவமைக்கவும்:
+> [!PROMPT]
+> '{தரவு மூலம் → இலக்கு}' க்கான ETL (Extract-Transform-Load) Pipeline-ஐ வடிவமைக்கவும்:
 >
 > **மூலம் (Source):** {CSV / API / Database / Cloud Storage}
 > **இலக்கு (Destination):** {Data Warehouse / Dashboard / Report}
@@ -278,7 +278,7 @@ When using these prompts, adapt them to the standard format:
 >    - Incremental / Full refresh
 >    - Validation checks
 >
-> **{Python / Airflow / dbt / SSIS} குறியீடு** — தமிழ் குறிப்புகளுடன்."
+> **{Python / Airflow / dbt / SSIS} குறியீடு** — தமிழ் குறிப்புகளுடன்.
 
 **பயன்பாடு:** தரவு ஓட்ட தானியக்கம் (Data Pipeline Automation).
 
@@ -286,8 +286,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 11. Excel / Sheets சூத்திரங்கள் (Spreadsheet Formulas)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட வணிகத் தேவைக்கு ஏற்ற {Excel / Google Sheets} சூத்திரங்களை (Formulas) எழுதுக:
+> [!PROMPT]
+> கீழ்க்கண்ட வணிகத் தேவைக்கு ஏற்ற {Excel / Google Sheets} சூத்திரங்களை (Formulas) எழுதுக:
 >
 > **தேவை:** '{என்ன செய்ய வேண்டும் — எ.கா., பல நிபந்தனை வடிகட்டல், தானியக்க அறிக்கை, Pivot தரவு}'
 >
@@ -304,7 +304,7 @@ When using these prompts, adapt them to the standard format:
 > - ARRAYFORMULA — Google Sheets
 > - Pivot Table — படிப்படியான வழிகாட்டி
 >
-> **தமிழ் விளக்கம்:** ஒவ்வொரு சூத்திரமும் என்ன செய்கிறது — எளிமையாக."
+> **தமிழ் விளக்கம்:** ஒவ்வொரு சூத்திரமும் என்ன செய்கிறது — எளிமையாக.
 
 **பயன்பாடு:** Excel / Google Sheets நிபுணத்துவத்தை மேம்படுத்த.
 
@@ -312,8 +312,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 12. இயந்திரக் கற்றல் மாதிரி (Machine Learning Model)
 
-> **கட்டளை:**
-> "'{பணி — எ.கா., வாடிக்கையாளர் இழப்பு கணிப்பு / விலை மதிப்பீடு / மோசடி கண்டறிதல்}' க்கான ML மாதிரியை (Model) உருவாக்குக:
+> [!PROMPT]
+> '{பணி — எ.கா., வாடிக்கையாளர் இழப்பு கணிப்பு / விலை மதிப்பீடு / மோசடி கண்டறிதல்}' க்கான ML மாதிரியை (Model) உருவாக்குக:
 >
 > **தரவு:** {விளக்கம் / அம்சங்கள் (Features) / இலக்கு மாறி (Target)}
 >
@@ -330,7 +330,7 @@ When using these prompts, adapt them to the standard format:
 >    - Confusion Matrix
 > 4. **அம்ச முக்கியத்துவம் (Feature Importance):** முதல் 10
 > 5. **Python குறியீடு:** scikit-learn — முழுமையான Pipeline
-> 6. **வணிக விளக்கம் (Business Interpretation):** தமிழில்"
+> 6. **வணிக விளக்கம் (Business Interpretation):** தமிழில்
 
 **பயன்பாடு:** கணிப்பு பகுப்பாய்வு (Predictive Analytics) செய்ய.
 
@@ -340,8 +340,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 13. சந்தை ஆய்வு கட்டமைப்பு (Market Research Framework)
 
-> **கட்டளை:**
-> "'{பொருள் / சேவை / தொழில்}' க்கான சந்தை ஆய்வை (Market Research) கட்டமைக்கவும்:
+> [!PROMPT]
+> '{பொருள் / சேவை / தொழில்}' க்கான சந்தை ஆய்வை (Market Research) கட்டமைக்கவும்:
 >
 > 1. **SWOT பகுப்பாய்வு:**
 >    | வலிமை (Strengths) | பலவீனம் (Weaknesses) |
@@ -355,7 +355,7 @@ When using these prompts, adapt them to the standard format:
 > 5. **போக்குகள் (Trends):** 5 முக்கிய போக்குகள்
 > 6. **பரிந்துரைகள் (Recommendations):** 3 செயல் நடவடிக்கைகள்
 >
-> **தமிழ்நாடு / இந்திய சந்தை சூழலில்.**"
+> **தமிழ்நாடு / இந்திய சந்தை சூழலில்.**
 
 **பயன்பாடு:** புதிய வணிகம் / தயாரிப்புக்கான சந்தை ஆய்வு.
 
@@ -363,8 +363,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 14. வாடிக்கையாளர் பகுப்பாய்வு (Customer Analytics)
 
-> **கட்டளை:**
-> "'{வணிகம்}' க்கான வாடிக்கையாளர் பகுப்பாய்வை செய்யும் கட்டமைப்பை உருவாக்குக:
+> [!PROMPT]
+> '{வணிகம்}' க்கான வாடிக்கையாளர் பகுப்பாய்வை செய்யும் கட்டமைப்பை உருவாக்குக:
 >
 > **பகுப்பாய்வு வகைகள்:**
 >
@@ -377,8 +377,9 @@ When using these prompts, adapt them to the standard format:
 > 3. **CLV (Customer Lifetime Value):** சூத்திரம் + கணக்கீடு
 > 4. **Churn கணிப்பு:** எந்த வாடிக்கையாளர்கள் விலகலாம்?
 > 5. **செயல் திட்டம் (Action Plan):**
+>
 >    | பிரிவு | உத்தி | வேகம் |
->    |--------|------|------|"
+>    |--------|------|------|
 
 **பயன்பாடு:** வாடிக்கையாளர் தரவை வணிக வளர்ச்சிக்குப் பயன்படுத்த.
 
@@ -386,8 +387,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 15. நிதி பகுப்பாய்வு (Financial Analysis)
 
-> **கட்டளை:**
-> "கீழ்க்கண்ட நிதித் தரவை (Financial Data) பகுப்பாய்வு செய்:
+> [!PROMPT]
+> கீழ்க்கண்ட நிதித் தரவை (Financial Data) பகுப்பாய்வு செய்:
 >
 > **தரவு:** {வருமானம் / செலவு / லாபம் / எண்கள்}
 > **காலம்:** {மாத / காலாண்டு / வருட}
@@ -399,7 +400,7 @@ When using these prompts, adapt them to the standard format:
 > 3. **வேறுபாடு பகுப்பாய்வு (Variance Analysis):** பட்ஜெட் vs. உண்மை — விளக்கம்
 > 4. **முன்னறிவிப்பு (Forecast):** அடுத்த {மாதம் / காலாண்டு} — 3 சூழ்நிலைகள் (Scenarios)
 > 5. **வரைபடங்கள் (Charts):** Python குறியீடு — 3 வரைபடங்கள்
-> 6. **நிர்வாகச் சுருக்கம் (Executive Summary):** 5 வாக்கியங்கள் — தமிழில்"
+> 6. **நிர்வாகச் சுருக்கம் (Executive Summary):** 5 வாக்கியங்கள் — தமிழில்
 
 **பயன்பாடு:** மாத / காலாண்டு நிதிய மதிப்பாய்வு.
 
@@ -409,8 +410,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 16. தரவுத் தர அறிக்கை (Data Quality Report)
 
-> **கட்டளை:**
-> "'{தரவுத்தொகுப்பு / அமைப்பு}' க்கான தரவுத் தர மதிப்பீட்டு அறிக்கையை (Data Quality Assessment) உருவாக்குக:
+> [!PROMPT]
+> '{தரவுத்தொகுப்பு / அமைப்பு}' க்கான தரவுத் தர மதிப்பீட்டு அறிக்கையை (Data Quality Assessment) உருவாக்குக:
 >
 > **தரப் பரிமாணங்கள் (Quality Dimensions):**
 >
@@ -429,7 +430,7 @@ When using these prompts, adapt them to the standard format:
 > - சரிசெய்தல் (Remediation) திட்டம்
 > - தடுப்பு (Prevention) நடவடிக்கைகள்
 >
-> **ஒட்டுமொத்த தர மதிப்பெண் (Overall Score):** %"
+> **ஒட்டுமொத்த தர மதிப்பெண் (Overall Score):** %
 
 **பயன்பாடு:** தரவுத் தரத்தை முறையாக அளவிட.
 
@@ -437,8 +438,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 17. தரவு அகராதி (Data Dictionary)
 
-> **கட்டளை:**
-> "'{தரவுத்தளம் / அட்டவணை}' க்கான விரிவான தரவு அகராதியை (Data Dictionary) உருவாக்குக:
+> [!PROMPT]
+> '{தரவுத்தளம் / அட்டவணை}' க்கான விரிவான தரவு அகராதியை (Data Dictionary) உருவாக்குக:
 >
 > **ஒவ்வொரு நெடுவரிசைக்கும்:**
 >
@@ -450,7 +451,7 @@ When using these prompts, adapt them to the standard format:
 > - வணிக விதிகள் (Business Rules): 5
 > - உறவுகள் (Relationships): FK விளக்கம்
 > - தரவு வரிசை (Data Lineage): எங்கிருந்து வருகிறது?
-> - பயன்பாடு (Usage): எந்த அறிக்கை / Dashboard-ல் பயன்படுகிறது?"
+> - பயன்பாடு (Usage): எந்த அறிக்கை / Dashboard-ல் பயன்படுகிறது?
 
 **பயன்பாடு:** தரவு ஆளுமை (Data Governance) நடைமுறையை நிறுவ.
 
@@ -460,16 +461,16 @@ When using these prompts, adapt them to the standard format:
 
 ### 18. தரவு ஆய்வு கருத்து விளக்கம் (Concept Explanation)
 
-> **கட்டளை:**
-> "'{தரவு ஆய்வு கருத்து — எ.கா., p-value / A/B Testing / Bayes' Theorem / Correlation vs Causation / Normal Distribution}' கருத்தை தமிழில் விளக்குக:
+> [!PROMPT]
+> '{தரவு ஆய்வு கருத்து — எ.கா., p-value / A/B Testing / Bayes' Theorem / Correlation vs Causation / Normal Distribution}' கருத்தை தமிழில் விளக்குக:
 >
-> 1. **ஒரு வரி (One-liner):** ...
+> 1. **ஒரு வரி (One-liner):** ---
 > 2. **உவமை (Analogy):** தமிழ் அன்றாட வாழ்க்கை உதாரணம்
 > 3. **கணித விளக்கம் (Mathematical):** சூத்திரம் + எடுத்துக்காட்டு
 > 4. **Python / R உதாரணம்:** குறியீடு + முடிவு
 > 5. **வணிகப் பயன்பாடு (Business Use):** நிஜ உலக சூழ்நிலை
 > 6. **பொதுவான தவறுகள் (Common Mistakes):** 3 + விளக்கம்
-> 7. **தொடர்புடைய கருத்துகள் (Related Concepts):** ஒப்பீடு அட்டவணை"
+> 7. **தொடர்புடைய கருத்துகள் (Related Concepts):** ஒப்பீடு அட்டவணை
 
 **பயன்பாடு:** தரவு அறிவியல் கருத்துகளை தமிழில் கற்க / கற்பிக்க.
 
@@ -477,8 +478,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 19. கருவி ஒப்பீடு (Tool Comparison)
 
-> **கட்டளை:**
-> "'{கருவி வகை — எ.கா., BI Tools / ETL Tools / Programming Languages / Cloud Platforms}' வகையின் முக்கிய கருவிகளை ஒப்பிடுக:
+> [!PROMPT]
+> '{கருவி வகை — எ.கா., BI Tools / ETL Tools / Programming Languages / Cloud Platforms}' வகையின் முக்கிய கருவிகளை ஒப்பிடுக:
 >
 > **கருவிகள்:** {கருவி 1} vs. {கருவி 2} vs. {கருவி 3}
 >
@@ -492,7 +493,7 @@ When using these prompts, adapt them to the standard format:
 > | தமிழ் ஆதரவு | | | |
 >
 > **பரிந்துரை:** எந்தச் சூழ்நிலையில் எது சிறந்தது?
-> **தமிழ்நாடு IT நிறுவனங்களில் பயன்பாடு:** எது அதிகம்?"
+> **தமிழ்நாடு IT நிறுவனங்களில் பயன்பாடு:** எது அதிகம்?
 
 **பயன்பாடு:** சரியான கருவியைத் தேர்ந்தெடுக்க முடிவெடுக்க.
 
@@ -500,8 +501,8 @@ When using these prompts, adapt them to the standard format:
 
 ### 20. தரவு திட்ட திட்டமிடல் (Data Project Planning)
 
-> **கட்டளை:**
-> "'{தரவுத் திட்டம் — எ.கா., Data Warehouse Migration / BI Dashboard / Customer Analytics / Data Lake}' திட்டத்திற்கான விரிவான திட்டத்தை உருவாக்குக:
+> [!PROMPT]
+> '{தரவுத் திட்டம் — எ.கா., Data Warehouse Migration / BI Dashboard / Customer Analytics / Data Lake}' திட்டத்திற்கான விரிவான திட்டத்தை உருவாக்குக:
 >
 > 1. **நோக்கம் (Objective):** 3 புள்ளிகள்
 > 2. **நிலைகள் (Phases):**
@@ -515,7 +516,7 @@ When using these prompts, adapt them to the standard format:
 > 6. **பட்ஜெட் மதிப்பீடு (Budget Estimate):**
 >    | உருப்படி | மதிப்பீடு | குறிப்பு |
 >
-> **மொழி:** தமிழ் + தொழில்நுட்ப ஆங்கிலம் அடைப்புக்குறியில்."
+> **மொழி:** தமிழ் + தொழில்நுட்ப ஆங்கிலம் அடைப்புக்குறியில்.
 
 **பயன்பாடு:** தரவுத் திட்டங்களை முறையாகத் திட்டமிட.
 
