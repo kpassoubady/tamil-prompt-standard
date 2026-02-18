@@ -116,11 +116,9 @@
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "TAXONOMY.md",
-        "prompt-engineering.md",
+        "tamil-framework-prompt-engineering.md",
         "tamil-handbook-prompt-engineering.md",
-        "tamil-cheatsheet-prompt-engineering.md",
-        "tamil-framework-prompt-engineering.md"
+        "tamil-cheatsheet-prompt-engineering.md"
       ]
     },
     {

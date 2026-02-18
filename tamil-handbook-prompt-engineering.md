@@ -1,19 +1,17 @@
 # 📘 தமிழ் AI கட்டளை வழிகாட்டி (Tamil Prompt Handbook)
 
-> [!NOTE]
-> **வகை (Type):** Framework Reference — Practical Handbook
-> **தரநிலை (Standard):** [தமிழ் AI கட்டளை தரநிலை](.agent/rules/taxonomy.md)
-> **பயனர்கள் (Audience):** All Tamil AI users — Beginner to Advanced
-
-செயற்கை நுண்ணறிவு மாதிரிகளிடம் (LLMs) இருந்து துல்லியமான, பிழையற்ற மற்றும் ஆழமான பதில்களைத் தமிழில் பெறுவதற்கான முறையான வழிகாட்டுதல்.
-
----
 
 > **🎯 கற்றல் நோக்கங்கள் (Learning Objectives)**
 > - கட்டளையின் நான்கு அடிப்படைக் கூறுகளை (Task, Context, Constraints, Format) அடையாளம் காண
 > - மென்பொருள், உள்ளடக்கம், தரவு பகுப்பாய்வு ஆகிய துறைகளில் சிறந்த கட்டளை முறைகளை பயிற்சி செய்ய
 > - தமிழில் ஆங்கிலக் கலைச்சொற்கள் மற்றும் பலபொருள் சொற்களை திறம்படக் கையாள
 > - Few-Shot Prompting நுட்பத்தை பயன்படுத்தி AI பதில்களை மேம்படுத்த
+
+செயற்கை நுண்ணறிவு மாதிரிகளிடம் (LLMs) இருந்து துல்லியமான, பிழையற்ற மற்றும் ஆழமான பதில்களைத் தமிழில் பெறுவதற்கான முறையான வழிகாட்டுதல்.
+
+> [!NOTE]
+> **வகை (Type):** Framework Reference — Practical Handbook
+> **பயனர்கள் (Audience):** All Tamil AI users — Beginner to Advanced
 
 ---
 

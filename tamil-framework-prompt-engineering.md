@@ -1,11 +1,5 @@
 # 📖 தமிழ் AI கட்டளை கட்டமைப்பு (Tamil Prompt Engineering Framework)
 
-> [!NOTE]
-> **வகை (Type):** Framework Reference — Academic Research Abstract
-> **ஆய்வு (Research):** Tamil Prompt Engineering: An Open-Source Framework and Practical Handbook
-> **வேதிகை (Venue):** TNC21 / Tamil Research Chair on Artificial Intelligence
-> **தரநிலை (Standard):** [தமிழ் AI கட்டளை தரநிலை](.agent/rules/taxonomy.md)
-
 > **🎯 கற்றல் நோக்கங்கள் (Learning Objectives)**
 > - ஆங்கில அணுகுமுறையில் தமிழ் NLP-க்கு இடையே உள்ள சவால்களை புரிந்துகொள்ள
 > - சூழல் விளக்கம், மொழி நுணுக்கம், வெளியீட்டு வடிவம் என்ற மூன்று கட்டமைப்பு படிநிலைகளை கற்க
@@ -14,6 +8,10 @@
 இன்றைய செயற்கை நுண்ணறிவுப் புரட்சியில், பெரிய மொழி மாதிரிகளிடம் (LLMs) துல்லியமான பதில்களைப் பெறுவதற்குக் 'கட்டளை வடிவமைப்பு' (Prompt Engineering) இன்றியமையாததாகியுள்ளது. ஆனால், தற்போதுள்ள கட்டளை வடிவமைப்பு நுட்பங்கள் பெரும்பாலும் ஆங்கிலத்தை மையமாகக் கொண்டவை. தமிழுக்கான கட்டளைகள் நேரடி மொழிபெயர்ப்பாக வழங்கப்படுவதால், பொருள் மாறுபாடு (Ambiguity), மரியாதை நிலைப் பிழைகள் (Register Mismatch), காலவினைக் குழப்பங்கள் போன்ற சிக்கல்கள் தொடர்கின்றன. தமிழின் அகத்திணை-புறத்திணைப் பாகுபாடு, விளிமுறை, வழக்கு வேறுபாடுகள் (Formal/Informal Register) ஆகிய தனித்துவமான மொழியியல் கூறுகள் AI மாதிரிகளிடம் தெளிவாகத் தெரிவிக்கப்பட வேண்டும்.
 
 27 ஆண்டுகால தகவல் தொழில்நுட்ப அனுபவத்தின் அடிப்படையில், இவ்வாய்வு **"Tamil Prompt Engineering Handbook"** என்ற திறந்த மூலக் கையேட்டை (Open-Source Handbook) முன்வைக்கிறது. இது CLEAR, CRAFT, AUTOMAT, CATS உள்ளிட்ட 10+ நிலையான கட்டமைப்புகளை (Frameworks) தமிழ் மொழியின் இலக்கண, மரபு மற்றும் பொருள் நுணுக்கங்களுக்கு ஏற்றவாறு மாற்றியமைக்கிறது.
+
+> [!NOTE]
+> **வகை (Type):** Framework Reference — Academic Research Abstract
+> **ஆய்வு (Research):** Tamil Prompt Engineering: An Open-Source Framework and Practical Handbook
 
 ---
 

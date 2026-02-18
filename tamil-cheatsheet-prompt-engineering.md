@@ -1,21 +1,16 @@
 # 📋 கட்டளை வடிவமைப்பு — விரைவு குறிப்புத் தாள் (Prompt Engineering Cheatsheet)
 
-> [!NOTE]
-> **வகை (Type):** Framework Reference — Prompt Frameworks & Techniques Cheatsheet
-> **தரநிலை (Standard):** [தமிழ் AI கட்டளை தரநிலை](.agent/rules/taxonomy.md)
-> **பயனர்கள் (Audience):** All Tamil AI users — Beginner to Advanced
-
-AI-யிடம் சிறந்த பதில்களைப் பெறுவதற்கான அனைத்து முக்கிய கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks) மற்றும் நுட்பங்களின் (Techniques) ஒரு பக்கக் குறிப்புத் தாள்.
-
----
-
 > **🎯 கற்றல் நோக்கங்கள் (Learning Objectives)**
 > - APE, RACE, TRACE உள்பட 9 கட்டளைக் கட்டமைப்புகளை (Prompt Frameworks) புரிந்துகொண்டு பயன்படுத்த
 > - செயல் வினைச்சொற்கள், பாத்திரங்கள், தொனிகள், வடிவங்கள் ஆகியவற்றை சரியாகத் தேர்வு செய்ய
 > - மீள்சீரமைப்பு (Iterative Refinement) மற்றும் கட்டளைச் சங்கிலி (Prompt Chaining) நுட்பங்களை திறமையாகப் பயன்படுத்த
 > - பொதுவான கட்டளை தவறுகளை அடையாளம் கண்டு தவிர்க்க
 
----
+AI-யிடம் சிறந்த பதில்களைப் பெறுவதற்கான அனைத்து முக்கிய கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks) மற்றும் நுட்பங்களின் (Techniques) ஒரு பக்கக் குறிப்புத் தாள்.
+
+> [!NOTE]
+> **வகை (Type):** Framework Reference — Prompt Frameworks & Techniques Cheatsheet
+> **பயனர்கள் (Audience):** All Tamil AI users — Beginner to Advanced
 
 ## 📌 பகுதி 1: கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks)
 
