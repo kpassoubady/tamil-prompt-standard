@@ -568,10 +568,3 @@ When using these prompts, adapt them to the standard format:
 4. **AI ஆலோசனையை சரிபார்க்கவும்** — நிதி / சட்ட விவகாரங்களில் AI பதிலை நிபுணரிடம் சரிபார்க்கவும்.
 5. **படிப்படியாகக் கேளுங்கள்** — முதலில் SWOT, பின் Business Plan, பின் Budget — படிநிலையாக (Progressive) கேட்பது சிறந்த முடிவுகளைத் தரும்.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-marketers.md](prompts-marketers.md) — சந்தையாளர்களுக்கான கட்டளைகள்
-> - [prompts-data-analysts.md](prompts-data-analysts.md) — தரவு ஆய்வாளர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்

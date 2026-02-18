@@ -15,7 +15,7 @@
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு தமிழ் YouTube Script Writer. என் சேனலுக்கு
 ஒரு engaging video script எழுது.
 
@@ -42,7 +42,7 @@
 
 **எதிர்பார்க்கப்படும் வடிவம்:**
 
-```
+```prompt
 🎬 "{வீடியோ தலைப்பு}" — Script
 
 ━━━━━━━━━━━━━━━━━━━━
@@ -69,7 +69,7 @@
 
 **L8 பாதுகாப்பு:**
 
-```
+```prompt
 📜 Content Creator பாதுகாப்பு:
 ✓ Copyright உள்ள இசை / images பயன்படுத்தாதீர்கள்
 ✓ YouTube Community Guidelines பின்பற்றவும்
@@ -83,7 +83,7 @@
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube SEO நிபுணர். என் வீடியோவிற்கு
 click-worthy title மற்றும் SEO-optimized description எழுது.
 
@@ -114,7 +114,7 @@ click-worthy title மற்றும் SEO-optimized description எழுத�
 
 **எதிர்பார்க்கப்படும் வடிவம்:**
 
-```
+```prompt
 📌 TITLE OPTIONS:
 
 Option 1 (Curiosity): "{title}"
@@ -149,7 +149,7 @@ Option 5 (Emotional): "{title}"
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு Short-form content specialist. என் YouTube Shorts /
 Instagram Reels-க்கு ஒரு engaging script எழுது.
 
@@ -178,7 +178,7 @@ Instagram Reels-க்கு ஒரு engaging script எழுது.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube Thumbnail Designer. என் வீடியோவிற்கு
 click-worthy thumbnail concept design செய்ய உதவு.
 
@@ -207,7 +207,7 @@ click-worthy thumbnail concept design செய்ய உதவு.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube Community Manager. என் சேனல் audience-ஐ
 engage செய்ய Community Posts எழுது.
 
@@ -238,7 +238,7 @@ engage செய்ய Community Posts எழுது.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube Growth Strategist. என் சேனலின் வளர்ச்சிக்கு
 ஒரு 90-நாள் திட்டம் தயார் செய்.
 
@@ -267,7 +267,7 @@ engage செய்ய Community Posts எழுது.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு Brand Partnership Specialist. என் YouTube-ல்
 ஒரு brand sponsorship segment-ஐ இயல்பாக integrate செய்ய script எழுது.
 
@@ -290,7 +290,7 @@ engage செய்ய Community Posts எழுது.
 
 **L8 பாதுகாப்பு:**
 
-```
+```prompt
 📢 Disclosure கட்டாயம்:
 ✓ "This video is sponsored by..." சொல்லுங்கள்
 ✓ Description-ல் #sponsored அல்லது #ad சேர்க்கவும்
@@ -304,7 +304,7 @@ engage செய்ய Community Posts எழுது.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு Content Strategist. என் YouTube / Social Media-க்கு
 ஒரு மாத Content Calendar தயார் செய்.
 
@@ -334,7 +334,7 @@ engage செய்ய Community Posts எழுது.
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube Collaboration Specialist. மற்ற creators-ஐ
 collaborate செய்ய ஒரு professional pitch message எழுது.
 
@@ -365,7 +365,7 @@ collaborate செய்ய ஒரு professional pitch message எழுது
 
 **கட்டளை (Prompt):**
 
-```
+```prompt
 நீ ஒரு YouTube Analytics Expert. என் channel metrics-ஐ
 எப்படி புரிந்துகொள்வது என்று விளக்கவும்.
 
@@ -420,7 +420,7 @@ _(விரிவான கட்டளைகள் விரைவில் ச
 
 **L8 பாதுகாப்பு அறிவிப்பு:**
 
-```
+```prompt
 🎬 Content Creator பாதுகாப்பு அறிவிப்பு:
 
 இந்தத் தகவல்கள் கல்வி மற்றும் உள்ளடக்க உருவாக்கம்
@@ -437,5 +437,3 @@ Reporting:
 📧 YouTube: support.google.com/youtube
 📧 Meta: help.instagram.com
 ```
-
-**உருவாக்கப்பட்டது:** தமிழ் AI கட்டளை தரநிலை v0.1

@@ -405,9 +405,3 @@ When using these prompts, adapt them to the standard format:
 4. **முதல் பதிலை மீள்சீரமை (Iterate)** — "இதை இன்னும் எளிமையாக / சுருக்கமாக / விரிவாக மாற்று" என கேளுங்கள்.
 5. **உதாரணங்களைக் கொடுங்கள் (Few-Shot)** — AI-க்கு ஒரு மாதிரியைக் கொடுத்து, அதே நடையில் எழுதச் சொல்வது சிறந்த முடிவுகளைத் தரும்.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள் & கட்டமைப்புகள்
-> - [tamil-prompt-engineering-cheatsheet.md](../tamil-prompt-engineering-cheatsheet.md) — விரைவு குறிப்புத் தாள்
