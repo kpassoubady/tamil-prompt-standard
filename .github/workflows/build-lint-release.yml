@@ -1,0 +1,68 @@
+name: Lint and Release Book
+
+on:
+  push:
+    branches: [master, main]
+    tags: ['v*'] # Building only occurs when pushing a version tag
+
+jobs:
+  lint-and-fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for GITHUB_TOKEN to push lint fixes back
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node & Lint
+        run: |
+          npm ci || npm install markdownlint-cli
+          npx markdownlint --fix "**/*.md"
+          
+      - name: Commit Lint Fixes
+        run: |
+          git config --local user.email "kangs2000@gmail.com"
+          git config --local user.name "Kangeyan Passoubady"
+          git add .
+          # Only push if there are actual changes from linting
+          git diff --quiet && git diff --staged --quiet || (git commit -m "fix: markdown linting" && git push)
+
+  build-and-release:
+    needs: lint-and-fix
+    if: startsWith(github.ref, 'refs/tags/v') # Only run this job for version tags
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install System Deps & Bookbuilder
+        run: |
+          # System libraries required for WeasyPrint
+          sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
+          python -m pip install --upgrade pip
+          pip install weasyprint>=68.1
+          # Use your manually created secret for the private repo
+          pip install git+https://${{ secrets.MY_PAT }}@://github.com/kpassoubady/bookbuilder.git@main
+
+
+      - name: Build Books
+        run: |
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=pdf
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=epub
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=docx
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          # softprops requires contents:write permission (included in default for tag pushes)
+          files: |
+            bookbuilder-output/*.pdf
+            bookbuilder-output/*.epub
+            bookbuilder-output/*.docx
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically handled by GitHub
