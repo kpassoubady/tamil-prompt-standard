@@ -1,0 +1,220 @@
+{
+  "bookTitle": "The Art of Commanding AI in Tamil — Showcase Edition",
+  "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
+  "author": "Kangeyan Passoubady",
+  "pageSettings": {
+    "header": "{title}",
+    "headerFallback": "{bookTitle}",
+    "headerRight": "{page} of {pages}",
+    "footerLeft": "{date}",
+    "footerCenter": "",
+    "footerRight": "Kangs | Kavin School",
+    "dateFormat": "%B %d, %Y"
+  },
+  "styleSettings": {
+    "pageSize": "6in 9in",
+    "margins": "0.75in 0.6in 0.75in 0.8in",
+    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+    "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
+    "bodyFontSize": "9.5pt",
+    "bodyLineHeight": "1.5",
+    "bodyColor": "#333333",
+    "headingColor": "#222222",
+    "h1FontSize": "13pt",
+    "h2FontSize": "11.5pt",
+    "h3FontSize": "10.5pt",
+    "h4FontSize": "10pt",
+    "codeFontSize": "8.5pt",
+    "tableFontSize": "8.5pt",
+    "codeBackground": "#f5f5f5",
+    "linkColor": "#0066cc",
+    "headerFontSize": "10px",
+    "footerFontSize": "9px"
+  },
+  "tocSettings": {
+    "titleFontSize": 18,
+    "subtitleFontSize": 12,
+    "subtitleText": "Table of Contents",
+    "entryFontSize": 10,
+    "footerFontSize": 8,
+    "lineColor": "#0066CC",
+    "entryColor": "#0066CC",
+    "footerColor": "#666666"
+  },
+  "imageOptimization": {
+    "default": {
+      "maxWidth": 800,
+      "maxHeight": 1000,
+      "jpegQuality": 75,
+      "convertToJpeg": true
+    },
+    "covers": {
+      "maxWidth": 2400,
+      "maxHeight": 3200,
+      "jpegQuality": 95,
+      "convertToJpeg": false
+    }
+  },
+  "contentProcessing": {
+    "promptHandling": {
+      "enabled": true,
+      "label": "▶ PROMPT",
+      "backgroundColor": "#EBF5FF",
+      "borderColor": null,
+      "borderWidth": "3px",
+      "outlineColor": "#CCE0F5",
+      "borderRadius": "4px",
+      "padding": "10px 14px",
+      "labelFontSize": "7.5pt",
+      "labelColor": null
+    },
+    "admonitionHandling": {
+      "enabled": true,
+      "style": "boxed",
+      "includeIcons": true,
+      "customTypes": {
+        "PROMPT": {
+          "label": "▶ PROMPT",
+          "backgroundColor": "#EBF5FF",
+          "borderColor": "#0066CC",
+          "borderWidth": "3px",
+          "outlineColor": "#CCE0F5",
+          "borderRadius": "4px",
+          "labelColor": "#0066CC",
+          "labelFontSize": "7.5pt",
+          "useBodyFont": true,
+          "labelSeparator": true
+        }
+      }
+    },
+    "blockquoteListHandling": {
+      "enabled": true
+    },
+    "titledListHandling": {
+      "enabled": true
+    },
+    "detailsTagHandling": {
+      "enabled": true,
+      "staticFormats": [
+        "pdf",
+        "epub"
+      ],
+      "staticReplacement": {
+        "showSummary": true,
+        "summaryText": "Answers:",
+        "addHorizontalRule": true
+      }
+    }
+  },
+  "chapters": [
+    {
+      "section": "Introduction",
+      "files": [
+        "book/book-introduction.md"
+      ]
+    },
+    {
+      "section": "Part I: Framework Foundations",
+      "files": [
+        "prompt-engineering-basics.md",
+        "prompt-engineering-frameworks.md",
+        "prompt-engineering-techniques.md",
+        "tamil-framework-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "Part II: Healthcare Prompts",
+      "files": [
+        "book/samplers/health-sampler.md"
+      ]
+    },
+    {
+      "section": "Part III: Education Prompts",
+      "files": [
+        "book/samplers/edu-sampler.md"
+      ]
+    },
+    {
+      "section": "Part IV: Agriculture Prompts",
+      "files": [
+        "book/samplers/agriculture-sampler.md"
+      ]
+    },
+    {
+      "section": "Part V: Employment Prompts",
+      "files": [
+        "book/samplers/employment-sampler.md"
+      ]
+    },
+    {
+      "section": "Part VI: Law & Governance Prompts",
+      "files": [
+        "book/samplers/law-sampler.md"
+      ]
+    },
+    {
+      "section": "Part VII: Daily Life Prompts",
+      "files": [
+        "book/samplers/daily-sampler.md"
+      ]
+    },
+    {
+      "section": "Part VIII: Technology Prompts",
+      "files": [
+        "book/samplers/tech-sampler.md"
+      ]
+    },
+    {
+      "section": "Part IX: Business Prompts",
+      "files": [
+        "book/samplers/biz-sampler.md"
+      ]
+    },
+    {
+      "section": "Part X: Literature & Language Prompts",
+      "files": [
+        "book/samplers/lit-sampler.md"
+      ]
+    },
+    {
+      "section": "Appendix A: Framework Rules",
+      "files": [
+        ".agent/rules/taxonomy.md",
+        ".agent/rules/safety.md",
+        ".agent/rules/file-naming.md",
+        ".agent/rules/quality-rubric.md"
+      ]
+    },
+    {
+      "section": "Appendix B: Workflows",
+      "files": [
+        ".agent/workflows/create-new-prompt.md",
+        ".agent/workflows/review-prompt.md"
+      ]
+    },
+    {
+      "section": "Appendix C: Quick Reference Cheatsheet",
+      "files": [
+        "tamil-cheatsheet-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "Appendix D: Prompt Engineering Resources",
+      "files": [
+        "TAXONOMY.md"
+      ]
+    },
+    {
+      "section": "Appendix E: Prompt Engineering Handbook",
+      "files": [
+        "tamil-handbook-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "files": [
+        "book/AboutAuthors.md"
+      ]
+    }
+  ]
+}
