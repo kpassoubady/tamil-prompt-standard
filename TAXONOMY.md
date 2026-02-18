@@ -21,87 +21,20 @@ The standard uses a hierarchical model to ensure consistency:
 
 ---
 
-## 2. Layer Definitions
+## 2. Layer Summary
 
-### L1: Role (பாத்திரம்)
+| Layer | Question | Standard Values |
+| :--- | :--- | :--- |
+| **L1 Role** (பாத்திரம்) | Who is speaking? | Doctor, Teacher, Developer, Farmer, Lawyer, Poet, Storyteller, Marketer |
+| **L2 Domain** (துறை) | What is the topic? | `health`, `edu`, `agriculture`, `tech`, `law`, `biz`, `lit`, `daily`, `employment` |
+| **L3 Skill** (திறன் நிலை) | Who is listening? | `beg`, `int`, `exp`, `child` |
+| **L4 Intent** (நோக்கம்) | What is the task? | `EXPL`, `SUMM`, `DRAF`, `ANAL`, `TRNS`, `CREA` |
+| **L5 Tone** (தொனி) | How does it sound? | Formal, Casual, Academic, Poetic, Pure |
+| **L6 Format** (வடிவம்) | What shape is the output? | Essay, Table, Bullet Points, Step-by-Step, Dialogue, Code, JSON/Markdown |
+| **L7 Constraints** (கட்டுப்பாடுகள்) | What limits apply? | Word limit, language restrictions, vocabulary level, context scope |
+| **L8 Safety** (பாதுகாப்பு) | Mandatory disclaimers | Domain-specific disclaimer + bias check + fact-checking instruction |
 
-* **Definition:** Who is speaking?
-* **Standard Values:** `Doctor`, `Teacher`, `Developer`, `Farmer`, `Lawyer`, `Poet`, `Storyteller`, `Marketer`.
-
-### L2: Domain (துறை)
-
-* **Definition:** What is the topic?
-* **Standard Values:**
-  * `health` (Healthcare — சுகாதாரம்)
-  * `edu` (Education — கல்வி)
-  * `agriculture` (Agriculture — விவசாயம்)
-  * `tech` (Technology — தொழில்நுட்பம்)
-  * `law` (Legal — சட்டம்)
-  * `biz` (Business — வணிகம்)
-  * `lit` (Literature — இலக்கியம்)
-  * `daily` (Daily Life — தினசரி வாழ்க்கை)
-  * `employment` (Employment & Career — வேலைவாய்ப்பு)
-
-### L3: Skill Level (திறன் நிலை)
-
-* **Definition:** Who is listening?
-* **Standard Values:**
-  * `beg` (Beginner - பாமரர்)
-  * `int` (Intermediate - இடைநிலை)
-  * `exp` (Expert - நிபுணர்)
-  * `child` (Child - சிறுவர்)
-
-### L4: Intent Codes (நோக்கம்)
-
-* **Definition:** What is the task?
-* **Standard Codes:**
-  * `EXPL` - Explain (விளக்குக)
-  * `SUMM` - Summarize (சுருக்குக)
-  * `DRAF` - Draft (உருவாக்குக)
-  * `ANAL` - Analyze (பகுப்பாய்வு)
-  * `TRNS` - Translate (மொழிபெயர்க்க)
-  * `CREA` - Creative Writing (படைப்பாக்கம்)
-
-### L5: Tone (தொனி)
-
-* **Definition:** How does it sound?
-* **Standard Values:**
-  * `Formal` (மரியாதை / அலுவலக நடை)
-  * `Casual` (நட்பு நடை)
-  * `Academic` (கல்வி சார் நடை)
-  * `Poetic` (கவித்துவ நடை)
-  * `Pure` (தனித்தமிழ்)
-
-### L6: Format (வடிவம்)
-
-* **Definition:** What shape does the output take?
-* **Standard Values:**
-  * `Essay` (கட்டுரை)
-  * `Table` (அட்டவணை)
-  * `Bullet Points` (புள்ளிகள்)
-  * `Step-by-Step` (படிப்படியாக)
-  * `Dialogue` (உரையாடல்)
-  * `Code` (நிரல்)
-  * `JSON` / `Markdown`
-
-### L7: Constraints (கட்டுப்பாடுகள்)
-
-* **Definition:** What limits or fences apply?
-* **Standard Values:**
-  * Word limit (e.g., 200 words max)
-  * No English words (தனித்தமிழ் only)
-  * Include examples
-  * Use simple vocabulary
-  * Grade-specific vocabulary
-  * Tamil Nadu context only
-
-### L8: Safety (பாதுகாப்பு)
-
-* **Definition:** Mandatory Disclaimers.
-* **Requirement:** Every prompt file MUST end with a Safety Block containing:
-    1. Domain-specific disclaimer (e.g., "Not medical advice").
-    2. Bias check.
-    3. Fact-checking instruction.
+For detailed definitions and examples of each layer, see [.agent/rules/taxonomy.md](.agent/rules/taxonomy.md).
 
 ---
 
@@ -119,8 +52,3 @@ The following were considered during v0.1 drafting but intentionally excluded fr
 
 These may be revisited in future versions based on community feedback.
 
----
-
-## 4. Implementation Guide
-
-For implementation details, see the [.agent/rules/taxonomy.md](.agent/rules/taxonomy.md) rule file.

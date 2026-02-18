@@ -554,10 +554,3 @@ When using these prompts, adapt them to the standard format:
 4. **Emoji பயன்படுத்துக** — Social Media உள்ளடக்கத்தில் emoji சேர்க்கச் சொல்லி கேளுங்கள்.
 5. **பிராண்ட் குரலைக் கொடுக்கவும்** — "நட்பான நடை, எளிய தமிழ்" என்று சொல்வது நிலையான Brand Voice-ஐ உறுதிசெய்யும்.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-tamil-writers.md](prompts-tamil-writers.md) — எழுத்தாளர்களுக்கான கட்டளைகள்
-> - [prompts-business.md](prompts-business.md) — SME உரிமையாளர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்

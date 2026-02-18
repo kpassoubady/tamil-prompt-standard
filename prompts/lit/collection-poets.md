@@ -417,10 +417,3 @@ When using these prompts, adapt them to the standard format:
 4. **உதாரணக் கவிதை கொடுக்கவும் (Few-Shot)** — "கீழே ஒரு கவிதை கொடுக்கிறேன், இதே நடையில் புதிதாக எழுதுக" என்பது AI-க்கு மிகவும் உதவும்.
 5. **ஒலி நயத்தை சோதிக்கவும்** — AI-யிடம் "இந்தக் கவிதையை சத்தமாகப் படிக்கும்போது ஓசை நயமாக உள்ளதா?" எனக் கேளுங்கள்.
 
----
-
-> **தொடர்புடைய ஆவணங்கள்:**
->
-> - [prompts-tamil-writers.md](prompts-tamil-writers.md) — தமிழ் எழுத்தாளர்களுக்கான கட்டளைகள்
-> - [prompts-tamil-stories.md](prompts-tamil-stories.md) — தமிழ்ச் சிறுகதை ஆசிரியர்களுக்கான கட்டளைகள்
-> - [prompt-engineering.md](../prompt-engineering.md) — கட்டளை வடிவமைப்பு அடிப்படைகள்
