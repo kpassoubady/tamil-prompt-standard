@@ -11,11 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial setup of `.github/workflows/` for automated markdown linting
 - Project documentation structure with `.agent/` folder for rules and workflows
+- `book/taxonomy-framework.md` — dedicated book chapter combining formal spec from `TAXONOMY.md` and bilingual detail from `.agent/rules/taxonomy.md`, with all agent-internal references removed
 
 ### Changed
 
 - Organized taxonomy framework in `.agent/rules/taxonomy.md`
 - Established file naming conventions in `.agent/rules/file-naming.md`
+- Full book config (`configs/tamil-prompt-engineering-book.json`): Appendix D now uses `book/taxonomy-framework.md` instead of `TAXONOMY.md`; removed `.agent/rules/taxonomy.md` from Appendix A (agent-internal file, not intended for book readers)
+- Short/showcase book config (`configs/tamil-prompt-engineering-book-short.json`): removed Appendix A (all `.agent/rules/` files) and Appendix B (workflows); consolidated to 3 appendices: Cheatsheet (A), Taxonomy Framework (B), Handbook (C)
+- Book introduction: updated Appendix D description to reflect new chapter content
 
 ### Security
 
