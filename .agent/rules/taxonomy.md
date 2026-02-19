@@ -10,16 +10,16 @@
 This framework ensures consistency, quality, and safety across all Tamil prompts.
 இந்த கட்டமைப்பு அனைத்து தமிழ் கட்டளைகளிலும் சீரான தன்மை, தரம் மற்றும் பாதுகாப்பை உறுதி செய்கிறது.
 
-| Level | Component | Tamil Explanation | Example |
-| :--- | :--- | :--- | :--- |
-| **L1** | **Role** | பாத்திரம் (யார்?) | Doctor, Teacher, Farmer |
-| **L2** | **Domain** | துறை (எது?) | Healthcare, Education, Agriculture |
-| **L3** | **Skill Level** | திறன் நிலை (யாருக்காக?) | Beginner, Expert, Grade 6 |
-| **L4** | **Intent** | நோக்கம் (என்ன செய்ய?) | Explain, Draft, Analyze |
-| **L5** | **Tone** | தொனி (எப்படி?) | Formal, Friendly, Poetic |
-| **L6** | **Format** | வடிவம் (வெளியீடு) | Essay, Table, Code |
-| **L7** | **Constraints** | கட்டுப்பாடுகள் | Word limit, No English |
-| **L8** | **Safety** | பாதுகாப்பு (கவசம்) | No medical advice, Neutral |
+| Level  | Component       | Tamil Explanation       | Example                            |
+| :----- | :-------------- | :---------------------- | :--------------------------------- |
+| **L1** | **Role**        | பாத்திரம் (யார்?)       | Doctor, Teacher, Farmer            |
+| **L2** | **Domain**      | துறை (எது?)             | Healthcare, Education, Agriculture |
+| **L3** | **Skill Level** | திறன் நிலை (யாருக்காக?) | Beginner, Expert, Grade 6          |
+| **L4** | **Intent**      | நோக்கம் (என்ன செய்ய?)   | Explain, Draft, Analyze            |
+| **L5** | **Tone**        | தொனி (எப்படி?)          | Formal, Friendly, Poetic           |
+| **L6** | **Format**      | வடிவம் (வெளியீடு)       | Essay, Table, Code                 |
+| **L7** | **Constraints** | கட்டுப்பாடுகள்          | Word limit, No English             |
+| **L8** | **Safety**      | பாதுகாப்பு (கவசம்)      | No medical advice, Neutral         |
 
 ---
 
@@ -60,15 +60,15 @@ This framework ensures consistency, quality, and safety across all Tamil prompts
 **Definition:** What the user wants the AI to do. (Standard Codes)
 **விளக்கம்:** பயனர் எதிர்பார்ப்பது என்ன? இதற்கான தரப்படுத்தப்பட்ட குறியீடுகள் (Standard Codes):
 
-| Code | Intent | Tamil Meaning |
-| :--- | :--- | :--- |
-| **EXPL** | Explain | விளக்குக (Concept explanation) |
-| **SUMM** | Summarize | சுருக்குக (Summary) |
-| **DRAF** | Draft | உருவாக்குக (Email, Letter, Code) |
-| **ANAL** | Analyze | பகுப்பாய்வு செய்க (Review, Audit) |
-| **TRNS** | Translate | மொழிபெயர்க்க (English ↔ Tamil) |
-| **CREA** | Creative | படைப்பாக்கம் (Story, Poem) |
-| **PLAN** | Plan | திட்டம் (Study plan, Business plan) |
+| Code     | Intent    | Tamil Meaning                       |
+| :------- | :-------- | :---------------------------------- |
+| **EXPL** | Explain   | விளக்குக (Concept explanation)      |
+| **SUMM** | Summarize | சுருக்குக (Summary)                 |
+| **DRAF** | Draft     | உருவாக்குக (Email, Letter, Code)    |
+| **ANAL** | Analyze   | பகுப்பாய்வு செய்க (Review, Audit)   |
+| **TRNS** | Translate | மொழிபெயர்க்க (English ↔ Tamil)      |
+| **CREA** | Creative  | படைப்பாக்கம் (Story, Poem)          |
+| **PLAN** | Plan      | திட்டம் (Study plan, Business plan) |
 
 ### Level 5: Tone & Register (தொனி & நடை)
 **Definition:** The linguistic style of the Tamil output.

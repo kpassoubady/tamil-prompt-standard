@@ -213,7 +213,6 @@
     {
       "section": "Appendix A: Framework Rules",
       "files": [
-        ".agent/rules/taxonomy.md",
         ".agent/rules/safety.md",
         ".agent/rules/file-naming.md",
         ".agent/rules/quality-rubric.md"
@@ -233,9 +232,9 @@
       ]
     },
     {
-      "section": "Appendix D: Prompt Engineering Resources",
+      "section": "Appendix D: Taxonomy Framework",
       "files": [
-        "TAXONOMY.md"
+        "book/taxonomy-framework.md"
       ]
     },
     {
