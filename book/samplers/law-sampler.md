@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** வழக்கறிஞர்கள், சட்ட மாணவர்கள், அரசு அலுவலர்கள், கொள்கை ஆய்வாளர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/law/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/law/README.md)
+> [law/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/law/README.md)
 
 ---
 

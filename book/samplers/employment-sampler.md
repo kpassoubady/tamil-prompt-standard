@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** வேலை தேடுவோர், பட்டதாரிகள், ஸ்டார்ட்அப் நிறுவனர்கள், சுதந்திர தொழிலாளர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/employment/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/employment/README.md)
+> [employment/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/employment/README.md)
 
 ---
 

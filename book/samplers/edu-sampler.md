@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** மாணவர்கள், ஆசிரியர்கள், போட்டித்தேர்வு தயாரிப்பாளர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/edu/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/edu/README.md)
+> [edu/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/edu/README.md)
 
 ---
 
