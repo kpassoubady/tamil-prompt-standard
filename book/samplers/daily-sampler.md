@@ -9,7 +9,7 @@
 
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** பெற்றோர்கள், மூத்தோர்கள், உள்ளடக்க உருவாக்குநர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
-> [https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/daily/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/daily/README.md)
+> [daily/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/daily/README.md)
 
 ---
 

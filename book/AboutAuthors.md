@@ -2,7 +2,7 @@
 
 ## நிறுவனர் (Founder)
 
-**கங்கேயன் (Kangs) பசுபதி** (Kangeyan Passoubady) ஒரு முதன்மை தன்னியக்க கட்டமைப்பாளர் (Principal Automation Architect) மற்றும் **Kavin School LLC**-யின் நிறுவனர் ஆவார். மென்பொருள் பொறியியல் (Software Engineering) மற்றும் தேர்வு தன்னியக்கம் (Test Automation) துறைகளில் 28 ஆண்டுகால அனுபவமுள்ள இவர், Java, Python, .NET மற்றும் AI-உதவி பணியோட்டங்களை (AI-assisted Workflows) தொழில் வல்லுநர்கள் கற்றுக்கொள்ள உதவுவதில் நிபுணர்.
+**காங்கேயன் (Kangs) பசுபதி** (Kangeyan Passoubady) ஒரு முதன்மை தன்னியக்க கட்டமைப்பாளர் (Principal Automation Architect) மற்றும் **Kavin School LLC**-யின் நிறுவனர் ஆவார். மென்பொருள் பொறியியல் (Software Engineering) மற்றும் தேர்வு தன்னியக்கம் (Test Automation) துறைகளில் 28 ஆண்டுகால அனுபவமுள்ள இவர், Java, Python, .NET மற்றும் AI-உதவி பணியோட்டங்களை (AI-assisted Workflows) தொழில் வல்லுநர்கள் கற்றுக்கொள்ள உதவுவதில் நிபுணர்.
 
 உலகெங்கும் ஆயிரக்கணக்கான தொழில் வல்லுநர்களுக்கு பயிற்சி அளித்த Kangs, நிறுவனங்கள் அளவிடக்கூடிய தன்னியக்க கட்டமைப்புகளை (Scalable Automation Frameworks) கட்டமைக்கவும், டெவலப்பர் உற்பத்தித்திறனை (Developer Productivity) மேம்படுத்தவும் உதவி வருகிறார்.
 
@@ -30,7 +30,7 @@
 - புதிய துறைகளுக்கான கோப்புகளை உருவாக்கலாம்
 - தமிழ் மொழி நுணுக்கங்களை சரிசெய்யலாம்
 
-**GitHub:** [github.com/kavinschool/tamil-prompt-standard](https://github.com/kavinschool/tamil-prompt-standard)
+**GitHub:** [tamil-prompt-standard](https://github.com/kpassoubady/tamil-prompt-standard)
 
 ---
 

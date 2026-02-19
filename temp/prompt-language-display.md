@@ -66,28 +66,28 @@ Both patterns must render with identical appearance:
 
 ### Style Properties
 
-| Property          | Value              | Notes                               |
-|-------------------|--------------------|-------------------------------------|
-| Background        | `#EBF5FF`          | Light blue-gray tint                |
-| Left border       | `3px solid #0066CC`| Matches `linkColor` in config       |
-| All other borders | `1px solid #CCE0F5`| Subtle outline                      |
-| Border radius     | `4px`              | Slight rounding                     |
-| Padding           | `10px 14px`        | Inner breathing room                |
-| Font family       | Body font          | NOT monospace — prompts are natural language |
-| Font size         | `bodyFontSize` (9.5pt) | No shrink                       |
-| Font color        | `#1A1A2E`          | Slightly darker than body           |
-| Margin top/bottom | `10px`             |                                     |
+| Property          | Value                  | Notes                                        |
+| ----------------- | ---------------------- | -------------------------------------------- |
+| Background        | `#EBF5FF`              | Light blue-gray tint                         |
+| Left border       | `3px solid #0066CC`    | Matches `linkColor` in config                |
+| All other borders | `1px solid #CCE0F5`    | Subtle outline                               |
+| Border radius     | `4px`                  | Slight rounding                              |
+| Padding           | `10px 14px`            | Inner breathing room                         |
+| Font family       | Body font              | NOT monospace — prompts are natural language |
+| Font size         | `bodyFontSize` (9.5pt) | No shrink                                    |
+| Font color        | `#1A1A2E`              | Slightly darker than body                    |
+| Margin top/bottom | `10px`                 |                                              |
 
 ### Label Bar
 
-| Property      | Value               |
-|---------------|---------------------|
-| Label text    | `▶ PROMPT`          |
-| Font size     | `7.5pt`             |
-| Font weight   | `bold`              |
-| Color         | `#0066CC`           |
-| Padding       | `4px 0 6px 0`       |
-| Separator     | `1px solid #CCE0F5` below label |
+| Property    | Value                           |
+| ----------- | ------------------------------- |
+| Label text  | `▶ PROMPT`                      |
+| Font size   | `7.5pt`                         |
+| Font weight | `bold`                          |
+| Color       | `#0066CC`                       |
+| Padding     | `4px 0 6px 0`                   |
+| Separator   | `1px solid #CCE0F5` below label |
 
 ---
 
