@@ -3,7 +3,9 @@ name: Lint and Release Book
 on:
   push:
     branches: [master]
-    tags: ['v*'] # Building only occurs when pushing a version tag
+    tags: ['v*']
+  pull_request:
+    branches: [master]
 
 jobs:
   lint-and-fix:
@@ -29,7 +31,6 @@ jobs:
 
   build-and-release:
     needs: lint-and-fix
-    if: startsWith(github.ref, 'refs/tags/v') # Only run this job for version tags
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -57,12 +58,12 @@ jobs:
           bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=docx
 
       - name: Upload to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v') # Only attach artifacts for version tags
         uses: softprops/action-gh-release@v2
         with:
-          # softprops requires contents:write permission (included in default for tag pushes)
           files: |
             bookbuilder-output/*.pdf
             bookbuilder-output/*.epub
             bookbuilder-output/*.docx
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically handled by GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
