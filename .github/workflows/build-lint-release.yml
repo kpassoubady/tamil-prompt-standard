@@ -44,7 +44,12 @@ jobs:
       - name: Install System Deps & Bookbuilder
         run: |
           # System libraries required for WeasyPrint (PDF) and pandoc (epub/docx)
-          sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0 pandoc
+          # fonts-noto-* provide Tamil Unicode coverage for WeasyPrint PDF rendering
+          sudo apt-get update && sudo apt-get install -y \
+            libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0 pandoc \
+            fonts-noto-core fonts-noto-extra \
+            fonts-lohit-taml
+          fc-cache -fv
           python -m pip install --upgrade pip
           pip install weasyprint>=68.1
           # Use your manually created secret for the private repo
