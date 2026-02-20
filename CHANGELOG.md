@@ -9,6 +9,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **AI Glossary appendix** added to showcase config (`configs/tamil-prompt-engineering-book-show-case.json`) as "இணைப்பு ஈ: செய்யறிவுக் கலைச்சொற்கள்" — sourced from `docs/AI glossary_ செய்யறிவுக் கலைச்சொற்கள்.md`
+
+### Changed
+
+- **Showcase config** (`configs/tamil-prompt-engineering-book-show-case.json`): renamed from `short`; all section names converted to Tamil (`முன் அட்டை`, `பகுதி ஒன்று`…`பகுதி பதினொன்று`, `இணைப்பு அ/ஆ/இ/ஈ`, `ஆசிரியர் பற்றி`, `பின் அட்டை`); TOC subtitle changed to `உள்ளடக்க அட்டவணை`; answers label changed to `விடைகள்:`; book title set to `தமிழில் செய்யறிவைக் கட்டளையிடும் கலை`
+- **All 9 sampler files** (`book/samplers/`): removed ~100 redundant English parenthetical translations from section headings and prompt body text. Kept English only for genuine technical terms (SOAP, EMR, ICD, ATS, STAR, SWOT, USP, GPA, API, Bloom's Taxonomy, JSON, JWT, OAuth) and `[!NOTE]` metadata keys
+
+### Added (continued)
+
+- **New Domain: Social Media (`prompts/social/`)** — 8 prompt collections, 155+ prompts covering:
+  - `collection-whatsapp.md` — 20 prompts: personal messages, broadcast, group management, WhatsApp Business, status
+  - `collection-youtube.md` — 20 prompts: SEO titles, descriptions, Shorts scripts, thumbnails, community posts, channel growth
+  - `collection-instagram.md` — 20 prompts: captions, Reels, Stories, Carousel, Shopping, bio, hashtags
+  - `collection-shortform-video.md` — 20 prompts: cross-platform Reels/Shorts/TikTok/Moj hooks, scripts, CTA
+  - `collection-facebook.md` — 20 prompts: personal posts, pages, groups, events, Marketplace, Live
+  - `collection-linkedin.md` — 20 prompts: thought leadership, job posts, DMs, recommendations, profile optimization
+  - `collection-regional-platforms.md` — 20 prompts: Koo, ShareChat, Moj, Telegram, Pinterest, Twitter/X
+  - `collection-community-management.md` — 20 prompts: comment replies, crisis communication, troll handling, UGC
+- Added `Part XI: Social Media Prompts` to both book configs
+- Disabled MD051 in `.markdownlint.json` — Tamil heading anchors are valid in pandoc but incorrectly flagged by markdownlint's anchor algorithm
+
 - Initial setup of `.github/workflows/` for automated markdown linting
 - Project documentation structure with `.agent/` folder for rules and workflows
 - `book/taxonomy-framework.md` — dedicated book chapter combining formal spec from `TAXONOMY.md` and bilingual detail from `.agent/rules/taxonomy.md`, with all agent-internal references removed

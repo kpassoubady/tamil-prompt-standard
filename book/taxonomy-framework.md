@@ -222,4 +222,4 @@ The following were considered during v0.1 drafting but intentionally excluded. T
 ---
 
 > [!NOTE]
-> இந்த தரநிலை திறந்த மூல (Open Source) சமூக முயற்சியாக உருவாக்கப்பட்டது. பங்களிக்க விரும்புவோர் [CONTRIBUTING.md](CONTRIBUTING.md) காண்க. இந்த விவரக்கோவையின் தற்போதைய பதிப்பு: **v0.1**.
+> இந்த தரநிலை திறந்த மூல (Open Source) சமூக முயற்சியாக உருவாக்கப்பட்டது. பங்களிக்க விரும்புவோர் [CONTRIBUTING.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/CONTRIBUTING.md) காண்க. இந்த விவரக்கோவையின் தற்போதைய பதிப்பு: **v0.1**.
