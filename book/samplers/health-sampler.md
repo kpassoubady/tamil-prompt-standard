@@ -1,4 +1,4 @@
-# 🏥 சுகாதாரம் & நலன் — Healthcare & Wellness
+# 🏥 சுகாதாரம் & நலன்
 
 > [!NOTE]
 > **துறை (Domain):** சுகாதாரம் (`health`)

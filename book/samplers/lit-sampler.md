@@ -1,4 +1,4 @@
-# 📝 இலக்கியம் & படைப்பு — Literature & Creative Writing
+# 📝 இலக்கியம் & படைப்பு
 
 > [!NOTE]
 > **துறை (Domain):** இலக்கியம் (`lit`)

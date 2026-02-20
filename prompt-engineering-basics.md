@@ -1,4 +1,4 @@
-# 📖 கட்டளை வடிவமைப்பு — அறிமுகமும் அடிப்படைகளும் (Prompt Engineering Basics)
+# 📖 கட்டளை வடிவமைப்பு
 
 > [!NOTE]
 > **வகை (Type):** Framework Reference — Introduction & Core Principles

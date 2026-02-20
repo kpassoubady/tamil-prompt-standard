@@ -1,4 +1,4 @@
-# 🌾 விவசாயம் & கிராமப்புற வளர்ச்சி — Agriculture & Rural Development
+# 🌾 விவசாயம் & கிராமப்புற வளர்ச்சி
 
 > [!NOTE]
 > **துறை (Domain):** விவசாயம் (`agriculture`)
