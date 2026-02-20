@@ -107,6 +107,14 @@
     }
   },
   "chapters": [
+        {
+      "section": "Front Cover",
+      "files": [
+        "book/FrontCover.md",
+        "book/images/FrontCoverPage.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
     {
       "section": "Front Cover",
       "files": [
