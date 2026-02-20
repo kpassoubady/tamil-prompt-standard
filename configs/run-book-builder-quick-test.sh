@@ -4,20 +4,20 @@ for f in /Users/kangs/github/tamil-prompt-standard/book/images/diagrams/*.mmd; d
   mmdc -i "$f" -o "${f%.mmd}.png" -w 800 -b white --theme neutral
 done
 
-# running full book build for final output
 
 bookbuilder build \
   --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book.json  \ 
-  --force \ 
+  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-quick-test.json \
+  --force \
   --temp /Users/kangs/Downloads/book \
-  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book.pdf \
-  --format=pdf  
+  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book-quick-test.pdf \
+  --format=pdf
+
 
 bookbuilder build \
   --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book.json  \ 
-  --force \ 
+  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-quick-test.json \
+  --force \
   --temp /Users/kangs/Downloads/book \
-  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book.epub \
-  --format=epub 
+  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book-quick-test.epub \
+  --format=epub

@@ -44,7 +44,10 @@
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
-    "footerColor": "#666666"
+    "footerColor": "#666666",
+    "altTocTitle": "தமிழ் AI கட்டளை வடிவமைப்பு கையேடு",
+    "altTocSubtitle": "உள்ளடக்கம்",
+    "altTocPageLabel": "பக்கம்"
   },
   "imageOptimization": {
     "default": {
@@ -130,12 +133,14 @@
     },
     {
       "section": "Introduction",
+      "tocLabel": "அறிமுகம்",
       "files": [
         "book/book-introduction.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
+      "tocLabel": "பகுதி I: கட்டமைப்பு அடித்தளங்கள்",
       "files": [
         "book/foundations/prompt-engineering-basics.md",
         "book/foundations/prompt-engineering-frameworks.md"
@@ -143,18 +148,21 @@
     },
     {
       "section": "Part II: Healthcare Prompts",
+      "tocLabel": "பகுதி II: சுகாதார கட்டளைகள்",
       "files": [
         "book/samplers/health-sampler.md"
       ]
     },
     {
       "section": "Part III: Education Prompts",
+      "tocLabel": "பகுதி III: கல்வி கட்டளைகள்",
       "files": [
         "book/samplers/edu-sampler.md"
       ]
     },
     {
       "section": "About the Author",
+      "tocLabel": "ஆசிரியரைப் பற்றி",
       "files": [
         "book/AboutAuthors.md"
       ]

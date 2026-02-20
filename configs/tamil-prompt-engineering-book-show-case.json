@@ -44,7 +44,10 @@
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
-    "footerColor": "#666666"
+    "footerColor": "#666666",
+    "altTocTitle": "தமிழ் AI கட்டளை வடிவமைப்பு கையேடு",
+    "altTocSubtitle": "உள்ளடக்கம்",
+    "altTocPageLabel": "பக்கம்"
   },
   "imageOptimization": {
     "default": {
@@ -130,18 +133,21 @@
     },
     {
       "section": "Introduction",
+      "tocLabel": "அறிமுகம்",
       "files": [
         "book/book-introduction.md"
       ]
     },
     {
       "section": "Chapter 0: Beginners Guide",
+      "tocLabel": "அத்தியாயம் 0: தொடக்கநிலை வழிகாட்டி",
       "files": [
         "book/foundations/prompt-lite-beginners.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
+      "tocLabel": "பகுதி I: கட்டமைப்பு அடித்தளங்கள்",
       "files": [
         "book/foundations/prompt-engineering-basics.md",
         "book/foundations/prompt-engineering-frameworks.md",
@@ -151,96 +157,112 @@
     },
     {
       "section": "Part II: Healthcare Prompts",
+      "tocLabel": "பகுதி II: சுகாதார கட்டளைகள்",
       "files": [
         "book/samplers/health-sampler.md"
       ]
     },
     {
       "section": "Part III: Education Prompts",
+      "tocLabel": "பகுதி III: கல்வி கட்டளைகள்",
       "files": [
         "book/samplers/edu-sampler.md"
       ]
     },
     {
       "section": "Part IV: Agriculture Prompts",
+      "tocLabel": "பகுதி IV: விவசாய கட்டளைகள்",
       "files": [
         "book/samplers/agriculture-sampler.md"
       ]
     },
     {
       "section": "Part V: Employment Prompts",
+      "tocLabel": "பகுதி V: வேலைவாய்ப்பு கட்டளைகள்",
       "files": [
         "book/samplers/employment-sampler.md"
       ]
     },
     {
       "section": "Part VI: Law & Governance Prompts",
+      "tocLabel": "பகுதி VI: சட்டம் & ஆட்சி கட்டளைகள்",
       "files": [
         "book/samplers/law-sampler.md"
       ]
     },
     {
       "section": "Part VII: Daily Life Prompts",
+      "tocLabel": "பகுதி VII: அன்றாட வாழ்க்கை கட்டளைகள்",
       "files": [
         "book/samplers/daily-sampler.md"
       ]
     },
     {
       "section": "Part VIII: Technology Prompts",
+      "tocLabel": "பகுதி VIII: தொழில்நுட்ப கட்டளைகள்",
       "files": [
         "book/samplers/tech-sampler.md"
       ]
     },
     {
       "section": "Part IX: Business Prompts",
+      "tocLabel": "பகுதி IX: வணிக கட்டளைகள்",
       "files": [
         "book/samplers/biz-sampler.md"
       ]
     },
     {
       "section": "Part X: Literature & Language Prompts",
+      "tocLabel": "பகுதி X: இலக்கியம் & மொழி கட்டளைகள்",
       "files": [
         "book/samplers/lit-sampler.md"
       ]
     },
     {
       "section": "Part XI: Social Media Prompts",
+      "tocLabel": "பகுதி XI: சமூக ஊடக கட்டளைகள்",
       "files": [
         "book/samplers/social-sampler.md"
       ]
     },
     {
       "section": "Appendix A: Quick Reference Cheatsheet",
+      "tocLabel": "இணைப்பு A: விரைவு குறிப்பு தாள்",
       "files": [
         "book/foundations/tamil-cheatsheet-prompt-engineering.md"
       ]
     },
     {
       "section": "Appendix B: Taxonomy Framework",
+      "tocLabel": "இணைப்பு B: வகைப்பாடு கட்டமைப்பு",
       "files": [
         "book/taxonomy-framework.md"
       ]
     },
     {
       "section": "Appendix C: Prompt Engineering Handbook",
+      "tocLabel": "இணைப்பு C: கட்டளை வடிவமைப்பு கையேடு",
       "files": [
         "book/foundations/tamil-handbook-prompt-engineering.md"
       ]
     },
     {
       "section": "Appendix D: Technical Glossary",
+      "tocLabel": "இணைப்பு D: தொழில்நுட்ப சொற்களஞ்சியம்",
       "files": [
         "docs/technical-glossary.md"
       ]
     },
     {
       "section": "Appendix E: AI Reliability Guide",
+      "tocLabel": "இணைப்பு E: AI நம்பகத்தன்மை வழிகாட்டி",
       "files": [
         "book/foundations/tamil-hallucination-guide.md"
       ]
     },
     {
       "section": "About the Author",
+      "tocLabel": "ஆசிரியரைப் பற்றி",
       "files": [
         "book/AboutAuthors.md"
       ]
