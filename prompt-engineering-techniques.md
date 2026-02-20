@@ -1,4 +1,4 @@
-# 🧠 தொழில்நுட்ப கட்டளை நுட்பங்கள் (Advanced Prompting Techniques)
+# 🧠 தொழில்நுட்ப கட்டளை நுட்பங்கள்
 
 > [!NOTE]
 > **வகை (Type):** Framework Reference — Advanced Technical Techniques

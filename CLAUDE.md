@@ -157,9 +157,15 @@ collection-{role}.md                       (grouped collection ~20 prompts)
 |------|---------|
 | `configs/tamil-prompt-engineering-book.json` | Full book — all chapters |
 | `configs/tamil-prompt-engineering-book-2-chaps.json` | 2-chapter preview for testing |
+| `configs/tamil-prompt-engineering-book-show-case.json` | Showcase (samplers only) — uses `book/samplers/` |
 
-Both configs use identical `styleSettings`, `contentProcessing`, and `pageSettings`.
+Both `book.json` and `2-chaps.json` use identical `styleSettings`, `contentProcessing`, and `pageSettings`.
 Changes to visual style or handlers should be made in **both**.
+
+**Showcase config — English-only metadata (do not change to Tamil):**
+The showcase config keeps `bookTitle`, `tocSettings.subtitleText`, and all `section` names in English.
+Reason: the TOC-generation library cannot render Tamil/bilingual characters correctly in the TOC page.
+The Tamil content inside the sampler files is unaffected — only the structural metadata is English.
 
 ### Content Processing Handlers
 

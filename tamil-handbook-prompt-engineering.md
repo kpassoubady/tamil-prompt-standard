@@ -1,4 +1,4 @@
-# 📘 தமிழ் AI கட்டளை வழிகாட்டி (Tamil Prompt Handbook)
+# 📘 தமிழ் AI கட்டளை வழிகாட்டி
 
 
 > **🎯 கற்றல் நோக்கங்கள் (Learning Objectives)**

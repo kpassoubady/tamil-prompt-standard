@@ -1,4 +1,4 @@
-# 🔷 கட்டளைக் கட்டமைப்புகள் (Prompt Frameworks)
+# 🔷 கட்டளைக் கட்டமைப்புகள்
 
 > [!NOTE]
 > **வகை (Type):** Framework Reference — 6 Prompt Frameworks + Selection Guide
