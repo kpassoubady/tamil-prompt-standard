@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="648pt" viewBox="0 0 432 648">
+  <!-- Chapter opener: double-rule frame with corner brackets -->
+
+  <!-- Outer rule -->
+  <rect x="10" y="10" width="412" height="628"
+        fill="none" stroke="#0066CC" stroke-width="1.5" stroke-opacity="0.35"/>
+
+  <!-- Inner rule -->
+  <rect x="15" y="15" width="402" height="618"
+        fill="none" stroke="#0066CC" stroke-width="0.5" stroke-opacity="0.25"/>
+
+  <!-- Corner bracket — top-left -->
+  <polyline points="10,42 10,10 42,10"
+            fill="none" stroke="#0066CC" stroke-width="3" stroke-opacity="0.65"
+            stroke-linecap="square"/>
+
+  <!-- Corner bracket — top-right -->
+  <polyline points="390,10 422,10 422,42"
+            fill="none" stroke="#0066CC" stroke-width="3" stroke-opacity="0.65"
+            stroke-linecap="square"/>
+
+  <!-- Corner bracket — bottom-left -->
+  <polyline points="10,606 10,638 42,638"
+            fill="none" stroke="#0066CC" stroke-width="3" stroke-opacity="0.65"
+            stroke-linecap="square"/>
+
+  <!-- Corner bracket — bottom-right -->
+  <polyline points="390,638 422,638 422,606"
+            fill="none" stroke="#0066CC" stroke-width="3" stroke-opacity="0.65"
+            stroke-linecap="square"/>
+
+  <!-- Small diamond at each corner bracket mid-point -->
+  <polygon points="10,26 13,30 10,34 7,30"
+           fill="#0066CC" fill-opacity="0.5"/>
+  <polygon points="422,26 425,30 422,34 419,30"
+           fill="#0066CC" fill-opacity="0.5"/>
+  <polygon points="10,622 13,626 10,630 7,626"
+           fill="#0066CC" fill-opacity="0.5"/>
+  <polygon points="422,622 425,626 422,630 419,626"
+           fill="#0066CC" fill-opacity="0.5"/>
+</svg>
