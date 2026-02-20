@@ -318,8 +318,15 @@ Apply the scoring rubric from [.agent/rules/quality-rubric.md](.agent/rules/qual
   /lit/             - Literature & language prompts
   /daily/           - Daily life prompts
   /employment/      - Employment prompts
+/book/              - Book front/back matter, samplers, taxonomy
+  /foundations/     - Core prompt engineering guides (basics, frameworks, techniques, cheatsheet, handbook)
+  /samplers/        - Domain sampler files for showcase config
+  /images/          - Final cover images
 /configs/           - Book builder config files
-/resources/         - Supporting materials and specs
+/design/            - Cover image drafts (work-in-progress)
+/docs/              - Reference material (glossaries)
+/specs/             - Feature specs, display rules, versioned design docs
+/scripts/           - Utility scripts
 /temp/              - Working notes (not committed)
 /.agent/rules/      - Core framework rules
 /.agent/workflows/  - Process guidelines

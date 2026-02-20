@@ -42,7 +42,7 @@ Use `` ```prompt `` when the prompt is **plain text only**.
 ### Rules
 
 - Always include a blank line before and after an admonition block
-- Continuation lines inside the block use `> ` prefix (including blank separator lines: `>`)
+- Continuation lines inside the block use `>` prefix with a space (including blank separator lines: `>`)
 - Never nest admonitions inside each other
 - `[!NOTE]` is for metadata headers and informational callouts — not for prompts
 - `[!WARNING]` is reserved for safety disclaimers
