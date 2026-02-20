@@ -211,6 +211,20 @@
       ]
     },
     {
+      "section": "Part XI: Social Media Prompts",
+      "files": [
+        "prompts/social/README.md",
+        "prompts/social/collection-whatsapp.md",
+        "prompts/social/collection-youtube.md",
+        "prompts/social/collection-instagram.md",
+        "prompts/social/collection-shortform-video.md",
+        "prompts/social/collection-facebook.md",
+        "prompts/social/collection-linkedin.md",
+        "prompts/social/collection-regional-platforms.md",
+        "prompts/social/collection-community-management.md"
+      ]
+    },
+    {
       "section": "Appendix A: Framework Rules",
       "files": [
         ".agent/rules/safety.md",

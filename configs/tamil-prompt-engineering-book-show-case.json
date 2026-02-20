@@ -1,5 +1,5 @@
 {
-  "bookTitle": "The Art of Commanding AI in Tamil",
+  "bookTitle": "தமிழில் செய்யறிவைக் கட்டளையிடும் கலை",
   "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
   "author": "Kangeyan Passoubady",
   "pageSettings": {
@@ -34,7 +34,7 @@
   "tocSettings": {
     "titleFontSize": 18,
     "subtitleFontSize": 12,
-    "subtitleText": "Table of Contents",
+    "subtitleText": "உள்ளடக்க அட்டவணை",
     "entryFontSize": 10,
     "footerFontSize": 8,
     "lineColor": "#0066CC",
@@ -101,28 +101,28 @@
       ],
       "staticReplacement": {
         "showSummary": true,
-        "summaryText": "Answers:",
+        "summaryText": "விடைகள்:",
         "addHorizontalRule": true
       }
     }
   },
   "chapters": [
-        {
-      "section": "Front Cover",
+    {
+      "section": "முன் அட்டை",
       "files": [
         "book/FrontCover.md",
-        "book/images/FrontCoverPage.png"
+        "book/images/front-cover.png"
       ],
       "note": "PNG file is required for EPUB format cover"
     },
     {
-      "section": "Introduction",
+      "section": "அறிமுகம்",
       "files": [
         "book/book-introduction.md"
       ]
     },
     {
-      "section": "Part I: Framework Foundations",
+      "section": "பகுதி ஒன்று: கட்டமைப்பு அடிப்படைகள்",
       "files": [
         "prompt-engineering-basics.md",
         "prompt-engineering-frameworks.md",
@@ -131,85 +131,105 @@
       ]
     },
     {
-      "section": "Part II: Healthcare Prompts",
+      "section": "பகுதி இரண்டு: சுகாதார கட்டளைகள்",
       "files": [
         "book/samplers/health-sampler.md"
       ]
     },
     {
-      "section": "Part III: Education Prompts",
+      "section": "பகுதி மூன்று: கல்வி கட்டளைகள்",
       "files": [
         "book/samplers/edu-sampler.md"
       ]
     },
     {
-      "section": "Part IV: Agriculture Prompts",
+      "section": "பகுதி நான்கு: விவசாய கட்டளைகள்",
       "files": [
         "book/samplers/agriculture-sampler.md"
       ]
     },
     {
-      "section": "Part V: Employment Prompts",
+      "section": "பகுதி ஐந்து: வேலைவாய்ப்பு கட்டளைகள்",
       "files": [
         "book/samplers/employment-sampler.md"
       ]
     },
     {
-      "section": "Part VI: Law & Governance Prompts",
+      "section": "பகுதி ஆறு: சட்டம் & நிர்வாக கட்டளைகள்",
       "files": [
         "book/samplers/law-sampler.md"
       ]
     },
     {
-      "section": "Part VII: Daily Life Prompts",
+      "section": "பகுதி ஏழு: தினசரி வாழ்க்கை கட்டளைகள்",
       "files": [
         "book/samplers/daily-sampler.md"
       ]
     },
     {
-      "section": "Part VIII: Technology Prompts",
+      "section": "பகுதி எட்டு: தொழில்நுட்ப கட்டளைகள்",
       "files": [
         "book/samplers/tech-sampler.md"
       ]
     },
     {
-      "section": "Part IX: Business Prompts",
+      "section": "பகுதி ஒன்பது: வணிக கட்டளைகள்",
       "files": [
         "book/samplers/biz-sampler.md"
       ]
     },
     {
-      "section": "Part X: Literature & Language Prompts",
+      "section": "பகுதி பத்து: இலக்கிய கட்டளைகள்",
       "files": [
         "book/samplers/lit-sampler.md"
       ]
     },
     {
-      "section": "Appendix A: Quick Reference Cheatsheet",
+      "section": "பகுதி பதினொன்று: சமூக ஊடக கட்டளைகள்",
+      "files": [
+        "prompts/social/README.md",
+        "prompts/social/collection-whatsapp.md",
+        "prompts/social/collection-youtube.md",
+        "prompts/social/collection-instagram.md",
+        "prompts/social/collection-shortform-video.md",
+        "prompts/social/collection-facebook.md",
+        "prompts/social/collection-linkedin.md",
+        "prompts/social/collection-regional-platforms.md",
+        "prompts/social/collection-community-management.md"
+      ]
+    },
+    {
+      "section": "இணைப்பு அ: விரைவு குறிப்பேடு",
       "files": [
         "tamil-cheatsheet-prompt-engineering.md"
       ]
     },
     {
-      "section": "Appendix B: Taxonomy Framework",
+      "section": "இணைப்பு ஆ: வகைப்பாட்டு கட்டமைப்பு",
       "files": [
         "book/taxonomy-framework.md"
       ]
     },
     {
-      "section": "Appendix C: Prompt Engineering Handbook",
+      "section": "இணைப்பு இ: கட்டளை நுட்பக் கையேடு",
       "files": [
         "tamil-handbook-prompt-engineering.md"
       ]
     },
     {
-      "section": "About the Author",
+      "section": "இணைப்பு ஈ: செய்யறிவுக் கலைச்சொற்கள்",
+      "files": [
+        "docs/AI glossary_ செய்யறிவுக் கலைச்சொற்கள்.md"
+      ]
+    },
+    {
+      "section": "ஆசிரியர் பற்றி",
       "files": [
         "book/AboutAuthors.md"
       ]
     },
     {
-      "section": "Back Cover",
+      "section": "பின் அட்டை",
       "files": [
         "book/BackCover.md",
         "book/images/back-cover.png"
