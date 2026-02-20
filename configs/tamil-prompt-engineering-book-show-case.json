@@ -187,15 +187,7 @@
     {
       "section": "பகுதி பதினொன்று: சமூக ஊடக கட்டளைகள்",
       "files": [
-        "prompts/social/README.md",
-        "prompts/social/collection-whatsapp.md",
-        "prompts/social/collection-youtube.md",
-        "prompts/social/collection-instagram.md",
-        "prompts/social/collection-shortform-video.md",
-        "prompts/social/collection-facebook.md",
-        "prompts/social/collection-linkedin.md",
-        "prompts/social/collection-regional-platforms.md",
-        "prompts/social/collection-community-management.md"
+        "book/samplers/social-sampler.md"
       ]
     },
     {
