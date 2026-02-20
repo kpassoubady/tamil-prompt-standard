@@ -1,13 +1,15 @@
 {
   "bookTitle": "The Art of Commanding AI in Tamil",
-  "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
+  "outputFilename": "Tamil-Prompt-Engineering-Book-show-case.pdf",
   "author": "Kangeyan Passoubady",
+   "language": "en-US",
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
     "footerLeft": "",
     "footerCenter": "Kangs | Kavin School",
+    "footerRight": "",
     "dateFormat": "%B %d, %Y"
   },
   "styleSettings": {
@@ -29,9 +31,10 @@
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
     "footerFontSize": "9px",
-
-    "leftPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
-    "rightPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+    "allPageBorderImages": [
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+    ]
   },
   "tocSettings": {
     "titleFontSize": 18,
@@ -132,6 +135,12 @@
       ]
     },
     {
+      "section": "Chapter 0: Beginners Guide",
+      "files": [
+        "book/foundations/prompt-lite-beginners.md"
+      ]
+    },
+    {
       "section": "Part I: Framework Foundations",
       "files": [
         "book/foundations/prompt-engineering-basics.md",
@@ -222,6 +231,12 @@
       "section": "Appendix D: Technical Glossary",
       "files": [
         "docs/technical-glossary.md"
+      ]
+    },
+    {
+      "section": "Appendix E: AI Reliability Guide",
+      "files": [
+        "book/foundations/tamil-hallucination-guide.md"
       ]
     },
     {

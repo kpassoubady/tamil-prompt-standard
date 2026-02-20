@@ -2,6 +2,7 @@
   "bookTitle": "The Art of Commanding AI in Tamil",
   "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
   "author": "Kangeyan Passoubady",
+  "language": "en-US",
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
@@ -29,7 +30,11 @@
     "codeBackground": "#f5f5f5",
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
-    "footerFontSize": "9px"
+    "footerFontSize": "9px",
+    "allPageBorderImages": [
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+    ]
   },
   "tocSettings": {
     "titleFontSize": 18,
@@ -111,6 +116,12 @@
       "section": "Introduction",
       "files": [
         "book/book-introduction.md"
+      ]
+    },
+    {
+      "section": "Chapter 0: Beginners Guide",
+      "files": [
+        "book/foundations/prompt-lite-beginners.md"
       ]
     },
     {
@@ -255,6 +266,12 @@
       "section": "Appendix E: Prompt Engineering Handbook",
       "files": [
         "book/foundations/tamil-handbook-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "Appendix F: AI Reliability Guide",
+      "files": [
+        "book/foundations/tamil-hallucination-guide.md"
       ]
     },
     {

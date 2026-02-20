@@ -1,0 +1,15 @@
+flowchart LR
+    U(["பயனர்"]) --> Q{"என்ன<br/>வேண்டும்?"}
+    Q -->|"எளிய கோரிக்கை"| APE["APE<br/>செயல் · நோக்கம் · எதிர்பார்ப்பு"]
+    Q -->|"சூழல் தேவை"| RACE["RACE<br/>பாத்திரம் · செயல் · சூழல் · எதிர்பார்ப்பு"]
+    Q -->|"விரிவான வழிகாட்டி"| TRACE["TRACE<br/>பணி · பாத்திரம் · பார்வையாளர் · கட்டுப்பாடு · எதிர்பார்ப்பு"]
+    APE --> R["✅ சிறந்த<br/>AI பதில்"]
+    RACE --> R
+    TRACE --> R
+
+    style U fill:#FFF3E0,stroke:#FF8C00
+    style Q fill:#E3F2FD,stroke:#0066CC
+    style APE fill:#E8F5E9,stroke:#2E7D32
+    style RACE fill:#E8F5E9,stroke:#2E7D32
+    style TRACE fill:#E8F5E9,stroke:#2E7D32
+    style R fill:#E3F2FD,stroke:#0066CC

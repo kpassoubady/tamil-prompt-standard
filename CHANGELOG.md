@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- **Beginners chapter** (`book/foundations/prompt-lite-beginners.md`) — "Chapter 0: முதன்முறை பயனர்களுக்கான வழிகாட்டி" introducing the 3-step Prompt Lite model (யார்·என்ன·எப்படி) with Tamil examples for students, farmers, elders, and homemakers; includes upgrade path to APE/RACE/8-Layer Taxonomy
+- **Hallucination guide** (`book/foundations/tamil-hallucination-guide.md`) — Appendix covering AI reliability in Tamil: 5 hallucination-prone domains, 3 self-correction prompts, Tamil fact-checking resources, and a detection flowchart
+- **Mermaid diagrams** (`book/images/diagrams/`) — 5 rendered PNG diagrams (800px, Kindle-optimised): `taxonomy-radial`, `framework-selector`, `prompt-quality-pipeline`, `hallucination-detection`, `lite-to-full-upgrade`
+- **Refinement roadmap** (`specs/areas-for-refinement.md`) — full roadmap for v2.0 improvements: visual density, beginner onboarding, hallucination handling, master image prompt, and 6 community engagement ideas
+
+### Changed
+
+- **Show-case config** (`configs/tamil-prompt-engineering-book-show-case.json`): added "Chapter 0: Beginners Guide" before Part I; added "Appendix E: AI Reliability Guide"
+- **Full-book config** (`configs/tamil-prompt-engineering-book-full-book.json`): added "Chapter 0: Beginners Guide" before Part I; added "Appendix F: AI Reliability Guide"
+- **All 10 sampler files** (`book/samplers/`): added contextual Real Story (`💡 உண்மை கதை`) and Quick-Start (`🚀 இன்றே முயற்சிக்கலாம்`) cards — health, agriculture, education, daily, employment, tech, business, law, literature, social media
+- **Beginners chapter** (`book/foundations/prompt-lite-beginners.md`): added Learning Objectives card, Chapter Summary table with பொதுவான தவறுகள், and Knowledge Check (`🧠 அறிவு சோதனை`) section with collapsible `<details>` answers
+- **Hallucination guide** (`book/foundations/tamil-hallucination-guide.md`): added Learning Objectives card and Chapter Summary table with நினைவில் கொள்ளவும் titled list
+- **Rule file** (`.agent/rules/markdown-formatting.md`): added Chapter Structure skeleton, `[!CAUTION]` admonition, Blockquote Lists, Titled Lists, Knowledge Check pattern, Chapter Summary table template, Images section (mmdc command), `<kbd>` keyboard tags, table alignment conventions; corrected Bilingual Labels section to reflect Tamil-first policy
+- **CLAUDE.md Rule 4**: added `[!IMPORTANT]`/`[!CAUTION]`, Blockquote Lists, Titled Lists, `<kbd>` tags, and end-of-chapter (அறிவு சோதனை + அத்தியாய சுருக்கம்) requirement
+
 - Add `.claude/commands/` — three project-specific slash commands: `sync-configs`, `create-feature-pr`, `update-changelog`
 - Add `specs/` folder — feature specs and versioned design docs (`image-prompt-v1.0.md`, `image-prompt-v2.0.md`, `prompt-language-display.md`)
 - Add `design/` folder — cover image drafts (`front-cover-3` through `front-cover-7`)

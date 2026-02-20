@@ -12,6 +12,22 @@
 
 ---
 
+> **💡 உண்மை கதை**
+>
+> கோயம்புத்தூரில் startup-ல் பணியாற்றும் அருண், தமிழ்நாடு கடைகளுக்கான billing software எழுதினார். Documentation எல்லாம் ஆங்கிலத்தில் — விவசாயி வாடிக்கையாளர்களுக்கு புரியவில்லை. "இந்த Python function-ஐ தமிழில் comments-உடன் எழுதவும்" என AI-யிடம் கேட்டார். 10 நிமிடத்தில் bilingual documentation. வாடிக்கையாளர்கள் மகிழ்ந்தனர்.
+
+## 🚀 இன்றே முயற்சிக்கலாம்
+
+> **💻 தொழில்நுட்பம் — 5 கட்டளைகள்**
+>
+> 1. "Python-ல் simple calculator program எழுதி, ஒவ்வொரு வரியும் தமிழில் விளக்கவும்"
+> 2. "என் website slow-ஆக உள்ளது — performance improve செய்ய 5 tips தமிழில்"
+> 3. "SQL database design — student records-க்கு table structure என்னாக இருக்க வேண்டும்?"
+> 4. "Git commands beginners-க்கு — தமிழில் எளிய விளக்கம் கொடுங்கள்"
+> 5. "Mobile app-ல் Tamil font-கள் சரியாக காட்ட என்ன செய்வது? Android / iOS"
+
+---
+
 ## 1. செயல்பாடு / கிளாஸ் உருவாக்கம்
 
 > [!PROMPT]
