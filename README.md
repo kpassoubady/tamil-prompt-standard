@@ -4,7 +4,7 @@
 
 **செயற்கை நுண்ணறிவு மாதிரிகளிடம் (AI / LLMs) தமிழில் துல்லியமான, தரமான பதில்களைப் பெறுவதற்கான முழுமையான வழிகாட்டி.**
 
-இந்தக் கையேடு 200+ தயாரான கட்டளை மாதிரிகளை (Prompt Templates) 10+ தொழில் சார்ந்த துறைகளில் வழங்குகிறது — டெவலப்பர்கள் முதல் விவசாயிகள் வரை, அனைவருக்கும் பயன்படும்.
+இந்தக் கையேடு 700+ தயாரான கட்டளை மாதிரிகளை (Prompt Templates) 10 தொழில் சார்ந்த துறைகளில் வழங்குகிறது — டெவலப்பர்கள் முதல் விவசாயிகள் வரை, அனைவருக்கும் பயன்படும்.
 
 ---
 
@@ -14,19 +14,19 @@
 
 | # | கோப்பு (File) | விளக்கம் (Description) |
 |---|--------------|----------------------|
-| 1 | [prompt-engineering-basics.md](prompt-engineering-basics.md) | கட்டளை வடிவமைப்பு அடிப்படைகள் — வரையறை, கொள்கைகள், தமிழ் மொழி சிறப்பு குறிப்புகள் |
-| 2 | [prompt-engineering-frameworks.md](prompt-engineering-frameworks.md) | கட்டளைக் கட்டமைப்புகள் — CLEAR, CRAFT, CREATE, AUTOMAT, CATS, PROMPT மற்றும் தேர்வு வழிகாட்டி |
-| 3 | [prompt-engineering-techniques.md](prompt-engineering-techniques.md) | தொழில்நுட்ப நுட்பங்கள் — CoT, ToT, DSP, Zero-Shot, Zero-Shot CoT, PoT |
-| 4 | [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
-| 5 | [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
+| 1 | [prompt-engineering-basics.md](book/foundations/prompt-engineering-basics.md) | கட்டளை வடிவமைப்பு அடிப்படைகள் — வரையறை, கொள்கைகள், தமிழ் மொழி சிறப்பு குறிப்புகள் |
+| 2 | [prompt-engineering-frameworks.md](book/foundations/prompt-engineering-frameworks.md) | கட்டளைக் கட்டமைப்புகள் — CLEAR, CRAFT, CREATE, AUTOMAT, CATS, PROMPT மற்றும் தேர்வு வழிகாட்டி |
+| 3 | [prompt-engineering-techniques.md](book/foundations/prompt-engineering-techniques.md) | தொழில்நுட்ப நுட்பங்கள் — CoT, ToT, DSP, Zero-Shot, Zero-Shot CoT, PoT |
+| 4 | [tamil-cheatsheet-prompt-engineering.md](book/foundations/tamil-cheatsheet-prompt-engineering.md) | விரைவு குறிப்புத் தாள் (Cheatsheet) — 10 கட்டமைப்புகள் + 10 நுட்பங்கள், ஒவ்வொன்றும் தமிழ் உதாரணத்துடன் |
+| 5 | [tamil-handbook-prompt-engineering.md](book/foundations/tamil-handbook-prompt-engineering.md) | தொடக்கநிலையாளர்களுக்கான எளிய கையேடு (Beginner Guide) — கட்டளையின் 4 கூறுகள், நடைமுறை உதாரணங்கள், மொழி நுணுக்கங்கள் |
 
 > **எந்த வழிகாட்டியைப் படிக்க வேண்டும்? (Which guide should I read?)**
 >
-> - **புதியவர் (Beginner):** Start with [tamil-handbook-prompt-engineering.md](tamil-handbook-prompt-engineering.md) — 5 நிமிட அறிமுகம்
-> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-cheatsheet-prompt-engineering.md](tamil-cheatsheet-prompt-engineering.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
-> - **அடிப்படைகள் (Basics):** Read [prompt-engineering-basics.md](prompt-engineering-basics.md) — வரையறை, கொள்கைகள், தமிழ் குறிப்புகள்
-> - **கட்டமைப்புகள் (Frameworks):** Read [prompt-engineering-frameworks.md](prompt-engineering-frameworks.md) — 6 கட்டமைப்புகள் + தேர்வு வழிகாட்டி
-> - **மேம்பட்ட நுட்பங்கள் (Advanced):** Read [prompt-engineering-techniques.md](prompt-engineering-techniques.md) — CoT, ToT, DSP, PoT நுட்பங்கள்
+> - **புதியவர் (Beginner):** Start with [tamil-handbook-prompt-engineering.md](book/foundations/tamil-handbook-prompt-engineering.md) — 5 நிமிட அறிமுகம்
+> - **விரைவு குறிப்பு (Quick Reference):** Use [tamil-cheatsheet-prompt-engineering.md](book/foundations/tamil-cheatsheet-prompt-engineering.md) — நுட்பங்கள் + உதாரணங்கள் ஒரே இடத்தில்
+> - **அடிப்படைகள் (Basics):** Read [prompt-engineering-basics.md](book/foundations/prompt-engineering-basics.md) — வரையறை, கொள்கைகள், தமிழ் குறிப்புகள்
+> - **கட்டமைப்புகள் (Frameworks):** Read [prompt-engineering-frameworks.md](book/foundations/prompt-engineering-frameworks.md) — 6 கட்டமைப்புகள் + தேர்வு வழிகாட்டி
+> - **மேம்பட்ட நுட்பங்கள் (Advanced):** Read [prompt-engineering-techniques.md](book/foundations/prompt-engineering-techniques.md) — CoT, ToT, DSP, PoT நுட்பங்கள்
 
 ---
 
@@ -127,11 +127,26 @@
 
 ---
 
+### 📱 [சமூக ஊடகம் (Social Media)](prompts/social/README.md)
+
+| # | கோப்பு (File) | யாருக்கு (Audience) | விளக்கம் (Description) |
+|---|--------------|-------------------|----------------------|
+| 40 | [collection-whatsapp.md](prompts/social/collection-whatsapp.md) | WhatsApp பயனர்கள் | குழு நிர்வாகம், செய்தி வடிவமைப்பு, தகவல் பகிர்வு |
+| 41 | [collection-youtube.md](prompts/social/collection-youtube.md) | YouTube படைப்பாளிகள் | தலைப்பு, விவரம், SEO, தொகுப்பு ஸ்கிரிப்ட் |
+| 42 | [collection-instagram.md](prompts/social/collection-instagram.md) | Instagram படைப்பாளிகள் | தொழில் வளர்ச்சி, Reels, Hashtag உத்தி |
+| 43 | [collection-shortform-video.md](prompts/social/collection-shortform-video.md) | குறும்படம் படைப்பாளிகள் | Reels, Shorts — கதைச்சொல்லல், திரைக்கதை |
+| 44 | [collection-facebook.md](prompts/social/collection-facebook.md) | Facebook பயனர்கள் | தமிழ் குழுக்கள், பக்க மேலாண்மை, விளம்பரம் |
+| 45 | [collection-linkedin.md](prompts/social/collection-linkedin.md) | LinkedIn தொழில்முறையாளர்கள் | சுயவிவரம், சர்வதேச இடுகை, நெட்வொர்க்கிங் |
+| 46 | [collection-regional-platforms.md](prompts/social/collection-regional-platforms.md) | பிராந்திய தளப் பயனர்கள் | Koo, ShareChat, மொய் — தமிழ் பிராந்திய ஊடகம் |
+| 47 | [collection-community-management.md](prompts/social/collection-community-management.md) | சமூக நிர்வாகிகள் | ஈடுபாடு, நெறிமுறை, சமூக வளர்ச்சி உத்திகள் |
+
+---
+
 ### 📐 [கட்டளை தரநிலை கட்டமைப்பு (Taxonomy)](TAXONOMY.md)
 
 | # | கோப்பு (File) | விளக்கம் (Description) |
 |---|--------------|----------------------|
-| 40 | [TAXONOMY.md](TAXONOMY.md) | 8-அடுக்கு தரநிலை கட்டமைப்பு — பாத்திரம், துறை, திறன் நிலை, நோக்கம், தொனி, வடிவம், கட்டுப்பாடு, பாதுகாப்பு |
+| 48 | [TAXONOMY.md](TAXONOMY.md) | 8-அடுக்கு தரநிலை கட்டமைப்பு — பாத்திரம், துறை, திறன் நிலை, நோக்கம், தொனி, வடிவம், கட்டுப்பாடு, பாதுகாப்பு |
 
 ---
 
@@ -139,9 +154,9 @@
 
 | அளவீடு (Metric) | விவரம் (Details) |
 |-----------------|-------------------|
-| **மொத்தக் கோப்புகள் (Total Files)** | 40+ |
+| **மொத்தக் கோப்புகள் (Total Files)** | 48+ |
 | **கட்டளை மாதிரிகள் (Prompt Templates)** | 700+ |
-| **துறைகள் (Domains)** | 9 (விவசாயம், வணிகம், தினசரி, கல்வி, வேலை, சுகாதாரம், சட்டம், இலக்கியம், தொழில்நுட்பம்) |
+| **துறைகள் (Domains)** | 10 (விவசாயம், வணிகம், தினசரி, கல்வி, வேலை, சுகாதாரம், சட்டம், இலக்கியம், தொழில்நுட்பம், சமூக ஊடகம்) |
 | **இலக்குப் பயனர்கள் (Target Roles)** | 30+ (முழு சமூகத்தையும் உள்ளடக்கியது) |
 
 ---
@@ -153,7 +168,7 @@
 3. **AI மாதிரியிடம் வழங்கவும்** — ChatGPT, Gemini, Claude, Llama போன்ற எந்த நவீன LLM-லும் பயன்படுத்தலாம்
 4. **மேம்படுத்தவும்** — முதல் பதிலை வரைவாகக் கொண்டு, மீள்சீரமைப்பு (Iterative Refinement) செய்யுங்கள்
 
-> 💡 **குறிப்பு:** கட்டளை வடிவமைப்பின் அடிப்படைகளை முதலில் கற்க [prompt-engineering-basics.md](prompt-engineering-basics.md) கோப்பைப் படிக்கவும்.
+> 💡 **குறிப்பு:** கட்டளை வடிவமைப்பின் அடிப்படைகளை முதலில் கற்க [prompt-engineering-basics.md](book/foundations/prompt-engineering-basics.md) கோப்பைப் படிக்கவும்.
 
 ---
 
@@ -161,7 +176,7 @@
 
 இந்தக் கையேடு **TNC21 / Tamil Research Chair on Artificial Intelligence** ஆய்வின் அடிப்படையில் உருவாக்கப்பட்டது. 27 ஆண்டுகால தகவல் தொழில்நுட்ப அனுபவத்தின் அடிப்படையில், தமிழ் மொழியின் இலக்கண, மரபு, மரியாதை மற்றும் பொருள் நுணுக்கங்களை AI மாதிரிகள் எவ்வாறு உணர்கின்றன என்பதையும், அவற்றைச் செயல்திறனுடன் வழிநடத்துவது எப்படி என்பதையும் ஆராய்கிறது.
 
-முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-framework-prompt-engineering.md](tamil-framework-prompt-engineering.md)
+முழுமையான ஆய்வு உரைச் சுருக்கம்: [tamil-framework-prompt-engineering.md](book/foundations/tamil-framework-prompt-engineering.md)
 
 ---
 

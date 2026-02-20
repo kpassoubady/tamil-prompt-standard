@@ -132,10 +132,10 @@
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "prompt-engineering-basics.md",
-        "prompt-engineering-frameworks.md",
-        "prompt-engineering-techniques.md",
-        "tamil-framework-prompt-engineering.md"
+        "book/foundations/prompt-engineering-basics.md",
+        "book/foundations/prompt-engineering-frameworks.md",
+        "book/foundations/prompt-engineering-techniques.md",
+        "book/foundations/tamil-framework-prompt-engineering.md"
       ]
     },
     {
@@ -201,7 +201,7 @@
     {
       "section": "Appendix A: Quick Reference Cheatsheet",
       "files": [
-        "tamil-cheatsheet-prompt-engineering.md"
+        "book/foundations/tamil-cheatsheet-prompt-engineering.md"
       ]
     },
     {
@@ -213,7 +213,7 @@
     {
       "section": "Appendix C: Prompt Engineering Handbook",
       "files": [
-        "tamil-handbook-prompt-engineering.md"
+        "book/foundations/tamil-handbook-prompt-engineering.md"
       ]
     },
     {

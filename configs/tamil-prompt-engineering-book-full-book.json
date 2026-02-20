@@ -5,41 +5,40 @@
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
+    "headerRight": "{page} of {pages}",
     "footerLeft": "{date}",
-    "footerCenter": "Page {page} of {pages}",
-    "footerRight": "Tamil Prompt Standard",
+    "footerCenter": "",
+    "footerRight": "Kangs | Kavin School",
     "dateFormat": "%B %d, %Y"
   },
   "styleSettings": {
-    "pageSize": "A4",
-    "margins": "1in 0.8in 1in 0.8in",
-    "fontFamily": "Noto Sans, Helvetica Neue, Arial, sans-serif",
+    "pageSize": "6in 9in",
+    "margins": "0.75in 0.6in 0.75in 0.8in",
+    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
     "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
-    "bodyFontSize": "11pt",
-    "bodyLineHeight": "1.6",
+    "bodyFontSize": "9.5pt",
+    "bodyLineHeight": "1.5",
     "bodyColor": "#333333",
     "headingColor": "#222222",
-    "h1FontSize": "18pt",
-    "h2FontSize": "16pt",
-    "h3FontSize": "14pt",
-    "h4FontSize": "12pt",
-    "codeFontSize": "10pt",
-    "tableFontSize": "10pt",
+    "h1FontSize": "13pt",
+    "h2FontSize": "11.5pt",
+    "h3FontSize": "10.5pt",
+    "h4FontSize": "10pt",
+    "codeFontSize": "8.5pt",
+    "tableFontSize": "8.5pt",
     "codeBackground": "#f5f5f5",
     "linkColor": "#0066cc",
-    "headerFontSize": "12px",
-    "footerFontSize": "10px",
-    "leftPageBorderImage": "left-page-border.svg",
-    "rightPageBorderImage": "right-page-border.svg"
+    "headerFontSize": "10px",
+    "footerFontSize": "9px"
   },
   "tocSettings": {
-    "titleFontSize": 24,
-    "subtitleFontSize": 14,
+    "titleFontSize": 18,
+    "subtitleFontSize": 12,
     "subtitleText": "Table of Contents",
-    "entryFontSize": 11,
-    "footerFontSize": 9,
-    "lineColor": "#CC3300",
-    "entryColor": "#CC3300",
+    "entryFontSize": 10,
+    "footerFontSize": 8,
+    "lineColor": "#0066CC",
+    "entryColor": "#0066CC",
     "footerColor": "#666666"
   },
   "imageOptimization": {
@@ -57,10 +56,36 @@
     }
   },
   "contentProcessing": {
+    "promptHandling": {
+      "enabled": true,
+      "label": "▶ PROMPT",
+      "backgroundColor": "#EBF5FF",
+      "borderColor": null,
+      "borderWidth": "3px",
+      "outlineColor": "#CCE0F5",
+      "borderRadius": "4px",
+      "padding": "10px 14px",
+      "labelFontSize": "7.5pt",
+      "labelColor": null
+    },
     "admonitionHandling": {
       "enabled": true,
       "style": "boxed",
-      "includeIcons": true
+      "includeIcons": true,
+      "customTypes": {
+        "PROMPT": {
+          "label": "▶ PROMPT",
+          "backgroundColor": "#EBF5FF",
+          "borderColor": "#0066CC",
+          "borderWidth": "3px",
+          "outlineColor": "#CCE0F5",
+          "borderRadius": "4px",
+          "labelColor": "#0066CC",
+          "labelFontSize": "7.5pt",
+          "useBodyFont": true,
+          "labelSeparator": true
+        }
+      }
     },
     "blockquoteListHandling": {
       "enabled": true
@@ -85,19 +110,16 @@
     {
       "section": "Introduction",
       "files": [
-        "README.md"
+        "book/book-introduction.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "TAXONOMY.md",
-        "prompt-engineering-basics.md",
-        "prompt-engineering-frameworks.md",
-        "prompt-engineering-techniques.md",
-        "tamil-handbook-prompt-engineering.md",
-        "tamil-cheatsheet-prompt-engineering.md",
-        "tamil-framework-prompt-engineering.md"
+        "book/foundations/prompt-engineering-basics.md",
+        "book/foundations/prompt-engineering-frameworks.md",
+        "book/foundations/prompt-engineering-techniques.md",
+        "book/foundations/tamil-framework-prompt-engineering.md"
       ]
     },
     {
@@ -189,9 +211,22 @@
       ]
     },
     {
+      "section": "Part XI: Social Media Prompts",
+      "files": [
+        "prompts/social/README.md",
+        "prompts/social/collection-whatsapp.md",
+        "prompts/social/collection-youtube.md",
+        "prompts/social/collection-instagram.md",
+        "prompts/social/collection-shortform-video.md",
+        "prompts/social/collection-facebook.md",
+        "prompts/social/collection-linkedin.md",
+        "prompts/social/collection-regional-platforms.md",
+        "prompts/social/collection-community-management.md"
+      ]
+    },
+    {
       "section": "Appendix A: Framework Rules",
       "files": [
-        ".agent/rules/taxonomy.md",
         ".agent/rules/safety.md",
         ".agent/rules/file-naming.md",
         ".agent/rules/quality-rubric.md"
@@ -202,6 +237,30 @@
       "files": [
         ".agent/workflows/create-new-prompt.md",
         ".agent/workflows/review-prompt.md"
+      ]
+    },
+    {
+      "section": "Appendix C: Quick Reference Cheatsheet",
+      "files": [
+        "book/foundations/tamil-cheatsheet-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "Appendix D: Taxonomy Framework",
+      "files": [
+        "book/taxonomy-framework.md"
+      ]
+    },
+    {
+      "section": "Appendix E: Prompt Engineering Handbook",
+      "files": [
+        "book/foundations/tamil-handbook-prompt-engineering.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "files": [
+        "book/AboutAuthors.md"
       ]
     }
   ]

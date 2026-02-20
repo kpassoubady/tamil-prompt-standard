@@ -116,9 +116,9 @@
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "tamil-framework-prompt-engineering.md",
-        "tamil-handbook-prompt-engineering.md",
-        "tamil-cheatsheet-prompt-engineering.md"
+        "book/foundations/tamil-framework-prompt-engineering.md",
+        "book/foundations/tamil-handbook-prompt-engineering.md",
+        "book/foundations/tamil-cheatsheet-prompt-engineering.md"
       ]
     },
     {
