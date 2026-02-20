@@ -6,6 +6,8 @@
 
 விவசாயிகள், விவசாய தொழிலாளர்கள், சுயஉதவிக் குழுக்கள், மற்றும் கிராமப்புற தொழில் முனைவோருக்கான AI கட்டளைகளின் முதல் பார்வை — இந்தத் துறையில் 80+ கட்டளைகள் உள்ளன.
 
+![விவசாயம் — AI உதவியாளர்](../images/heroes/hero-agriculture.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** விவசாயிகள், தொழிலாளர்கள், SHG உறுப்பினர்கள், கிராம தொழில் முனைவோருக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
 > [agriculture/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/agriculture/README.md)

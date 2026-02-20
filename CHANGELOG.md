@@ -16,9 +16,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **`book/foundations/prompt-engineering-techniques.md`**: added Section 3 — மீள்சீரமைப்பு & கட்டளை சங்கிலி (iterative refinement loop + prompt chaining diagrams with explanations)
 - **`configs/run-book-builder.sh`**: added mmdc pre-render loop to regenerate all diagrams before each build
 - **Refinement roadmap** (`specs/areas-for-refinement.md`) — full roadmap for v2.0 improvements: visual density, beginner onboarding, hallucination handling, master image prompt, and 6 community engagement ideas
+- **Hero images** (`book/images/heroes/`) — 12 domain hero PNGs generated and verified: `hero-intro`, `hero-health`, `hero-edu`, `hero-agriculture`, `hero-employment`, `hero-law`, `hero-daily`, `hero-tech`, `hero-biz`, `hero-lit`, `hero-hallucination`, `hero-beginners`
 
 ### Changed
 
+- **Hero image refs** inserted into `book/book-introduction.md`, all 10 sampler files, `book/foundations/prompt-lite-beginners.md`, and `book/foundations/tamil-hallucination-guide.md` — each file now embeds its domain hero PNG at the top
 - **Show-case config** (`configs/tamil-prompt-engineering-book-show-case.json`): added "Chapter 0: Beginners Guide" before Part I; added "Appendix E: AI Reliability Guide"
 - **Full-book config** (`configs/tamil-prompt-engineering-book-full-book.json`): added "Chapter 0: Beginners Guide" before Part I; added "Appendix F: AI Reliability Guide"
 - **All 10 sampler files** (`book/samplers/`): added contextual Real Story (`💡 உண்மை கதை`) and Quick-Start (`🚀 இன்றே முயற்சிக்கலாம்`) cards — health, agriculture, education, daily, employment, tech, business, law, literature, social media

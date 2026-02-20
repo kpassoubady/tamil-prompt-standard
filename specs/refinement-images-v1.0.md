@@ -144,6 +144,8 @@ Technical requirements:
 - Tamil cultural details: appropriate clothing (saree, dhoti, kurta), Tamil Nadu environment (paddy fields, kovil gopuram silhouette, city streets, etc.)
 - Avoid: stereotypes, caste symbols, religious iconography as focal point
 - Subtle: one or two Tamil letterforms (அ, தமிழ், AI) blended into background as artistic texture
+- Tamil letterforms in background: very subtle, low opacity (≤20%) — used as texture, not focal element.
+
 ```
 
 ---
@@ -231,7 +233,7 @@ A Tamil family — grandmother, parent, and grandchild — gathered around a kit
 
 ---
 
-### 10. `hero-tech.jpg` — Technology
+### 10. `hero-techhero-tech.jpg` — Technology
 
 ```prompt
 [Use master prompt with Subject:]

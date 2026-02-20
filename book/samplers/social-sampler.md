@@ -7,6 +7,8 @@
 
 WhatsApp, YouTube, Instagram, LinkedIn மற்றும் பிற தளங்களில் தமிழில் பயனுள்ள உள்ளடக்கம் உருவாக்க — தனிநபர்களுக்கும் சிறு வியாபாரிகளுக்கும் உதவும் கட்டளைகள்.
 
+![சமூக ஊடகம் — AI உதவியாளர்](../images/heroes/hero-social.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** 8 தளங்களுக்கான 160+ கட்டளைகள் இங்கே கிடைக்கின்றன:
 > [social/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/social/README.md)

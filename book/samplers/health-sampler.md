@@ -6,6 +6,8 @@
 
 மருத்துவர்கள், செவிலியர்கள், ஆலோசகர்கள், மற்றும் AYUSH நிபுணர்களுக்கான AI கட்டளைகளின் முதல் பார்வை — இந்தத் துறையில் 80+ கட்டளைகள் உள்ளன.
 
+![சுகாதாரம் — AI உதவியாளர்](../images/heroes/hero-health.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** மருத்துவர்கள், செவிலியர்கள், ஆலோசகர்கள், AYUSH நிபுணர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
 > [health/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/health/README.md)

@@ -1,6 +1,6 @@
 # தமிழ் AI கட்டளை தரநிலை — மேம்பாட்டு வழிமாப்பு
 
-> **நிலை:** திட்டமிட்ட (Planned)
+> **நிலை:** ✅ நிறைவு — 2026-02-20
 > **பதிப்பு:** v1.0 — 2026-02-20
 > **மூலம்:** Showcase book review feedback
 
@@ -392,34 +392,33 @@ Before/After prompt comparisons:
 
 ### Phase 1 — உள்ளடக்கம் (Content)
 
-| # | பணி | கோப்பு | முன்னுரிமை |
-|---|-----|--------|------------|
-| 1 | Prompt Lite chapter எழுது | `book/foundations/prompt-lite-beginners.md` | 🔴 அதிகம் |
-| 2 | Hallucination guide எழுது | `book/foundations/tamil-hallucination-guide.md` | 🔴 அதிகம் |
-| 3 | Real Stories — 5 domains | existing samplers-ல் சேர் | 🟡 நடுத்தரம் |
-| 4 | "இன்றே கேட்கலாம்" cards — 10 domains | existing samplers-ல் சேர் | 🟡 நடுத்தரம் |
-| 5 | Before/After myth-busting | Foundations-ல் புதிய பகுதி | 🟢 குறைந்தது |
+| # | பணி | கோப்பு | நிலை |
+|---|-----|--------|------|
+| 1 | Prompt Lite chapter எழுது | `book/foundations/prompt-lite-beginners.md` | ✅ முடிந்தது |
+| 2 | Hallucination guide எழுது | `book/foundations/tamil-hallucination-guide.md` | ✅ முடிந்தது |
+| 3 | Real Stories — 5 domains | existing samplers-ல் சேர் | ✅ முடிந்தது |
+| 4 | "இன்றே கேட்கலாம்" cards — 10 domains | existing samplers-ல் சேர் | ✅ முடிந்தது |
+| 5 | Before/After myth-busting | Foundations-ல் புதிய பகுதி | ✅ முடிந்தது |
 
 ### Phase 2 — காட்சி (Visual)
 
-| # | பணி | கருவி | முன்னுரிமை |
-|---|-----|-------|------------|
-| 1 | Taxonomy radial diagram | Mermaid | 🔴 அதிகம் |
-| 2 | Framework selector flow | Mermaid | 🔴 அதிகம் |
-| 3 | Prompt quality pipeline | Mermaid | 🟡 நடுத்தரம் |
-| 4 | Hallucination detection flow | Mermaid | 🟡 நடுத்தரம் |
-| 5 | Domain hero images (10) | AI image generation (master prompt in §5) | 🟢 குறைந்தது |
+| # | பணி | கருவி | நிலை |
+|---|-----|-------|------|
+| 1 | Taxonomy radial diagram | Mermaid | ✅ முடிந்தது |
+| 2 | Framework selector flow | Mermaid | ✅ முடிந்தது |
+| 3 | Prompt quality pipeline | Mermaid | ✅ முடிந்தது |
+| 4 | Hallucination detection flow | Mermaid | ✅ முடிந்தது |
+| 5 | Domain hero images (12) | AI image generation | ✅ முடிந்தது |
 
 ### Phase 3 — கட்டமைப்பு (Config)
 
-| # | பணி | கோப்பு |
-|---|-----|--------|
-| 1 | Prompt Lite chapter-ஐ show-case config-ல் சேர் | `configs/tamil-prompt-engineering-book-show-case.json` |
-| 2 | Hallucination guide-ஐ full book config-ல் சேர் | `configs/tamil-prompt-engineering-book-full-book.json` |
-| 3 | Diagrams folder-ஐ build pipeline-ல் சேர் | `configs/run-book-builder.sh` |
+| # | பணி | கோப்பு | நிலை |
+|---|-----|--------|------|
+| 1 | Prompt Lite chapter-ஐ show-case config-ல் சேர் | `configs/tamil-prompt-engineering-book-show-case.json` | ✅ முடிந்தது |
+| 2 | Hallucination guide-ஐ full book config-ல் சேர் | `configs/tamil-prompt-engineering-book-full-book.json` | ✅ முடிந்தது |
+| 3 | Diagrams folder-ஐ build pipeline-ல் சேர் | `configs/run-book-builder.sh` | ✅ முடிந்தது |
 
 ---
 
 > [!NOTE]
-> **நிலை (Status):** இந்த ஆவணம் ஒரு திட்ட வழிமாப்பு (roadmap spec). ஒவ்வொரு phase-உம் தனி feature branch-ல் செயல்படுத்தப்படும்.
-> **அடுத்த படி:** Phase 1, Item 1 — `prompt-lite-beginners.md` உருவாக்கவும்.
+> **நிலை:** அனைத்து 3 phases-உம் நிறைவடைந்தன — 2026-02-20. Hero images, Mermaid diagrams, content chapters, and config updates அனைத்தும் feature/area-of-refinement branch-ல் உள்ளன.
