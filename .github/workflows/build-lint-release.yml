@@ -53,9 +53,9 @@ jobs:
 
       - name: Build Books
         run: |
-          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=pdf
-          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=epub
-          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-short.json --format=docx
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-show-case.json --format=pdf
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-show-case.json --format=epub
+          bookbuilder build --root . --order configs/tamil-prompt-engineering-book-show-case.json --format=docx
 
       - name: Upload to GitHub Release
         if: startsWith(github.ref, 'refs/tags/v') # Only attach artifacts for version tags
