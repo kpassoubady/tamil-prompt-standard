@@ -1,14 +1,12 @@
 {
   "bookTitle": "The Art of Commanding AI in Tamil",
-  "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
+  "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
   "author": "Kangeyan Passoubady",
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
-    "footerLeft": "{date}",
-    "footerCenter": "",
-    "footerRight": "Kangs | Kavin School",
+    "footerCenter": "Kangs | Kavin School",
     "dateFormat": "%B %d, %Y"
   },
   "styleSettings": {
@@ -29,7 +27,9 @@
     "codeBackground": "#f5f5f5",
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
-    "footerFontSize": "9px"
+    "footerFontSize": "9px",
+    "leftPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
+    "rightPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
   },
   "tocSettings": {
     "titleFontSize": 18,
@@ -108,27 +108,57 @@
   },
   "chapters": [
     {
+      "section": "Front Cover",
+      "files": [
+        "book/FrontCover.md",
+        "book/images/FrontCoverPage.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
+    {
+      "section": "Front Cover",
+      "files": [
+        "book/FrontCover.md",
+        "book/images/front-cover.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
+    {
       "section": "Introduction",
       "files": [
-        "README.md"
+        "book/book-introduction.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
       "files": [
-        "book/foundations/tamil-framework-prompt-engineering.md",
-        "book/foundations/tamil-handbook-prompt-engineering.md",
-        "book/foundations/tamil-cheatsheet-prompt-engineering.md"
+        "book/foundations/prompt-engineering-basics.md",
+        "book/foundations/prompt-engineering-frameworks.md"
       ]
     },
     {
       "section": "Part II: Healthcare Prompts",
       "files": [
-        "prompts/health/README.md",
-        "prompts/health/collection-doctors.md",
-        "prompts/health/collection-nurses.md",
-        "prompts/health/collection-counsellors.md",
-        "prompts/health/collection-ayush.md"
+        "book/samplers/health-sampler.md"
+      ]
+    },
+    {
+      "section": "Part III: Education Prompts",
+      "files": [
+        "book/samplers/edu-sampler.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "files": [
+        "book/AboutAuthors.md"
+      ]
+    },
+    {
+      "section": "Back Cover",
+      "files": [
+        "book/BackCover.md",
+        "book/images/back-cover.png"
       ]
     }
   ]

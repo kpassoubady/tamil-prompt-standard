@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="648pt" viewBox="0 0 432 648">
+  <!--
+    Right (odd) pages — outer edge is the RIGHT side.
+    Vertical rule runs top-to-bottom, terminating into a
+    fan arc pattern at the bottom-right corner.
+    Arc pivot: (412, 648) — directly below the vertical line.
+  -->
+
+  <!-- Vertical rule, terminates at outer arc start -->
+  <line x1="412" y1="54" x2="412" y2="583"
+        stroke="#0066CC" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Top accent -->
+  <line x1="406" y1="54" x2="418" y2="54"
+        stroke="#0066CC" stroke-width="1.5" stroke-opacity="0.5"/>
+  <circle cx="412" cy="60" r="2" fill="#0066CC" fill-opacity="0.45"/>
+
+  <!-- Mid-page accent dot -->
+  <circle cx="412" cy="324" r="2.5" fill="#0066CC" fill-opacity="0.3"/>
+
+  <!-- ── Bottom-right corner fan ── -->
+  <!-- Three quarter-circle arcs, all pivoting at (412, 648) -->
+  <!-- Counter-clockwise sweep (sweep-flag=0) to mirror left side -->
+
+  <!-- Outer arc  r=65 -->
+  <path d="M 347,648 A 65,65 0 0 1 412,583"
+        fill="none" stroke="#0066CC" stroke-width="0.75" stroke-opacity="0.22"/>
+
+  <!-- Middle arc  r=45 -->
+  <path d="M 367,648 A 45,45 0 0 1 412,603"
+        fill="none" stroke="#0066CC" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Inner arc  r=25 -->
+  <path d="M 387,648 A 25,25 0 0 1 412,623"
+        fill="none" stroke="#0066CC" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Dots at arc ends (right edge junction) -->
+  <circle cx="412" cy="583" r="2"   fill="#0066CC" fill-opacity="0.3"/>
+  <circle cx="412" cy="603" r="2"   fill="#0066CC" fill-opacity="0.35"/>
+  <circle cx="412" cy="623" r="2.5" fill="#0066CC" fill-opacity="0.45"/>
+
+  <!-- Dots at arc starts (bottom edge) -->
+  <circle cx="347" cy="648" r="1.5" fill="#0066CC" fill-opacity="0.2"/>
+  <circle cx="367" cy="648" r="1.5" fill="#0066CC" fill-opacity="0.28"/>
+  <circle cx="387" cy="648" r="2"   fill="#0066CC" fill-opacity="0.38"/>
+
+  <!--
+    Kolam-inspired dot cluster in the inner corner pocket.
+    4 outer dots + 1 central dot — a traditional kolam seed pattern.
+  -->
+  <circle cx="396" cy="634" r="1.5" fill="#0066CC" fill-opacity="0.42"/>
+  <circle cx="403" cy="634" r="1.5" fill="#0066CC" fill-opacity="0.42"/>
+  <circle cx="396" cy="641" r="1.5" fill="#0066CC" fill-opacity="0.42"/>
+  <circle cx="403" cy="641" r="1.5" fill="#0066CC" fill-opacity="0.42"/>
+  <circle cx="400" cy="637" r="2"   fill="#0066CC" fill-opacity="0.35"/>
+</svg>

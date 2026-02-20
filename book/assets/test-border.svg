@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432pt" height="648pt" viewBox="0 0 432 648">
+  <!-- Outer border — orange, 4pt thick -->
+  <rect x="6" y="6" width="420" height="636" fill="none" stroke="#CC6600" stroke-width="4"/>
+  <!-- Inner border — thinner, slightly inset -->
+  <rect x="12" y="12" width="408" height="624" fill="none" stroke="#CC6600" stroke-width="1.5"/>
+  <!-- Corner dots for visibility -->
+  <circle cx="18" cy="18" r="4" fill="#CC6600"/>
+  <circle cx="414" cy="18" r="4" fill="#CC6600"/>
+  <circle cx="18" cy="630" r="4" fill="#CC6600"/>
+  <circle cx="414" cy="630" r="4" fill="#CC6600"/>
+</svg>
