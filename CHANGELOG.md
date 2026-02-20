@@ -11,7 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Beginners chapter** (`book/foundations/prompt-lite-beginners.md`) — "Chapter 0: முதன்முறை பயனர்களுக்கான வழிகாட்டி" introducing the 3-step Prompt Lite model (யார்·என்ன·எப்படி) with Tamil examples for students, farmers, elders, and homemakers; includes upgrade path to APE/RACE/8-Layer Taxonomy
 - **Hallucination guide** (`book/foundations/tamil-hallucination-guide.md`) — Appendix covering AI reliability in Tamil: 5 hallucination-prone domains, 3 self-correction prompts, Tamil fact-checking resources, and a detection flowchart
-- **Mermaid diagrams** (`book/images/diagrams/`) — 5 rendered PNG diagrams (800px, Kindle-optimised): `taxonomy-radial`, `framework-selector`, `prompt-quality-pipeline`, `hallucination-detection`, `lite-to-full-upgrade`
+- **Mermaid diagrams** (`book/images/diagrams/`) — 8 rendered PNG diagrams (800px, Kindle-optimised): `taxonomy-radial`, `framework-selector`, `prompt-quality-pipeline`, `hallucination-detection`, `lite-to-full-upgrade`, `tamil-ai-timeline` (timeline), `iterative-refinement-loop` (flowchart), `prompt-chaining-flow` (sequenceDiagram)
+- **`book/book-introduction.md`**: added Tamil AI Evolution timeline diagram section (தமிழ் AI வளர்ச்சி)
+- **`book/foundations/prompt-engineering-techniques.md`**: added Section 3 — மீள்சீரமைப்பு & கட்டளை சங்கிலி (iterative refinement loop + prompt chaining diagrams with explanations)
+- **`configs/run-book-builder.sh`**: added mmdc pre-render loop to regenerate all diagrams before each build
 - **Refinement roadmap** (`specs/areas-for-refinement.md`) — full roadmap for v2.0 improvements: visual density, beginner onboarding, hallucination handling, master image prompt, and 6 community engagement ideas
 
 ### Changed
