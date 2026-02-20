@@ -9,6 +9,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Add `.claude/commands/` — three project-specific slash commands: `sync-configs`, `create-feature-pr`, `update-changelog`
+- Add `specs/` folder — feature specs and versioned design docs (`image-prompt-v1.0.md`, `image-prompt-v2.0.md`, `prompt-language-display.md`)
+- Add `design/` folder — cover image drafts (`front-cover-3` through `front-cover-7`)
+- Add `book/foundations/` — moved 6 root-level foundation guides into dedicated subfolder under `book/`
+- Add `bookbuilder-output/` to `.gitignore`
+
+### Changed
+
+- Move `docs/image-prompt-v1.0.md`, `docs/image-prompt-v2.0.md`, `docs/prompt-language-display.md` → `specs/`
+- Move `docs/front-cover-3..7.png` → `design/`
+- Move `prompt-engineering-basics.md`, `prompt-engineering-frameworks.md`, `prompt-engineering-techniques.md`, `tamil-cheatsheet-prompt-engineering.md`, `tamil-framework-prompt-engineering.md`, `tamil-handbook-prompt-engineering.md` from repo root → `book/foundations/`
+- Update all path references in `configs/tamil-prompt-engineering-book-full-book.json`, `configs/tamil-prompt-engineering-book-show-case.json`, `configs/tamil-prompt-engineering-book-quick-test.json`, and `README.md` to reflect new `book/foundations/` paths
+- Rename `tamil-prompt-engineering-book.json` → `tamil-prompt-engineering-book-full-book.json` and `tamil-prompt-engineering-book-2-chaps.json` → `tamil-prompt-engineering-book-quick-test.json` for clarity
+- Update `CLAUDE.md` project structure to document `book/foundations/`, `design/`, `specs/`, `docs/`, `scripts/` folders
+- Update `.agent/workflows/create-new-prompt.md` — modernise prompt template to `[!PROMPT]` block format; add Step 7 (sync configs + README) and Step 8 (update changelog)
+
+### Removed
+
+- Remove `configs/tamil-prompt-engineering-book-default.json` — redundant config
+- Remove `configs/tamil-prompt-engineering-book-show-case-toc-tamil-not-works.json` — debugging artefact
+
+### Added
+
 - **AI Glossary appendix** added to showcase config (`configs/tamil-prompt-engineering-book-show-case.json`) as "இணைப்பு ஈ: செய்யறிவுக் கலைச்சொற்கள்" — sourced from `docs/AI glossary_ செய்யறிவுக் கலைச்சொற்கள்.md`
 
 ### Changed

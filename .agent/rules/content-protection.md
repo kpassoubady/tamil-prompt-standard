@@ -101,7 +101,7 @@ Before committing any refactoring or conversion task, confirm:
 
 | Operation | Risk | Safe Alternative |
 |-----------|------|-----------------|
-| "Clean up blockquotes" | Strips `[!PROMPT]` type | Only edit content inside `> ` lines |
+| "Clean up blockquotes" | Strips `[!PROMPT]` type | Only edit content inside `>` lines |
 | "Remove duplicate blank lines" | May collapse `>` continuation lines | Use targeted line-by-line inspection |
 | "Convert all code blocks" | Changes `` ```prompt `` language tag | Only convert blocks explicitly listed |
 | "Remove labels/headings" | May remove metadata `[!NOTE]` block | Read file before editing |
