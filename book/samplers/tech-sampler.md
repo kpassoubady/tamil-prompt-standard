@@ -23,10 +23,10 @@
 > **💻 தொழில்நுட்பம் — 5 கட்டளைகள்**
 >
 > 1. "Python-ல் simple calculator program எழுதி, ஒவ்வொரு வரியும் தமிழில் விளக்கவும்"
-> 2. "என் website slow-ஆக உள்ளது — performance improve செய்ய 5 tips தமிழில்"
-> 3. "SQL database design — student records-க்கு table structure என்னாக இருக்க வேண்டும்?"
+> 2. "என் website slow-ஆக உள்ளது — performance improve செய்ய 5 tips தமிழில் கொடுக்கவும்"
+> 3. "SQL database design — student records-க்கு table structure எப்படி இருக்க வேண்டும்?"
 > 4. "Git commands beginners-க்கு — தமிழில் எளிய விளக்கம் கொடுங்கள்"
-> 5. "Mobile app-ல் Tamil font-கள் சரியாக காட்ட என்ன செய்வது? Android / iOS"
+> 5. "Mobile app-ல் Tamil font-கள் சரியாக காட்ட என்ன செய்வது? Android"
 
 ---
 
