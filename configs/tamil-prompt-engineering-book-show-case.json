@@ -38,15 +38,16 @@
     ]
   },
   "tocSettings": {
-    "titleFontSize": 18,
-    "subtitleFontSize": 12,
+    "titleFontSize": 14,
+    "subtitleFontSize": 9,
     "subtitleText": "Table of Contents",
     "entryFontSize": 10,
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
     "footerColor": "#666666",
-    "altTocTitle": "தமிழ் AI கட்டளை வடிவமைப்பு கையேடு",
+    "showMainToc": false,
+    "altTocTitle": "தமிழ் செய்யறிவு கட்டளை வடிவமைப்பு கையேடு",
     "altTocSubtitle": "உள்ளடக்கம்",
     "altTocPageLabel": "பக்கம்"
   },
@@ -141,7 +142,7 @@
     },
     {
       "section": "Chapter 0: Beginners Guide",
-      "tocLabel": "அத்தியாயம் 0: தொடக்கநிலை வழிகாட்டி",
+      "tocLabel": "முதன்முறை பயனர்களுக்கான வழிகாட்டி",
       "files": [
         "book/foundations/prompt-lite-beginners.md"
       ]

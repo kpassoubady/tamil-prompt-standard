@@ -3,7 +3,7 @@
   "outputFilename": "Tamil-Prompt-Engineering-Book-quick-test.pdf",
   "author": "Kangeyan Passoubady",
   "language": "en-US",
-  
+
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
@@ -38,15 +38,16 @@
     ]
   },
   "tocSettings": {
-    "titleFontSize": 18,
-    "subtitleFontSize": 12,
+    "titleFontSize": 16,
+    "subtitleFontSize": 11,
     "subtitleText": "Table of Contents",
     "entryFontSize": 10,
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
     "footerColor": "#666666",
-    "altTocTitle": "தமிழ் AI கட்டளை வடிவமைப்பு கையேடு",
+    "showMainToc": false,
+    "altTocTitle": "தமிழ் செய்யறிவு கட்டளை வடிவமைப்பு கையேடு",
     "altTocSubtitle": "உள்ளடக்கம்",
     "altTocPageLabel": "பக்கம்"
   },

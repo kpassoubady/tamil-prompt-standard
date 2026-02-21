@@ -3,7 +3,6 @@
   "outputFilename": "Tamil-Prompt-Engineering-Book.pdf",
   "author": "Kangeyan Passoubady",
   "language": "en-US",
-  "showMainToc": false,
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
@@ -46,6 +45,7 @@
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
     "footerColor": "#666666",
+    "showMainToc": false,
     "altTocTitle": "தமிழ் AI கட்டளை வடிவமைப்பு கையேடு",
     "altTocSubtitle": "உள்ளடக்கம்",
     "altTocPageLabel": "பக்கம்"
