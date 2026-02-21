@@ -1,0 +1,24 @@
+flowchart TD
+    A["💭 கருத்து"] --> B["📝 முதல் வரைவு"]
+    B --> C{"L8 பாதுகாப்பு<br/>சரிபார்ப்பு"}
+    C -->|"இல்லை"| D["⚠️ பாதுகாப்பு<br/>சேர்க்கவும்"]
+    D --> C
+    C -->|"ஆம்"| E{"8 அடுக்கு<br/>சரிபார்ப்பு"}
+    E -->|"முழுமையற்றது"| F["🔧 மேம்படுத்தவும்"]
+    F --> E
+    E -->|"முழுமையானது"| G["🧪 AI-ல் சோதி"]
+    G --> H{"பதில்<br/>தரம்?"}
+    H -->|"மோசம்"| I["🔄 மீண்டும்<br/>மேம்படுத்தவும்"]
+    I --> B
+    H -->|"நல்லது"| J["✅ வெளியிடவும்"]
+
+    style A fill:#FFF3E0,stroke:#FF8C00
+    style B fill:#E3F2FD,stroke:#0066CC
+    style C fill:#E3F2FD,stroke:#0066CC
+    style D fill:#FFEBEE,stroke:#C62828
+    style E fill:#E3F2FD,stroke:#0066CC
+    style F fill:#FFF3E0,stroke:#FF8C00
+    style G fill:#E3F2FD,stroke:#0066CC
+    style H fill:#E3F2FD,stroke:#0066CC
+    style I fill:#FFF3E0,stroke:#FF8C00
+    style J fill:#E8F5E9,stroke:#2E7D32

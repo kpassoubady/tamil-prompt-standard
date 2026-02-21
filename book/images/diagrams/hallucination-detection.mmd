@@ -1,0 +1,21 @@
+flowchart TD
+    A["AI பதில் பெற்றீர்கள்"] --> B{"முக்கியமான<br/>தகவலா?"}
+    B -->|"இல்லை"| Z["✅ பயன்படுத்தலாம்"]
+    B -->|"ஆம்"| C{"மருத்துவம் /<br/>சட்டம் / நிதியா?"}
+    C -->|"ஆம்"| D["⛔ நிபுணரிடம்<br/>சரிபார்க்கவும்"]
+    C -->|"இல்லை"| E{"தமிழ் வரலாறு /<br/>கலாச்சாரமா?"}
+    E -->|"ஆம்"| F["🔍 2 ஆதாரங்களில்<br/>சரிபார்க்கவும்"]
+    E -->|"இல்லை"| G["சுய-திருத்தம்<br/>கட்டளை பயன்படுத்தவும்"]
+    G --> H{"AI ஐயம்<br/>சொன்னதா?"}
+    H -->|"ஆம்"| F
+    H -->|"இல்லை"| Z
+
+    style A fill:#E3F2FD,stroke:#0066CC
+    style B fill:#E3F2FD,stroke:#0066CC
+    style Z fill:#E8F5E9,stroke:#2E7D32
+    style C fill:#E3F2FD,stroke:#0066CC
+    style D fill:#FFEBEE,stroke:#C62828
+    style E fill:#E3F2FD,stroke:#0066CC
+    style F fill:#FFF3E0,stroke:#FF8C00
+    style G fill:#FFF3E0,stroke:#FF8C00
+    style H fill:#E3F2FD,stroke:#0066CC

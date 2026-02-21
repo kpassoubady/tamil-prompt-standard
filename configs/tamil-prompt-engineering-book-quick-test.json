@@ -1,12 +1,16 @@
 {
   "bookTitle": "The Art of Commanding AI in Tamil",
-  "outputFilename": "Tamil-Prompt-Engineering-Book-Showcase.pdf",
+  "outputFilename": "Tamil-Prompt-Engineering-Book-quick-test.pdf",
   "author": "Kangeyan Passoubady",
+  "language": "en-US",
+
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
-    "footerCenter": "Kangs | Kavin School",
+    "footerLeft": "",
+    "footerCenter": "கட்டளைத் தமிழ் | காங்கேயன் பசுபதி",
+    "footerRight": "",
     "dateFormat": "%B %d, %Y"
   },
   "styleSettings": {
@@ -28,18 +32,24 @@
     "linkColor": "#0066cc",
     "headerFontSize": "10px",
     "footerFontSize": "9px",
-    "leftPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
-    "rightPageBorderImage": "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+    "allPageBorderImages": [
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
+      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+    ]
   },
   "tocSettings": {
-    "titleFontSize": 18,
-    "subtitleFontSize": 12,
+    "titleFontSize": 16,
+    "subtitleFontSize": 11,
     "subtitleText": "Table of Contents",
     "entryFontSize": 10,
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
-    "footerColor": "#666666"
+    "footerColor": "#666666",
+    "showMainToc": false,
+    "altTocTitle": "தமிழ் கட்டளை வடிவமைப்பு கையேடு",
+    "altTocSubtitle": "உள்ளடக்கம்",
+    "altTocPageLabel": "பக்கம்"
   },
   "imageOptimization": {
     "default": {
@@ -125,12 +135,14 @@
     },
     {
       "section": "Introduction",
+      "tocLabel": "அறிமுகம்",
       "files": [
         "book/book-introduction.md"
       ]
     },
     {
       "section": "Part I: Framework Foundations",
+      "tocLabel": "பகுதி I: கட்டமைப்பு அடித்தளங்கள்",
       "files": [
         "book/foundations/prompt-engineering-basics.md",
         "book/foundations/prompt-engineering-frameworks.md"
@@ -138,18 +150,21 @@
     },
     {
       "section": "Part II: Healthcare Prompts",
+      "tocLabel": "பகுதி II: சுகாதார கட்டளைகள்",
       "files": [
         "book/samplers/health-sampler.md"
       ]
     },
     {
       "section": "Part III: Education Prompts",
+      "tocLabel": "பகுதி III: கல்வி கட்டளைகள்",
       "files": [
         "book/samplers/edu-sampler.md"
       ]
     },
     {
       "section": "About the Author",
+      "tocLabel": "ஆசிரியரைப் பற்றி",
       "files": [
         "book/AboutAuthors.md"
       ]

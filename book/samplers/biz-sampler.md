@@ -6,9 +6,27 @@
 
 தொழிலதிபர்கள், சந்தையாளர்கள், மற்றும் வணிக நிபுணர்களுக்கான AI கட்டளைகளின் முதல் பார்வை — இந்தத் துறையில் 40+ கட்டளைகள் உள்ளன.
 
+![வணிகம் — AI உதவியாளர்](../images/heroes/hero-biz.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** தொழிலதிபர்கள், சந்தையாளர்கள், வணிக நிபுணர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
 > [biz/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/biz/README.md)
+
+---
+
+> **💡 உண்மை கதை**
+>
+> திருச்சியில் சிறிய tiffin கடை நடத்தும் செல்வி, WhatsApp-ல் orders வாங்குகிறார். "நான் tiffin கடை, WhatsApp-ல் price list message format கொடுங்கள் — தமிழிலும் ஆங்கிலத்திலும்" என AI-யிடம் கேட்டார். Professional message கிடைத்தது. Customers 30% அதிகரித்தனர்.
+
+## 🚀 இன்றே முயற்சிக்கலாம்
+
+> **🏪 வணிகம் — 5 கட்டளைகள்**
+>
+> 1. "நான் சிறிய tiffin கடை — Instagram daily menu post-க்கு 5 template-கள் தமிழில்"
+> 2. "Customer complaint-க்கு கோபமின்றி பதில் சொல்வது எப்படி? 3 Tamil example messages"
+> 3. "என் கடைக்கு கடன் வாங்க bank-ல் என்ன documents வேண்டும்? தமிழில் list"
+> 4. "Diwali offer announcement — WhatsApp forward-க்கு attractive message தமிழில்"
+> 5. "5 ஆண்டுகளில் என் tiffin business-ஐ restaurant-ஆக மாற்ற என்ன செய்வது?"
 
 ---
 

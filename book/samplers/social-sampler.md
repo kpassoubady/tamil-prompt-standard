@@ -7,9 +7,27 @@
 
 WhatsApp, YouTube, Instagram, LinkedIn மற்றும் பிற தளங்களில் தமிழில் பயனுள்ள உள்ளடக்கம் உருவாக்க — தனிநபர்களுக்கும் சிறு வியாபாரிகளுக்கும் உதவும் கட்டளைகள்.
 
+![சமூக ஊடகம் — AI உதவியாளர்](../images/heroes/hero-social.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** 8 தளங்களுக்கான 160+ கட்டளைகள் இங்கே கிடைக்கின்றன:
 > [social/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/social/README.md)
+
+---
+
+> **💡 உண்மை கதை**
+>
+> கோயம்புத்தூரில் Instagram reels creator ஆகும் தீபா, Tamil home cooking videos போடுகிறாள். Views குறைவாக இருந்தது. "நான் Tamil cooking reels creator — இந்த sambar recipe video-க்கு கவர்ச்சியான Tamil caption, 3 hashtag கொடுங்கள்" என AI-யிடம் கேட்டாள். முதல் caption 15K views. இப்போது 5000+ followers.
+
+## 🚀 இன்றே முயற்சிக்கலாம்
+
+> **📱 சமூக ஊடகம் — 5 கட்டளைகள்**
+>
+> 1. "என் கடைக்கு WhatsApp Business status — Diwali special offer 2 lines-ல் தமிழில்"
+> 2. "YouTube Tamil cooking channel-க்கு catchy title 5 பரிந்துரை — Sambar recipe-க்கு"
+> 3. "Instagram Tamil caption — morning tea photo-க்கு poetic Tamil 3 lines"
+> 4. "LinkedIn Tamil post — என் promotion announce செய்ய professional message"
+> 5. "Facebook-ல் Pongal பண்டிகை post — 100 words Tamil-ல்"
 
 ---
 

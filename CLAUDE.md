@@ -38,9 +38,13 @@ Full rules: see [.agent/rules/safety.md](.agent/rules/safety.md)
 
 The bookbuilder renders markdown to PDF and epub. Use the correct constructs:
 
-- Admonitions: `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`, `> [!PROMPT]`
-- Collapsible answers: `<details><summary>---</summary>---</details>`
+- Admonitions: `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`, `> [!IMPORTANT]`, `> [!CAUTION]`, `> [!PROMPT]`
+- Blockquote Lists: `> **Bold title**` + bullets → styled key-point card (via `blockquoteListHandling`)
+- Titled Lists: `**Bold:**` immediately followed by a bullet list → named section block (via `titledListHandling`)
+- Collapsible answers: `<details><summary>விடை பார்க்க</summary>---</details>`
 - Plain fences with a language tag (never bare ` ``` ` — use `` ```prompt ``, `` ```bash ``, `` ```markdown ``, etc.)
+- Keyboard keys: `<kbd>Cmd</kbd>` renders with styled key-cap appearance
+- End learning chapters with **அறிவு சோதனை** (Knowledge Check) + **அத்தியாய சுருக்கம்** (Chapter Summary) table
 
 Full rules: see [.agent/rules/markdown-formatting.md](.agent/rules/markdown-formatting.md)
 
