@@ -6,9 +6,27 @@
 
 மென்பொருள் உருவாக்குநர்கள், தரவு ஆய்வாளர்கள், மற்றும் வடிவமைப்பாளர்களுக்கான AI கட்டளைகளின் முதல் பார்வை — இந்தத் துறையில் 60+ கட்டளைகள் உள்ளன.
 
+![தொழில்நுட்பம் — AI உதவியாளர்](../images/heroes/hero-tech.png)
+
 > [!TIP]
 > **முழு தொகுப்பு GitHub-ல்:** டெவலப்பர்கள், தரவு ஆய்வாளர்கள், வடிவமைப்பாளர்களுக்கான அனைத்து கட்டளைகளும் இங்கே கிடைக்கின்றன:
 > [tech/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/tech/README.md)
+
+---
+
+> **💡 உண்மை கதை**
+>
+> கோயம்புத்தூரில் startup-ல் பணியாற்றும் அருண், தமிழ்நாடு கடைகளுக்கான billing software எழுதினார். Documentation எல்லாம் ஆங்கிலத்தில் — விவசாயி வாடிக்கையாளர்களுக்கு புரியவில்லை. "இந்த Python function-ஐ தமிழில் comments-உடன் எழுதவும்" என AI-யிடம் கேட்டார். 10 நிமிடத்தில் bilingual documentation. வாடிக்கையாளர்கள் மகிழ்ந்தனர்.
+
+## 🚀 இன்றே முயற்சிக்கலாம்
+
+> **💻 தொழில்நுட்பம் — 5 கட்டளைகள்**
+>
+> 1. "Python-ல் simple calculator program எழுதி, ஒவ்வொரு வரியும் தமிழில் விளக்கவும்"
+> 2. "என் website slow-ஆக உள்ளது — performance improve செய்ய 5 tips தமிழில் கொடுக்கவும்"
+> 3. "SQL database design — student records-க்கு table structure எப்படி இருக்க வேண்டும்?"
+> 4. "Git commands beginners-க்கு — தமிழில் எளிய விளக்கம் கொடுங்கள்"
+> 5. "Mobile app-ல் Tamil font-கள் சரியாக காட்ட என்ன செய்வது? Android"
 
 ---
 

@@ -1,0 +1,14 @@
+flowchart TD
+    A["💭 கருத்து"] --> B["📝 கட்டளை எழுது"]
+    B --> C["🤖 AI-ல் சோதி"]
+    C --> D{"பதில்<br/>தரம்?"}
+    D -->|"✅ நல்லது"| E["✅ கட்டளையை<br/>சேமி / பயன்படுத்து"]
+    D -->|"❌ மோசம்"| F["🔍 என்ன குறை?"]
+    F --> G["✏️ WHO / WHAT / HOW<br/>மேம்படுத்து"]
+    G --> B
+
+    style A fill:#E3F2FD,stroke:#1565C0
+    style E fill:#E8F5E9,stroke:#2E7D32
+    style D fill:#FFF3E0,stroke:#E65100
+    style F fill:#FCE4EC,stroke:#C62828
+    style G fill:#F3E5F5,stroke:#6A1B9A

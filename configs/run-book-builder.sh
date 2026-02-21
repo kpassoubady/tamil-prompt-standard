@@ -1,33 +1,23 @@
-bookbuilder build \
-  --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-2-chaps.json \
-  --force \
-  --temp /Users/kangs/Downloads/book \
-  --format=pdf
+# Re-render all Mermaid diagrams to PNG before building
+# Requires: npm install -g @mermaid-js/mermaid-cli
+for f in /Users/kangs/github/tamil-prompt-standard/book/images/diagrams/*.mmd; do
+  mmdc -i "$f" -o "${f%.mmd}.png" -w 800 -b white --theme neutral
+done
 
-
-bookbuilder build \
-  --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-show-case.json \
-  --force \
-  --temp /Users/kangs/Downloads/book \
-  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book-show-case.pdf \
-  --format=pdf
+# running full book build for final output
 
 bookbuilder build \
   --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-show-case.json \
-  --force \
+  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book.json  \ 
+  --force \ 
   --temp /Users/kangs/Downloads/book \
-  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book-show-case.epub \
-  --format=epub
-
-// running test build for quick test config
+  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book.pdf \
+  --format=pdf  
 
 bookbuilder build \
   --root /Users/kangs/github/tamil-prompt-standard \
-  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book-quick-test.json \
-  --force \
+  --order /Users/kangs/github/tamil-prompt-standard/configs/tamil-prompt-engineering-book.json  \ 
+  --force \ 
   --temp /Users/kangs/Downloads/book \
-  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book-quick-test.pdf \
-  --format=pdf
+  --output /Users/kangs/github/bookbuilder/temp/tamil-prompt-engineering-book.epub \
+  --format=epub 
