@@ -64,4 +64,5 @@
 | முன்னுரிமை | பணி | குறிப்பு |
 |-----------|-----|---------|
 | 🟢 | PR #18 review & merge | `feature/area-of-refinement` → `master` |
+| 🔵 | Prompts in Action — 10 screenshots | Full spec: [prompts-in-action.md](prompts-in-action.md) — 6 LLMs, 1 prompt per domain |
 | 🟢 | Section 7 community ideas | QR codes, AI vs நான் exercise — future v2.0 work |
