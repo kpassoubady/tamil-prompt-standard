@@ -3,6 +3,7 @@
   "outputFilename": "Tamil-Prompt-Engineering-Book-show-case.pdf",
   "author": "Kangeyan Passoubady",
    "language": "en-US",
+   "showMainToc": false,
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",

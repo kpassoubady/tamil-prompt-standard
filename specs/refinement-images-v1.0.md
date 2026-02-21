@@ -219,8 +219,11 @@ A young Tamil professional (22–25 years old) sitting at a cafe table with a la
 
 ```prompt
 [Use master prompt with Subject:]
-A Tamil advocate standing in a soft-lit courthouse corridor, holding a tablet with Tamil legal text on screen. Balanced scales of justice visible in the background as a subtle motif. Professional attire (black coat, white collar). Mood: clarity, justice, empowerment through knowledge.
+A Tamil advocate in a black coat and white collar standing confidently at the base of tall courthouse steps at golden hour. A gleaming brass scales-of-justice sculpture sits on a stone plinth beside them — the focal point of the image. No phones, tablets, books, or screens anywhere in the scene. The advocate's hands are at their sides or resting on the plinth — nothing to read. Warm golden-hour light on sandstone columns behind them. Mood: calm authority, clarity, justice within reach for everyone.
 ```
+
+> [!NOTE]
+> **v1.1 prompt (text-hallucination fix):** Original prompt had a tablet with text on screen — image generators hallucinate Tamil/legal text. New prompt removes all text-bearing surfaces (no screens, no open books, no signs). Scales sculpture is the sole symbolic anchor.
 
 ---
 

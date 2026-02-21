@@ -40,8 +40,8 @@ AI ஒரு கேள்விக்கு தவறான பதிலை, ஆ
 
 <img src="../images/diagrams/hallucination-detection.png" 
      alt="மதிமயக்கம் கண்டறியும் வழிமுறை" 
-     width="100%" 
-     height="80%" />
+     width="80%" 
+     height="60%" />
 
 ### 1. 🏺 தமிழ் வரலாறும் கலாச்சாரமும்
 
