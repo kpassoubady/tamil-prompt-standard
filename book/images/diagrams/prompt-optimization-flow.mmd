@@ -1,0 +1,20 @@
+graph TD
+    A([பதில் திருப்தியாக உள்ளதா?]) -->|ஆம்| B[பயன்படுத்தவும்]
+    A -->|இல்லை| C{என்ன பிரச்சனை?}
+    
+    C -->|பதில் மிக நீளமாக உள்ளது| D[L7 கட்டுப்பாடு சேர்க்கவும்<br/>எ.கா: 50 வார்த்தைகளுக்குள்]
+    C -->|மரபான/சுவாரஸ்யமற்ற பதில்| E[L1 பாத்திரம் மற்றும் L5 தொனி<br/>மாற்றவும்]
+    C -->|தவறான தகவல்கள்| F[L2 துறை மற்றும் L4 நோக்கம்<br/>தெளிவுபடுத்தவும்]
+    
+    D -.-> G([மீண்டும் கேட்கவும்])
+    E -.-> G
+    F -.-> G
+    G --> A
+    
+    style A fill:#FFF9C4,stroke:#fbc02d,stroke-width:2px,color:#333
+    style B fill:#C8E6C9,stroke:#388e3c,stroke-width:2px,color:#333
+    style C fill:#FFE082,stroke:#f57c00,stroke-width:2px,color:#333
+    style D fill:#E1BEE7,stroke:#8e24aa,stroke-width:1px,color:#333
+    style E fill:#BBDEFB,stroke:#1976d2,stroke-width:1px,color:#333
+    style F fill:#FFCDD2,stroke:#d32f2f,stroke-width:1px,color:#333
+    style G fill:#E0E0E0,stroke:#616161,stroke-width:2px,color:#333
