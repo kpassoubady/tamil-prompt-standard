@@ -79,6 +79,7 @@
     },
     "admonitionHandling": {
       "enabled": true,
+      "labelLanguage": "ta",
       "style": "boxed",
       "includeIcons": true,
       "customTypes": {
@@ -100,6 +101,9 @@
       "enabled": true
     },
     "titledListHandling": {
+      "enabled": true
+    },
+    "imageCaptions": {
       "enabled": true
     },
     "detailsTagHandling": {

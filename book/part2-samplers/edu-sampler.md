@@ -16,8 +16,7 @@
 
 கல்வி சம்பந்தமான கேள்விகளுக்கு மிகத் தெளிவான பதிலைப் பெற **C.R.A.F.T** என்ற எளிய முறையைப் பயன்படுத்தலாம்:
 
-<img src="../images/diagrams/craft-framework.png" alt="C.R.A.F.T கட்டமைப்பு" 
-style="width:100%; height:100%; display:block; margin:0 auto;">
+![C.R.A.F.T கட்டமைப்பு](../images/diagrams/craft-framework.png)
 
 - **C — Context (சூழல்):** நீங்கள் யாருக்காகக் கேட்கிறீர்கள் என்பதைச் சொல்லுங்கள்.  
   உதாரணம்: “7-ஆம் வகுப்புப் படிக்கும் தமிழ் வழி மாணவன்”.

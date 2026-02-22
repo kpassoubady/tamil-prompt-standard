@@ -23,7 +23,7 @@
 * **T — வகை (Type):** "இதனை ஒரு ஹைக்கூ (Haiku) வடிவமாகவோ அல்லது 4 வரி கவிதையாகவோ தருக".
 * **E — கூடுதல் (Extras):** "கவிதைக்குப் பொருத்தமான அழகான தலைப்பு ஒன்றையும் சூட்டுக".
 
-<img src="../images/diagrams/create-framework.png" alt="C.R.E.A.T.E கட்டமைப்பு" style="width:50%; height:50%; display:block; margin:0 auto;">
+![C.R.E.A.T.E கட்டமைப்பு](../images/diagrams/create-framework.png)
 
 ## 🚀 இப்போதே முயற்சிக்கலாம்!
 

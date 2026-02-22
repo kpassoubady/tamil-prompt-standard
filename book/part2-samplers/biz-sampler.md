@@ -42,7 +42,7 @@
 
 இந்த ஐந்து அம்சங்களையும் சேர்த்தால் C.L.E.A.R ஆகிறது. இப்படிக் கேட்டால், செய்யறிவு அச்சு அசலாக உங்களுடைய தொழிலுக்கு ஏற்ற மாதிரியே பதில் சொல்லும்.
 
-<img src="../images/diagrams/clear-framework.png" alt="C.L.E.A.R கட்டமைப்பு" style="width:80%; height:70%; display:block; margin:0 auto;">
+![C.L.E.A.R கட்டமைப்பு](../images/diagrams/clear-framework.png)
 
 ## இப்போதே முயற்சி செய்து பாருங்கள்!
 
