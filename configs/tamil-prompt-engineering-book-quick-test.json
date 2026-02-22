@@ -135,7 +135,7 @@
     },
     {
       "section": "Introduction",
-      "tocLabel": "அறிமுகம்",
+      "tocLabel": "அறிமுகம்: ஒரு தமிழ் மகனின் செய்யறிவுப் பயணம்",
       "files": [
         "book/book-introduction.md"
       ]
@@ -150,14 +150,14 @@
     },
     {
       "section": "Part II: Healthcare Prompts",
-      "tocLabel": "பகுதி II: சுகாதார கட்டளைகள்",
+      "tocLabel": "🏥 சுகாதாரம் — உங்கள் கையில் ஒரு மருத்துவ உதவியாளர்",
       "files": [
         "book/samplers/health-sampler.md"
       ]
     },
     {
       "section": "Part III: Education Prompts",
-      "tocLabel": "பகுதி III: கல்வி கட்டளைகள்",
+      "tocLabel": "📚 கல்வி — வீட்டுப் பாடமும் ஒரு விளையாட்டு",
       "files": [
         "book/samplers/edu-sampler.md"
       ]
