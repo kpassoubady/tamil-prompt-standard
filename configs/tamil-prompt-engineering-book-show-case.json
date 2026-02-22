@@ -33,7 +33,7 @@
     "headerFontSize": "10px",
     "footerFontSize": "9px",
     "allPageBorderImages": [
-      "/Users/kangs/github/tamil-prompt-standard/book/assets/background.png"
+      "/Users/kangs/github/tamil-prompt-standard/book/images/assets/background-2.png"
     ]
   },
   "tocSettings": {
@@ -132,7 +132,14 @@
       ]
     },
     {
-      "section": "Beginners Guide",
+      "section": "Absolute Beginner Guide",
+      "tocLabel": "முதல் படி — செய்யறிவு கணக்கைத் தொடங்குவது எப்படி?",
+      "files": [
+        "book/cover-intro/absolute-beginner-guide.md"
+      ]
+    },
+    {
+      "section": "Prompt Lite Beginners Guide",
       "tocLabel": "முதன்முறை பயனர்களுக்கான வழிகாட்டி",
       "files": [
         "book/cover-intro/prompt-lite-beginners.md"
@@ -262,6 +269,13 @@
       "tocLabel": "இணைப்பு E: AI நம்பகத்தன்மை வழிகாட்டி",
       "files": [
         "book/appendix/reliability-guide.md"
+      ]
+    },
+    {
+      "section": "Appendix F: Top AI Platforms",
+      "tocLabel": "இணைப்பு F: முன்னணி செய்யறிவுத் தளங்கள்",
+      "files": [
+        "book/appendix/appendix-top-ai-platforms.md"
       ]
     },
     {
