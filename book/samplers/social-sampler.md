@@ -9,10 +9,6 @@ WhatsApp, YouTube, Instagram, LinkedIn மற்றும் பிற தளங
 
 ![சமூக ஊடகம் — AI உதவியாளர்](../images/heroes/hero-social.png)
 
-> [!TIP]
-> **முழு தொகுப்பு GitHub-ல்:** 8 தளங்களுக்கான 160+ கட்டளைகள் இங்கே கிடைக்கின்றன:
-> [social/README.md](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/social/README.md)
-
 ---
 
 > **💡 உண்மை கதை**
@@ -84,7 +80,14 @@ WhatsApp, YouTube, Instagram, LinkedIn மற்றும் பிற தளங
 
 ---
 
+�� **உங்களுக்குத் தெரியுமா?** சமூக வலைத்தளங்களில் ஈர்க்கும் பதிவுகளை எழுத T.A.G உதவுவது போல, உங்கள் ஒட்டுமொத்த வியாபாரத்தையும் திட்டமிட **[C.L.E.A.R கட்டமைப்பை](biz-sampler.md)** வணிக அத்தியாயத்தில் படித்துப் பாருங்கள்!
+
+---
+
 > [!WARNING]
 > - பிறரின் படங்கள், இசை, வீடியோக்களை அனுமதியின்றி பயன்படுத்தாதீர்கள் — பதிப்புரிமை மீறல் ஆகும்
 > - Sponsored content-ஐ வெளிப்படையாக தெரிவிக்கவும்
 > - தனிப்பட்ட தகவல்கள் (இடம், முகவரி) பகிரும்போது கவனமாக இருங்கள்
+
+
+*நீங்கள் சொந்தமாகப் பயிற்சி செய்ய விரும்பினால், சமூக வலைத்தளப் பயன்பாட்டாளர்களுக்கான கூடுதல் தூண்டல் (Prompt) மாதிரிகளை **[எங்கள் GitHub பக்கத்தில்](https://github.com/kpassoubady/tamil-prompt-standard/blob/master/prompts/social/README.md)** பார்வையிடலாம்.*
