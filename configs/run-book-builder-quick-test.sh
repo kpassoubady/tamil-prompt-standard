@@ -1,7 +1,7 @@
 # Re-render all Mermaid diagrams to PNG before building
 # Requires: npm install -g @mermaid-js/mermaid-cli
 for f in /Users/kangs/github/tamil-prompt-standard/book/images/diagrams/*.mmd; do
-  mmdc -i "$f" -o "${f%.mmd}.png" -w 800 -b white --theme neutral
+  mmdc -i "$f" -o "${f%.mmd}.png" -w 1200 -s 2 -b white --theme neutral
 done
 
 
