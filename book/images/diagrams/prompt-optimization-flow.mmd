@@ -1,0 +1,21 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '14px', 'fontFamily': 'Arial, Helvetica, sans-serif', 'fontWeight': '600'}}}%%
+graph LR
+    Start(கட்டளை கொடுத்தல்<br/>Initial Prompt) --> Q1{பதில் திருப்தியா?<br/>Satisfactory?}
+    Q1 -- ஆம் (Yes) --> Done(பணி நிறைவு<br/>Task Complete)
+    Q1 -- இல்லை (No) --> Q2{என்ன சிக்கல்?<br/>What's the issue?}
+    
+    Q2 -- பதில் மிக நீளம்<br/>Too Long --> Fix1(வடிவமைப்பை மாற்று - L7<br/>Add Format Constraint)
+    Q2 -- தவறான தொனி<br/>Wrong Tone --> Fix2(தொனியை மாற்று - L5<br/>Change Tone)
+    Q2 -- தவறான தகவல்<br/>Factual Error --> Fix3(சூழல்/துறையைச் சேர் - L2, L3<br/>Add Context)
+    
+    Fix1 --> Start
+    Fix2 --> Start
+    Fix3 --> Start
+    
+    style Start fill:#E1BEE7,stroke:#8E24AA,stroke-width:2px,color:#333
+    style Q1 fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px,color:#333
+    style Done fill:#C8E6C9,stroke:#388E3C,stroke-width:3px,color:#333
+    style Q2 fill:#FFCCBC,stroke:#E64A19,stroke-width:2px,color:#333
+    style Fix1 fill:#BBDEFB,stroke:#1E88E5,stroke-width:2px,color:#333
+    style Fix2 fill:#BBDEFB,stroke:#1E88E5,stroke-width:2px,color:#333
+    style Fix3 fill:#BBDEFB,stroke:#1E88E5,stroke-width:2px,color:#333

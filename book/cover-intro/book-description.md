@@ -4,8 +4,6 @@
 **Author:** Kangeyan Passoubady
 **Target field:** Amazon product description (KDP → Bookshelf → Edit book details → Description)
 
----
-
 ## Language Decision
 
 **Use English-primary with strategic Tamil phrases.** Reasons:
@@ -14,13 +12,9 @@
 - A Tamil closing line and key Tamil terms signal authenticity without hurting reach
 - Do NOT write a Tamil-primary description for KDP — it will not surface in search results
 
----
-
 ## About This Book (Showcase Edition)
 
 This is the **showcase edition** — it contains curated sample prompts from all 10 domains (not the full 700+ collection). The complete open-source library of 700+ templates is freely available on GitHub. The description below is honest about this: it positions the book as a curated showcase that gives readers immediate hands-on value, while pointing to the full library.
-
----
 
 ## Plain Text Version
 
@@ -52,8 +46,6 @@ The full library of 700+ prompt templates is available free and open-source at g
 Authored by Kangeyan Passoubady (Kangs), Principal Automation Architect and founder of Kavin School LLC, with 28 years of software engineering experience — and a lifelong commitment to making AI accessible to Tamil speakers everywhere.
 
 தமிழில் AI-யை கட்டளையிடுங்கள். உங்கள் மொழியில், உங்கள் துறையில், உங்கள் வாழ்க்கைக்கு.
-
----
 
 ## HTML Version
 
@@ -89,16 +81,12 @@ Authored by Kangeyan Passoubady (Kangs), Principal Automation Architect and foun
 <p><i>தமிழில் AI-யை கட்டளையிடுங்கள். உங்கள் மொழியில், உங்கள் துறையில், உங்கள் வாழ்க்கைக்கு.</i></p>
 ```
 
----
-
 ## KDP Character Count Notes
 
 - Amazon allows up to **4,000 characters** in the description field
 - Plain text above: ~2,050 characters
 - HTML version above: ~2,250 characters (HTML tags count toward the limit)
 - Both are within the limit with room to expand if needed
-
----
 
 ## Keywords (KDP Keyword Fields — 7 slots)
 

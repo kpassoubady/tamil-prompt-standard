@@ -2,14 +2,14 @@
   "bookTitle": "The Art of Commanding AI in Tamil",
   "outputFilename": "Tamil-Prompt-Engineering-Book-show-case.pdf",
   "author": "Kangeyan Passoubady",
-   "language": "en-US",
-   "showMainToc": false,
+  "language": "en-US",
+  "showMainToc": false,
   "pageSettings": {
     "header": "{title}",
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
     "footerLeft": "",
-    "footerCenter": "Kangs | Kavin School",
+    "footerCenter": "கட்டளைத் தமிழ்",
     "footerRight": "",
     "dateFormat": "%B %d, %Y"
   },
@@ -33,15 +33,14 @@
     "headerFontSize": "10px",
     "footerFontSize": "9px",
     "allPageBorderImages": [
-      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-left.svg",
-      "/Users/kangs/github/tamil-prompt-standard/book/assets/border-right.svg"
+      "/Users/kangs/github/tamil-prompt-standard/book/images/assets/background-2.png"
     ]
   },
   "tocSettings": {
-    "titleFontSize": 14,
-    "subtitleFontSize": 9,
+    "titleFontSize": 12,
+    "subtitleFontSize": 8,
     "subtitleText": "Table of Contents",
-    "entryFontSize": 10,
+    "entryFontSize": 8,
     "footerFontSize": 8,
     "lineColor": "#0066CC",
     "entryColor": "#0066CC",
@@ -80,6 +79,7 @@
     },
     "admonitionHandling": {
       "enabled": true,
+      "labelLanguage": "ta",
       "style": "boxed",
       "includeIcons": true,
       "customTypes": {
@@ -103,6 +103,9 @@
     "titledListHandling": {
       "enabled": true
     },
+    "imageCaptions": {
+      "enabled": true
+    },
     "detailsTagHandling": {
       "enabled": true,
       "staticFormats": [
@@ -117,162 +120,179 @@
     }
   },
   "chapters": [
-        {
-      "section": "Front Cover",
-      "files": [
-        "book/FrontCover.md",
-        "book/images/FrontCoverPage.png"
-      ],
-      "note": "PNG file is required for EPUB format cover"
-    },
     {
       "section": "Front Cover",
       "files": [
-        "book/FrontCover.md",
+        "book/cover-intro/front-cover.md",
         "book/images/front-cover.png"
       ],
       "note": "PNG file is required for EPUB format cover"
     },
     {
       "section": "Introduction",
-      "tocLabel": "அறிமுகம்",
+      "tocLabel": "அறிமுகம்: ஒரு தமிழ் மகனின் செய்யறிவுப் பயணம்",
       "files": [
-        "book/book-introduction.md"
+        "book/cover-intro/book-introduction.md"
       ]
     },
     {
-      "section": "Chapter 0: Beginners Guide",
+      "section": "Absolute Beginner Guide",
+      "tocLabel": "முதல் படி — செய்யறிவு கணக்கைத் தொடங்குவது எப்படி?",
+      "files": [
+        "book/cover-intro/absolute-beginner-guide.md"
+      ]
+    },
+    {
+      "section": "Prompt Lite Beginners Guide",
       "tocLabel": "முதன்முறை பயனர்களுக்கான வழிகாட்டி",
       "files": [
-        "book/foundations/prompt-lite-beginners.md"
+        "book/cover-intro/prompt-lite-beginners.md"
       ]
     },
     {
-      "section": "Part I: Framework Foundations",
-      "tocLabel": "பகுதி I: கட்டமைப்பு அடித்தளங்கள்",
+      "section": "Hallucination Guide",
+      "tocLabel": "செய்யறிவு மதிமயக்கம் - ஒரு எச்சரிக்கை கையேடு",
       "files": [
-        "book/foundations/prompt-engineering-basics.md",
-        "book/foundations/prompt-engineering-frameworks.md",
-        "book/foundations/prompt-engineering-techniques.md",
-        "book/foundations/tamil-framework-prompt-engineering.md"
+        "book/cover-intro/hallucination-guide.md"
+      ]
+    },
+    {
+      "section": "Prompt Engineering Basics",
+      "tocLabel": "செய்யறிவு வடிவமைப்பின் அடிப்படைகள்",
+      "files": [
+        "book/part1-foundations/prompt-engineering-basics.md"
+      ]
+    },
+    {
+      "section": "Taxamony Framework Foundations",
+      "tocLabel": "8-அடுக்கு வகைபாடு — செய்யறிவைச் செதுக்கும் கலை",
+      "files": [
+        "book/part1-foundations/taxonomy-framework.md"
       ]
     },
     {
       "section": "Part II: Healthcare Prompts",
-      "tocLabel": "பகுதி II: சுகாதார கட்டளைகள்",
+      "tocLabel": "🏥 சுகாதாரம் — உங்கள் கையில் ஒரு மருத்துவ உதவியாளர்",
       "files": [
-        "book/samplers/health-sampler.md"
+        "book/part2-samplers/health-sampler.md"
       ]
     },
     {
       "section": "Part III: Education Prompts",
-      "tocLabel": "பகுதி III: கல்வி கட்டளைகள்",
+      "tocLabel": "📚 கல்வி — வீட்டுப் பாடமும் ஒரு விளையாட்டு",
       "files": [
-        "book/samplers/edu-sampler.md"
+        "book/part2-samplers/edu-sampler.md"
       ]
     },
     {
       "section": "Part IV: Agriculture Prompts",
-      "tocLabel": "பகுதி IV: விவசாய கட்டளைகள்",
+      "tocLabel": "🌾 விவசாயம் — மண்ணின் மணம் பேசும் செய்யறிவு",
       "files": [
-        "book/samplers/agriculture-sampler.md"
+        "book/part2-samplers/agriculture-sampler.md"
       ]
     },
     {
       "section": "Part V: Employment Prompts",
-      "tocLabel": "பகுதி V: வேலைவாய்ப்பு கட்டளைகள்",
+      "tocLabel": "💼 வேலைவாய்ப்பு — உங்கள் கனவுப் பணியை வெல்லும் கலை",
       "files": [
-        "book/samplers/employment-sampler.md"
+        "book/part2-samplers/employment-sampler.md"
       ]
     },
     {
       "section": "Part VI: Law & Governance Prompts",
-      "tocLabel": "பகுதி VI: சட்டம் & ஆட்சி கட்டளைகள்",
+      "tocLabel": "⚖️ சட்டம் — சாமானியனின் சட்ட ஆலோசகர்",
       "files": [
-        "book/samplers/law-sampler.md"
+        "book/part2-samplers/law-sampler.md"
       ]
     },
     {
       "section": "Part VII: Daily Life Prompts",
-      "tocLabel": "பகுதி VII: அன்றாட வாழ்க்கை கட்டளைகள்",
+      "tocLabel": "🏠 தினசரி வாழ்க்கை — டிஜிட்டல் தோழன்",
       "files": [
-        "book/samplers/daily-sampler.md"
+        "book/part2-samplers/daily-sampler.md"
       ]
     },
     {
       "section": "Part VIII: Technology Prompts",
-      "tocLabel": "பகுதி VIII: தொழில்நுட்ப கட்டளைகள்",
+      "tocLabel": "💻 தொழில்நுட்பம் — உங்கள் கையில் ஒரு கணினி மேதை",
       "files": [
-        "book/samplers/tech-sampler.md"
+        "book/part2-samplers/tech-sampler.md"
       ]
     },
     {
       "section": "Part IX: Business Prompts",
-      "tocLabel": "பகுதி IX: வணிக கட்டளைகள்",
+      "tocLabel": "💼 வணிகம் — பெட்டிக்கடை முதல் பெரிய நிறுவனம் வரை",
       "files": [
-        "book/samplers/biz-sampler.md"
+        "book/part2-samplers/biz-sampler.md"
       ]
     },
     {
       "section": "Part X: Literature & Language Prompts",
-      "tocLabel": "பகுதி X: இலக்கியம் & மொழி கட்டளைகள்",
+      "tocLabel": "📝 இலக்கியம் — செய்யறிவின் கவிமனம்",
       "files": [
-        "book/samplers/lit-sampler.md"
+        "book/part2-samplers/lit-sampler.md"
       ]
     },
     {
       "section": "Part XI: Social Media Prompts",
-      "tocLabel": "பகுதி XI: சமூக ஊடக கட்டளைகள்",
+      "tocLabel": "📱 சமூக ஊடகம் — டிஜிட்டல் உலகில் ஒரு தமிழ் குரல்",
       "files": [
-        "book/samplers/social-sampler.md"
+        "book/part2-samplers/social-sampler.md"
       ]
     },
     {
       "section": "Appendix A: Quick Reference Cheatsheet",
-      "tocLabel": "இணைப்பு A: விரைவு குறிப்பு தாள்",
+      "tocLabel": "இணைப்பு A: விரைவு குறிப்புத் தாள் (Cheatsheet)",
       "files": [
-        "book/foundations/tamil-cheatsheet-prompt-engineering.md"
+        "book/appendix/cheatsheet-prompt-engineering.md"
       ]
     },
     {
       "section": "Appendix B: Taxonomy Framework",
-      "tocLabel": "இணைப்பு B: வகைப்பாடு கட்டமைப்பு",
+      "tocLabel": "இணைப்பு B: வகைப்பாடு கட்டமைப்பு ",
       "files": [
-        "book/taxonomy-framework.md"
+        "book/appendix/appendix-taxonomy-framework.md"
       ]
     },
     {
       "section": "Appendix C: Prompt Engineering Handbook",
       "tocLabel": "இணைப்பு C: கட்டளை வடிவமைப்பு கையேடு",
       "files": [
-        "book/foundations/tamil-handbook-prompt-engineering.md"
+        "book/appendix/handbook-prompt-engineering.md"
       ]
     },
     {
       "section": "Appendix D: Technical Glossary",
       "tocLabel": "இணைப்பு D: தொழில்நுட்ப சொற்களஞ்சியம்",
       "files": [
-        "docs/technical-glossary.md"
+        "book/appendix/appendix-technical-glossary.md"
       ]
     },
     {
       "section": "Appendix E: AI Reliability Guide",
       "tocLabel": "இணைப்பு E: AI நம்பகத்தன்மை வழிகாட்டி",
       "files": [
-        "book/foundations/tamil-hallucination-guide.md"
+        "book/appendix/reliability-guide.md"
+      ]
+    },
+    {
+      "section": "Appendix F: Top AI Platforms",
+      "tocLabel": "இணைப்பு F: முன்னணி செய்யறிவுத் தளங்கள்",
+      "files": [
+        "book/appendix/appendix-top-ai-platforms.md"
       ]
     },
     {
       "section": "About the Author",
       "tocLabel": "ஆசிரியரைப் பற்றி",
       "files": [
-        "book/AboutAuthors.md"
+        "book/final-pages/about-authors.md"
       ]
     },
     {
       "section": "Back Cover",
       "files": [
-        "book/BackCover.md",
+        "book/final-pages/back-cover.md",
         "book/images/back-cover.png"
       ]
     }

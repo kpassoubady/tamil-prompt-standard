@@ -1,21 +1,14 @@
-flowchart TD
-    A["AI பதில் பெற்றீர்கள்"] --> B{"முக்கியமான<br/>தகவலா?"}
-    B -->|"இல்லை"| Z["✅ பயன்படுத்தலாம்"]
-    B -->|"ஆம்"| C{"மருத்துவம் /<br/>சட்டம் / நிதியா?"}
-    C -->|"ஆம்"| D["⛔ நிபுணரிடம்<br/>சரிபார்க்கவும்"]
-    C -->|"இல்லை"| E{"தமிழ் வரலாறு /<br/>கலாச்சாரமா?"}
-    E -->|"ஆம்"| F["🔍 2 ஆதாரங்களில்<br/>சரிபார்க்கவும்"]
-    E -->|"இல்லை"| G["சுய-திருத்தம்<br/>கட்டளை பயன்படுத்தவும்"]
-    G --> H{"AI ஐயம்<br/>சொன்னதா?"}
-    H -->|"ஆம்"| F
-    H -->|"இல்லை"| Z
-
-    style A fill:#E3F2FD,stroke:#0066CC
-    style B fill:#E3F2FD,stroke:#0066CC
-    style Z fill:#E8F5E9,stroke:#2E7D32
-    style C fill:#E3F2FD,stroke:#0066CC
-    style D fill:#FFEBEE,stroke:#C62828
-    style E fill:#E3F2FD,stroke:#0066CC
-    style F fill:#FFF3E0,stroke:#FF8C00
-    style G fill:#FFF3E0,stroke:#FF8C00
-    style H fill:#E3F2FD,stroke:#0066CC
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '14px', 'fontFamily': 'Arial, Helvetica, sans-serif', 'fontWeight': '600'}}}%%
+graph LR
+    Start(செய்யறிவு தகவல்<br/>AI Information) --> Q1{மருத்துவம்,<br/>சட்டம், நிதியா?}
+    Q1 -- ஆம் (Yes) --> H(மனித நிபுணரை அணுகுக<br/>Consult Human Expert)
+    Q1 -- இல்லை (No) --> Q2{சந்தேகம் உள்ளதா?<br/>Is it doubtful?}
+    Q2 -- ஆம் (Yes) --> V(2 ஆதாரங்களில் சரிபார்க்கவும்<br/>Verify with 2 Sources)
+    Q2 -- இல்லை (No) --> S(பயன்படுத்தலாம்<br/>Safe to Use)
+    
+    style Start fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#333
+    style Q1 fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px,color:#333
+    style Q2 fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px,color:#333
+    style H fill:#FFCDD2,stroke:#D32F2F,stroke-width:3px,color:#333
+    style V fill:#FFE0B2,stroke:#F57C00,stroke-width:2px,color:#333
+    style S fill:#C8E6C9,stroke:#388E3C,stroke-width:2px,color:#333
