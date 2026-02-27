@@ -1,16 +1,36 @@
-# Tamil Language Style Guide
+---
+trigger: always_on
+---
 
-## 1. Tone and Style
-- **Conversational Tone (உரையாடல் தொனி / படித்தவுர் தொனி):** The writing should feel like a direct, friendly conversation with the reader. Use pronouns like "நாம்" (we), "நீங்கள்" (you), and "நமது" (our) to actively engage the audience.
-- **Natural Tamil Flow (இயல்பான தமிழ் நடை):** Avoid literal English-to-Tamil translations (Translating word-for-word). Ensure verbs and sentence structures follow natural spoken and written Tamil conventions. Avoid English sentence structures. Sentences should be easy to understand and avoid heavy, archaic vocabulary where simple everyday alternatives exist.
-- **Clarity and Simplicity (எளிமையான தமிழ்):** Make sure the content is easily understandable for any Tamil speaker, regardless of their technical background. It should be engaging, natural, and friendly.
+# 📘 கட்டளைத் தமிழ் - நடை வழிகாட்டி (Style Guide)
 
-## 2. English Abbreviations and Terms
-- **Retain Key Abbreviations (ஆங்கிலச் சுருக்கங்கள்):** Keep common English abbreviations and technical terms exactly as they are (e.g., *AI, HR, Resume, Python, B.Com, SOAP, R.A.C.E*). Do not force a complex Tamil translation if the English abbreviation is the industry standard.
-- **Bilingual Formatting:** When introducing a concept or technical term for the first time in Tamil, include the English term in parentheses to offer maximum clarity. Example: "ரெஸ்யூமே (Resume)", "நேர்காணல் (Interview)", "செய்யறிவு (AI)", "சூழல் (Context)".
+## 1. தொனி மற்றும் எழுத்து நடை (Tone & Style)
 
-## 3. Formatting and Layout
-- **Media and Images**: Strictly preserve any existing image paths or file references like PNG files.
-- **Engaging Headings:** Keep headings visually appealing by retaining relevant emojis (e.g., 👨‍🏫, 🏗️, 🚀, 📋), mirroring modern, accessible documentation styles.
-- **Alerts and Prompts:** Ensure specific markdown extension callouts like `> [!PROMPT]` and `> [!WARNING]` are retained properly.
-- **Bullet Points:** Use clear bullet points rather than long paragraphs for better scannability.
+* **உரையாடல் பண்பு (Conversational):** வாசகருடன் நேரில் உரையாடுவது போன்ற உணர்வைத் தர வேண்டும். "நாம்", "நீங்கள்" போன்ற சொற்களைப் பயன்படுத்தி வாசகரை உள்ளிழுக்க வேண்டும்.
+* **இயல்பான தமிழ் ஓட்டம் (Natural Flow):** ஆங்கில வாக்கிய அமைப்ப அப்படியே மொழிபெயர்க்கக் கூடாது (Transliteration தவிர்த்தல்). தமிழின் இயல்பான எழுத்து மற்றும் பேச்சு நடைக்கு முக்கியத்துவம் அளிக்க வேண்டும்.
+* **எளிமை (Simplicity):** கடினமான சங்கத்தமிழ் சொற்களைத் தவிர்த்து, பாமர மக்களும் புரிந்துகொள்ளும் எளிய அன்றாடத் தமிழ்ச் சொற்களைப் பயன்படுத்த வேண்டும்.
+
+## 2. ஆங்கிலச் சுருக்கங்கள் மற்றும் கலைச்சொற்கள் (Terms & Abbreviations)
+
+* **தொழில்நுட்பச் சொற்கள் (Technical Terms):** AI, Prompt, Model, Python போன்ற உலகளாவிய அங்கீகாரம் பெற்ற சொற்களை அப்படியே ஆங்கிலத்தில் பயன்படுத்தலாம்.
+* **இருமொழி விளக்கம் (Bilingual Formatting):** ஒரு புதிய தொழில்நுட்பச் சொல்லை முதன்முறை அறிமுகப்படுத்தும்போது, அதன் தமிழ் ஆக்கத்தைத் தந்து அடைப்புக்குறிக்குள் ஆங்கிலச் சொல்லைக் குறிப்பிட வேண்டும். (உதாரணம்: செய்யறிவு (AI), கட்டளை (Prompt)).
+* **தேவையற்ற மொழிபெயர்ப்பு தவிர்த்தல்:** Resume, HR, Software போன்ற சொற்களுக்குப் புரியாத் தமிழ்ச் சொற்களைத் திணிக்காமல், புழக்கத்தில் உள்ள ஆங்கிலச் சொல்லையே பயன்படுத்தலாம்.
+
+## 3. வடிவமைப்பு விதிகள் (Formatting Rules)
+
+* **காட்சிப்படுத்துதல் (Media):** படத்தில் உள்ள உரைகள் மற்றும் கோப்புப் பெயர்களை (e.g., .png, .jpg) மாற்றாமல் அப்படியே பேண வேண்டும்.
+* **ஈர்க்கும் தலைப்புகள்:** நவீன ஆவண நடைமுறைக்கு ஏற்ப தலைப்புகளில் பொருத்தமான எமோஜிகளை (Emojis 🚀, 💡) பயன்படுத்த வேண்டும்.
+* **சிறப்புக் குறிப்புகள் (Alerts):** புத்தகத்தில் உள்ள முக்கியமான அறிவுறுத்தல்களை `> [!PROMPT]`, `> [!TIP]`, `> [!WARNING]` போன்ற பிரத்யேகக் குறியீடுகளுடன் தனித்துக் காட்ட வேண்டும்.
+* **பட்டியலிடுதல் (Bullet Points):** நீண்ட பத்திகளைத் தவிர்த்து, செய்திகளைப் புள்ளி விவரங்களாக (Bullet points) உடைத்து வழங்க வேண்டும். இது வாசிப்பை எளிதாக்கும்.
+
+நிச்சயமாக, உங்கள் **'கட்டளைத் தமிழ்'** புத்தகத்தின் தனித்துவமே நீங்கள் பயன்படுத்தும் கலைச்சொற்கள் தான். AI மாதிரிகள் தன்னிச்சையாகச் சொற்களை உருவாக்காமல், உங்கள் ஆய்வுக் கட்டுரைகள் மற்றும் கையேடுகளில் உள்ள சொற்களை மட்டுமே பயன்படுத்துவதை உறுதி செய்ய, உங்கள் **Style Guide**-இல் கீழ்க்கண்ட விதியைச் சேர்த்துக்கொள்ளலாம்.
+
+## 4. கலைச்சொல் பயன்பாடு (Glossary Adherence)
+
+* **கலைச்சொல் முன்னுரிமை (Term Priority):** கணினி மற்றும் AI தொடர்பான சொற்களைப் பயன்படுத்தும்போது, தன்னிச்சையாக மொழிபெயர்க்காமல் `docs/glossary` கோப்புகளில் உள்ள சொற்களை மட்டுமே பயன்படுத்த வேண்டும்.
+* **சொல் மாறாத் தன்மை (Consistency):** உதாரணமாக, 'Generative AI' என்பதற்கு 'ஈனும் செய்யறிவு' அல்லது 'இயற்றறிவு' என்று கிளாசரியில் இருந்தால், புத்தகம் முழுவதும் அதையே பயன்படுத்த வேண்டும். 'உருவாக்கும் AI' என்பது போன்ற பொதுவான சொற்களைத் தவிர்க்க வேண்டும்.
+* **கிளாசரியில் இல்லாத சொற்கள்:** ஒரு சொல்லுக்கு நிகரான தமிழ் சொல் கிளாசரியில் இல்லை என்றால், அதனை `Style Guide`-இன் விதிகளின்படி (எளிமை + ஆங்கிலச் சொல் அடைப்புக்குறிக்குள்) அமைத்து, பின் கிளாசரியில் சேர்க்கப் பரிந்துரைக்க வேண்டும்.
+
+
+
+

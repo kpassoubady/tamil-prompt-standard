@@ -26,7 +26,7 @@
 | k-skip-n-gram                   | த-தாவிய-எ-கிறுவம்                            |
 | Language Action Models (LAMs)   | மொழி செயல் மாதிரி                            |
 | language model                  | மொழி-மாதிரி                                  |
-| Large Language Model (LLM)      | பெரு மொழி-மாதிரி                             |
+| Large Language Model (LLM)      | பெரு மொழி-மாதிரி  / மாமொழி மாதிரி             |
 | Large Language Models (LLMs)    | பெரு மொழி-மாதிரி                             |
 | Latent Concept Models (LCMs)    | உள்ளுறை கருத்துரு மாதிரி                     |
 | Masked Language Models (MLMs)   | திரைமூடிய மொழி-மாதிரி / முகமூடிய மொழி-மாதிரி |
@@ -52,4 +52,4 @@
 | Vision-Language Models (VLMs)   | பார்வை மொழி-மாதிரி                           |
 | word tokenization               | தொடருடைத்தல்                                 |
 | Word vocabulary                 | சொல்லடைவு                                    |
-
+| AI Chatbot                      | செய்யறிவு அரட்டை இயலி|
