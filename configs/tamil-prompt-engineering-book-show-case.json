@@ -84,7 +84,7 @@
       "includeIcons": true,
       "customTypes": {
         "PROMPT": {
-          "label": "▶ PROMPT",
+          "label": "▶ தூண்டுவினா",
           "backgroundColor": "#EBF5FF",
           "borderColor": "#0066CC",
           "borderWidth": "3px",
@@ -105,6 +105,9 @@
           "useBodyFont": true
         }
       }
+    },
+    "footnoteHandling": {
+      "enabled": true
     },
     "blockquoteListHandling": {
       "enabled": true
@@ -146,7 +149,7 @@
     },
     {
       "section": "Absolute Beginner Guide",
-      "tocLabel": "செய்யறிவு (AI) கணக்கைத் தொடங்குவது எப்படி?",
+      "tocLabel": "சாட்ஜிபிடியில் கணக்கைத் தொடங்குவது எவ்வாறு?",
       "files": [
         "book/cover-intro/absolute-beginner-guide.md"
       ]

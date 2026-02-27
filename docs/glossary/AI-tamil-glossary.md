@@ -11,7 +11,7 @@
 | Backpropagation (of error)      | பின்(நோக்கி) பிழைப்பாய்ச்சம்                 |
 | backpropagation neural networks | பின் பிழைப் பாய்ச்ச நரவலை                    |
 | callback                        | கூவிளி                                       |
-| ChatGPT                         | சேட் ஜிபிடி                                  |
+| ChatGPT                         | சாட்ஜிபிடி                                  |
 | cloud computing                 | மேகக் கணிமை/முகில் கணிமை                     |
 | compress                        | சுருக்கம்                                    |
 | computational language model    | கணிய மொழி யொப்பாக்கம்                        |
