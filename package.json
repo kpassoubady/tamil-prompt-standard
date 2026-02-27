@@ -9,6 +9,7 @@
     "url": "https://github.com/kpassoubady/tamil-prompt-standard.git"
   },
   "devDependencies": {
+    "@marp-team/marpit": "^3.2.0",
     "markdownlint-cli": "^0.43.0"
   },
   "scripts": {
