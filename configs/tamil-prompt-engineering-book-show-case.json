@@ -46,7 +46,7 @@
     "entryColor": "#0066CC",
     "footerColor": "#666666",
     "showMainToc": false,
-    "altTocTitle": "தமிழ் செய்யறிவு கட்டளை வடிவமைப்பு கையேடு",
+    "altTocTitle": "கட்டளைத் தமிழ் - தூண்டுவினா நுட்பம்",
     "altTocSubtitle": "உள்ளடக்கம்",
     "altTocPageLabel": "பக்கம்"
   },
@@ -94,6 +94,15 @@
           "labelFontSize": "7.5pt",
           "useBodyFont": true,
           "labelSeparator": true
+        },
+        "POEM": {
+          "label": "",
+          "backgroundColor": "#f0fff4",
+          "borderColor": "#4CAF50",
+          "borderWidth": "3px",
+          "outlineColor": "#c8e6c9",
+          "borderRadius": "4px",
+          "useBodyFont": true
         }
       }
     },
@@ -130,14 +139,14 @@
     },
     {
       "section": "Introduction",
-      "tocLabel": "அறிமுகம்: ஒரு தமிழ் மகனின் செய்யறிவுப் பயணம்",
+      "tocLabel": "அறிமுகம்",
       "files": [
         "book/cover-intro/book-introduction.md"
       ]
     },
     {
       "section": "Absolute Beginner Guide",
-      "tocLabel": "முதல் படி — செய்யறிவு கணக்கைத் தொடங்குவது எப்படி?",
+      "tocLabel": "செய்யறிவு (AI) கணக்கைத் தொடங்குவது எப்படி?",
       "files": [
         "book/cover-intro/absolute-beginner-guide.md"
       ]
