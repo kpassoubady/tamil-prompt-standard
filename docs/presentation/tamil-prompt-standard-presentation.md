@@ -131,4 +131,4 @@ Tamil Prompt Standard திட்டம் திறந்த மூல (Open S
 - [https://www.linkedin.com/in/kpassoubady/](https://www.linkedin.com/in/kpassoubady/)
 
 
-_தமிழால் இணைவோம், தொழில்நுட்பத்தால் உயர்வோம்!_
+*தமிழால் இணைவோம், தொழில்நுட்பத்தால் உயர்வோம்!*
