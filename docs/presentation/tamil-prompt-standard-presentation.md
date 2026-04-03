@@ -7,8 +7,11 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
 
+
+
 ---
 # தமிழ் தூண்டுவினா வடிவமைப்புத் திட்டம்
+## TNC21 / Tamil Research Chair on Artificial Intelligence
 
 **Tamil Prompt Standard**  
 **ஆராய்ந்து கட்டமைக்கப்பட்ட திறந்த மூல திட்டம்**
