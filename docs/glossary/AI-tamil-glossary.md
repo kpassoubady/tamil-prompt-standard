@@ -52,4 +52,4 @@
 | Vision-Language Models (VLMs)   | பார்வை மொழி-மாதிரி                           |
 | word tokenization               | தொடருடைத்தல்                                 |
 | Word vocabulary                 | சொல்லடைவு                                    |
-| AI Chatbot                      | செய்யறிவு அரட்டை இயலி|
+| AI Chatbot                      | செய்யுரையினி|
