@@ -1,4 +1,4 @@
-# தமிழ் AI கலைச்சொற்கள் — பதிப்பு 3 (Tamil AI Glossary — Version 3, Refined)
+# தமிழ் AI கலைச்சொற்கள் — பதிப்பு 3 (Tamil AI Glossary — Version 3)
 
 **குறிப்பு:** இந்தப் பதிப்பு கீழ்க்கண்ட நெறிமுறைகளைப் பின்பற்றுகிறது:
 
@@ -348,5 +348,5 @@
 
 ---
 
-**முகவரித் தொடர்பு:** scientifictamilfoundation@gmail.com | tamil-kalaisol@googlegroups.com
+**முகவரித் தொடர்பு:** tamil-kalaisol@googlegroups.com
 **சொல்லாய்வு குழு:** [Facebook — சொல்லாய்வு](https://www.facebook.com/groups/col.aayvu)
